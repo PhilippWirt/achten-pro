@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>In der Kraft liegt die Ruhe — Body-Mind Personal Training München</title>
-  <meta name="description" content="1:1 Body-Mind Personal Training in München. Krafttraining, Yoga, Mobilität – und Selbstregulation on top. Sendling · Isar · bei dir zu Hause." />
+  <title>In der Kraft liegt die Ruhe — Körper-Geist Personal Training München</title>
+  <meta name="description" content="1:1 Körper-Geist Personal Training in München. Krafttraining, Yoga, Mobilität – und Selbstregulation on top. Sendling · Isar · bei dir zu Hause." />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700;800&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet" />
@@ -512,6 +512,7 @@
     .mobile-nav {
       position:fixed; top:69px; left:0; right:0; bottom:0; z-index:38;
       background:var(--surface); overflow-y:auto; overflow-x:hidden;
+      padding-top:10px;
       transform:translateX(100%); transition:transform .3s cubic-bezier(.4,0,.2,1);
       display:flex; flex-direction:column;
       border-top:1px solid var(--border);
@@ -572,6 +573,7 @@
       min-width:100%; flex-shrink:0;
       padding:40px 40px 36px;
       background:var(--surface-2);
+      overflow-wrap:anywhere;
     }
     html[data-theme="dark"] .testimonial-slide { background:rgba(12,42,32,0.88); }
     .t-quote {
@@ -617,9 +619,14 @@
     .t-dot.active { background:var(--primary); transform:scale(1.35); }
     html[data-theme="dark"] .t-dot { background:rgba(62,202,187,0.25); }
     html[data-theme="dark"] .t-dot.active { background:var(--primary); }
+    .t-inner { max-width:min(700px,100%); margin-inline:auto; }
     @media (max-width:480px) {
-      .testimonial-slide { padding:28px 22px 24px; }
-      .t-quote { font-size:68px; }
+      .testimonial-slide { padding:24px 16px 20px; }
+      .t-quote { font-size:64px; }
+      .t-text  { font-size:14px; }
+    }
+    @media (max-width:360px) {
+      .testimonial-slide { padding:18px 12px 16px; }
     }
   </style>
 </head>
@@ -631,7 +638,7 @@
     <div class="container nav">
       <a class="brand" href="#top" aria-label="Startseite">
         <span class="brand-name">achten.pro</span>
-        <span class="brand-sub">Body–Mind Training · München</span>
+        <span class="brand-sub">Körper-Geist Training · München</span>
       </a>
       <nav class="nav-links" aria-label="Hauptnavigation">
         <a href="#wirkung">Wirkung</a>
@@ -671,7 +678,7 @@
           <div class="hero-bg" aria-hidden="true">
             <img
               src="assets/images/Training Outdoor 1.jpg"
-              alt="Philipp Wiert beim Training im Freien – Body-Mind Personal Trainer München"
+              alt="Philipp Wiert beim Training im Freien – Körper-Geist Personal Trainer München"
               width="1600" height="900" loading="eager" style="object-position:15% 10%;"
             />
           </div>
@@ -680,7 +687,7 @@
             <div class="profile-chip">
               <img
                 src="assets/images/von_vorne_richtig_geschnitten.jpg"
-                alt="Philipp Wiertelorz – Body-Mind Personal Trainer München"
+                alt="Philipp Wiertelorz – Körper-Geist Personal Trainer München"
                 class="profile-chip-img"
                 width="130" height="130"
                 onerror="this.style.display='none'"
@@ -689,13 +696,13 @@
                 <strong>Philipp Wiertelorz</strong>
                 <span>M.Sc. Sportpsychologie</span>
                 <span>B.Sc. Sportwissenschaft</span>
-                <span>Body–Mind Personal Training</span>
+                <span>Körper-Geist Personal Training</span>
               </div>
             </div>
           </div>
           <div class="hero-inner">
             <div class="hero-copy">
-              <span class="hero-eyebrow">Dein achten.pro – Body–Mind Personal Training · München</span>
+              <span class="hero-eyebrow">Dein achten.pro – Körper-Geist Personal Training · München</span>
               <h1 class="hero-h1">Aus der Ruhe<br>in deine <em>Kraft</em>.</h1>
               <p class="hero-lead">
                 Training für Körper, Geist und Nervensystem. Kraft, Mobilität und Koordination
@@ -867,7 +874,7 @@
         </div>
         <div class="grid-2">
           <article class="card">
-            <h3>1:1 Body–Mind Training</h3>
+            <h3>1:1 Körper-Geist Training</h3>
             <p>Volle Aufmerksamkeit auf dich, dein Ziel und dein Nervensystem. Das Kernangebot – alles andere baut darauf auf.</p>
           </article>
           <article class="card">
@@ -988,8 +995,8 @@
         </div>
         <div class="about-layout">
           <div class="about-portrait">
-            <img src="assets/images/von_links.jpg" alt="Philipp Wiert – Body-Mind Personal Trainer München"
-                 style="width:100%;height:100%;object-fit:cover;object-position:top center;"
+            <img src="assets/images/von_links.jpg" alt="Philipp Wiert – Körper-Geist Personal Trainer München"
+                 style="width:100%;height:100%;object-fit:cover;object-position:center 22%;"
                  onerror="this.style.display='none';this.nextElementSibling.style.display='flex';" />
             <div class="about-portrait-placeholder" style="display:none;">
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2">
@@ -1040,59 +1047,65 @@
           <div class="testimonial-track" id="testimonialTrack">
 
             <div class="testimonial-slide">
-              <div class="t-quote" aria-hidden="true">„</div>
-              <blockquote class="t-text">
-                Ich bin zu Philipp gekommen, als ich wegen Panikattacken nicht weiter wusste.
-                Jetzt weiß ich genau, was ich tun kann, wenn mein Stresslevel wieder aus dem Ruder
-                laufen sollte – eine Panikattacke hatte ich schon lange nicht mehr.
-                Mein Sohn fragte mich vor Kurzem: „Mama, was hast du da mit dir gemacht?
-                Du bist jetzt viel weniger motzig." Und sogar eine befreundete Mutter meinte zu mir:
-                „Wie schaffst du es nur, so ruhig zu bleiben, wenn die Kinder Faxen machen?"
-              </blockquote>
-              <footer class="t-author">
-                <div class="t-avatar">V.D.</div>
-                <div class="t-author-info">
-                  <strong>V.D.</strong>
-                  <span>Klientin</span>
-                </div>
-              </footer>
+              <div class="t-inner">
+                <div class="t-quote" aria-hidden="true">„</div>
+                <blockquote class="t-text">
+                  Ich bin zu Philipp gekommen, als ich wegen Panikattacken nicht weiter wusste.
+                  Jetzt weiß ich genau, was ich tun kann, wenn mein Stresslevel wieder aus dem Ruder
+                  laufen sollte – eine Panikattacke hatte ich schon lange nicht mehr.
+                  Mein Sohn fragte mich vor Kurzem: „Mama, was hast du da mit dir gemacht?
+                  Du bist jetzt viel weniger motzig." Und sogar eine befreundete Mutter meinte zu mir:
+                  „Wie schaffst du es nur, so ruhig zu bleiben, wenn die Kinder Faxen machen?"
+                </blockquote>
+                <footer class="t-author">
+                  <div class="t-avatar">V.D.</div>
+                  <div class="t-author-info">
+                    <strong>V.D.</strong>
+                    <span>Klientin</span>
+                  </div>
+                </footer>
+              </div>
             </div>
 
             <div class="testimonial-slide">
-              <div class="t-quote" aria-hidden="true">„</div>
-              <blockquote class="t-text">
-                Dank dem Humor von Herrn Wiertelorz konnte ich wieder Zugang zu meinem inneren Kind
-                gewinnen. Am Sport dranzubleiben fällt mir nun leicht, weil wir zusammen
-                rausfinden konnten, welche Form der Aktivität mir Spaß macht. Mein Sohn freut sich
-                sehr darüber, dass ich ihn nun regelmäßig auf den Freiplatz mitnehme, um ein paar
-                Körbe zu werfen und zusammen Basketball zu spielen.
-              </blockquote>
-              <footer class="t-author">
-                <div class="t-avatar">B.S.</div>
-                <div class="t-author-info">
-                  <strong>B.S.</strong>
-                  <span>Klientin</span>
-                </div>
-              </footer>
+              <div class="t-inner">
+                <div class="t-quote" aria-hidden="true">„</div>
+                <blockquote class="t-text">
+                  Dank dem Humor von Herrn Wiertelorz konnte ich wieder Zugang zu meinem inneren Kind
+                  gewinnen. Am Sport dranzubleiben fällt mir nun leicht, weil wir zusammen
+                  rausfinden konnten, welche Form der Aktivität mir Spaß macht. Mein Sohn freut sich
+                  sehr darüber, dass ich ihn nun regelmäßig auf den Freiplatz mitnehme, um ein paar
+                  Körbe zu werfen und zusammen Basketball zu spielen.
+                </blockquote>
+                <footer class="t-author">
+                  <div class="t-avatar">B.S.</div>
+                  <div class="t-author-info">
+                    <strong>B.S.</strong>
+                    <span>Klientin</span>
+                  </div>
+                </footer>
+              </div>
             </div>
 
             <div class="testimonial-slide">
-              <div class="t-quote" aria-hidden="true">„</div>
-              <blockquote class="t-text">
-                Als ich zu Philipp gekommen bin, war ich innerlich recht zerstreut, unruhig und
-                gewohnheitsmäßig mit mir selbst und der Außenwelt im Kampf – ständig im Widerstand.
-                Durch das Körpertraining und das bewusste Zurückkommen zur aktuellen Aufgabe habe
-                ich immer mehr zu mir gefunden. Mittlerweile komme ich in meinem Alltag oft ganz
-                automatisch zur Ruhe und bin mit mir selbst zufrieden.
-                Das war davor gar nicht denkbar.
-              </blockquote>
-              <footer class="t-author">
-                <div class="t-avatar">D.B.</div>
-                <div class="t-author-info">
-                  <strong>D.B.</strong>
-                  <span>Klient</span>
-                </div>
-              </footer>
+              <div class="t-inner">
+                <div class="t-quote" aria-hidden="true">„</div>
+                <blockquote class="t-text">
+                  Als ich zu Philipp gekommen bin, war ich innerlich recht zerstreut, unruhig und
+                  gewohnheitsmäßig mit mir selbst und der Außenwelt im Kampf – ständig im Widerstand.
+                  Durch das Körpertraining und das bewusste Zurückkommen zur aktuellen Aufgabe habe
+                  ich immer mehr zu mir gefunden. Mittlerweile komme ich in meinem Alltag oft ganz
+                  automatisch zur Ruhe und bin mit mir selbst zufrieden.
+                  Das war davor gar nicht denkbar.
+                </blockquote>
+                <footer class="t-author">
+                  <div class="t-avatar">D.B.</div>
+                  <div class="t-author-info">
+                    <strong>D.B.</strong>
+                    <span>Klient</span>
+                  </div>
+                </footer>
+              </div>
             </div>
 
           </div>
@@ -1276,7 +1289,8 @@
       var cur   = 0;
       function go(idx) {
         cur = ((idx % total) + total) % total;
-        track.style.transform = 'translateX(-' + (cur * 100) + '%)';
+        var slideW = track.children[0].getBoundingClientRect().width;
+        track.style.transform = 'translateX(-' + (cur * slideW) + 'px)';
         dots.forEach(function(d, i) {
           d.classList.toggle('active', i === cur);
           d.setAttribute('aria-selected', String(i === cur));
@@ -1297,6 +1311,7 @@
         var dx = e.changedTouches[0].clientX - startX;
         if (Math.abs(dx) > 50) go(dx < 0 ? cur + 1 : cur - 1);
       }, { passive: true });
+      window.addEventListener('resize', function() { go(cur); }, { passive: true });
     })();
   </script>
 </body>
