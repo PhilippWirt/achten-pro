@@ -621,12 +621,14 @@
     html[data-theme="dark"] .t-dot.active { background:var(--primary); }
     .t-inner { max-width:min(700px,100%); margin-inline:auto; }
     @media (max-width:480px) {
-      .testimonial-slide { padding:24px 16px 20px; }
+      .testimonial-slide { padding:20px 12px 16px; }
+      .t-inner { max-width:calc(100% - 4px); }
       .t-quote { font-size:64px; }
       .t-text  { font-size:14px; }
     }
     @media (max-width:360px) {
-      .testimonial-slide { padding:18px 12px 16px; }
+      .testimonial-slide { padding:16px 8px 12px; }
+      .t-inner { max-width:calc(100% - 2px); }
     }
   </style>
 </head>
@@ -940,7 +942,6 @@
       <div class="container">
         <div class="coming-soon-box">
           <div style="flex:1;min-width:200px;">
-            <span class="kicker">Auf Anfrage</span>
             <h3 style="font-size:22px;font-weight:700;margin:8px 0 10px;">HRV- &amp; Nervensystem-Check</h3>
             <p class="muted" style="font-size:14px;max-width:60ch;">
               Dein Nervensystem hat einen eigenen Rhythmus – und der ist messbar. HRV (Herzratenvariabilität) zeigt, wie flexibel dein System zwischen Anspannung und Erholung wechseln kann. Hoher Wert: freie Bahn. Niedriger Wert: heute bewusst bremsen.
@@ -1023,18 +1024,6 @@
       </div>
     </section>
 
-    <!-- ══════════════════════ BUFFETT ZITAT ══════════════════════ -->
-    <section style="padding:clamp(36px,5vw,72px) 0;">
-      <div class="container">
-        <div style="max-width:760px;margin:0 auto;text-align:center;padding:40px 28px;background:linear-gradient(135deg,rgba(11,107,100,0.07),rgba(17,107,155,0.07));border:1px solid rgba(11,107,100,0.14);border-radius:var(--radius-lg);">
-          <svg style="width:32px;height:32px;color:var(--accent);opacity:.6;margin:0 auto 20px;" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M3.691 6.292C5.094 4.771 7.217 4 10 4h1v2.819l-.804.161c-1.37.274-2.323.813-2.833 1.604A2.902 2.902 0 0 0 6.925 10H10a1 1 0 0 1 1 1v7c0 1.103-.897 2-2 2H3a1 1 0 0 1-1-1v-5l.003-2.919c-.009-.111-.199-2.741 1.688-4.789zM20 20h-6a1 1 0 0 1-1-1v-5l.003-2.919c-.009-.111-.199-2.741 1.688-4.789C16.094 4.771 18.217 4 21 4h1v2.819l-.804.161c-1.37.274-2.323.813-2.833 1.604A2.902 2.902 0 0 0 16.925 10H20a1 1 0 0 1 1 1v7c0 1.103-.897 2-2 2z"/></svg>
-          <p style="font-family:var(--font-disp);font-size:clamp(22px,3.8vw,38px);line-height:1.15;letter-spacing:-.02em;color:var(--text);margin-bottom:14px;">Das beste Investment, das du jemals tätigen kannst,<br>ist das Investment in dich selbst.</p>
-          <footer style="font-size:13px;font-weight:700;color:var(--muted);letter-spacing:.06em;text-transform:uppercase;margin-bottom:28px;">— Warren Buffett</footer>
-          <p style="font-size:17px;color:var(--text);line-height:1.55;max-width:52ch;margin:0 auto;">Investiere in die Kultivierung deiner Gesundheit und deiner inneren Kraft.</p>
-          <a href="#kontakt" style="display:inline-flex;align-items:center;gap:8px;margin-top:22px;min-height:48px;padding:0 28px;border-radius:999px;background:linear-gradient(135deg,var(--primary),var(--secondary));color:#fff;font-size:15px;font-weight:800;box-shadow:0 10px 28px rgba(11,107,100,0.26);text-decoration:none;">Session buchen →</a>
-        </div>
-      </div>
-    </section>
 
     <!-- ════════════════════════ TESTIMONIALS ════════════════════════ -->
     <section id="testimonials" class="section-contrast">
@@ -1050,8 +1039,7 @@
               <div class="t-inner">
                 <div class="t-quote" aria-hidden="true">„</div>
                 <blockquote class="t-text">
-                  Ich bin zu Philipp gekommen, als ich wegen Panikattacken nicht weiter wusste.
-                  Jetzt weiß ich genau, was ich tun kann, wenn mein Stresslevel wieder aus dem Ruder
+                  Ich weiß genau, was ich tun kann, wenn mein Stresslevel wieder aus dem Ruder
                   laufen sollte – eine Panikattacke hatte ich schon lange nicht mehr.
                   Mein Sohn fragte mich vor Kurzem: „Mama, was hast du da mit dir gemacht?
                   Du bist jetzt viel weniger motzig." Und sogar eine befreundete Mutter meinte zu mir:
