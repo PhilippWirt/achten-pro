@@ -377,6 +377,16 @@
       color:rgba(255,255,255,0.88); backdrop-filter:blur(6px); letter-spacing:.01em;
     }
     .mod-em { font-size:15px; line-height:1; }
+    @media (max-height:520px) {
+      .modality-row { gap:6px; }
+      .mod-chip { font-size:11px; padding:6px 11px 6px 8px; }
+      .mod-em { font-size:13px; }
+    }
+    @media (max-height:420px) {
+      .modality-row { gap:5px; }
+      .mod-chip { font-size:10px; padding:5px 9px 5px 7px; }
+      .mod-em { font-size:12px; }
+    }
     /* ─── STATE ITEM ICONS ─── */
     .state-item { display:flex; gap:12px; align-items:flex-start; border-top:1px solid var(--border); padding-top:14px; }
     .state-item:first-child { border-top:0; padding-top:0; }
