@@ -201,6 +201,14 @@
       .pain-arrow { transform: rotate(90deg); }
     }
 
+    /* ─── OFFER / LEAD MAGNET ─── */
+    .offer-grid { display:grid; gap:18px; }
+    .offer-card { padding:26px 24px; }
+    .offer-card h3 { font-size:20px; font-weight:700; margin-bottom:10px; color:var(--text); }
+    .offer-card p { color:var(--muted); font-size:15px; }
+    .offer-card .btn-primary { margin-top:18px; display:inline-flex; }
+    @media(min-width:960px) { .offer-grid { grid-template-columns: repeat(2,1fr); } }
+
     /* ─── ABOUT / CREDENTIALS ─── */
     .about-layout { display:grid; gap:24px; }
     .cred-tags { display:flex; flex-direction:column; gap:10px; margin:18px 0; }
@@ -208,14 +216,9 @@
     .cred-tag--degree { background:linear-gradient(135deg,rgba(209,175,55,0.14),rgba(76,180,232,0.10)); border-color:rgba(209,175,55,0.25); font-size:12px; }
     .cred-block { background:rgba(16,24,44,0.88); border:1px solid var(--border); border-radius:var(--radius-md); padding:24px; }
 
-    /* ─── CTAs / CARDS ─── */
-    .cta-grid { display:grid; gap:18px; }
-    .cta-card { padding:26px 24px; }
-    .cta-card h3 { font-size:20px; font-weight:700; margin-bottom:10px; color:var(--text); }
-    .cta-card p { color:var(--muted); font-size:15px; }
-    .cta-card .btn-primary { margin-top:18px; display:inline-flex; }
-    @media(min-width:960px) { .cta-grid { grid-template-columns: repeat(3,1fr); } }
-    @media(min-width:700px) and (max-width:959px) { .cta-grid { grid-template-columns: repeat(2,1fr); } }
+    /* ─── WHY / HOW ─── */
+    .why-grid { display:grid; gap:18px; }
+    @media(min-width:700px) { .why-grid { grid-template-columns: repeat(2,1fr); } }
 
     /* ─── QR SECTION ─── */
     .qr-print {
@@ -226,6 +229,12 @@
     .qr-print img { width:180px; height:180px; margin:14px auto; display:block; image-rendering: pixelated; }
     .qr-print .qr-hint { font-weight:800; font-size:16px; margin-bottom:8px; }
     .qr-print .qr-url { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace; font-size:13px; color:#111; word-break:break-all; }
+
+    /* ─── CONTACT ─── */
+    .contact-shell {
+      background:linear-gradient(165deg,rgba(209,175,55,0.08),rgba(62,202,187,0.08),rgba(16,24,44,0.92));
+      border:1px solid var(--border); border-radius:var(--radius-lg); padding:36px 28px; box-shadow:var(--shadow-md);
+    }
 
     /* ─── FOOTER ─── */
     .site-footer { padding:36px 0 48px; border-top:1px solid var(--border); color:var(--muted); font-size:14px; }
@@ -287,7 +296,7 @@
       section { break-inside:avoid; }
       .qr-print { max-width:100%; page-break-inside:avoid; break-inside:avoid; }
       .pain-item { page-break-inside:avoid; break-inside:avoid; }
-      .cta-card { page-break-inside:avoid; break-inside:avoid; }
+      .offer-card { page-break-inside:avoid; break-inside:avoid; }
       .footer-inner { flex-direction:column; align-items:flex-start; gap:10px; }
     }
 
@@ -305,9 +314,9 @@
         <span class="brand-sub">Playfight · Berührung mit Rückgrat</span>
       </a>
       <nav class="nav-links" aria-label="Hauptnavigation">
-        <a href="#philipp">Wer ist Philipp</a>
-        <a href="#pain">Painpoints</a>
         <a href="#angebot">Angebot</a>
+        <a href="#pain">Painpoints</a>
+        <a href="#erfahrung">Erfahrung</a>
         <a href="#kontakt">Kontakt</a>
       </nav>
       <a class="nav-cta" href="#kontakt">Anfragen</a>
@@ -319,9 +328,9 @@
     </div>
   </header>
   <nav class="mobile-nav" id="mobile-nav" aria-label="Mobile Navigation" aria-hidden="true" style="position:fixed;top:69px;left:0;right:0;bottom:0;z-index:38;background:var(--surface);overflow-y:auto;overflow-x:hidden;padding-top:10px;transform:translateX(100%);transition:transform .3s cubic-bezier(.4,0,.2,1);display:flex;flex-direction:column;border-top:1px solid var(--border);-webkit-overflow-scrolling:touch;">
-    <a href="#philipp">Wer ist Philipp</a>
-    <a href="#pain">Painpoints</a>
     <a href="#angebot">Angebot</a>
+    <a href="#pain">Painpoints</a>
+    <a href="#erfahrung">Erfahrung</a>
     <a href="#kontakt" class="mob-cta" style="margin:20px 24px 36px;min-height:52px;border-radius:999px;background:linear-gradient(135deg,var(--primary),var(--secondary));color:#fff !important;font-weight:800;font-size:16px;justify-content:center;border-bottom:none;">Session anfragen</a>
   </nav>
 
@@ -368,52 +377,17 @@
       </div>
     </section>
 
-    <!-- PHILIPP -->
-    <section id="philipp" class="section-contrast" aria-labelledby="philipp-head">
-      <div class="container">
-        <div class="section-head">
-          <span class="kicker">Wer ist Philipp</span>
-          <h2 id="philipp-head">Wissenschaft trifft Praxis.<br>Kompetenz, die du spürst.</h2>
-          <p>Kurz zu mir: Sportpsychologie und Sportwissenschaft, ergänzt um praktische Erfahrung in Regulation, Atem und Berührung auf Augenhöhe.</p>
-        </div>
-        <div class="about-layout">
-          <div>
-            <div class="cred-tags">
-              <span class="cred-tag cred-tag--degree">M.Sc. Sportpsychologie</span>
-              <span class="cred-tag cred-tag--degree">B.Sc. Sportwissenschaft</span>
-              <span class="cred-tag">Selbstregulationstrainer</span>
-              <span class="cred-tag">Biofeedback-Trainer</span>
-              <span class="cred-tag">Atem- & Körperarbeit</span>
-              <span class="cred-tag">Playfight-Anwendung</span>
-            </div>
-            <p class="muted" style="font-size:15px; max-width:60ch; margin-top:14px;">Was zählt: keine leeren Konzepte, sondern Methoden, die körperlich und nervensystemisch wirken. Du begegnest dir selbst — mit Präzision, Struktur und echter Sicherheit.</p>
-          </div>
-          <div class="cred-block">
-            <h3 style="font-size:18px; font-weight:700; margin-bottom:10px; color:var(--text);">Credentials kompakt</h3>
-            <ul style="padding-left:18px; color:var(--muted); font-size:14px; line-height:1.6; display:flex; flex-direction:column; gap:8px;">
-              <li>Master Sportpsychologie — Leistung, Regulation, Coaching</li>
-              <li>Bachelor Sportwissenschaft — Training, Bewegung, Nervensystem</li>
-              <li>Zusatzausbildungen Atem, Biofeedback, Körperarbeit</li>
-              <li>Praxiserfahrung mit 1:1 und Gruppenformaten</li>
-              <li>Entwickler des achten.pro Playfight-Ansatzes</li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </section>
-
     <!-- PAINPOINTS -->
     <section id="pain" aria-labelledby="pain-head">
       <div class="container">
         <div class="section-head">
           <span class="kicker">Painpoints → Lösungen</span>
           <h2 id="pain-head">Was Menschen im Kontakt blockiert —<br>und wie wir es auflösen.</h2>
-          <p>Vier häufige Hindernisse. Mit wissenschaftlich fundierten Hebeln statt leeren Phrasen.</p>
         </div>
         <div class="pain-list">
           <div class="pain-item">
             <div>
-              <span class="pain-label">Schmerz 01</span>
+              <span class="pain-label">01</span>
               <div class="pain-head">Angst vor Fremden</div>
               <p class="pain-body"> Wilder Körperkontakt mit Unbekannten bleibt ungelenkt — bis die Sicherheit fehlt.</p>
             </div>
@@ -426,7 +400,7 @@
           </div>
           <div class="pain-item">
             <div>
-              <span class="pain-label">Schmerz 02</span>
+              <span class="pain-label">02</span>
               <div class="pain-head">Runterkommen nach Intensität</div>
               <p class="pain-body">Nach hoher Anspannung bleibt der Körper im Alarm — der Übergang fehlt.</p>
             </div>
@@ -439,7 +413,7 @@
           </div>
           <div class="pain-item">
             <div>
-              <span class="pain-label">Schmerz 03</span>
+              <span class="pain-label">03</span>
               <div class="pain-head">Leistungsdruck</div>
               <p class="pain-body">Wenn Gewinnen zählt, bleibt Begegnung auf der Strecke.</p>
             </div>
@@ -452,7 +426,7 @@
           </div>
           <div class="pain-item">
             <div>
-              <span class="pain-label">Schmerz 04</span>
+              <span class="pain-label">04</span>
               <div class="pain-head">Keine Struktur für zu Hause</div>
               <p class="pain-body">Was draußen funktioniert, verpufft ohne Wiederholung.</p>
             </div>
@@ -467,29 +441,24 @@
       </div>
     </section>
 
-    <!-- ANGEBOT / CTAs -->
+    <!-- ANGEBOT / GUIDE + NEWSLETTER -->
     <section id="angebot" class="section-contrast" aria-labelledby="angebot-head">
       <div class="container">
         <div class="section-head">
           <span class="kicker">Angebot</span>
-          <h2 id="angebot-head">Drei Stellschrauben —<br>klare Hierarchie.</h2>
-          <p>Wähle deinen Einstieg: direkt buchen, digital starten oder zuerst kostenlos orientieren.</p>
+          <h2 id="angebot-head">Dein Einstieg in<br>echten Kontakt.</h2>
+          <p>Hol dir den Guide für zu Hause oder bleib auf dem Laufenden für Events und Workshops.</p>
         </div>
-        <div class="cta-grid">
-          <article class="card cta-card">
+        <div class="offer-grid">
+          <article class="card offer-card">
             <h3>Playfight-Guide</h3>
             <p>Low-Ticket-Einstieg für zu Hause: 60-Min-Ablauf, Sicherheitsregeln, Checkliste, Übungen. Wenig Vorbereitung, wiederholbar, kein Studio nötig. Klarer Plan statt leeren Worten.</p>
             <a class="btn-primary" href="https://gumroad.com/l/playfight-guide" target="_blank" rel="noopener noreferrer">Zum Guide →</a>
           </article>
-          <article class="card cta-card" id="talentkompass">
+          <article class="card offer-card" id="newsletter">
             <h3>Talentkompass/Newsletter</h3>
             <p>Kostenlos. Kurze Impulse zu Berührung, Grenzen und nervensystemisch klugem Kontakt. Direkt in deinen Posteingang.</p>
-            <a class="btn-primary" href="#newsletter">Eintragen →</a>
-          </article>
-          <article class="card cta-card">
-            <h3>Session/Coaching buchen</h3>
-            <p>1:1 Playfight-Session oder Coaching: Restriktionsleiter, Atem und Körperbewusstsein. Persönlich, präzise, auf deinen Zustand abgestimmt.</p>
-            <a class="btn-primary" href="#kontakt">Jetzt buchen →</a>
+            <a class="btn-primary" href="#newsletter-form">Eintragen →</a>
           </article>
         </div>
       </div>
@@ -502,7 +471,7 @@
           <span class="kicker">Warum & Wie</span>
           <h2 id="why-head">Warum Playfight wirkt —<br>und wie es funktioniert.</h2>
         </div>
-        <div class="grid-2">
+        <div class="why-grid">
           <article class="card">
             <h3>Why</h3>
             <p>Echte Kraft entsteht dort, wo Kontakt möglich ist. Nicht als Wettbewerb. Nicht als Leistungsnachweis. Sondern als Begegnung. Du trainierst nicht gegen etwas — du trainierst mit jemandem.</p>
@@ -547,12 +516,12 @@
     </section>
 
     <!-- NEWSLETTER -->
-    <section id="newsletter" aria-labelledby="newsletter-head">
+    <section id="newsletter-form" aria-labelledby="newsletter-head">
       <div class="container">
         <div class="section-head">
           <span class="kicker">Newsletter</span>
           <h2 id="newsletter-head">Playfight-Events & Updates</h2>
-          <p>Melde dich an, um über kommende Playfight-Events, Workshops und neue Guides informiert zu werden.</p>
+          <p>Melde dich an, um über kommende Events, Workshops und neue Guides informiert zu werden.</p>
         </div>
         <form id="newsletter-form" action="https://formspree.io/f/mwvzgwrb" method="POST" data-fs-field style="display:grid; gap:16px; max-width:520px;">
           <input type="hidden" name="_subject" value="Newsletter-Anmeldung achten.pro/playfight" />
@@ -570,21 +539,55 @@
       </div>
     </section>
 
-    <!-- KONTAKT -->
-    <section id="kontakt" class="section-contrast" aria-labelledby="kontakt-head">
+    <!-- ERFAHRUNG / ABOUT -->
+    <section id="erfahrung" class="section-contrast" aria-labelledby="erfahrung-head">
       <div class="container">
-        <div class="contact-shell" style="background:linear-gradient(165deg,rgba(209,175,55,0.08),rgba(62,202,187,0.08),rgba(16,24,44,0.92)); border:1px solid var(--border); border-radius:var(--radius-lg); padding:36px 28px; box-shadow:var(--shadow-md);">
+        <div class="section-head">
+          <span class="kicker">Erfahrung</span>
+          <h2 id="erfahrung-head">Wissenschaft, die du spürst.</h2>
+          <p>Methoden, die körperlich und nervensystemisch wirken — keine leeren Konzepte.</p>
+        </div>
+        <div class="about-layout">
+          <div>
+            <div class="cred-tags">
+              <span class="cred-tag cred-tag--degree">M.Sc. Sportpsychologie</span>
+              <span class="cred-tag cred-tag--degree">B.Sc. Sportwissenschaft</span>
+              <span class="cred-tag">Selbstregulationstrainer</span>
+              <span class="cred-tag">Biofeedback-Trainer</span>
+              <span class="cred-tag">Atem- & Körperarbeit</span>
+              <span class="cred-tag">Playfight-Anwendung</span>
+            </div>
+            <p class="muted" style="font-size:15px; max-width:60ch; margin-top:14px;">Methoden, die körperlich und nervensystemisch wirken. Du begegnest dir selbst — mit Präzision, Struktur und echter Sicherheit.</p>
+          </div>
+          <div class="cred-block">
+            <h3 style="font-size:18px; font-weight:700; margin-bottom:10px; color:var(--text);">Credentials kompakt</h3>
+            <ul style="padding-left:18px; color:var(--muted); font-size:14px; line-height:1.6; display:flex; flex-direction:column; gap:8px;">
+              <li>Master Sportpsychologie — Leistung, Regulation, Coaching</li>
+              <li>Bachelor Sportwissenschaft — Training, Bewegung, Nervensystem</li>
+              <li>Zusatzausbildungen Atem, Biofeedback, Körperarbeit</li>
+              <li>Praxiserfahrung mit 1:1 und Gruppenformaten</li>
+              <li>Entwickler des achten.pro Playfight-Ansatzes</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- KONTAKT -->
+    <section id="kontakt" aria-labelledby="kontakt-head">
+      <div class="container">
+        <div class="contact-shell">
           <div class="section-head" style="margin-bottom:28px;">
             <span class="kicker">Kontakt</span>
             <h2 id="kontakt-head">Session anfragen.</h2>
-            <p>Sag mir kurz, was dich bewegt. Ich melde mich persönlich mit einem passenden Vorschlag — ohne Druck, ohne Therapieclaim.</p>
+            <p>Sag mir kurz, was dich bewegt. Ich melde mich persönlich mit einem passenden Vorschlag.</p>
           </div>
           <form id="kontakt-form" action="https://formspree.io/f/mwvzgwrb" method="POST" data-fs-field style="display:grid; gap:16px;">
             <input type="hidden" name="_next" value="https://achten.pro/danke.html" />
             <input type="hidden" name="_subject" value="Neue Anfrage über achten.pro/playfight" />
             <div data-fs-success style="display:none; padding:20px; background:rgba(62,202,187,0.12); color:var(--text); border:1px solid rgba(62,202,187,0.25); border-radius:14px; margin-bottom:4px;">
               <p style="margin:0; font-size:15px; font-weight:700;">Danke für deine Anfrage.</p>
-              <p style="margin:6px 0 0; font-size:14px; color:var(--muted); line-height:1.55;">Ich melde mich persönlich mit einem passenden Vorschlag bei dir — ohne Druck, ohne Therapieclaim.</p>
+              <p style="margin:6px 0 0; font-size:14px; color:var(--muted); line-height:1.55;">Ich melde mich persönlich mit einem passenden Vorschlag bei dir.</p>
             </div>
             <div data-fs-error style="display:none; padding:16px; background:rgba(220,60,60,0.10); color:var(--text); border:1px solid rgba(220,60,60,0.22); border-radius:14px; margin-bottom:4px; font-size:14px;"></div>
             <div style="display:grid; gap:16px;">
@@ -606,26 +609,18 @@
               <button class="btn-submit" type="submit" data-fs-submit-btn style="min-height:52px; padding:0 32px; border-radius:999px; background:linear-gradient(135deg,var(--primary),var(--secondary)); color:#fff; font-size:16px; font-weight:800; border:none; cursor:pointer; box-shadow:0 10px 28px rgba(62,202,187,0.28); transition:opacity .2s,transform .2s; white-space:nowrap;">Anfrage senden →</button>
             </div>
           </form>
-          <div class="contact-alt" style="display:flex; flex-wrap:wrap; gap:14px; margin-top:28px;">
-            <a href="mailto:philwirt@web.de" style="display:inline-flex; align-items:center; gap:8px; padding:11px 18px; border-radius:999px; background:rgba(16,24,44,0.80); border:1px solid var(--border); font-size:14px; font-weight:700; color:var(--text); box-shadow:var(--shadow-sm); transition:background .2s;">
-              philwirt@web.de
-            </a>
-            <a href="https://instagram.com/" target="_blank" rel="noopener noreferrer" style="display:inline-flex; align-items:center; gap:8px; padding:11px 18px; border-radius:999px; background:rgba(16,24,44,0.80); border:1px solid var(--border); font-size:14px; font-weight:700; color:var(--text); box-shadow:var(--shadow-sm); transition:background .2s;">
-              Instagram
-            </a>
-          </div>
+          <details class="impressum-box" id="impressum" style="margin-top:48px; padding-top:36px; border-top:1px solid var(--border); color:var(--muted);">
+            <summary style="font-size:20px; font-weight:700; color:var(--text); cursor:pointer; display:flex; align-items:center; justify-content:space-between; list-style:none;">
+              Impressum
+              <span aria-hidden="true" style="transition:transform .25s;">▾</span>
+            </summary>
+            <div class="impressum-content" style="padding-top:16px; font-size:14px; line-height:1.7; font-style:normal;">
+              <p><strong style="color:var(--text);">Verantwortlich:</strong><br>Philipp Wiertelorz<br>Greinerberg 13<br>81371 München</p>
+              <p>E-Mail: philwirt@web.de</p>
+              <p><strong style="color:var(--text);">Hinweis:</strong> Diese Seite stellt keine therapeutischen oder medizinischen Leistungen dar. Die angebotenen Formate dienen der Bewegungsförderung, Körperwahrnehmung und Selbstregulation im nicht-medizinischen Rahmen.</p>
+            </div>
+          </details>
         </div>
-        <details class="impressum-box" id="impressum" style="margin-top:48px; padding-top:36px; border-top:1px solid var(--border); color:var(--muted);">
-          <summary style="font-size:20px; font-weight:700; color:var(--text); cursor:pointer; display:flex; align-items:center; justify-content:space-between; list-style:none;">
-            Impressum
-            <span aria-hidden="true" style="transition:transform .25s;">▾</span>
-          </summary>
-          <div class="impressum-content" style="padding-top:16px; font-size:14px; line-height:1.7; font-style:normal;">
-            <p><strong style="color:var(--text);">Verantwortlich:</strong><br>Philipp Wiertelorz<br>Greinerberg 13<br>81371 München</p>
-            <p>E-Mail: philwirt@web.de</p>
-            <p><strong style="color:var(--text);">Hinweis:</strong> Diese Seite stellt keine therapeutischen oder medizinischen Leistungen dar. Die angebotenen Formate dienen der Bewegungsförderung, Körperwahrnehmung und Selbstregulation im nicht-medizinischen Rahmen.</p>
-          </div>
-        </details>
       </div>
     </section>
   </main>
@@ -637,7 +632,6 @@
         <a href="#impressum">Impressum</a>
         <a href="#impressum">Datenschutz</a>
         <a href="#kontakt">Kontakt</a>
-        <a href="https://instagram.com/" target="_blank" rel="noopener noreferrer">Instagram</a>
       </nav>
     </div>
   </footer>
