@@ -1,0 +1,666 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kontakt auf Augenhöhe. Spielend sicher. — achten.pro/playfight</title>
+  <meta name="description" content="Playfight auf achten.pro: Berührung mit Rückgrat, Gemeinschaft statt Leistungsdruck, Präzision statt Zufall — du hältst deine Grenzen. In der Kraft liegt die Ruhe." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700;800&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet" />
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; font-size: 16px; }
+    img { max-width: 100%; display: block; }
+    a { text-decoration: none; color: inherit; }
+    :root {
+      --bg:#050b12; --surface:#0b111e; --surface-2:rgba(16,24,44,0.82);
+      --border:rgba(209,175,55,0.12); --text:#e8f2ff; --muted:#94a9c6;
+      --primary:#3ecabb; --secondary:#4cb4e8; --accent:#d3af37;
+      --accent-warm:#d3af37; --hero-dark:#02060a;
+      --radius-sm:14px; --radius-md:22px; --radius-lg:34px;
+      --shadow-sm:0 4px 16px rgba(0,0,0,0.35); --shadow-md:0 14px 40px rgba(0,0,0,0.45);
+      --shadow-lg:0 28px 80px rgba(0,0,0,0.60);
+      --font-body:'Manrope',system-ui,sans-serif; --font-disp:'Instrument Serif',Georgia,serif;
+      --section-pad:clamp(36px,5.5vw,68px);
+    }
+    body {
+      font-family:var(--font-body); color:var(--text); line-height:1.65;
+      background:
+        radial-gradient(circle at 8% 2%,rgba(62,202,187,0.12) 0%,transparent 24%),
+        radial-gradient(circle at 94% 6%,rgba(76,180,232,0.10) 0%,transparent 26%),
+        linear-gradient(180deg,#061018 0%,var(--bg) 60%,#050d18 100%);
+      min-height:100vh; overflow-x:hidden;
+    }
+    .container { width:min(1180px,calc(100% - 28px)); margin-inline:auto; }
+    .muted { color:var(--muted); }
+    .kicker {
+      display:inline-block; color:var(--accent); font-size:12px; font-weight:800;
+      letter-spacing:.14em; text-transform:uppercase; margin-bottom:14px;
+    }
+    .kicker::before { content:"· "; opacity:.5; }
+
+    /* ─── HEADER ─── */
+    .site-header {
+      position:sticky; top:0; z-index:40;
+      background:rgba(6,12,22,0.82); backdrop-filter:blur(18px) saturate(1.4);
+      border-bottom:1px solid var(--border);
+    }
+    .nav { display:flex; align-items:center; justify-content:space-between; gap:16px; padding:14px 0; }
+    .brand { display:flex; flex-direction:column; gap:1px; }
+    .brand-name { font-size:15px; font-weight:800; letter-spacing:-.01em; color:var(--text); }
+    .brand-sub  { font-size:11px; font-weight:600; letter-spacing:.1em; color:var(--muted); text-transform:uppercase; }
+    .nav-links  { display:none; gap:28px; }
+    .nav-links a { font-size:14px; font-weight:600; color:var(--muted); transition:color .2s; }
+    .nav-links a:hover { color:var(--primary); }
+    .nav-cta {
+      min-height:42px; padding:0 20px; border-radius:999px;
+      background:linear-gradient(135deg,var(--primary),var(--secondary));
+      color:#fff; font-size:14px; font-weight:800; display:inline-flex;
+      align-items:center; white-space:nowrap; box-shadow:0 8px 24px rgba(62,202,187,0.28);
+      transition:opacity .2s,transform .2s;
+    }
+    .nav-cta:hover { opacity:.88; transform:translateY(-1px); }
+
+    /* ─── HERO ─── */
+    .hero { padding:28px 0 64px; }
+    .hero-shell {
+      position:relative; overflow:hidden; border-radius:38px; min-height:820px;
+      box-shadow:var(--shadow-lg); background: var(--hero-dark);
+      border:1px solid rgba(255,255,255,0.06);
+    }
+    .hero-bg { position:absolute; inset:0; }
+    .hero-bg::after {
+      content:""; position:absolute; inset:0;
+      background: linear-gradient(100deg,rgba(2,6,10,0.85) 0%,rgba(2,6,10,0.65) 42%,rgba(2,6,10,0.22) 100%),
+        linear-gradient(0deg,rgba(2,6,10,0.82) 0%,rgba(2,6,10,0.05) 55%);
+    }
+    .hero-top {
+      position:absolute; top:22px; right:22px; z-index:4;
+      display:flex; flex-direction:column; align-items:flex-end; gap:12px;
+    }
+    .brand-mark {
+      display:inline-flex; align-items:center; justify-content:center;
+      padding:10px 16px; border-radius:999px; font-weight:800; font-size:12px;
+      letter-spacing:.18em; text-transform:uppercase; color:#e8f2ff;
+      background:rgba(209,175,55,0.18); border:1px solid rgba(209,175,55,0.35);
+      box-shadow: 0 8px 24px rgba(0,0,0,0.25);
+    }
+    .profile-chip {
+      display:flex; flex-direction:column; align-items:center; text-align:center;
+      width:210px; padding:18px 20px 16px; border-radius:22px;
+      background:rgba(16,24,44,0.92); backdrop-filter:blur(10px);
+      border:1px solid rgba(255,255,255,0.12); box-shadow:0 16px 40px rgba(0,0,0,0.30);
+      color: var(--text);
+    }
+    .profile-chip-info strong { display:block; font-size:15px; font-weight:800; color:var(--text); line-height:1.25; margin-bottom:5px; }
+    .profile-chip-info span  { display:block; font-size:13px; color:var(--muted); margin-top:3px; line-height:1.4; }
+    .hero-nav-cta {
+      min-height:50px; padding:0 26px; border-radius:999px;
+      background:rgba(16,24,44,0.92); backdrop-filter:blur(8px);
+      color:var(--accent); font-size:15px; font-weight:800;
+      display:inline-flex; align-items:center; white-space:nowrap;
+      box-shadow:0 8px 24px rgba(0,0,0,0.25); transition:background .2s;
+      border:1px solid rgba(209,175,55,0.35);
+    }
+    .hero-nav-cta:hover { background:#0e1626; }
+    .hero-inner {
+      position:relative; z-index:3; height:100%; display:flex; align-items:flex-end;
+      padding:32px; min-height:820px;
+    }
+    .hero-copy { max-width:840px; color:#fff; padding-top:80px; }
+    .hero-eyebrow {
+      display:inline-flex; align-items:center; gap:8px; padding:7px 14px; border-radius:999px;
+      background:rgba(255,255,255,0.08); border:1px solid rgba(255,255,255,0.16);
+      font-size:12px; font-weight:800; letter-spacing:.14em; text-transform:uppercase;
+      color:#b8d8f0; margin-bottom:20px;
+    }
+    .hero-eyebrow::before {
+      content:""; width:6px; height:6px; border-radius:50%;
+      background:var(--accent-warm); flex-shrink:0;
+    }
+    .hero-h1 {
+      font-family:var(--font-disp); font-size:clamp(56px,9.5vw,112px);
+      line-height:.88; letter-spacing:-.04em; margin-bottom:22px; max-width:14ch;
+    }
+    .hero-h1 em { font-style:italic; color:#b4ede4; }
+    .hero-lead {
+      font-size:clamp(16px,2.2vw,21px); color:rgba(255,255,255,0.84);
+      max-width:64ch; line-height:1.55; margin-bottom:28px;
+    }
+    .hero-actions { display:flex; flex-wrap:wrap; gap:12px; margin-bottom:28px; }
+    .btn-primary {
+      min-height:50px; padding:0 26px; border-radius:999px;
+      background:rgba(16,24,44,0.92); color:var(--accent); font-size:15px; font-weight:800;
+      display:inline-flex; align-items:center; box-shadow:0 12px 32px rgba(0,0,0,0.35);
+      border:1px solid rgba(209,175,55,0.35);
+      transition:transform .2s,opacity .2s,background .2s;
+    }
+    .btn-primary:hover { transform:translateY(-2px); opacity:.94; background:#0e1626; }
+    .btn-ghost {
+      min-height:50px; padding:0 22px; border-radius:999px;
+      background:rgba(255,255,255,0.08); border:1px solid rgba(255,255,255,0.22);
+      color:#fff; font-size:15px; font-weight:700; display:inline-flex;
+      align-items:center; transition:background .2s;
+    }
+    .btn-ghost:hover { background:rgba(255,255,255,0.16); }
+    .hero-badges { display:flex; flex-wrap:wrap; gap:10px; }
+    .hero-badges span {
+      padding:9px 15px; border-radius:999px;
+      background:rgba(255,255,255,0.08); border:1px solid rgba(255,255,255,0.14);
+      color:#d8e6f2; font-size:13px; font-weight:700;
+    }
+    .scroll-cue {
+      display:inline-flex; align-items:center; gap:8px; margin-top:22px;
+      color:var(--muted); font-size:12px; font-weight:700; letter-spacing:.12em; text-transform:uppercase;
+    }
+    .scroll-cue span { display:inline-block; width:18px; height:18px; border-right:2px solid var(--muted); border-bottom:2px solid var(--muted); transform:rotate(45deg); opacity:.8; }
+
+    /* ─── SECTIONS ─── */
+    section { padding:var(--section-pad) 0; }
+    .section-head { max-width:800px; margin-bottom:32px; }
+    .section-head h2 {
+      font-family:var(--font-disp); font-size:clamp(34px,5.5vw,62px);
+      line-height:.9; letter-spacing:-.03em; margin-bottom:16px;
+    }
+    .section-head p { color:var(--muted); max-width:64ch; }
+    .section-contrast {
+      background:
+        url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='240' height='40' viewBox='0 0 240 40'%3E%3Cpath d='M0,20 L38,20 L42,20 L46,6 L50,34 L54,6 L58,20 L66,20 L78,20 L82,20 L86,6 L90,34 L94,6 L98,20 L106,20 L118,20 L122,20 L126,6 L130,34 L134,6 L138,20 L146,20 L158,20 L162,20 L166,6 L170,34 L174,6 L178,20 L186,20 L198,20 L202,20 L206,6 L210,34 L214,6 L218,20 L226,20 L240,20' fill='none' stroke='%23d3af37' stroke-width='1' opacity='0.07'/%3E%3C/svg%3E") repeat,
+        radial-gradient(circle at 92% 8%,rgba(76,180,232,0.10) 0%,transparent 30%),
+        linear-gradient(180deg,rgba(209,175,55,0.09) 0%,rgba(209,175,55,0.04) 100%);
+      background-size: 60px 10px, auto, auto;
+      border-block:1px solid rgba(209,175,55,0.12);
+    }
+
+    /* ─── CARDS ─── */
+    .card {
+      background:var(--surface-2); border:1px solid var(--border); border-radius:var(--radius-md);
+      padding:24px; box-shadow:var(--shadow-sm);
+      transition:transform .2s, border-color .2s;
+    }
+    .card h3 { font-size:20px; font-weight:700; margin-bottom:12px; line-height:1.2; color:var(--text); }
+    .card p { color:var(--muted); font-size:15px; }
+    .card ul { padding-left:18px; color:var(--muted); font-size:15px; display:flex; flex-direction:column; gap:6px; margin-top:14px; }
+    .card li { line-height:1.5; }
+
+    /* ─── GRIDS ─── */
+    .grid-2 { display:grid; gap:18px; }
+    .grid-3 { display:grid; gap:18px; }
+
+    /* ─── PAINPOINTS ─── */
+    .pain-list { display:flex; flex-direction:column; gap:20px; }
+    .pain-item { display:grid; gap:18px; grid-template-columns: 1fr; border-top:1px solid var(--border); padding-top:20px; }
+    .pain-item:first-child { border-top:0; padding-top:0; }
+    .pain-label { font-size:11px; font-weight:800; letter-spacing:.1em; text-transform:uppercase; color:var(--accent); margin-bottom:8px; display:block; }
+    .pain-head { font-size:18px; font-weight:800; color:var(--text); margin-bottom:6px; }
+    .pain-body { font-size:14px; color:var(--muted); line-height:1.5; }
+    .pain-arrow { color:var(--primary); opacity:.8; font-size:22px; display:flex; align-items:center; justify-content:center; }
+    @media(min-width:700px) {
+      .pain-item { grid-template-columns: 1fr auto 1fr; align-items:center; }
+      .pain-arrow { transform: rotate(90deg); }
+    }
+
+    /* ─── OFFER / LEAD MAGNET ─── */
+    .offer-grid { display:grid; gap:18px; }
+    .offer-card { padding:26px 24px; }
+    .offer-card h3 { font-size:20px; font-weight:700; margin-bottom:10px; color:var(--text); }
+    .offer-card p { color:var(--muted); font-size:15px; }
+    .offer-card .btn-primary { margin-top:18px; display:inline-flex; }
+    @media(min-width:960px) { .offer-grid { grid-template-columns: repeat(2,1fr); } }
+
+    /* ─── ABOUT / CREDENTIALS ─── */
+    .about-layout { display:grid; gap:24px; }
+    .cred-tags { display:flex; flex-direction:column; gap:10px; margin:18px 0; }
+    .cred-tag { padding:10px 18px; border-radius:12px; font-size:13px; font-weight:700; background:rgba(209,175,55,0.08); color:var(--accent); border:1px solid rgba(209,175,55,0.18); line-height:1.3; }
+    .cred-tag--degree { background:linear-gradient(135deg,rgba(209,175,55,0.14),rgba(76,180,232,0.10)); border-color:rgba(209,175,55,0.25); font-size:12px; }
+    .cred-block { background:rgba(16,24,44,0.88); border:1px solid var(--border); border-radius:var(--radius-md); padding:24px; }
+
+    /* ─── WHY / HOW ─── */
+    .why-grid { display:grid; gap:18px; }
+    @media(min-width:700px) { .why-grid { grid-template-columns: repeat(2,1fr); } }
+
+    /* ─── QR SECTION ─── */
+    .qr-print {
+      background:#fff; color:#000; border:1px solid #000; border-radius:var(--radius-md);
+      padding:24px; max-width:360px; margin:18px auto; text-align:center;
+      box-shadow:var(--shadow-md);
+    }
+    .qr-print img { width:180px; height:180px; margin:14px auto; display:block; image-rendering: pixelated; }
+    .qr-print .qr-hint { font-weight:800; font-size:16px; margin-bottom:8px; }
+    .qr-print .qr-url { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace; font-size:13px; color:#111; word-break:break-all; }
+
+    /* ─── CONTACT ─── */
+    .contact-shell {
+      background:linear-gradient(165deg,rgba(209,175,55,0.08),rgba(62,202,187,0.08),rgba(16,24,44,0.92));
+      border:1px solid var(--border); border-radius:var(--radius-lg); padding:36px 28px; box-shadow:var(--shadow-md);
+    }
+
+    /* ─── FOOTER ─── */
+    .site-footer { padding:36px 0 48px; border-top:1px solid var(--border); color:var(--muted); font-size:14px; }
+    .footer-inner { display:flex; flex-wrap:wrap; gap:16px; justify-content:space-between; align-items:center; }
+    .footer-links { display:flex; gap:20px; flex-wrap:wrap; }
+    .footer-links a { color:var(--muted); font-weight:600; transition:color .2s; }
+    .footer-links a:hover { color:var(--primary); }
+
+    /* ─── RESPONSIVE ─── */
+    @media (min-width:640px) {
+      .grid-2 { grid-template-columns:repeat(2,1fr); }
+    }
+    @media (min-width:700px) {
+      .grid-2 { grid-template-columns:repeat(2,1fr); }
+      .grid-3 { grid-template-columns:repeat(3,1fr); }
+    }
+    @media (min-width:840px) {
+      .about-layout { grid-template-columns:0.55fr 1fr; align-items:start; }
+      .pain-item { grid-template-columns: 1fr auto 1fr; align-items:center; }
+      .pain-arrow { transform: none; }
+    }
+    @media (min-width:960px) {
+      .nav-links { display:flex; }
+    }
+    @media (max-width:600px) {
+      .hero-shell { min-height:740px; }
+      .hero-inner { min-height:740px; padding:22px; }
+      .hero-copy { padding-top:110px; }
+      .hero-h1 { font-size:clamp(48px,11.5vw,74px); }
+      .hero-lead { font-size:15px; }
+      .profile-chip { width:180px; padding:14px 16px; }
+      .hero-nav-cta { padding:0 18px; min-height:44px; font-size:14px; }
+      .btn-primary { padding:0 20px; min-height:46px; font-size:14px; }
+    }
+    @media (max-width:420px) {
+      .hero-shell { min-height:640px; border-radius:22px; }
+      .hero-inner { min-height:640px; padding:16px; }
+      .hero-copy { padding-top:100px; }
+      .hero-h1 { font-size:clamp(42px,12vw,60px); }
+      .hero-top { top:16px; right:16px; }
+      .profile-chip { width:160px; padding:12px 14px; }
+      .profile-chip-info strong { font-size:13px; }
+      .profile-chip-info span { font-size:11px; }
+      .card { padding:18px 16px; }
+      .site-footer { padding:28px 0 36px; }
+      .qr-print { padding:18px; }
+      .qr-print img { width:150px; height:150px; }
+    }
+
+    /* ─── PRINT ─── */
+    @media print {
+      html, body { background:#fff !important; color:#000 !important; }
+      .site-header, .hero-bg::after, .scroll-cue { display:none !important; }
+      .hero-shell { border-radius:0; box-shadow:none; border:none; background:#fff; min-height:auto; }
+      .hero-inner { min-height:auto; padding:0; }
+      .hero-copy { color:#000; padding-top:0; padding-bottom:24px; }
+      .hero-h1, .hero-lead, .hero-eyebrow { color:#000 !important; }
+      .btn-primary, .btn-ghost, .nav-cta, .hero-nav-cta { background:#fff !important; color:#000 !important; border:1px solid #000 !important; box-shadow:none !important; }
+      section { break-inside:avoid; }
+      .qr-print { max-width:100%; page-break-inside:avoid; break-inside:avoid; }
+      .pain-item { page-break-inside:avoid; break-inside:avoid; }
+      .offer-card { page-break-inside:avoid; break-inside:avoid; }
+      .footer-inner { flex-direction:column; align-items:flex-start; gap:10px; }
+    }
+
+    /* ─── UTILITY ─── */
+    .sr-only { position:absolute; width:1px; height:1px; padding:0; margin:-1px; overflow:hidden; clip:rect(0,0,0,0); white-space:nowrap; border:0; }
+  </style>
+</head>
+<body>
+  <div id="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" aria-label="Seitenfortschritt" style="position:fixed;top:0;left:0;z-index:200;height:3px;width:0%;background:linear-gradient(90deg,#3ecabb,#4cb4e8,#d3af37);transition:width .12s linear;pointer-events:none;"></div>
+
+  <header class="site-header">
+    <div class="container nav">
+      <a class="brand" href="#top" aria-label="Startseite">
+        <span class="brand-name">achten.pro</span>
+        <span class="brand-sub">Playfight · Berührung mit Rückgrat</span>
+      </a>
+      <nav class="nav-links" aria-label="Hauptnavigation">
+        <a href="#angebot">Angebot</a>
+        <a href="#pain">Painpoints</a>
+        <a href="#erfahrung">Erfahrung</a>
+        <a href="#kontakt">Kontakt</a>
+      </nav>
+      <a class="nav-cta" href="#kontakt">Anfragen</a>
+      <button class="hamburger" id="hamburger" aria-label="Menü öffnen" aria-expanded="false" aria-controls="mobile-nav" style="display:none;flex-direction:column;justify-content:center;gap:5px;background:none;border:none;cursor:pointer;padding:8px;-webkit-tap-highlight-color:transparent;">
+        <span style="display:block;width:22px;height:2px;background:var(--text);border-radius:2px;transition:transform .28s ease, opacity .2s ease;"></span>
+        <span style="display:block;width:22px;height:2px;background:var(--text);border-radius:2px;transition:transform .28s ease, opacity .2s ease;"></span>
+        <span style="display:block;width:22px;height:2px;background:var(--text);border-radius:2px;transition:transform .28s ease, opacity .2s ease;"></span>
+      </button>
+    </div>
+  </header>
+  <nav class="mobile-nav" id="mobile-nav" aria-label="Mobile Navigation" aria-hidden="true" style="position:fixed;top:69px;left:0;right:0;bottom:0;z-index:38;background:var(--surface);overflow-y:auto;overflow-x:hidden;padding-top:10px;transform:translateX(100%);transition:transform .3s cubic-bezier(.4,0,.2,1);display:flex;flex-direction:column;border-top:1px solid var(--border);-webkit-overflow-scrolling:touch;">
+    <a href="#angebot">Angebot</a>
+    <a href="#pain">Painpoints</a>
+    <a href="#erfahrung">Erfahrung</a>
+    <a href="#kontakt" class="mob-cta" style="margin:20px 24px 36px;min-height:52px;border-radius:999px;background:linear-gradient(135deg,var(--primary),var(--secondary));color:#fff !important;font-weight:800;font-size:16px;justify-content:center;border-bottom:none;">Session anfragen</a>
+  </nav>
+
+  <main id="top">
+    <!-- HERO -->
+    <section class="hero" aria-label="Hauptbereich">
+      <div class="container">
+        <div class="hero-shell">
+          <div class="hero-bg" aria-hidden="true" style="position:absolute;inset:0;background:linear-gradient(180deg,#071420 0%,#0b1624 40%,#06112a 100%);"></div>
+          <div class="hero-top">
+            <div class="brand-mark" aria-label="achten.pro/playfight">∞ achten.pro/playfight</div>
+            <a class="hero-nav-cta" href="#kontakt">Session buchen →</a>
+            <div class="profile-chip">
+              <div class="profile-chip-info">
+                <strong>Philipp</strong>
+                <span>M.Sc. Sportpsychologie</span>
+                <span>B.Sc. Sportwissenschaft</span>
+                <span>Playfight · Körper-Geist</span>
+              </div>
+            </div>
+          </div>
+          <div class="hero-inner">
+            <div class="hero-copy">
+              <span class="hero-eyebrow">Playfight — Kontakt auf Augenhöhe</span>
+              <h1 class="hero-h1">Kontakt auf Augenhöhe.<br><em>Spielend</em> sicher.</h1>
+              <p class="hero-lead">In der Kraft liegt die Ruhe. Gemeinschaft statt Leistungsdruck. Präzision statt Zufall — du hältst deine Grenzen. Echte Kraft entsteht nicht im Vergleich. Sie entsteht im Kontakt. Nicht als Ergebnis. Sondern als Begegnung. Du trainierst nicht gegen etwas — du trainierst mit jemandem.
+              <div class="hero-actions">
+                <a class="btn-primary" href="https://philwirt.gumroad.com/l/playfight-friends" target="_blank" rel="noopener noreferrer">Playfight-Guide Launch 19 € →</a>
+                <a class="btn-ghost" href="#angebot">Mehr erfahren</a>
+              </div>
+              <div class="hero-badges" role="list">
+                <span role="listitem">Berührung mit Rückgrat</span>
+                <span role="listitem">Restriktionsleiter statt Freestyle</span>
+                <span role="listitem">4 Signale statt Komplexität</span>
+                <span role="listitem">Body-first, not talk-first</span>
+              </div>
+              <div class="scroll-cue" aria-hidden="true">
+                Mehr entdecken
+                <span></span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PAINPOINTS -->
+    <section id="pain" aria-labelledby="pain-head">
+      <div class="container">
+        <div class="section-head">
+          <span class="kicker">Painpoints → Lösungen</span>
+          <h2 id="pain-head">Was Menschen im Kontakt blockiert —<br>und wie wir es auflösen.</h2>
+        </div>
+        <div class="pain-list">
+          <div class="pain-item">
+            <div>
+              <span class="pain-label">01</span>
+              <div class="pain-head">Angst vor Fremden</div>
+              <p class="pain-body"> Wilder Körperkontakt mit Unbekannten bleibt ungelenkt — bis die Sicherheit fehlt.</p>
+            </div>
+            <div class="pain-arrow" aria-hidden="true">→</div>
+            <div>
+              <span class="pain-label" style="color:var(--primary);">Lösung</span>
+              <div class="pain-head">Restriktionsleiter gibt Sicherheit.</div>
+              <p class="pain-body"> Schritt für Schritt statt Freestyle. Klare Grenzen, klare Regeln, klare Verantwortung. Berührung wird planbar — und damit sicher.</p>
+            </div>
+          </div>
+          <div class="pain-item">
+            <div>
+              <span class="pain-label">02</span>
+              <div class="pain-head">Runterkommen nach Intensität</div>
+              <p class="pain-body">Nach hoher Anspannung bleibt der Körper im Alarm — der Übergang fehlt.</p>
+            </div>
+            <div class="pain-arrow" aria-hidden="true">→</div>
+            <div>
+              <span class="pain-label" style="color:var(--primary);">Lösung</span>
+              <div class="pain-head">5-5-Atem + Körperbewusstwerdung + Struktur.</div>
+              <p class="pain-body">Du lernst, nach der Spannung bewusst zu landen: gleichmäßiger 5-5-Atem, Körperwahrnehmung und ein verlässlicher Ablauf. Kein Zufall.</p>
+            </div>
+          </div>
+          <div class="pain-item">
+            <div>
+              <span class="pain-label">03</span>
+              <div class="pain-head">Leistungsdruck</div>
+              <p class="pain-body">Wenn Gewinnen zählt, bleibt Begegnung auf der Strecke.</p>
+            </div>
+            <div class="pain-arrow" aria-hidden="true">→</div>
+            <div>
+              <span class="pain-label" style="color:var(--primary);">Lösung</span>
+              <div class="pain-head">Präzision statt Sieg — 50%-Regel.</div>
+              <p class="pain-body"> Du hältst dich in etwa in der Mitte deiner Kraft: nicht zu viel, nicht zu wenig. Die 50%-Regel heißt: Gib etwa die Hälfte deines möglichen Drucks oder deiner Kraft auf — und behalte dadurch Kontrolle, Spürsicherheit und die Möglichkeit, sofort zu stoppen oder anzupassen. Weniger Gewinnen, mehr Spüren. Gemeinschaft statt Leistungsdruck. Du lernst, Absicht zu spüren statt Resultate zu erzwingen.</p>
+            </div>
+          </div>
+          <div class="pain-item">
+            <div>
+              <span class="pain-label">04</span>
+              <div class="pain-head">Keine Struktur für zu Hause</div>
+              <p class="pain-body">Was draußen funktioniert, verpufft ohne Wiederholung.</p>
+            </div>
+            <div class="pain-arrow" aria-hidden="true">→</div>
+            <div>
+              <span class="pain-label" style="color:var(--primary);">Lösung</span>
+              <div class="pain-head">60-Min-Ablauf + Checkliste + App.</div>
+              <p class="pain-body"> Ein klarer Rahmen für zu Hause. Wenig Vorbereitung, sichere Übungen, wiederholbar. Du brauchst kein Studio — du brauchst einen Plan.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ANGEBOT / GUIDE + NEWSLETTER -->
+    <section id="angebot" class="section-contrast" aria-labelledby="angebot-head">
+      <div class="container">
+        <div class="section-head">
+          <span class="kicker">Angebot</span>
+          <h2 id="angebot-head">Dein Einstieg in<br>echten Kontakt.</h2>
+          <p>Hol dir den Guide für zu Hause oder bleib auf dem Laufenden für Events und Workshops.</p>
+        </div>
+
+        <div class="offer-grid">
+          <article class="card offer-card">
+            <h3>Playfight-Guide: Familie & Kinder</h3>
+            <p>Kinder brauchen kein Kampfsporttraining. Sie brauchen einen sicheren Rahmen, in dem sie Körperkontakt erleben, Grenzen spüren und Vertrauen in ihre eigenen Reaktionen entwickeln.</p>
+            <p>Du regulierst die Intensität — nicht das Kind. Bleib niedrig in Tempo und Druck. Bleib vorhersagbar in Ablauf und Reaktion. Nimm Verbindung vor Leistung.</p>
+            <p>Lernziele: Körpergefühl stärken, Grenzen lesen lernen, gemeinsame Regulation erfahren.</p>
+            <p><strong>Was drinsteht:</strong> Übungen für 2–4, 5–7, 8–10 und 11+ Jahre — mit konkreter Mechanik, Sicherheitsbedingung und Pitfall. Kein Kampfsport, keine Freigabe-Gates, keine leeren Claims.</p>
+            <p style="font-size:13px; color:var(--muted); margin-top:8px;">Was du wirklich kaufst: einen Plan, der euch zeigt, wie ihr gemeinsam runterkommt, statt nur Energie abzureagieren. Für mehr Kind-sein-können. Für mehr Spielen-können. Für mehr Zusammen-im-Augenblick-sein.</p>
+            <a class="btn-primary" href="https://philwirt.gumroad.com/l/playfight-family" target="_blank" rel="noopener noreferrer" style="margin-top:18px;">Launch 19 € — Zum Guide →</a>
+            <p style="margin-top:10px; font-size:12px; color:var(--muted);">Danach Standard 29 €</p>
+          </article>
+
+          <article class="card offer-card">
+            <h3>Playfight-Guide: Freunde & Gleichaltrige</h3>
+            <p>Strukturierte körperliche Begegnung ist kein Luxus. Für Erwachsene wirkt sie direkt auf Stresssystem, Beziehungsqualität und Körperbewusstsein.</p>
+            <p>Was Studien zeigen: Kontrollierter Körperkontakt senkt basal Cortisol und erhöht Oxytocin. Wer Grenzen erspürt statt nur zu denken, entwickelt Präsenz. Wer klar agieren und Pausen durchsetzen kann, übernimmt mehr Eigenverantwortung — im Spiel und im Alltag.</p>
+            <p><strong>Was drinsteht:</strong> 5 Grundübungen + minutengenauer 60-Min-Ablauf + Progressionsleiter S7→S0 + Problem-Lösungen. Kein Zufall, keine Zurschaustellung. Nur Präzision und Rückgrat.</p>
+            <p style="font-size:13px; color:var(--muted); margin-top:8px;">Was du wirklich kaufst: die Erlaubnis, wieder kindlich zu rangeln — ohne Gewinnzwang. Ohne Leistungsdruck. Nur du, der andere, und der Moment.</p>
+            <a class="btn-primary" href="https://philwirt.gumroad.com/l/playfight-friends" target="_blank" rel="noopener noreferrer" style="margin-top:18px;">Launch 19 € — Zum Guide →</a>
+            <p style="margin-top:10px; font-size:12px; color:var(--muted);">Danach Standard 29 €</p>
+          </article>
+        </div>
+
+        <div style="margin-top:28px; padding:18px 20px; border-radius:var(--radius-md); background:rgba(16,24,44,0.88); border:1px solid var(--border); max-width:520px;">
+          <h3 style="margin:0 0 8px; font-size:18px; color:var(--text);">Newsletter</h3>
+          <p style="margin:0 0 12px; font-size:14px; color:var(--muted);">Bleib uptodate — Playfight-Updates, neue Übungen, nächste Events.</p>
+          <form action="https://formspree.io/f/mwvzgwrb" method="POST" style="display:flex; gap:8px; flex-wrap:wrap;">
+            <input type="email" name="email" placeholder="deine@email.de" required style="flex:1 1 220px; padding:10px 12px; border-radius:var(--radius-md); border:1px solid var(--border); background:rgba(255,255,255,0.06); color:var(--text);">
+            <button type="submit" class="btn-primary" style="padding:10px 14px;">Eintragen</button>
+          </form>
+          <p style="margin:10px 0 0; font-size:12px; color:var(--muted);">Kein Spam. Nur dann, wenn es etwas zu sagen gibt.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- WHY / HOW -->
+    <section aria-labelledby="why-head">
+      <div class="container">
+        <div class="section-head">
+          <span class="kicker">Warum & Wie</span>
+          <h2 id="why-head">Warum Playfight wirkt —<br>und wie es funktioniert.</h2>
+        </div>
+        <div class="why-grid">
+          <article class="card">
+            <h3>Why</h3>
+            <p>Echte Kraft entsteht dort, wo Kontakt möglich ist. Nicht als Wettbewerb. Nicht als Leistungsnachweis. Sondern als Begegnung. Du trainierst nicht gegen etwas — du trainierst mit jemandem.</p>
+            <ul>
+              <li>Berührung mit Rückgrat</li>
+              <li>Gemeinschaft statt Leistungsdruck</li>
+              <li>Präzision statt Zufall — du hältst deine Grenzen</li>
+            </ul>
+          </article>
+          <article class="card">
+            <h3>How</h3>
+            <p>Sicherheit statt Freestyle: eine Restriktionsleiter statt offener Dynamik. Weniger Komplexität durch 4 klare Signale. 5-5 Atem als Anker, Katzenbaby-Prinzip als Haltung, Body-first als Reihenfolge.</p>
+            <ul>
+              <li>Restriktionsleiter statt Freestyle</li>
+              <li>4 Signale statt Komplexität</li>
+              <li>5-5 Atem als Anker</li>
+              <li>Katzenbaby-Prinzip</li>
+              <li>Body-first, not talk-first</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- QR DRUCKBEREICH -->
+    <section aria-labelledby="qr-head" style="padding:var(--section-pad) 0;">
+      <div class="container">
+        <div class="section-head">
+          <span class="kicker">Print / QR</span>
+          <h2 id="qr-head">Scan, um den Guide direkt zu holen</h2>
+          <p>Für Flyer, Poster oder einfache Weitergabe. Schwarz auf Weiß — druckoptimiert.</p>
+        </div>
+        <div class="qr-print" aria-label="QR-Code zum Playfight-Guide">
+          <div class="qr-hint">Playfight-Guide</div>
+          <a href="https://philwirt.gumroad.com/l/playfight-friends" target="_blank" rel="noopener noreferrer">
+            <img src="../playfight/qr_playfight.png" alt="QR-Code zum Playfight-Guide bei Gumroad" width="300" height="300" loading="lazy" style="width:180px;height:180px;margin:14px auto;display:block;image-rendering:pixelated;" />
+          </a>
+          <div class="qr-url">https://philwirt.gumroad.com/l/playfight-friends</div>
+          <div style="margin-top:10px; font-weight:700; font-size:14px;">Scan, um den Guide direkt zu holen</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- NEWSLETTER -->
+    <section id="newsletter-form" aria-labelledby="newsletter-head">
+      <div class="container">
+        <div class="section-head">
+          <span class="kicker">Newsletter</span>
+          <h2 id="newsletter-head">Playfight-Events & Updates</h2>
+          <p>Melde dich an, um über kommende Events, Workshops und neue Guides informiert zu werden.</p>
+        </div>
+        <form id="newsletter-form" action="https://formspree.io/f/mwvzgwrb" method="POST" data-fs-field style="display:grid; gap:16px; max-width:520px;">
+          <input type="hidden" name="_subject" value="Newsletter-Anmeldung achten.pro/playfight" />
+          <div data-fs-success style="display:none; padding:16px; background:rgba(62,202,187,0.12); color:var(--text); border:1px solid rgba(62,202,187,0.25); border-radius:14px; margin-bottom:4px;">
+            <p style="margin:0; font-size:15px; font-weight:700;">Du bist dabei.</p>
+            <p style="margin:6px 0 0; font-size:14px; color:var(--muted);">Ich melde mich bei dir, sobald es Neues gibt.</p>
+          </div>
+          <div data-fs-error style="display:none; padding:14px; background:rgba(220,60,60,0.10); color:var(--text); border:1px solid rgba(220,60,60,0.22); border-radius:14px; margin-bottom:4px; font-size:14px;"></div>
+          <label style="display:flex; flex-direction:column; gap:6px; font-size:14px; font-weight:700; color:var(--text);">
+            E-Mail
+            <input type="email" name="email" placeholder="deinname@beispiel.de" required data-fs-field style="width:100%; min-height:48px; border-radius:14px; border:1px solid var(--border); background:rgba(16,24,44,0.90); padding:12px 14px; font:inherit; color:var(--text); font-size:15px; transition:border-color .2s,box-shadow .2s;" />
+          </label>
+          <button class="btn-primary" type="submit" data-fs-submit-btn style="min-height:52px; padding:0 32px; border-radius:999px; background:linear-gradient(135deg,var(--primary),var(--secondary)); color:#fff; font-size:16px; font-weight:800; border:none; cursor:pointer; box-shadow:0 10px 28px rgba(62,202,187,0.28); transition:opacity .2s,transform .2s; white-space:nowrap;">Eintragen →</button>
+        </form>
+      </div>
+    </section>
+
+    <!-- ERFAHRUNG / ABOUT -->
+    <section id="erfahrung" class="section-contrast" aria-labelledby="erfahrung-head">
+      <div class="container">
+        <div class="section-head">
+          <span class="kicker">Erfahrung</span>
+          <h2 id="erfahrung-head">Wissenschaft, die du spürst.</h2>
+          <p>Methoden, die körperlich und nervensystemisch wirken — keine leeren Konzepte.</p>
+        </div>
+        <div class="about-layout">
+          <div>
+            <div class="cred-tags">
+              <span class="cred-tag cred-tag--degree">M.Sc. Sportpsychologie</span>
+              <span class="cred-tag cred-tag--degree">B.Sc. Sportwissenschaft</span>
+              <span class="cred-tag">Selbstregulationstrainer</span>
+              <span class="cred-tag">Biofeedback-Trainer</span>
+              <span class="cred-tag">Atem- & Körperarbeit</span>
+              <span class="cred-tag">Playfight-Anwendung</span>
+            </div>
+            <p class="muted" style="font-size:15px; max-width:60ch; margin-top:14px;">Methoden, die körperlich und nervensystemisch wirken. Du begegnest dir selbst — mit Präzision, Struktur und echter Sicherheit.</p>
+          </div>
+          <div class="cred-block">
+            <h3 style="font-size:18px; font-weight:700; margin-bottom:10px; color:var(--text);">Credentials kompakt</h3>
+            <ul style="padding-left:18px; color:var(--muted); font-size:14px; line-height:1.6; display:flex; flex-direction:column; gap:8px;">
+              <li>Master Sportpsychologie — Leistung, Regulation, Coaching</li>
+              <li>Bachelor Sportwissenschaft — Training, Bewegung, Nervensystem</li>
+              <li>Zusatzausbildungen Atem, Biofeedback, Körperarbeit</li>
+              <li>Praxiserfahrung mit 1:1 und Gruppenformaten</li>
+              <li>Entwickler des achten.pro Playfight-Ansatzes</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- KONTAKT -->
+    <section id="kontakt" aria-labelledby="kontakt-head">
+      <div class="container">
+        <div class="contact-shell">
+          <div class="section-head" style="margin-bottom:28px;">
+            <span class="kicker">Kontakt</span>
+            <h2 id="kontakt-head">Session anfragen.</h2>
+            <p>Sag mir kurz, was dich bewegt. Ich melde mich persönlich mit einem passenden Vorschlag.</p>
+          </div>
+          <form id="kontakt-form" action="https://formspree.io/f/mwvzgwrb" method="POST" data-fs-field style="display:grid; gap:16px;">
+            <input type="hidden" name="_next" value="https://achten.pro/danke.html" />
+            <input type="hidden" name="_subject" value="Neue Anfrage über achten.pro/playfight" />
+            <div data-fs-success style="display:none; padding:20px; background:rgba(62,202,187,0.12); color:var(--text); border:1px solid rgba(62,202,187,0.25); border-radius:14px; margin-bottom:4px;">
+              <p style="margin:0; font-size:15px; font-weight:700;">Danke für deine Anfrage.</p>
+              <p style="margin:6px 0 0; font-size:14px; color:var(--muted); line-height:1.55;">Ich melde mich persönlich mit einem passenden Vorschlag bei dir.</p>
+            </div>
+            <div data-fs-error style="display:none; padding:16px; background:rgba(220,60,60,0.10); color:var(--text); border:1px solid rgba(220,60,60,0.22); border-radius:14px; margin-bottom:4px; font-size:14px;"></div>
+            <div style="display:grid; gap:16px;">
+              <label style="display:flex; flex-direction:column; gap:6px; font-size:14px; font-weight:700; color:var(--text);">
+                Vorname
+                <input type="text" name="vorname" placeholder="Dein Vorname" autocomplete="given-name" data-fs-field style="width:100%; min-height:48px; border-radius:14px; border:1px solid var(--border); background:rgba(16,24,44,0.90); padding:12px 14px; font:inherit; color:var(--text); font-size:15px; transition:border-color .2s,box-shadow .2s;" />
+              </label>
+              <label style="display:flex; flex-direction:column; gap:6px; font-size:14px; font-weight:700; color:var(--text);">
+                E-Mail
+                <input type="email" name="email" placeholder="deinname@beispiel.de" autocomplete="email" required data-fs-field style="width:100%; min-height:48px; border-radius:14px; border:1px solid var(--border); background:rgba(16,24,44,0.90); padding:12px 14px; font:inherit; color:var(--text); font-size:15px; transition:border-color .2s,box-shadow .2s;" />
+              </label>
+              <label style="display:flex; flex-direction:column; gap:6px; font-size:14px; font-weight:700; color:var(--text);">
+                Was ist dein Anliegen?
+                <textarea name="freitext" placeholder="Schreib mir kurz, was dich gerade beschäftigt oder was du suchst." data-fs-field style="width:100%; min-height:120px; border-radius:14px; border:1px solid var(--border); background:rgba(16,24,44,0.90); padding:12px 14px; font:inherit; color:var(--text); font-size:15px; resize:vertical; transition:border-color .2s,box-shadow .2s;"></textarea>
+              </label>
+            </div>
+            <div style="display:flex; flex-wrap:wrap; gap:16px; align-items:center; justify-content:space-between; margin-top:4px;">
+              <p class="muted" style="font-size:13px; max-width:50ch;">Ich arbeite bewusst mit wenigen Menschen parallel, damit wir in Ruhe in die Tiefe gehen können.</p>
+              <button class="btn-submit" type="submit" data-fs-submit-btn style="min-height:52px; padding:0 32px; border-radius:999px; background:linear-gradient(135deg,var(--primary),var(--secondary)); color:#fff; font-size:16px; font-weight:800; border:none; cursor:pointer; box-shadow:0 10px 28px rgba(62,202,187,0.28); transition:opacity .2s,transform .2s; white-space:nowrap;">Anfrage senden →</button>
+            </div>
+          </form>
+          <details class="impressum-box" id="impressum" style="margin-top:48px; padding-top:36px; border-top:1px solid var(--border); color:var(--muted);">
+            <summary style="font-size:20px; font-weight:700; color:var(--text); cursor:pointer; display:flex; align-items:center; justify-content:space-between; list-style:none;">
+              Impressum
+              <span aria-hidden="true" style="transition:transform .25s;">▾</span>
+            </summary>
+            <div class="impressum-content" style="padding-top:16px; font-size:14px; line-height:1.7; font-style:normal;">
+              <p><strong style="color:var(--text);">Verantwortlich:</strong><br>Philipp Wiertelorz<br>Greinerberg 13<br>81371 München</p>
+              <p>E-Mail: philwirt@web.de</p>
+              <p><strong style="color:var(--text);">Hinweis:</strong> Diese Seite stellt keine therapeutischen oder medizinischen Leistungen dar. Die angebotenen Formate dienen der Bewegungsförderung, Körperwahrnehmung und Selbstregulation im nicht-medizinischen Rahmen.</p>
+            </div>
+          </details>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>achten.pro/playfight · München &copy; 2026</p>
+      <nav class="footer-links" aria-label="Footer-Navigation">
+        <a href="#impressum">Impressum</a>
+        <a href="#impressum">Datenschutz</a>
+        <a href="#kontakt">Kontakt</a>
+      </nav>
+    </div>
+  </footer>
+
+  <script>
+    window.formspree = window.formspree || function () { (formspree.q = formspree.q || []).push(arguments); };
+    formspree('initForm', { formElement: '#kontakt-form', formId: 'mwvzgwrb' });
+  </script>
+  <script src="https://unpkg.com/@formspree/ajax@1" defer></script>
+</body>
+</html>
