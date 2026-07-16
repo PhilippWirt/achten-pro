@@ -1,0 +1,1350 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>In der Kraft liegt die Ruhe — Körper-Geist Personal Training München</title>
+  <meta name="description" content="1:1 Körper-Geist Personal Training in München. Krafttraining, Yoga, Mobilität – und Selbstregulation on top. Sendling · Isar · bei dir zu Hause." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700;800&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet" />
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; font-size: 16px; }
+    img { max-width: 100%; display: block; }
+    a { text-decoration: none; color: inherit; }
+    :root {
+      --bg:#e6f4ee; --surface:#f3faf6; --surface-2:rgba(255,255,255,0.82);
+      --border:rgba(10,38,30,0.11); --text:#0c2620; --muted:#4a6b62;
+      --primary:#0b7e74; --secondary:#1278b8; --accent:#3ecabb;
+      --accent-warm:#d3af37; --hero-dark:#061410;
+      --radius-sm:14px; --radius-md:22px; --radius-lg:34px;
+      --shadow-sm:0 4px 16px rgba(8,22,18,0.07); --shadow-md:0 14px 40px rgba(8,22,18,0.10);
+      --shadow-lg:0 28px 80px rgba(8,22,18,0.15);
+      --font-body:'Manrope',system-ui,sans-serif; --font-disp:'Instrument Serif',Georgia,serif;
+      --section-pad:clamp(36px,5.5vw,68px);
+    }
+    body {
+      font-family:var(--font-body); color:var(--text); line-height:1.65;
+      background: radial-gradient(circle at 8% 2%,rgba(11,126,116,0.16) 0%,transparent 24%),
+        radial-gradient(circle at 94% 6%,rgba(18,120,184,0.13) 0%,transparent 26%),
+        linear-gradient(180deg,#daf0e8 0%,var(--bg) 60%,#e2f1ea 100%); min-height:100vh;
+      overflow-x:hidden;
+    }
+    .container { width:min(1180px,calc(100% - 28px)); margin-inline:auto; }
+    .muted { color:var(--muted); }
+    .kicker {
+      display:inline-block; color:var(--primary); font-size:12px; font-weight:800;
+      letter-spacing:.14em; text-transform:uppercase; margin-bottom:14px;
+    }
+    .kicker::before { content:"· "; opacity:.5; }
+    /* ─── HEADER ─── */
+    .site-header {
+      position:sticky; top:0; z-index:40;
+      background:rgba(242,247,245,0.82); backdrop-filter:blur(18px) saturate(1.4);
+      border-bottom:1px solid var(--border);
+    }
+    .nav { display:flex; align-items:center; justify-content:space-between; gap:16px; padding:14px 0; }
+    .brand { display:flex; flex-direction:column; gap:1px; }
+    .brand-name { font-size:15px; font-weight:800; letter-spacing:-.01em; color:var(--text); }
+    .brand-sub  { font-size:11px; font-weight:600; letter-spacing:.1em; color:var(--muted); text-transform:uppercase; }
+    .nav-links  { display:none; gap:28px; }
+    .nav-links a { font-size:14px; font-weight:600; color:var(--muted); transition:color .2s; }
+    .nav-links a:hover { color:var(--primary); }
+    .nav-cta {
+      min-height:42px; padding:0 20px; border-radius:999px;
+      background:linear-gradient(135deg,var(--primary),var(--secondary));
+      color:#fff; font-size:14px; font-weight:800; display:inline-flex;
+      align-items:center; white-space:nowrap; box-shadow:0 8px 24px rgba(11,107,100,0.28);
+      transition:opacity .2s,transform .2s;
+    }
+    .nav-cta:hover { opacity:.88; transform:translateY(-1px); }
+    /* ─── HERO ─── */
+    .hero { padding:28px 0 64px; }
+    .hero-shell {
+      position:relative; overflow:hidden; border-radius:38px; min-height:680px;
+      box-shadow:var(--shadow-lg); background:var(--hero-dark);
+      border:1px solid rgba(255,255,255,0.06);
+    }
+    .hero-bg { position:absolute; inset:0; }
+    .hero-bg img { width:100%; height:100%; object-fit:cover; object-position:15% 10%; }
+    .hero-bg::after {
+      content:""; position:absolute; inset:0;
+      background: linear-gradient(100deg,rgba(5,16,14,0.75) 0%,rgba(5,16,14,0.55) 42%,rgba(5,16,14,0.22) 100%),
+        linear-gradient(0deg,rgba(5,16,14,0.72) 0%,rgba(5,16,14,0.05) 55%);
+    }
+    .hero-top {
+      position:absolute; top:22px; right:22px; z-index:4;
+      display:flex; flex-direction:column; align-items:flex-end; gap:12px;
+    }
+    .profile-chip {
+      display:flex; flex-direction:column; align-items:center; text-align:center;
+      width:190px; padding:16px 18px 14px; border-radius:22px;
+      background:rgba(255,255,255,0.92); backdrop-filter:blur(10px);
+      border:1px solid rgba(255,255,255,0.6); box-shadow:0 16px 40px rgba(0,0,0,0.18);
+    }
+    .profile-chip-img {
+      width:150px; height:150px; border-radius:50%; object-fit:cover;
+      object-position:center 7%; flex-shrink:0; margin-bottom:11px;
+      border:3px solid rgba(255,255,255,0.9);
+      box-shadow:0 4px 16px rgba(0,0,0,0.22);
+    }
+    .profile-chip-info strong { display:block; font-size:15px; font-weight:800; color:var(--text); line-height:1.25; margin-bottom:5px; }
+    .profile-chip-info span  { display:block; font-size:13px; color:var(--muted); margin-top:3px; line-height:1.4; }
+    .hero-nav-cta {
+      min-height:50px; padding:0 26px; border-radius:999px;
+      background:rgba(255,255,255,0.92); backdrop-filter:blur(8px);
+      color:var(--primary); font-size:15px; font-weight:800;
+      display:inline-flex; align-items:center; white-space:nowrap;
+      box-shadow:0 8px 24px rgba(0,0,0,0.14); transition:background .2s;
+    }
+    .hero-nav-cta:hover { background:#fff; }
+    .hero-inner {
+      position:relative; z-index:3; height:100%; display:flex; align-items:flex-end;
+      padding:22px; min-height:680px;
+    }
+    .hero-copy { max-width:720px; color:#fff; padding-top:160px; }
+    .hero-eyebrow {
+      display:inline-flex; align-items:center; gap:8px; padding:7px 14px; border-radius:999px;
+      background:rgba(255,255,255,0.10); border:1px solid rgba(255,255,255,0.18);
+      font-size:12px; font-weight:800; letter-spacing:.14em; text-transform:uppercase;
+      color:#c8e8e3; margin-bottom:20px;
+    }
+    .hero-eyebrow::before {
+      content:""; width:6px; height:6px; border-radius:50%;
+      background:var(--accent); flex-shrink:0;
+    }
+    .hero-h1 {
+      font-family:var(--font-disp); font-size:clamp(54px,9.5vw,104px);
+      line-height:.88; letter-spacing:-.04em; margin-bottom:22px; max-width:11ch;
+    }
+    .hero-h1 em { font-style:italic; color:#b4ede4; }
+    .hero-lead {
+      font-size:clamp(16px,2.2vw,21px); color:rgba(255,255,255,0.84);
+      max-width:56ch; line-height:1.55; margin-bottom:28px;
+    }
+    .hero-actions { display:flex; flex-wrap:wrap; gap:12px; margin-bottom:28px; }
+    .btn-primary {
+      min-height:50px; padding:0 26px; border-radius:999px;
+      background:#fff; color:var(--primary); font-size:15px; font-weight:800;
+      display:inline-flex; align-items:center; box-shadow:0 12px 32px rgba(0,0,0,0.18);
+      transition:transform .2s,opacity .2s;
+    }
+    .btn-primary:hover { transform:translateY(-2px); opacity:.94; }
+    .btn-ghost {
+      min-height:50px; padding:0 22px; border-radius:999px;
+      background:rgba(255,255,255,0.10); border:1px solid rgba(255,255,255,0.22);
+      color:#fff; font-size:15px; font-weight:700; display:inline-flex;
+      align-items:center; transition:background .2s;
+    }
+    .btn-ghost:hover { background:rgba(255,255,255,0.16); }
+    .hero-badges { display:flex; flex-wrap:wrap; gap:10px; }
+    .hero-badges span {
+      padding:9px 15px; border-radius:999px;
+      background:rgba(255,255,255,0.10); border:1px solid rgba(255,255,255,0.16);
+      color:#e2f0ee; font-size:13px; font-weight:700;
+    }
+    .hero-card {
+      position:absolute; right:24px; bottom:24px; z-index:4; max-width:300px;
+      padding:16px 20px; border-radius:22px;
+      background:rgba(255,255,255,0.92); backdrop-filter:blur(10px);
+      border:1px solid rgba(255,255,255,0.6); box-shadow:var(--shadow-md);
+    }
+    .hero-card strong { display:block; color:var(--primary); font-size:14px; margin-bottom:6px; }
+    .hero-card p { font-size:13px; color:var(--muted); line-height:1.5; margin:0; }
+    /* ─── SECTIONS ─── */
+    section { padding:var(--section-pad) 0; }
+    .section-head { max-width:800px; margin-bottom:32px; }
+    .section-head h2 {
+      font-family:var(--font-disp); font-size:clamp(34px,5.5vw,62px);
+      line-height:.9; letter-spacing:-.03em; margin-bottom:16px;
+    }
+    .section-head p { color:var(--muted); max-width:64ch; }
+    .section-contrast {
+      background:
+        url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='240' height='40' viewBox='0 0 240 40'%3E%3Cpath d='M0,20 L38,20 L42,20 L46,6 L50,34 L54,6 L58,20 L66,20 L78,20 L82,20 L86,6 L90,34 L94,6 L98,20 L106,20 L118,20 L122,20 L126,6 L130,34 L134,6 L138,20 L146,20 L158,20 L162,20 L166,6 L170,34 L174,6 L178,20 L186,20 L198,20 L202,20 L206,6 L210,34 L214,6 L218,20 L226,20 L240,20' fill='none' stroke='%230b7e74' stroke-width='1' opacity='0.07'/%3E%3C/svg%3E") repeat,
+        radial-gradient(circle at 92% 8%,rgba(18,120,184,0.10) 0%,transparent 30%),
+        linear-gradient(180deg,rgba(11,126,116,0.09) 0%,rgba(11,126,116,0.04) 100%);
+      background-size: 60px 10px, auto, auto;
+      border-block:1px solid rgba(11,126,116,0.12);
+    }
+    /* ─── CARDS ─── */
+    .card {
+      background:var(--surface-2); border:1px solid var(--border); border-radius:var(--radius-md);
+      padding:24px; box-shadow:var(--shadow-sm);
+    }
+    .card h3 { font-size:20px; font-weight:700; margin-bottom:12px; line-height:1.2; }
+    .card p  { color:var(--muted); font-size:15px; }
+    .card ul { padding-left:18px; color:var(--muted); font-size:15px; display:flex; flex-direction:column; gap:6px; margin-top:14px; }
+    .card li { line-height:1.5; }
+    /* ─── GRIDS ─── */
+    .grid-2 { display:grid; gap:18px; }
+    .grid-3 { display:grid; gap:18px; }
+    /* ─── WIRKUNG ─── */
+    .wirkung-grid { display:grid; gap:18px; }
+    .wirkung-arrow {
+      display:flex; align-items:center; justify-content:center;
+      padding:16px 0; color:var(--primary); opacity:.7;
+    }
+    .wirkung-arrow svg { width:40px; height:40px; }
+    @media(min-width:640px) {
+      .wirkung-grid { grid-template-columns:1fr auto 1fr; align-items:start; gap:8px; }
+      .wirkung-arrow { padding:0; align-self:center; }
+      .wirkung-arrow svg { width:48px; height:48px; }
+    }
+    .panel-label {
+      font-size:12px; font-weight:800; letter-spacing:.1em; text-transform:uppercase;
+      padding:5px 12px; border-radius:999px; display:inline-block; margin-bottom:18px;
+    }
+    .panel-problem .panel-label { background:rgba(185,40,40,0.08); color:#952020; }
+    .panel-solution .panel-label { background:rgba(11,107,100,0.10); color:var(--primary); }
+    .state-list { display:flex; flex-direction:column; gap:16px; }
+    .state-item { border-top:1px solid var(--border); padding-top:14px; }
+    .state-item:first-child { border-top:0; padding-top:0; }
+    .state-item strong { display:block; font-size:15px; color:var(--text); margin-bottom:4px; }
+    .state-item p { font-size:14px; color:var(--muted); margin:0; line-height:1.5; }
+    /* ─── STEPS ─── */
+    .step-card { position:relative; }
+    .step-num {
+      width:42px; height:42px; border-radius:50%;
+      background:linear-gradient(135deg,var(--primary),var(--secondary));
+      color:#fff; font-size:16px; font-weight:800;
+      display:flex; align-items:center; justify-content:center; margin-bottom:16px; flex-shrink:0;
+    }
+    .step-time { font-size:11px; font-weight:800; letter-spacing:.12em; text-transform:uppercase; color:var(--accent); margin-bottom:6px; display:block; }
+    /* ─── SELBSTREGULATION ─── */
+    .pillars-layout { display:grid; gap:24px; }
+    .badge-row { display:flex; flex-wrap:wrap; gap:10px; margin-top:20px; }
+    .badge {
+      padding:8px 14px; border-radius:999px; font-size:13px; font-weight:700;
+      background:rgba(11,107,100,0.10); color:var(--primary); border:1px solid rgba(11,107,100,0.18);
+    }
+    .pillar-card {
+      background:linear-gradient(135deg,rgba(11,107,100,0.08),rgba(17,107,155,0.08));
+      border:1px solid rgba(11,107,100,0.14); border-radius:var(--radius-md); padding:24px;
+    }
+    .pillar-card h3 { font-size:19px; font-weight:700; margin-bottom:12px; color:var(--primary); }
+    .pillar-list { display:flex; flex-direction:column; gap:10px; }
+    .pillar-item { display:flex; gap:12px; align-items:flex-start; }
+    .pillar-dot { width:8px; height:8px; border-radius:50%; background:var(--primary); flex-shrink:0; margin-top:7px; }
+    .pillar-item p { margin:0; font-size:14px; color:var(--muted); line-height:1.5; }
+    .pillar-item strong { display:block; font-size:14px; color:var(--text); margin-bottom:2px; }
+    /* ─── SETTINGS ─── */
+    .setting-card { padding:22px; }
+    .setting-icon {
+      width:44px; height:44px; border-radius:12px; margin-bottom:14px;
+      background:linear-gradient(135deg,rgba(11,107,100,0.14),rgba(127,208,195,0.18));
+      display:flex; align-items:center; justify-content:center;
+    }
+    .setting-icon svg { width:22px; height:22px; stroke:var(--primary); }
+    /* ─── PREISE ─── */
+    .pricing-grid { display:grid; gap:18px; }
+    .price-card { padding:28px 24px; }
+    .price-card.featured {
+      background:linear-gradient(135deg,rgba(11,107,100,0.13),rgba(127,208,195,0.12));
+      border-color:rgba(11,107,100,0.22);
+    }
+    .price-tag { font-size:13px; font-weight:800; letter-spacing:.1em; text-transform:uppercase; color:var(--secondary); margin-bottom:8px; display:block; }
+    .price-amount { font-size:52px; font-weight:800; color:var(--primary); line-height:1; margin-bottom:4px; }
+    .price-amount sup { font-size:22px; font-weight:800; vertical-align:super; }
+    .price-sub { font-size:14px; color:var(--muted); }
+    .price-social {
+      margin-top:24px; padding:22px 24px; border-radius:var(--radius-md);
+      background:rgba(255,255,255,0.60); border:1px solid var(--border);
+    }
+    .price-social strong { display:block; font-size:16px; color:var(--text); margin-bottom:8px; }
+    .price-social p { font-size:14px; color:var(--muted); }
+    /* ─── ABOUT ─── */
+    .about-layout { display:grid; gap:28px; }
+    .about-portrait {
+      border-radius:var(--radius-md); overflow:hidden; aspect-ratio:3/4;
+      background:linear-gradient(160deg,rgba(11,107,100,0.14),rgba(17,107,155,0.12));
+      display:flex; align-items:center; justify-content:center;
+    }
+    .about-portrait img { width:100%; height:100%; object-fit:cover; }
+    .about-portrait-placeholder {
+      display:flex; flex-direction:column; align-items:center; gap:12px;
+      color:var(--primary); opacity:.45; padding:28px; text-align:center;
+    }
+    .about-portrait-placeholder svg { width:64px; height:64px; }
+    .about-portrait-placeholder span { font-size:13px; font-weight:600; }
+    .cred-list { display:flex; flex-direction:column; gap:12px; margin:20px 0; }
+    .cred-item { display:flex; gap:12px; align-items:flex-start; }
+    .cred-dot { width:8px; height:8px; border-radius:50%; background:var(--primary); flex-shrink:0; margin-top:7px; }
+    .cred-item span { font-size:15px; color:var(--text); line-height:1.4; }
+    /* ─── COMING SOON ─── */
+    .coming-soon-box {
+      background:linear-gradient(135deg,rgba(211,175,55,0.08),rgba(11,107,100,0.06));
+      border:1px dashed rgba(211,175,55,0.35); border-radius:var(--radius-md);
+      padding:28px 24px; display:flex; flex-wrap:wrap; gap:16px; align-items:center;
+    }
+    .coming-soon-box .cs-label {
+      padding:5px 12px; border-radius:999px; background:rgba(211,175,55,0.14);
+      color:#806900; font-size:12px; font-weight:800; letter-spacing:.1em; text-transform:uppercase;
+    }
+    /* ─── KONTAKT ─── */
+    .contact-shell {
+      background:linear-gradient(165deg,rgba(11,107,100,0.08),rgba(17,107,155,0.08),rgba(255,255,255,0.90));
+      border:1px solid var(--border); border-radius:var(--radius-lg); padding:36px 28px;
+      box-shadow:var(--shadow-md);
+    }
+    .form-grid { display:grid; gap:16px; }
+    .form-grid label { display:flex; flex-direction:column; gap:6px; font-size:14px; font-weight:700; color:var(--text); }
+    .form-grid input,.form-grid select,.form-grid textarea {
+      width:100%; min-height:48px; border-radius:14px; border:1px solid var(--border);
+      background:rgba(255,255,255,0.90); padding:12px 14px; font:inherit; color:var(--text);
+      font-size:15px; transition:border-color .2s,box-shadow .2s;
+    }
+    .form-grid input:focus,.form-grid select:focus,.form-grid textarea:focus {
+      outline:none; border-color:var(--primary); box-shadow:0 0 0 3px rgba(11,107,100,0.12);
+    }
+    .form-grid textarea { min-height:120px; resize:vertical; }
+    .form-footer { display:flex; flex-wrap:wrap; gap:16px; align-items:center; justify-content:space-between; margin-top:20px; }
+    .btn-submit {
+      min-height:52px; padding:0 32px; border-radius:999px;
+      background:linear-gradient(135deg,var(--primary),var(--secondary));
+      color:#fff; font-size:16px; font-weight:800; border:none; cursor:pointer;
+      box-shadow:0 10px 28px rgba(11,107,100,0.28); transition:opacity .2s,transform .2s;
+    }
+    .btn-submit:hover { opacity:.88; transform:translateY(-2px); }
+    .contact-alt { display:flex; flex-wrap:wrap; gap:14px; margin-top:28px; }
+    .contact-alt a {
+      display:inline-flex; align-items:center; gap:8px; padding:11px 18px; border-radius:999px;
+      background:rgba(255,255,255,0.80); border:1px solid var(--border);
+      font-size:14px; font-weight:700; color:var(--text); box-shadow:var(--shadow-sm); transition:background .2s;
+    }
+    .contact-alt a:hover { background:#fff; }
+    .contact-alt svg { width:18px; height:18px; flex-shrink:0; }
+    /* ─── FOOTER ─── */
+    .site-footer { padding:36px 0 48px; border-top:1px solid var(--border); color:var(--muted); font-size:14px; }
+    .footer-inner { display:flex; flex-wrap:wrap; gap:16px; justify-content:space-between; align-items:center; }
+    .footer-links { display:flex; gap:20px; flex-wrap:wrap; }
+    .footer-links a { color:var(--muted); font-weight:600; transition:color .2s; }
+    .footer-links a:hover { color:var(--primary); }
+    /* ─── IMPRESSUM ─── */
+    .impressum-box { margin-top:48px; padding-top:36px; border-top:1px solid var(--border); }
+    .impressum-box h3 { font-size:20px; font-weight:700; margin-bottom:16px; }
+    .impressum-box p,.impressum-box address { font-size:14px; color:var(--muted); line-height:1.7; font-style:normal; margin-bottom:8px; }
+    /* ─── RESPONSIVE ─── */
+    @media (min-width:640px) {
+      .form-grid { grid-template-columns:repeat(2,minmax(0,1fr)); }
+      .form-grid .full { grid-column:1/-1; }
+    }
+    @media (min-width:700px) {
+      .grid-2 { grid-template-columns:repeat(2,1fr); }
+      .pricing-grid { grid-template-columns:1fr 1fr; }
+    }
+    @media (min-width:840px) {
+      .wirkung-grid { grid-template-columns:1fr auto 1fr; align-items:start; }
+      .pillars-layout { grid-template-columns:1.2fr 0.8fr; align-items:center; }
+      .about-layout { grid-template-columns:0.55fr 1fr; align-items:start; }
+    }
+    @media (min-width:960px) {
+      .nav-links { display:flex; }
+      .grid-3 { grid-template-columns:repeat(3,1fr); }
+    }
+    @media (max-width:600px) {
+      .hero-card { display:none; }
+      .profile-chip-info span:last-child { display:none; }
+    }
+
+    /* ─── PROGRESS BAR ─── */
+    #progress-bar {
+      position:fixed; top:0; left:0; z-index:200; height:3px; width:0%;
+      background:linear-gradient(90deg,#0b7e74,#1278b8,#3ecabb);
+      transition:width .12s linear; pointer-events:none;
+    }
+    /* ─── THEME TOGGLE ─── */
+    .theme-toggle {
+      width:40px; height:40px; border-radius:50%;
+      border:1px solid var(--border); background:var(--surface-2);
+      cursor:pointer; display:inline-flex; align-items:center;
+      justify-content:center; flex-shrink:0; padding:0;
+      transition:background .25s,border-color .25s;
+    }
+    .theme-toggle svg { width:18px; height:18px; stroke:var(--muted); fill:none; stroke-width:1.8; stroke-linecap:round; stroke-linejoin:round; transition:stroke .25s; }
+    .theme-toggle:hover svg { stroke:var(--primary); }
+    .theme-toggle .icon-sun  { display:none; }
+    .theme-toggle .icon-moon { display:block; }
+    html[data-theme="dark"] .theme-toggle .icon-sun  { display:block; }
+    html[data-theme="dark"] .theme-toggle .icon-moon { display:none; }
+    /* ─── MODALITY CHIPS (Hero) ─── */
+    .modality-row { display:flex; flex-wrap:wrap; gap:9px; margin-top:16px; }
+    .mod-chip {
+      display:inline-flex; align-items:center; gap:7px; padding:7px 13px 7px 9px;
+      border-radius:99px; background:rgba(255,255,255,0.12);
+      border:1px solid rgba(255,255,255,0.22); font-size:12px; font-weight:700;
+      color:rgba(255,255,255,0.88); backdrop-filter:blur(6px); letter-spacing:.01em;
+    }
+    .mod-em { font-size:15px; line-height:1; }
+    @media (max-height:520px) {
+      .modality-row { gap:6px; }
+      .mod-chip { font-size:11px; padding:6px 11px 6px 8px; }
+      .mod-em { font-size:13px; }
+    }
+    @media (max-height:420px) {
+      .modality-row { gap:5px; }
+      .mod-chip { font-size:10px; padding:5px 9px 5px 7px; }
+      .mod-em { font-size:12px; }
+    }
+    /* ─── STATE ITEM ICONS ─── */
+    .state-item { display:flex; gap:12px; align-items:flex-start; border-top:1px solid var(--border); padding-top:14px; }
+    .state-item:first-child { border-top:0; padding-top:0; }
+    .si-icon {
+      width:34px; height:34px; border-radius:10px; display:flex;
+      align-items:center; justify-content:center; font-size:16px; flex-shrink:0; margin-top:1px;
+    }
+    .panel-problem .si-icon { background:rgba(200,50,50,0.08); }
+    .panel-solution .si-icon { background:rgba(11,126,116,0.10); }
+    .si-body { flex:1; }
+    .si-body strong { display:block; font-size:15px; color:var(--text); margin-bottom:4px; }
+    .si-body p { font-size:14px; color:var(--muted); margin:0; line-height:1.5; }
+    /* ─── MOTION PATH (Ansatz) ─── */
+    .flow-viz { margin:0 0 28px; overflow:visible; }
+    #flow-svg { width:100%; height:52px; overflow:visible; display:block; }
+    #flow-dot { filter:drop-shadow(0 0 5px rgba(11,126,116,.55)); }
+    .flow-labels { display:flex; justify-content:space-between; margin-top:0; padding:0 4px; }
+    .flow-labels span { font-size:10px; font-weight:800; letter-spacing:.1em; text-transform:uppercase; color:var(--muted); }
+    /* ─── DARK MODE ─── */
+    html[data-theme="dark"] {
+      --bg:#071812; --surface:#0c2820; --surface-2:rgba(12,42,32,0.90);
+      --border:rgba(62,202,187,0.18); --text:#d8f2ea; --muted:#68b8a8;
+      --primary:#3ecabb; --secondary:#4cb4e8; --accent:#3ecabb;
+      --accent-warm:#e8cb62; --hero-dark:#030a07;
+    }
+    html[data-theme="dark"] body {
+      background:
+        radial-gradient(circle at 8% 2%,rgba(62,202,187,0.09) 0%,transparent 24%),
+        radial-gradient(circle at 94% 6%,rgba(76,180,232,0.08) 0%,transparent 26%),
+        linear-gradient(180deg,#0c2218 0%,#071812 60%,#051410 100%);
+    }
+    html[data-theme="dark"] .site-header { background:rgba(7,24,18,0.90); border-bottom-color:rgba(62,202,187,0.14); }
+    html[data-theme="dark"] .card { background:rgba(12,42,32,0.88); border-color:rgba(62,202,187,0.15); }
+    html[data-theme="dark"] .section-contrast {
+      background:
+        url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='240' height='40' viewBox='0 0 240 40'%3E%3Cpath d='M0,20 L38,20 L42,20 L46,6 L50,34 L54,6 L58,20 L66,20 L78,20 L82,20 L86,6 L90,34 L94,6 L98,20 L106,20 L118,20 L122,20 L126,6 L130,34 L134,6 L138,20 L146,20 L158,20 L162,20 L166,6 L170,34 L174,6 L178,20 L186,20 L198,20 L202,20 L206,6 L210,34 L214,6 L218,20 L226,20 L240,20' fill='none' stroke='%233ecabb' stroke-width='1' opacity='0.08'/%3E%3C/svg%3E") repeat,
+        radial-gradient(circle at 92% 8%,rgba(76,180,232,0.08) 0%,transparent 30%),
+        linear-gradient(180deg,rgba(62,202,187,0.07) 0%,rgba(62,202,187,0.03) 100%);
+      background-size: 60px 10px, auto, auto;
+      border-block-color:rgba(62,202,187,0.12);
+    }
+    html[data-theme="dark"] .pillar-card { background:linear-gradient(135deg,rgba(62,202,187,0.10),rgba(76,180,232,0.10)); border-color:rgba(62,202,187,0.20); }
+    html[data-theme="dark"] .badge { background:rgba(62,202,187,0.12); color:var(--primary); border-color:rgba(62,202,187,0.22); }
+    html[data-theme="dark"] .profile-chip { background:rgba(12,42,32,0.92); border-color:rgba(62,202,187,0.25); }
+    html[data-theme="dark"] .profile-chip-info strong { color:var(--text); }
+    html[data-theme="dark"] .hero-card { background:rgba(12,42,32,0.90); border-color:rgba(62,202,187,0.20); }
+    html[data-theme="dark"] .hero-card strong { color:var(--accent); }
+    html[data-theme="dark"] .hero-card p { color:var(--muted); }
+    html[data-theme="dark"] .price-card.featured { background:linear-gradient(135deg,rgba(62,202,187,0.14),rgba(76,180,232,0.12)); border-color:rgba(62,202,187,0.30); }
+    html[data-theme="dark"] .price-social { background:rgba(12,42,32,0.72); border-color:rgba(62,202,187,0.18); }
+    html[data-theme="dark"] .coming-soon-box { background:linear-gradient(135deg,rgba(232,203,98,0.06),rgba(62,202,187,0.05)); border-color:rgba(232,203,98,0.28); }
+    html[data-theme="dark"] .contact-shell { background:linear-gradient(165deg,rgba(62,202,187,0.06),rgba(76,180,232,0.06),rgba(12,42,32,0.92)); border-color:rgba(62,202,187,0.18); }
+    html[data-theme="dark"] .form-grid input,
+    html[data-theme="dark"] .form-grid select,
+    html[data-theme="dark"] .form-grid textarea { background:rgba(12,42,32,0.88); color:var(--text); border-color:rgba(62,202,187,0.22); }
+    html[data-theme="dark"] .form-grid input:focus,
+    html[data-theme="dark"] .form-grid select:focus,
+    html[data-theme="dark"] .form-grid textarea:focus { border-color:var(--primary); box-shadow:0 0 0 3px rgba(62,202,187,0.15); }
+    html[data-theme="dark"] .contact-alt a { background:rgba(12,42,32,0.80); color:var(--text); border-color:rgba(62,202,187,0.20); }
+    html[data-theme="dark"] .site-footer { border-top-color:rgba(62,202,187,0.18); }
+    html[data-theme="dark"] .impressum-box { border-top-color:rgba(62,202,187,0.14); }
+    html[data-theme="dark"] .panel-problem { background:rgba(12,42,32,0.88); }
+    html[data-theme="dark"] .panel-problem .si-icon { background:rgba(220,60,60,0.10); }
+    html[data-theme="dark"] .panel-solution .si-icon { background:rgba(62,202,187,0.12); }
+    html[data-theme="dark"] .mod-chip { background:rgba(255,255,255,0.08); border-color:rgba(255,255,255,0.16); }
+    html[data-theme="dark"] #flow-path { stroke:rgba(62,202,187,0.30); }
+    html[data-theme="dark"] #flow-dot { fill:#3ecabb; }
+    html[data-theme="dark"] .nav-cta { box-shadow:0 8px 24px rgba(62,202,187,0.22); }
+    html[data-theme="dark"] .hero-nav-cta { background:rgba(12,42,32,0.90); color:var(--accent); }
+    html[data-theme="dark"] .btn-submit { box-shadow:0 10px 28px rgba(62,202,187,0.22); }
+    /* ─── CV TIMELINE ─── */
+    .cv-block { margin:20px 0; }
+    .cv-section-title { font-size:11px; font-weight:800; letter-spacing:.12em; text-transform:uppercase; color:var(--muted); margin:20px 0 8px; padding-bottom:6px; border-bottom:1px solid var(--border); }
+    .cv-section-title:first-child { margin-top:0; }
+    .cv-entry { display:grid; grid-template-columns:88px 1fr; gap:12px; padding:11px 0; border-top:1px solid var(--border); }
+    .cv-entry:first-of-type { border-top:0; padding-top:0; }
+    .cv-period { font-size:11px; font-weight:700; color:var(--muted); line-height:1.45; padding-top:3px; }
+    .cv-role { font-size:14px; font-weight:700; color:var(--text); display:block; }
+    .cv-org { font-size:13px; color:var(--primary); font-weight:600; display:block; margin-bottom:2px; }
+    .cv-tags { font-size:12px; color:var(--muted); }
+    /* ─── CREDENTIAL TAGS ─── */
+    .cred-tags { display:flex; flex-direction:column; gap:10px; margin:20px 0; }
+    .cred-tag { padding:10px 18px; border-radius:12px; font-size:13px; font-weight:700; background:rgba(11,126,116,0.08); color:var(--primary); border:1px solid rgba(11,126,116,0.18); line-height:1.3; }
+    .cred-tag--degree { background:linear-gradient(135deg,rgba(11,126,116,0.12),rgba(17,120,184,0.12)); border-color:rgba(11,126,116,0.25); font-size:12px; }
+    html[data-theme="dark"] .cred-tag { background:rgba(62,202,187,0.10); color:var(--accent); border-color:rgba(62,202,187,0.22); }
+    html[data-theme="dark"] .cred-tag--degree { background:rgba(62,202,187,0.14); }
+    /* ─── IMPRESSUM COLLAPSIBLE ─── */
+    details.impressum-box summary {
+      list-style:none; cursor:pointer; display:flex; align-items:center; justify-content:space-between;
+      font-size:20px; font-weight:700; padding:0;
+    }
+    details.impressum-box summary::-webkit-details-marker { display:none; }
+    details.impressum-box summary::after { content:"▾"; font-size:16px; color:var(--muted); transition:transform .25s; }
+    details.impressum-box[open] summary::after { transform:rotate(180deg); }
+    .impressum-content { padding-top:16px; }
+    /* ─── MOBILE REFINEMENTS ─── */
+    @media (max-width:480px) {
+      .hero-shell { min-height:580px; border-radius:26px; }
+      .hero-inner { min-height:580px; }
+      .hero-copy { padding-top:130px; }
+      .hero-h1 { font-size:clamp(44px,12vw,68px); }
+      .hero-lead { font-size:15px; }
+      .about-portrait { aspect-ratio:4/3; }
+      .cv-entry { grid-template-columns:72px 1fr; gap:8px; }
+    }
+    @media (max-width:380px) {
+      .profile-chip { padding:8px 12px; }
+      .profile-chip-info strong { font-size:13px; }
+      .profile-chip-info span { font-size:10px; }
+    }
+    /* ─── NAV CTA SHORT TEXT ─── */
+    .nav-cta-long { display:inline; }
+    .nav-cta-short { display:none; }
+    @media (max-width:500px) {
+      .nav-cta-long { display:none; }
+      .nav-cta-short { display:inline; }
+      .nav-cta { padding:0 14px; font-size:13px; min-height:38px; }
+    }
+    /* ─── HAMBURGER ─── */
+    .hamburger {
+      display:flex; flex-direction:column; justify-content:center; gap:5px;
+      background:none; border:none; cursor:pointer; padding:8px; flex-shrink:0;
+      -webkit-tap-highlight-color:transparent;
+    }
+    .hamburger span {
+      display:block; width:22px; height:2px; background:var(--text);
+      border-radius:2px; transition:transform .28s ease, opacity .2s ease;
+    }
+    .hamburger[aria-expanded="true"] span:nth-child(1) { transform:rotate(45deg) translate(5px,5px); }
+    .hamburger[aria-expanded="true"] span:nth-child(2) { opacity:0; }
+    .hamburger[aria-expanded="true"] span:nth-child(3) { transform:rotate(-45deg) translate(5px,-5px); }
+    @media (min-width:960px) { .hamburger { display:none; } }
+    /* ─── MOBILE NAV ─── */
+    .mobile-nav {
+      position:fixed; top:69px; left:0; right:0; bottom:0; z-index:38;
+      background:var(--surface); overflow-y:auto; overflow-x:hidden;
+      padding-top:10px;
+      transform:translateX(100%); transition:transform .3s cubic-bezier(.4,0,.2,1);
+      display:flex; flex-direction:column;
+      border-top:1px solid var(--border);
+      -webkit-overflow-scrolling:touch;
+    }
+    .mobile-nav.is-open { transform:translateX(0); }
+    body.nav-open { overflow:hidden; }
+    .mobile-nav a {
+      display:flex; align-items:center; padding:17px 24px;
+      font-size:17px; font-weight:700; color:var(--text);
+      border-bottom:1px solid var(--border);
+      transition:color .2s, background .2s;
+      -webkit-tap-highlight-color:transparent;
+    }
+    .mobile-nav a:hover, .mobile-nav a:active { color:var(--primary); background:rgba(11,107,100,0.04); }
+    .mobile-nav .mob-cta {
+      margin:20px 24px 36px; min-height:52px; border-radius:999px;
+      background:linear-gradient(135deg,var(--primary),var(--secondary));
+      color:#fff !important; font-weight:800; font-size:16px;
+      justify-content:center; border-bottom:none;
+    }
+    html[data-theme="dark"] .mobile-nav { background:var(--surface); }
+    @media (min-width:960px) { .mobile-nav { display:none !important; } }
+    /* ─── WIRKUNG ARROW MOBILE ─── */
+    @media (max-width:639px) {
+      .wirkung-arrow { padding:2px 0; }
+      .wirkung-arrow svg { transform:rotate(90deg); width:36px; height:36px; }
+    }
+    /* ─── HERO MOBILE ─── */
+    @media (max-width:639px) {
+      .profile-chip { display:none; }  /* Steckbrief-Block auf Mobile ausblenden */
+    }
+    @media (max-width:420px) {
+      .hero-h1 { font-size:clamp(40px,11.5vw,60px); }
+      .hero-inner { padding:16px; }
+      .hero-shell { border-radius:22px; }
+      .hero-top { top:16px; right:16px; }
+    }
+    /* ─── CARD / FORM MOBILE ─── */
+    @media (max-width:480px) {
+      .card { padding:18px 16px; }
+      .price-card { padding:22px 18px; }
+      .contact-shell { padding:24px 16px; }
+      .price-amount { font-size:44px; }
+      .coming-soon-box { padding:22px 16px; }
+    }
+    /* ─── TESTIMONIALS ─── */
+    .testimonial-outer {
+      overflow:hidden; border-radius:var(--radius-lg);
+      box-shadow:var(--shadow-md); border:1px solid var(--border);
+    }
+    .testimonial-track {
+      display:flex;
+      transition:transform .45s cubic-bezier(.4,0,.2,1);
+      will-change:transform;
+    }
+    .testimonial-slide {
+      flex:0 0 100%; width:100%; min-width:0;
+      padding:40px 40px 36px;
+      background:var(--surface-2);
+      overflow-wrap:anywhere; word-break:break-word;
+    }
+    html[data-theme="dark"] .testimonial-slide { background:rgba(12,42,32,0.88); }
+    .t-quote {
+      font-family:var(--font-disp); font-size:96px; line-height:.55;
+      color:var(--primary); opacity:.22; user-select:none; margin-bottom:8px;
+    }
+    .t-text {
+      font-size:clamp(15px,1.9vw,18px); line-height:1.72; color:var(--text);
+      font-style:normal; max-width:74ch; margin-bottom:28px;
+    }
+    .t-author { display:flex; align-items:center; gap:14px; }
+    .t-avatar {
+      width:46px; height:46px; border-radius:50%; flex-shrink:0;
+      background:linear-gradient(135deg,var(--primary),var(--secondary));
+      color:#fff; font-size:12px; font-weight:800;
+      display:flex; align-items:center; justify-content:center;
+      letter-spacing:.03em;
+    }
+    .t-author-info strong { display:block; font-size:14px; font-weight:800; color:var(--text); }
+    .t-author-info span   { font-size:13px; color:var(--muted); }
+    .t-controls {
+      display:flex; align-items:center; justify-content:space-between;
+      margin-top:20px; padding:0 4px;
+    }
+    .t-arrow {
+      width:46px; height:46px; border-radius:50%;
+      border:1px solid var(--border); background:var(--surface-2);
+      cursor:pointer; display:flex; align-items:center; justify-content:center;
+      transition:background .2s, border-color .2s, transform .15s;
+      -webkit-tap-highlight-color:transparent; flex-shrink:0;
+    }
+    .t-arrow:hover  { background:var(--primary); border-color:var(--primary); }
+    .t-arrow:hover svg { stroke:#fff; }
+    .t-arrow:active { transform:scale(.91); }
+    .t-arrow svg { width:20px; height:20px; stroke:var(--muted); fill:none; stroke-width:2.2; stroke-linecap:round; stroke-linejoin:round";transition:stroke .2s; }
+    html[data-theme="dark"] .t-arrow { background:rgba(12,42,32,0.80); }
+    .t-dots { display:flex; gap:9px; align-items:center; }
+    .t-dot {
+      width:9px; height:9px; border-radius:50%; border:none; cursor:pointer; padding:0;
+      background:rgba(11,107,100,0.25); transition:background .25s, transform .25s;
+      -webkit-tap-highlight-color:transparent;
+    }
+    .t-dot.active { background:var(--primary); transform:scale(1.35); }
+    html[data-theme="dark"] .t-dot { background:rgba(62,202,187,0.25); }
+    html[data-theme="dark"] .t-dot.active { background:var(--primary); }
+    .t-inner { max-width:min(700px,100%); margin-inline:auto; }
+    @media (max-width:480px) {
+      .testimonial-slide { padding:20px 12px 16px; }
+      .t-inner { max-width:calc(100% - 4px); }
+      .t-quote { font-size:64px; }
+      .t-text  { font-size:14px; }
+    }
+    @media (max-width:360px) {
+      .testimonial-slide { padding:16px 8px 12px; }
+      .t-inner { max-width:calc(100% - 2px); }
+    }
+  </style>
+</head>
+<body>
+  <div id="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" aria-label="Seitenfortschritt"></div>
+
+  <!-- ═══════════════════════════════ HEADER ═══════════════════════════════ -->
+  <header class="site-header">
+    <div class="container nav">
+      <a class="brand" href="#top" aria-label="Startseite">
+        <span class="brand-name">achten.pro</span>
+        <span class="brand-sub">Körper-Geist Training · München</span>
+      </a>
+      <nav class="nav-links" aria-label="Hauptnavigation">
+        <a href="#wirkung">Wirkung</a>
+        <a href="#ansatz">Ansatz</a>
+        <a href="#angebot">Angebot</a>
+        <a href="/playfight">Playfight</a>
+        <a href="#preise">Preise</a>
+        <a href="#kontakt">Kontakt</a>
+      </nav>
+      <a class="nav-cta" href="#kontakt">
+        <span class="nav-cta-long">Kennenlerngespräch</span>
+        <span class="nav-cta-short">Anfragen</span>
+      </a>
+      <button class="theme-toggle" id="theme-toggle" aria-label="Dark/Light Mode wechseln">
+        <svg class="icon-moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+        <svg class="icon-sun"  viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
+      </button>
+      <button class="hamburger" id="hamburger" aria-label="Menü öffnen" aria-expanded="false" aria-controls="mobile-nav">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+  <nav class="mobile-nav" id="mobile-nav" aria-label="Mobile Navigation" aria-hidden="true">
+    <a href="#wirkung">Wirkung</a>
+    <a href="#ansatz">Ansatz</a>
+    <a href="#angebot">Angebot</a>
+    <a href="/playfight">Playfight</a>
+    <a href="#preise">Preise</a>
+    <a href="#about">Über mich</a>
+    <a href="#kontakt" class="mob-cta">Kennenlerngespräch anfragen</a>
+  </nav>
+
+  <main id="top">
+
+    <!-- ═══════════════════════════════ HERO ═══════════════════════════════ -->
+    <section class="hero" aria-label="Hauptbereich">
+      <div class="container">
+        <div class="hero-shell">
+          <div class="hero-bg" aria-hidden="true">
+            <img
+              src="assets/images/Training Outdoor 1.jpg"
+              alt="Philipp Wiert beim Training im Freien – Körper-Geist Personal Trainer München"
+              width="1600" height="900" loading="eager" style="object-position:15% 10%;"
+            />
+          </div>
+          <div class="hero-top">
+            <a class="hero-nav-cta" href="#kontakt">Anfragen</a>
+            <div class="profile-chip">
+              <img
+                src="assets/images/von_vorne_richtig_geschnitten.jpg"
+                alt="Philipp Wiertelorz – Körper-Geist Personal Trainer München"
+                class="profile-chip-img"
+                width="130" height="130"
+                onerror="this.style.display='none'"
+              />
+              <div class="profile-chip-info">
+                <strong>Philipp Wiertelorz</strong>
+                <span>M.Sc. Sportpsychologie</span>
+                <span>B.Sc. Sportwissenschaft</span>
+                <span>Körper-Geist Personal Training</span>
+              </div>
+            </div>
+          </div>
+          <div class="hero-inner">
+            <div class="hero-copy">
+              <span class="hero-eyebrow">Dein achten.pro – Körper-Geist Personal Training · München</span>
+              <h1 class="hero-h1">Aus der Ruhe<br>in deine <em>Kraft</em>.</h1>
+              <p class="hero-lead">
+                Training für Körper, Geist und Nervensystem. Kraft, Mobilität und Koordination
+                als Fundament – Selbstregulation als roter Faden. Damit du lernst, deinen
+                inneren Zustand aktiv zu gestalten: zwischen voller Leistung und echter Ruhe.
+              </p>
+              <div class="hero-actions">
+                <a class="btn-primary" href="#kontakt">Kennenlerngespräch anfragen</a>
+                <a class="btn-ghost" href="#ansatz">Wie ich arbeite</a>
+              </div>
+              <div class="hero-badges" role="list">
+                <span role="listitem">1:1 &amp; 1:2 in Sendling</span>
+                <span role="listitem">Isar, Outdoor &amp; Private Gym</span>
+                <span role="listitem">Bei dir zu Hause</span>
+                <span role="listitem">Wenige exklusive Klient:innen</span>
+              </div>
+              <div class="modality-row" role="list" aria-label="Trainingsformen">
+                <span class="mod-chip" role="listitem"><span class="mod-em">🏋️</span> Krafttraining</span>
+                <span class="mod-chip" role="listitem"><span class="mod-em">🧘</span> Yoga</span>
+                <span class="mod-chip" role="listitem"><span class="mod-em">🔄</span> Mobilität</span>
+                <span class="mod-chip" role="listitem"><span class="mod-em">🏃</span> Joggen</span>
+                <span class="mod-chip" role="listitem"><span class="mod-em">🏊</span> Schwimmen</span>
+              </div>
+            </div>
+          </div>
+          <div class="hero-card" aria-hidden="true">
+            <strong>Draußen. Bei jedem Wetter.</strong>
+            <p>Regenkleidung an, Fokus auf die Übung. Wer sein Training den Bedingungen anpasst, trainiert echter – und konsequenter.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ════════════════════════════ WIRKUNG ════════════════════════════ -->
+    <section id="wirkung" class="section-contrast">
+      <div class="container">
+        <div class="section-head">
+          <span class="kicker">Problem → Richtung</span>
+          <h2>Was gerade zu viel ist –<br>und worauf wir hinarbeiten.</h2>
+          <p>Zustände, die viele Menschen aus ihrem Alltag kennen – und Zielzustände, auf die wir körperlich und nervensystemisch hinarbeiten.</p>
+        </div>
+        <div class="wirkung-grid">
+          <article class="card panel-problem">
+            <span class="panel-label">Trifft gerade einiges davon auf dich zu?</span>
+            <div class="state-list">
+              <div class="state-item"><div class="si-icon">⚡</div><div class="si-body"><strong>Kurze Zündschnur.</strong><p>Du bist schnell oben, aber nur schwer wieder unten. Kleinigkeiten reichen, um dich hochzufahren.</p></div></div>
+              <div class="state-item"><div class="si-icon">🔄</div><div class="si-body"><strong>Wirbelnder Kopf.</strong><p>Gedanken kreisen, dein System sendet dauerhaft, und selbst abends wird es innen nicht richtig still.</p></div></div>
+              <div class="state-item"><div class="si-icon">💢</div><div class="si-body"><strong>Verspannter Körper.</strong><p>Schultern oben, Brustkorb eng, Atem flach, Zwerchfell wie blockiert – Spannung sitzt im System fest.</p></div></div>
+              <div class="state-item"><div class="si-icon">🔋</div><div class="si-body"><strong>Wenig echte Reserven.</strong><p>Du funktionierst, aber eher auf Abruf. Schlaf ist okay-ish, Erholung fühlt sich trotzdem unvollständig an.</p></div></div>
+              <div class="state-item"><div class="si-icon">🎯</div><div class="si-body"><strong>Nicht alle Sinne beisammen.</strong><p>Mehr Dauer-Alarm als geerdete Präsenz. Fokus, Ruhe und Balance kippen schneller weg, als dir lieb ist.</p></div></div>
+            </div>
+          </article>
+          <div class="wirkung-arrow" aria-hidden="true">
+            <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+              <line x1="6" y1="24" x2="40" y2="24"/>
+              <polyline points="28,12 42,24 28,36"/>
+            </svg>
+          </div>
+          <article class="card panel-solution">
+            <span class="panel-label">Darauf arbeiten wir hin</span>
+            <div class="state-list">
+              <div class="state-item"><div class="si-icon">�</div><div class="si-body"><strong>Entspannung im Körper.</strong><p>Weicherer Atem, weniger Daueranspannung, mehr Beweglichkeit im Brustkorb, im Zwerchfell und im ganzen Rumpf.</p></div></div>
+              <div class="state-item"><div class="si-icon">🌿</div><div class="si-body"><strong>Ruhe im Kopf.</strong><p>Weniger Gedankenkreisen, klarere Entscheidungen, mehr innere Stille im richtigen Moment.</p></div></div>
+              <div class="state-item"><div class="si-icon">💨</div><div class="si-body"><strong>Mehr Luft und Leichtigkeit.</strong><p>Weniger innerer Druck, mehr Energie für das, was dir wirklich wichtig ist.</p></div></div>
+              <div class="state-item"><div class="si-icon">⚡</div><div class="si-body"><strong>Ein flexibles Nervensystem.</strong><p>Fähig zu absoluter Ruhe, Stille und Regeneration – und genauso zu explosiver, langanhaltender Energie.</p></div></div>
+              <div class="state-item"><div class="si-icon">🎯</div><div class="si-body"><strong>Mehr Balance und Präsenz.</strong><p>Alle Sinne beisammen. Geerdet im Körper, klar im Geist, stabil in Bewegung und Alltag.</p></div></div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ════════════════════════════ ANSATZ ════════════════════════════ -->
+    <section id="ansatz">
+      <div class="container">
+        <div class="section-head">
+          <span class="kicker">Ansatz</span>
+          <h2>Gesunder Körper. Klarer Geist.<br>Selbstregulation, die du wirklich anwenden kannst.</h2>
+          <p>Kraft, Balance, Koordination und Regulation verbinden sich zu einem Training, das dich körperlich stärkt und innerlich stabiler macht. Du lernst, deinen eigenen Zustand aktiv zu gestalten – zwischen voller Leistung und echter Ruhe.</p>
+        </div>
+        <!-- ─ Session-Flow ─ -->
+        <div class="flow-viz" aria-hidden="true">
+          <svg id="flow-svg" viewBox="0 0 900 52" preserveAspectRatio="xMidYMid meet">
+            <path id="flow-path"
+                  d="M 0,36 C 60,14 130,46 200,30 C 270,14 340,46 450,30 C 560,14 630,46 700,30 C 770,14 840,44 900,28"
+                  fill="none" stroke="rgba(11,126,116,0.28)" stroke-width="2.5"
+                  stroke-dasharray="10 7" stroke-linecap="round"/>
+            <circle r="7" fill="#0b7e74" filter="url(#glow-dot)">
+              <animateMotion dur="5s" repeatCount="indefinite"
+                             keyTimes="0;0.5;1" calcMode="spline"
+                             keySplines="0.42 0 0.58 1;0.42 0 0.58 1">
+                <mpath href="#flow-path"/>
+              </animateMotion>
+            </circle>
+            <defs><filter id="glow-dot" x="-80%" y="-80%" width="260%" height="260%"><feGaussianBlur stdDeviation="2.5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs>
+          </svg>
+          <div class="flow-labels">
+            <span>⏱ Ankommen</span>
+            <span>🏋️ Training</span>
+            <span>🧘 Runterregulieren</span>
+          </div>
+        </div>
+
+        <div class="grid-3">
+          <article class="card step-card">
+            <div class="step-num">1</div>
+            <span class="step-time">15 Min</span>
+            <h3>Ankommen & Beachten</h3>
+            <p>Check-in, Atem, erste Regulation. Gezielte Knorpelaktivierung und dynamisches Warm-up bereiten Gelenke und Gewebe auf Belastung vor – und bringen dich in echten Kontakt mit deinem aktuellen Zustand.</p>
+          </article>
+          <article class="card step-card">
+            <div class="step-num">2</div>
+            <span class="step-time">45 Min</span>
+            <h3>Training</h3>
+            <p>Kraft, Balance, Koordination, Athletik, Bewegungsqualität. So gewählt, dass es dich wirklich fordert – und dabei zu dir passt.</p>
+          </article>
+          <article class="card step-card">
+            <div class="step-num">3</div>
+            <span class="step-time">15 Min</span>
+            <h3>Runterregulieren</h3>
+            <p>Atemarbeit, Stille, Körperwahrnehmung, Yoga-Elemente. Dein System lernt, nach voller Leistung bewusst und zuverlässig zu landen.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ════════════════════════ SELBSTREGULATION ═══════════════════════ -->
+    <section id="selbstregulation" class="section-contrast">
+      <div class="container">
+        <div class="pillars-layout">
+          <div>
+            <span class="kicker">Selbstregulation</span>
+            <h2 style="font-family:var(--font-disp);font-size:clamp(32px,5vw,56px);line-height:.9;letter-spacing:-.03em;margin-bottom:16px;">Du trainierst deinen Körper – und lernst dabei, deinen inneren Zustand aktiv zu beachten und zu gestalten.</h2>
+            <p class="muted" style="max-width:60ch;">
+              Nach Absprache kann Selbstregulation / Training des zentralen Nervensystems in den Fokus rücken.
+              Ebenso Yoga als eigenständiger Trainingsschwerpunkt.
+            </p>
+            <div class="badge-row">
+              <span class="badge">Kraft</span>
+              <span class="badge">Mobilität</span>
+              <span class="badge">Atem</span>
+              <span class="badge">Stille</span>
+              <span class="badge">Nervensystem</span>
+            </div>
+          </div>
+          <div class="pillar-card">
+            <h3>Was das konkret heißt</h3>
+            <p style="color:var(--muted);font-size:14px;margin-bottom:18px;">
+              Mehr Einfluss auf Spannung und Entspannung. Mehr Zugang zu Ruhe im Kopf.
+              Mehr Präsenz im Körper. Du beachtest deinen Zustand aktiv – kennst seinen Rhythmus und gestaltest ihn bewusst, statt dich von ihm mitziehen zu lassen.
+            </p>
+            <div class="pillar-list">
+              <div class="pillar-item"><span class="pillar-dot"></span><div><strong>Körperlich</strong><p>Spannung gezielt aufbauen und wieder lösen</p></div></div>
+              <div class="pillar-item"><span class="pillar-dot"></span><div><strong>Mental</strong><p>Fokus, Klarheit, weniger Reizüberflutung</p></div></div>
+              <div class="pillar-item"><span class="pillar-dot"></span><div><strong>Nervensystem</strong><p>Schneller runterregulieren, weniger Überdrehtsein, bessere Rückkehr in die Ruhe</p></div></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ════════════════════════════ ANGEBOT ════════════════════════════ -->
+    <section id="angebot">
+      <div class="container">
+        <div class="section-head">
+          <span class="kicker">Angebot</span>
+          <h2>So können wir zusammenarbeiten.</h2>
+          <p>Zwei Formate, klar im Aufbau und auf deinen Alltag abgestimmt.</p>
+        </div>
+        <div class="grid-2">
+          <article class="card">
+            <h3>1:1 Körper-Geist Training</h3>
+            <p>Volle Aufmerksamkeit auf dich, dein Ziel und dein Nervensystem. Das Kernangebot – alles andere baut darauf auf.</p>
+          </article>
+          <article class="card">
+            <h3>1:2 Training</h3>
+            <p>Trainiere zusammen mit einem Freund oder einer Freundin – mit gemeinsamer Energie, aber individueller Steuerung für euch beide.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ════════════════════════════ PLAYFIGHT ════════════════════════════ -->
+    <section id="playfight" class="section-contrast" aria-labelledby="playfight-head">
+      <div class="container">
+        <div class="section-head">
+          <span class="kicker">Playfight</span>
+          <h2 id="playfight-head">Kontakt auf Augenhöhe.<br><em>Spielend</em> sicher.</h2>
+          <p>Zuerst anmelden für Updates + Übungen — dann folgt der Guide für zu Hause. Alles auf <a href="/playfight" style="color:var(--primary); font-weight:800;">achten.pro/playfight</a>.</p>
+        </div>
+        <div class="offer-grid">
+          <article class="card offer-card">
+            <h3>Updates + Übungen</h3>
+            <p>Event-Hinweise, einfache Rangeln-Übungen für zu Hause und frühen Zugang zum Guide.</p>
+            <p style="font-size:13px; color:var(--muted); margin-top:8px;">Kurz eintragen, direkt nutzbar. Kein Druck.</p>
+            <a class="btn-primary" href="/playfight#newsletter-form" style="margin-top:18px;">Zur Anmeldung →</a>
+          </article>
+          <article class="card offer-card">
+            <h3>Playfight-Guide</h3>
+            <p>Für Familie/Kinder und für Freunde — strukturiert, konkret, für zu Hause. Aktuell in Vorbereitung.</p>
+            <p style="font-size:13px; color:var(--muted); margin-top:8px;">Trag dich auf der Playfight-Seite ein, dann bekommst du den Startpreis zuerst.</p>
+            <a class="btn-ghost" href="/playfight#newsletter-form" style="margin-top:18px; border:1px solid rgba(255,255,255,0.22); background:rgba(255,255,255,0.08); color:#fff;">Guide-Startpreis sichern →</a>
+            <p style="margin-top:10px; font-size:12px; color:var(--muted);">Voraussichtlicher Start: Launch 19 € / später Standard 29 €</p>
+          </article>
+        </div>
+        <div style="margin-top:18px; padding:16px 20px; border-radius:var(--radius-md); background:linear-gradient(135deg,rgba(209,175,55,0.10),rgba(11,107,100,0.08)); border:1px dashed rgba(209,175,55,0.35); display:inline-flex; align-items:center; gap:12px;">
+          <span style="font-weight:800; color:var(--accent); font-size:14px;">Bundle-Planung:</span>
+          <span style="font-weight:800; font-size:18px; color:var(--text);">19 € + 19 € zusammen 29 €</span>
+          <span style="color:var(--muted); font-size:13px;">Danach Standard 39 € / folgt mit Guide-Release</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ════════════════════════════ ORTE ════════════════════════════ -->
+    <section class="section-contrast">
+      <div class="container">
+        <div class="section-head">
+          <span class="kicker">Orte</span>
+          <h2>Wo wir trainieren.</h2>
+        </div>
+        <div class="grid-2">
+          <article class="card setting-card">
+            <div class="setting-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M3 12c6-8 12-8 18 0"/><path d="M3 12c6 8 12 8 18 0"/><circle cx="12" cy="12" r="3"/>
+              </svg>
+            </div>
+            <h3>Outdoor &amp; Isar</h3>
+            <p>Outdoor-Gym, Isar, Flaucher, frische Luft und Raum. Wenn es zum Ziel und zur Jahreszeit passt, nutzen wir genau das.</p>
+          </article>
+          <article class="card setting-card">
+            <div class="setting-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/>
+                <rect x="3" y="14" width="7" height="7"/><path d="M17 14v7M14 17h7"/>
+              </svg>
+            </div>
+            <h3>Private Gym in Sendling</h3>
+            <p>Klein, ruhig, zwei Räume für max. zwei Personen. Studiogebühr ca. 20–30&nbsp;€ – der Kunde zahlt diese zusätzlich (nur in Ausnahmen teilen wir die Gebühren).</p>
+          </article>
+          <article class="card setting-card">
+            <div class="setting-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/>
+              </svg>
+            </div>
+            <h3>Bei dir zu Hause</h3>
+            <p>Ich komme zu dir. Alle nötigen Trainingsmittel bringe ich mit – du brauchst kein eigenes Equipment.</p>
+          </article>
+          <article class="card setting-card">
+            <div class="setting-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="2" y="3" width="20" height="14" rx="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/>
+              </svg>
+            </div>
+            <h3>Online via Zoom</h3>
+            <p>45 Minuten – auch aus dem Urlaub. Besonders sinnvoll für Regulation, Atem, Stille, Bodyweight. Gleicher Preis wie vor Ort.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ════════════════════════ CHECKS (COMING SOON) ════════════════════════ -->
+    <section>
+      <div class="container">
+        <div class="coming-soon-box">
+          <div style="flex:1;min-width:200px;">
+            <h3 style="font-size:22px;font-weight:700;margin:8px 0 10px;">HRV- &amp; Nervensystem-Check</h3>
+            <p class="muted" style="font-size:14px;max-width:60ch;">
+              Dein Nervensystem hat einen eigenen Rhythmus – und der ist messbar. HRV (Herzratenvariabilität) zeigt, wie flexibel dein System zwischen Anspannung und Erholung wechseln kann. Hoher Wert: freie Bahn. Niedriger Wert: heute bewusst bremsen.
+            </p>
+            <p class="muted" style="font-size:14px;max-width:60ch;margin-top:8px;">
+              Wir messen mit einem Brustgurt (medizinische Genauigkeit, nicht Smartwatch) – als Einstieg oder Ergänzung zu unseren Sessions. Damit wir dich und dein Nervensystem wirklich achten — dich sehen, wo du gerade stehst, und das darauf abstimmen, was dein System in diesem Moment wirklich braucht.
+            </p>
+            <a href="#kontakt" style="display:inline-flex;margin-top:16px;min-height:48px;padding:0 26px;border-radius:999px;background:linear-gradient(135deg,var(--primary),var(--secondary));color:#fff;font-size:14px;font-weight:800;align-items:center;box-shadow:0 8px 24px rgba(11,107,100,0.26);text-decoration:none;">Jetzt anfragen →</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ════════════════════════════ PREISE ════════════════════════════ -->
+    <section id="preise">
+      <div class="container">
+        <div class="section-head">
+          <span class="kicker">Investition</span>
+          <h2>Was eine Session kostet.</h2>
+        </div>
+        <div class="pricing-grid">
+          <article class="card price-card featured">
+            <span class="price-tag">Launch-Phase &middot; Nur 3 Plätze für Q3 2026</span>
+            <div class="price-amount"><sup>&euro;</sup>80</div>
+            <p class="price-sub">pro Session &middot; 1:1 &middot; ca. 60–75 Minuten</p>
+            <p class="price-sub" style="margin-top:14px;font-size:13px;color:var(--secondary);font-weight:700;">
+              1:2 Duo: <span style="font-size:16px;font-weight:800;">&euro;60</span> pro Person &middot; &euro;120 gesamt
+            </p>
+          </article>
+          <article class="card price-card">
+            <span class="price-tag">Regulär</span>
+            <div class="price-amount"><sup>&euro;</sup>120</div>
+            <p class="price-sub">pro Session &middot; 1:1</p>
+            <p class="price-sub" style="margin-top:14px;font-size:13px;color:var(--muted);font-weight:700;">
+              1:2 Duo: <span style="font-size:16px;font-weight:800;">&euro;90</span> pro Person &middot; &euro;180 gesamt
+            </p>
+          </article>
+        </div>
+        <div class="price-social">
+          <strong>Passt der Preis gerade nicht?</strong>
+          <p>Wenn du spürst, dass dieser Ansatz gut zu dir passt, es aber finanziell im Moment schwierig ist – sprich es offen an. Wir schauen gemeinsam, was möglich ist.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ════════════════════════════ ABOUT ════════════════════════════ -->
+    <section id="about" class="section-contrast">
+      <div class="container">
+        <div class="section-head">
+          <span class="kicker">Wer ich bin</span>
+          <h2>Sportwissenschaft, Sportpsychologie — Expertise, die sich im echten Einsatz bewährt hat.</h2>
+        </div>
+        <div class="about-layout">
+          <div class="about-portrait">
+            <img src="assets/images/von_links.jpg" alt="Philipp Wiert – Körper-Geist Personal Trainer München"
+                 style="width:100%;height:100%;object-fit:cover;object-position:center 22%;"
+                 onerror="this.style.display='none';this.nextElementSibling.style.display='flex';" />
+            <div class="about-portrait-placeholder" style="display:none;">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2">
+                <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/>
+              </svg>
+              <span>Profilbild kommt nach Fotoshooting</span>
+            </div>
+          </div>
+          <div>
+            <p style="font-size:17px;max-width:64ch;margin-bottom:20px;">
+              Training, Atem, Stille und sportpsychologische Tiefe – damit du körperlich belastbarer,
+              innerlich ruhiger und im Alltag spürbar stabiler und klarer wirst.
+            </p>
+            <div class="cred-tags">
+              <span class="cred-tag cred-tag--degree">M.Sc. Sportpsychologie</span>
+              <span class="cred-tag cred-tag--degree">B.Sc. Sportwissenschaft</span>
+              <span class="cred-tag">Selbstregulationstrainer</span>
+              <span class="cred-tag">Biofeedback-Trainer &middot; 3+ Jahre</span>
+              <span class="cred-tag">Sport-, Bewegungs- &amp; Achtsamkeitstherapeut</span>
+              <span class="cred-tag">Performance &amp; Recovery Specialist</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ════════════════════════ TESTIMONIALS ════════════════════════ -->
+    <section id="testimonials" class="section-contrast">
+      <div class="container">
+        <div class="section-head">
+          <span class="kicker">Stimmen</span>
+          <h2>Was Klient:innen erlebt haben.</h2>
+        </div>
+        <div class="testimonial-outer" id="testimonialOuter">
+          <div class="testimonial-track" id="testimonialTrack">
+
+            <div class="testimonial-slide">
+              <div class="t-inner">
+                <div class="t-quote" aria-hidden="true">„</div>
+                <blockquote class="t-text">
+                  Ich weiß genau, was ich tun kann, wenn mein Stresslevel wieder aus dem Ruder
+                  laufen sollte – eine Panikattacke hatte ich schon lange nicht mehr.
+                  Mein Sohn fragte mich vor Kurzem: „Mama, was hast du da mit dir gemacht?
+                  Du bist jetzt viel weniger motzig." Und sogar eine befreundete Mutter meinte zu mir:
+                  „Wie schaffst du es nur, so ruhig zu bleiben, wenn die Kinder Faxen machen?"
+                </blockquote>
+                <footer class="t-author">
+                  <div class="t-avatar">V.D.</div>
+                  <div class="t-author-info">
+                    <strong>V.D.</strong>
+                    <span>Klientin</span>
+                  </div>
+                </footer>
+              </div>
+            </div>
+
+            <div class="testimonial-slide">
+              <div class="t-inner">
+                <div class="t-quote" aria-hidden="true">„</div>
+                <blockquote class="t-text">
+                  Dank dem Humor von Herrn Wiertelorz konnte ich wieder Zugang zu meinem inneren Kind
+                  gewinnen. Am Sport dranzubleiben fällt mir nun leicht, weil wir zusammen
+                  rausfinden konnten, welche Form der Aktivität mir Spaß macht. Mein Sohn freut sich
+                  sehr darüber, dass ich ihn nun regelmäßig auf den Freiplatz mitnehme, um ein paar
+                  Körbe zu werfen und zusammen Basketball zu spielen.
+                </blockquote>
+                <footer class="t-author">
+                  <div class="t-avatar">B.S.</div>
+                  <div class="t-author-info">
+                    <strong>B.S.</strong>
+                    <span>Klientin</span>
+                  </div>
+                </footer>
+              </div>
+            </div>
+
+            <div class="testimonial-slide">
+              <div class="t-inner">
+                <div class="t-quote" aria-hidden="true">„</div>
+                <blockquote class="t-text">
+                  Als ich zu Philipp gekommen bin, war ich innerlich recht zerstreut, unruhig und
+                  gewohnheitsmäßig mit mir selbst und der Außenwelt im Kampf – ständig im Widerstand.
+                  Durch das Körpertraining und das bewusste Zurückkommen zur aktuellen Aufgabe habe
+                  ich immer mehr zu mir gefunden. Mittlerweile komme ich in meinem Alltag oft ganz
+                  automatisch zur Ruhe und bin mit mir selbst zufrieden.
+                  Das war davor gar nicht denkbar.
+                </blockquote>
+                <footer class="t-author">
+                  <div class="t-avatar">D.B.</div>
+                  <div class="t-author-info">
+                    <strong>D.B.</strong>
+                    <span>Klient</span>
+                  </div>
+                </footer>
+              </div>
+            </div>
+
+          </div>
+        </div>
+        <div class="t-controls">
+          <button class="t-arrow" id="tPrev" aria-label="Vorheriges Testimonial">
+            <svg viewBox="0 0 24 24"><polyline points="15,18 9,12 15,6"/></svg>
+          </button>
+          <div class="t-dots" id="tDots" role="tablist" aria-label="Testimonial-Navigation">
+            <button class="t-dot active" role="tab" aria-selected="true"  aria-label="Testimonial 1" data-idx="0"></button>
+            <button class="t-dot"        role="tab" aria-selected="false" aria-label="Testimonial 2" data-idx="1"></button>
+            <button class="t-dot"        role="tab" aria-selected="false" aria-label="Testimonial 3" data-idx="2"></button>
+          </div>
+          <button class="t-arrow" id="tNext" aria-label="Nächstes Testimonial">
+            <svg viewBox="0 0 24 24"><polyline points="9,18 15,12 9,6"/></svg>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- ════════════════════════════ KONTAKT ════════════════════════════ -->
+    <section id="kontakt">
+      <div class="container">
+        <div class="contact-shell">
+          <div class="section-head" style="margin-bottom:28px;">
+            <span class="kicker">Kontakt</span>
+            <h2>Kennenlerngespräch anfragen.</h2>
+            <p>Sag mir kurz, worum es dir geht, wie oft du trainieren willst und wann du realistisch Zeit hast. Ich melde mich persönlich mit einem passenden Vorschlag.</p>
+          </div>
+          <div data-fs-success style="display:none; padding:20px; background:#0b7e74; color:#f8f3ec; border-radius:8px; margin-bottom:20px; text-align:center;">
+            <p style="margin:0; font-size:16px;">✓ Danke! Ich melde mich zeitnah bei dir.</p>
+          </div>
+          <div data-fs-error style="display:none; padding:20px; background:#e63946; color:#f8f3ec; border-radius:8px; margin-bottom:20px;"></div>
+          <form id="kontakt-form" action="https://formspree.io/f/mwvzgwrb" method="POST" data-fs-field>
+            <input type="hidden" name="_next" value="https://achten.pro/danke.html" />
+            <input type="hidden" name="_subject" value="Neue Anfrage über achten.pro" />
+            <div class="form-grid">
+              <label>Vorname<input type="text" name="vorname" placeholder="Dein Vorname" autocomplete="given-name" data-fs-field /></label>
+              <label>E-Mail<input type="email" name="email" placeholder="deinname@beispiel.de" autocomplete="email" required data-fs-field /></label>
+              <label>Telefon (optional)<input type="tel" name="tel" placeholder="Optional" autocomplete="tel" data-fs-field /></label>
+              <label>Wie oft möchtest du trainieren?
+                <select name="haeufigkeit" data-fs-field>
+                  <option value="">Bitte wählen</option>
+                  <option>1&times; pro Woche</option>
+                  <option>2&times; pro Woche</option>
+                  <option>Noch unsicher</option>
+                </select>
+              </label>
+              <label>Welche Tage passen meistens?<input type="text" name="tage" placeholder="z. B. Montag, Mittwoch, Freitag" data-fs-field /></label>
+              <label>Ab welcher Uhrzeit geht es meistens?<input type="text" name="uhrzeit" placeholder="z. B. ab 15:00 Uhr" data-fs-field /></label>
+              <label>Bevorzugter Erstkontakt
+                <select name="kontaktweg" data-fs-field>
+                  <option>E-Mail</option>
+                  <option>Rückruf</option>
+                  <option>Beides okay</option>
+                </select>
+              </label>
+              <label>Worum geht es dir gerade am meistens?
+                <select name="ziel" data-fs-field>
+                  <option value="">Bitte wählen</option>
+                  <option>Ruhe im Kopf</option>
+                  <option>Entspannung im Körper</option>
+                  <option>Mehr Energie im Alltag</option>
+                  <option>Mehr Balance und Stabilität</option>
+                  <option>Regelmäßig trainieren</option>
+                  <option>schreibe ich dir unten ins Textfeld</option>
+                </select>
+              </label>
+              <label class="full">Noch etwas, das ich wissen sollte?<textarea name="freitext" placeholder="Schreib mir kurz, was dich gerade beschäftigt oder was du suchst." data-fs-field></textarea></label>
+            </div>
+            <div class="form-footer">
+              <p class="muted" style="font-size:13px;max-width:50ch;">Ich arbeite bewusst nur mit wenigen Klient:innen parallel, damit wir in Ruhe in die Tiefe gehen können.</p>
+              <button class="btn-submit" type="submit" data-fs-submit-btn>Anfrage senden</button>
+            </div>
+          </form>
+          <script>
+            window.formspree = window.formspree || function () { (formspree.q = formspree.q || []).push(arguments); };
+            formspree('initForm', { formElement: '#kontakt-form', formId: 'mwvzgwrb' });
+          </script>
+          <script src="https://unpkg.com/@formspree/ajax@1" defer></script>
+          <div class="contact-alt">
+            <a href="mailto:philwirt@web.de">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round">
+                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+                <polyline points="22,6 12,13 2,6"/>
+              </svg>
+              philwirt@web.de
+            </a>
+          </div>
+        </div>
+        <details class="impressum-box" id="impressum">
+          <summary>Impressum</summary>
+          <div class="impressum-content">
+            <address>
+              <p><strong>Verantwortlich:</strong><br>Philipp Wiertelorz<br>Greinerberg 13<br>81371 München</p>
+              <p>E-Mail: philwirt@web.de</p>
+            </address>
+            <p>Verantwortlich i. S. d. § 55 RStV: Philipp Wiertelorz<br>Umsatzsteuer: Kleinunternehmer gemäß § 19 UStG – es wird keine Umsatzsteuer ausgewiesen.</p>
+            <p><strong>Datenschutz:</strong> Diese Website setzt keine Cookies und verwendet keine Tracking- oder Analysetools. Eingaben im Kontaktformular werden ausschließlich zur Bearbeitung deiner Anfrage verwendet und nicht an Dritte weitergegeben.</p>
+          </div>
+        </details>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ═══════════════════════════════ FOOTER ═══════════════════════════════ -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>achten.pro &middot; München &copy; 2026</p>
+      <nav class="footer-links" aria-label="Footer-Navigation">
+        <a href="#impressum">Impressum</a>
+        <a href="#impressum">Datenschutz</a>
+        <a href="#kontakt">Kontakt</a>
+        <a href="https://instagram.com/" target="_blank" rel="noopener noreferrer">Instagram</a>
+      </nav>
+    </div>
+  </footer>
+
+  <script>
+    /* ── Progress Bar ── */
+    const bar = document.getElementById('progress-bar');
+    function updateBar() {
+      const scrollable = document.documentElement.scrollHeight - window.innerHeight;
+      const pct = scrollable > 0 ? (window.scrollY / scrollable) * 100 : 0;
+      bar.style.width = pct + '%';
+      bar.setAttribute('aria-valuenow', Math.round(pct));
+    }
+    window.addEventListener('scroll', updateBar, { passive: true });
+
+    /* ── Dark / Light Toggle ── */
+    const toggleBtn = document.getElementById('theme-toggle');
+    const root = document.documentElement;
+    const stored = localStorage.getItem('theme');
+    root.setAttribute('data-theme', stored || 'dark');
+    toggleBtn.addEventListener('click', () => {
+      const cur = root.getAttribute('data-theme');
+      const next = cur === 'dark' ? 'light' : 'dark';
+      root.setAttribute('data-theme', next);
+      localStorage.setItem('theme', next);
+    });
+
+    /* Motion path: native SVG animateMotion, no JS needed */
+
+    /* ── Mobile Navigation ── */
+    (function() {
+      var btn = document.getElementById('hamburger');
+      var nav = document.getElementById('mobile-nav');
+      if (!btn || !nav) return;
+      function closeNav() {
+        btn.setAttribute('aria-expanded', 'false');
+        nav.classList.remove('is-open');
+        nav.setAttribute('aria-hidden', 'true');
+        document.body.classList.remove('nav-open');
+        btn.setAttribute('aria-label', 'Menü öffnen');
+      }
+      btn.addEventListener('click', function() {
+        var isOpen = nav.classList.contains('is-open');
+        if (isOpen) { closeNav(); } else {
+          btn.setAttribute('aria-expanded', 'true');
+          nav.classList.add('is-open');
+          nav.setAttribute('aria-hidden', 'false');
+          document.body.classList.add('nav-open');
+          btn.setAttribute('aria-label', 'Menü schließen');
+        }
+      });
+      nav.querySelectorAll('a').forEach(function(link) {
+        link.addEventListener('click', closeNav);
+      });
+      document.addEventListener('keydown', function(e) {
+        if (e.key === 'Escape') closeNav();
+      });
+    })();
+
+    /* ── Testimonial Karussell ── */
+    (function() {
+      var track = document.getElementById('testimonialTrack');
+      var prev  = document.getElementById('tPrev');
+      var next  = document.getElementById('tNext');
+      var dots  = document.querySelectorAll('#tDots .t-dot');
+      if (!track || !prev || !next) return;
+      var total = track.children.length;
+      var cur   = 0;
+      function go(idx) {
+        cur = ((idx % total) + total) % total;
+        var slideW = outer.getBoundingClientRect().width;
+        track.style.transform = 'translateX(-' + (cur * slideW) + 'px)';
+        dots.forEach(function(d, i) {
+          d.classList.toggle('active', i === cur);
+          d.setAttribute('aria-selected', String(i === cur));
+        });
+      }
+      prev.addEventListener('click', function() { go(cur - 1); });
+      next.addEventListener('click', function() { go(cur + 1); });
+      dots.forEach(function(d) {
+        d.addEventListener('click', function() { go(Number(d.dataset.idx)); });
+      });
+      /* Swipe für Android/iOS */
+      var startX = 0;
+      var outer = document.getElementById('testimonialOuter');
+      outer.addEventListener('touchstart', function(e) {
+        startX = e.touches[0].clientX;
+      }, { passive: true });
+      outer.addEventListener('touchend', function(e) {
+        var dx = e.changedTouches[0].clientX - startX;
+        if (Math.abs(dx) > 50) go(dx < 0 ? cur + 1 : cur - 1);
+      }, { passive: true });
+      window.addEventListener('resize', function() { go(cur); }, { passive: true });
+    })();
+  </script>
+</body>
+</html>
