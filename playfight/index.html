@@ -1,0 +1,794 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="alternate" hreflang="de" href="/playfight/">
+  <link rel="alternate" hreflang="en" href="/playfight/en/">
+  <link rel="canonical" href="/playfight/en/">
+
+  <meta
+    name="description"
+    content="Playfight: structured physical play, self-regulation and real contact."
+  >
+
+  <title>Contact at Eye Level. Playful and Safe. — achten.pro/playfight</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Manrope:wght@400;500;600;700;800&display=swap"
+    rel="stylesheet"
+  >
+
+  <style>
+    :root {
+      --bg: #050b12;
+      --surface: #0b111e;
+      --surface-2: rgba(16, 24, 44, 0.88);
+      --border: rgba(209, 175, 55, 0.16);
+      --text: #e8f2ff;
+      --muted: #94a9c6;
+      --primary: #3ecabb;
+      --secondary: #4cb4e8;
+      --accent: #d3af37;
+      --radius-sm: 14px;
+      --radius-md: 22px;
+      --radius-lg: 34px;
+      --shadow: 0 28px 80px rgba(0, 0, 0, 0.55);
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    html {
+      scroll-behavior: smooth;
+      font-size: 16px;
+    }
+
+    body {
+      min-height: 100vh;
+      overflow-x: hidden;
+      font-family: "Manrope", system-ui, sans-serif;
+      color: var(--text);
+      line-height: 1.65;
+      background:
+        radial-gradient(circle at 8% 2%, rgba(62, 202, 187, 0.12), transparent 24%),
+        radial-gradient(circle at 94% 6%, rgba(76, 180, 232, 0.1), transparent 26%),
+        linear-gradient(180deg, #061018 0%, var(--bg) 60%, #050d18 100%);
+    }
+
+    a {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    img {
+      display: block;
+      max-width: 100%;
+    }
+
+    .container {
+      width: min(1180px, calc(100% - 28px));
+      margin-inline: auto;
+    }
+
+    .site-header {
+      position: sticky;
+      top: 0;
+      z-index: 40;
+      border-bottom: 1px solid var(--border);
+      background: rgba(6, 12, 22, 0.84);
+      backdrop-filter: blur(18px) saturate(1.4);
+    }
+
+    .nav {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 16px;
+      padding: 14px 0;
+    }
+
+    .brand {
+      display: flex;
+      flex-direction: column;
+      gap: 1px;
+    }
+
+    .brand-name {
+      color: var(--text);
+      font-size: 15px;
+      font-weight: 800;
+      letter-spacing: -0.01em;
+    }
+
+    .brand-sub {
+      color: var(--muted);
+      font-size: 11px;
+      font-weight: 600;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+    }
+
+    .nav-links {
+      display: flex;
+      gap: 28px;
+    }
+
+    .nav-links a {
+      color: var(--muted);
+      font-size: 14px;
+      font-weight: 600;
+      transition: color 0.2s;
+    }
+
+    .nav-links a:hover {
+      color: var(--primary);
+    }
+
+    .nav-actions {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .nav-cta,
+    .btn-primary,
+    .btn-ghost {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 48px;
+      padding: 0 24px;
+      border-radius: 999px;
+      font-size: 14px;
+      font-weight: 800;
+      transition: transform 0.2s, opacity 0.2s, background 0.2s;
+    }
+
+    .nav-cta,
+    .btn-primary {
+      color: #fff;
+      background: linear-gradient(135deg, var(--primary), var(--secondary));
+      box-shadow: 0 10px 28px rgba(62, 202, 187, 0.24);
+    }
+
+    .nav-cta:hover,
+    .btn-primary:hover,
+    .btn-ghost:hover {
+      transform: translateY(-2px);
+      opacity: 0.92;
+    }
+
+    .btn-ghost {
+      color: #fff;
+      border: 1px solid rgba(255, 255, 255, 0.22);
+      background: rgba(255, 255, 255, 0.08);
+    }
+
+    .lang-switch {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      min-height: 38px;
+      padding: 0 14px;
+      border: 1px solid var(--border);
+      border-radius: 999px;
+      background: var(--surface-2);
+      color: var(--text);
+      font-family: inherit;
+      font-size: 13px;
+      font-weight: 700;
+      cursor: pointer;
+      white-space: nowrap;
+    }
+
+    .lang-switch:hover {
+      color: var(--primary);
+      border-color: var(--primary);
+    }
+
+    .lang-switch .sep {
+      opacity: 0.35;
+      font-weight: 800;
+    }
+
+    .lang-switch .active {
+      color: var(--primary);
+      font-weight: 800;
+    }
+
+    .lang-switch .inactive {
+      opacity: 0.55;
+    }
+
+    .hero {
+      padding: 28px 0 64px;
+    }
+
+    .hero-shell {
+      position: relative;
+      display: flex;
+      align-items: flex-end;
+      min-height: 760px;
+      overflow: hidden;
+      border: 1px solid rgba(255, 255, 255, 0.08);
+      border-radius: 38px;
+      box-shadow: var(--shadow);
+      background:
+        linear-gradient(90deg, rgba(5, 10, 20, 0.84) 0%, rgba(5, 10, 20, 0.54) 48%, rgba(5, 10, 20, 0.2) 100%),
+        url("assets/images/playfight-hero-zelt.jpg") top center / cover no-repeat;
+    }
+
+    .hero-inner {
+      width: 100%;
+      padding: 42px;
+    }
+
+    .hero-copy {
+      max-width: 840px;
+    }
+
+    .hero-eyebrow,
+    .kicker {
+      display: inline-block;
+      color: var(--accent);
+      font-size: 12px;
+      font-weight: 800;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+    }
+
+    .hero-eyebrow {
+      margin-bottom: 20px;
+      padding: 7px 14px;
+      border: 1px solid rgba(255, 255, 255, 0.16);
+      border-radius: 999px;
+      background: rgba(255, 255, 255, 0.08);
+      color: #b8d8f0;
+    }
+
+    h1,
+    h2 {
+      font-family: "Instrument Serif", Georgia, serif;
+      font-weight: 400;
+      line-height: 0.9;
+      letter-spacing: -0.04em;
+    }
+
+    .hero h1 {
+      max-width: 14ch;
+      margin-bottom: 22px;
+      color: #fff;
+      font-size: clamp(56px, 9.5vw, 112px);
+    }
+
+    .hero h1 em {
+      color: #b4ede4;
+    }
+
+    .hero-lead {
+      max-width: 64ch;
+      margin-bottom: 28px;
+      color: rgba(255, 255, 255, 0.84);
+      font-size: clamp(16px, 2.2vw, 21px);
+    }
+
+    .hero-actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+    }
+
+    section {
+      padding: clamp(48px, 6vw, 76px) 0;
+    }
+
+    .section-contrast {
+      border-block: 1px solid rgba(209, 175, 55, 0.12);
+      background:
+        radial-gradient(circle at 92% 8%, rgba(76, 180, 232, 0.1), transparent 30%),
+        linear-gradient(180deg, rgba(209, 175, 55, 0.09), rgba(209, 175, 55, 0.04));
+    }
+
+    .section-head {
+      max-width: 800px;
+      margin-bottom: 32px;
+    }
+
+    .section-head .kicker {
+      margin-bottom: 14px;
+    }
+
+    .section-head h2 {
+      margin-bottom: 16px;
+      font-size: clamp(38px, 5.5vw, 64px);
+    }
+
+    .section-head p {
+      max-width: 64ch;
+      color: var(--muted);
+    }
+
+    .offer-grid,
+    .why-grid {
+      display: grid;
+      gap: 18px;
+      grid-template-columns: repeat(2, 1fr);
+    }
+
+    .card {
+      padding: 26px 24px;
+      border: 1px solid var(--border);
+      border-radius: var(--radius-md);
+      background: var(--surface-2);
+      box-shadow: 0 12px 30px rgba(0, 0, 0, 0.18);
+    }
+
+    .card h3 {
+      margin-bottom: 12px;
+      color: var(--text);
+      font-size: 20px;
+      line-height: 1.2;
+    }
+
+    .card p,
+    .card ul {
+      color: var(--muted);
+      font-size: 15px;
+    }
+
+    .card ul {
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+      margin-top: 14px;
+      padding-left: 18px;
+    }
+
+    .guide-card {
+      border-color: rgba(209, 175, 55, 0.35);
+      background:
+        radial-gradient(circle at 100% 0%, rgba(209, 175, 55, 0.14), transparent 46%),
+        var(--surface-2);
+    }
+
+    .guide-card .btn-primary {
+      margin-top: 20px;
+    }
+
+    .price {
+      margin-top: 10px;
+      color: var(--accent) !important;
+      font-size: 12px !important;
+      font-weight: 800;
+    }
+
+    .credentials {
+      display: grid;
+      gap: 10px;
+      max-width: 760px;
+    }
+
+    .credential {
+      padding: 10px 16px;
+      border: 1px solid rgba(209, 175, 55, 0.2);
+      border-radius: 12px;
+      background: rgba(209, 175, 55, 0.08);
+      color: var(--accent);
+      font-size: 13px;
+      font-weight: 700;
+    }
+
+    .workshop-image {
+      width: 100%;
+      max-width: 760px;
+      max-height: 440px;
+      margin-top: 22px;
+      object-fit: cover;
+      border: 1px solid var(--border);
+      border-radius: var(--radius-md);
+    }
+
+    .contact-shell {
+      padding: 38px 30px;
+      border: 1px solid var(--border);
+      border-radius: var(--radius-lg);
+      background:
+        linear-gradient(165deg, rgba(209, 175, 55, 0.08), rgba(62, 202, 187, 0.08), rgba(16, 24, 44, 0.92));
+      box-shadow: 0 20px 55px rgba(0, 0, 0, 0.25);
+    }
+
+    form {
+      display: grid;
+      max-width: 560px;
+      gap: 16px;
+      margin-top: 26px;
+    }
+
+    label {
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+      color: var(--text);
+      font-size: 14px;
+      font-weight: 700;
+    }
+
+    input,
+    textarea {
+      width: 100%;
+      min-height: 48px;
+      padding: 12px 14px;
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      outline: none;
+      background: rgba(16, 24, 44, 0.9);
+      color: var(--text);
+      font: inherit;
+    }
+
+    textarea {
+      min-height: 120px;
+      resize: vertical;
+    }
+
+    button {
+      border: 0;
+    }
+
+    .site-footer {
+      padding: 36px 0 48px;
+      border-top: 1px solid var(--border);
+      color: var(--muted);
+      font-size: 14px;
+    }
+
+    .footer-inner {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+      gap: 16px;
+    }
+
+    @media (max-width: 760px) {
+      .nav-links {
+        display: none;
+      }
+
+      .nav-cta {
+        display: none;
+      }
+
+      .hero-shell {
+        min-height: 650px;
+        border-radius: 24px;
+        background:
+          linear-gradient(0deg, rgba(5, 10, 20, 0.9), rgba(5, 10, 20, 0.34)),
+          url("assets/images/playfight-hero-zelt.jpg") top center / cover no-repeat;
+      }
+
+      .hero-inner {
+        padding: 24px;
+      }
+
+      .hero h1 {
+        font-size: clamp(50px, 12vw, 76px);
+      }
+
+      .offer-grid,
+      .why-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .contact-shell {
+        padding: 28px 20px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <header class="site-header">
+    <div class="container nav">
+      <a class="brand" href="#top" aria-label="Home">
+        <span class="brand-name">achten.pro</span>
+        <span class="brand-sub">Playfight · Touch with backbone</span>
+      </a>
+
+      <nav class="nav-links" aria-label="Main navigation">
+        <a href="#offer">Offer</a>
+        <a href="#why">Why</a>
+        <a href="#experience">Experience</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <div class="nav-actions">
+        <button
+          class="lang-switch"
+          id="langSwitch"
+          type="button"
+          aria-label="Change language"
+          aria-pressed="false"
+          title="Change language"
+        >
+          <span class="lang-label" data-lang="de">DE</span>
+          <span class="sep" aria-hidden="true">/</span>
+          <span class="lang-label" data-lang="en">EN</span>
+        </button>
+
+        <a class="nav-cta" href="#guide">Get the guide</a>
+      </div>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero" aria-label="Main area">
+      <div class="container">
+        <div class="hero-shell">
+          <div class="hero-inner">
+            <div class="hero-copy">
+              <span class="hero-eyebrow">Playfight · Contact at eye level</span>
+
+              <h1>
+                Real contact.<br>
+                <em>Real play.</em>
+              </h1>
+
+              <p class="hero-lead">
+                Structured physical play for friends and adults:
+                less performance pressure, more presence, boundaries,
+                regulation and genuine connection.
+              </p>
+
+              <div class="hero-actions">
+                <a class="btn-primary" href="#guide">Get the Playfight Guide</a>
+                <a class="btn-ghost" href="#why">How it works</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="offer" class="section-contrast">
+      <div class="container">
+        <div class="section-head">
+          <span class="kicker">Offer</span>
+          <h2>Your entry into<br>real contact.</h2>
+          <p>
+            Practical resources for structured physical play:
+            updates, exercises and a complete guide for home.
+          </p>
+        </div>
+
+        <div class="offer-grid">
+          <article class="card">
+            <h3>Playfight Updates + Exercises</h3>
+
+            <p>
+              Receive event notes, simple Playfight exercises and useful
+              updates about new formats.
+            </p>
+
+            <p class="price">
+              No spam. No pressure. Only useful content.
+            </p>
+          </article>
+
+          <article id="guide" class="card guide-card">
+            <h3>Playfight Guide — Friends &amp; Adults</h3>
+
+            <p>
+              English video guide for adults who want to explore structured
+              physical play with friends — without performance pressure and
+              without unnecessary risk. Start immediately after purchase.
+            </p>
+
+            <ul>
+              <li>30-minute MP4 video guide</li>
+              <li>60+ minutes of practical exercises</li>
+              <li>5 core partner exercises</li>
+              <li>Clear progression ladder</li>
+            </ul>
+
+            <a
+              class="btn-primary"
+              href="https://philwirt.gumroad.com/l/playfight-friends"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Buy the guide – €19
+            </a>
+
+            <p class="price">Available now · €19</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="why">
+      <div class="container">
+        <div class="section-head">
+          <span class="kicker">Why &amp; how</span>
+          <h2>Strength without<br>performance pressure.</h2>
+        </div>
+
+        <div class="why-grid">
+          <article class="card">
+            <h3>Why Playfight works</h3>
+
+            <p>
+              Real strength arises where contact is possible. Not as
+              competition. Not as proof of performance. But as encounter.
+              You do not train against someone — you train with someone.
+            </p>
+
+            <ul>
+              <li>Touch with backbone</li>
+              <li>Community instead of performance pressure</li>
+              <li>Precision instead of randomness</li>
+              <li>Boundaries you can feel and communicate</li>
+            </ul>
+          </article>
+
+          <article class="card">
+            <h3>Structure creates safety</h3>
+
+            <p>
+              Playfight is not freestyle fighting. Clear restrictions and
+              simple signals create a space where exploration can happen
+              without overload.
+            </p>
+
+            <ul>
+              <li>A restriction ladder instead of open dynamics</li>
+              <li>Four clear signals instead of complexity</li>
+              <li>5–5 breathing as an anchor</li>
+              <li>Body first, talk second</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="experience" class="section-contrast">
+      <div class="container">
+        <div class="section-head">
+          <span class="kicker">Experience</span>
+          <h2>Science you can feel.</h2>
+          <p>
+            Physically and nervous-system effective — without empty concepts.
+            Playfight combines movement, self-regulation, connection and
+            practical structure.
+          </p>
+        </div>
+
+        <div class="credentials">
+          <div class="credential">M.Sc. Sport Psychology — Performance, Regulation, Coaching</div>
+          <div class="credential">B.Sc. Sports Science — Training, Movement, Nervous System</div>
+          <div class="credential">Self-regulation and biofeedback trainer</div>
+          <div class="credential">Breath, bodywork and Playfight application</div>
+          <div class="credential">Developer of the achten.pro Playfight approach</div>
+        </div>
+
+        <img
+          class="workshop-image"
+          src="assets/images/playfight-workshop-zelt.jpg"
+          alt="Playfight workshop in a tent"
+        >
+      </div>
+    </section>
+
+    <section id="contact">
+      <div class="container">
+        <div class="contact-shell">
+          <div class="section-head">
+            <span class="kicker">Contact</span>
+            <h2>Interested in Playfight?</h2>
+            <p>
+              Tell me briefly what you are looking for. I will get back to
+              you personally with a suitable proposal.
+            </p>
+          </div>
+
+          <form action="https://formspree.io/f/mwvzgwrb" method="POST">
+            <input
+              type="hidden"
+              name="_subject"
+              value="New inquiry via achten.pro Playfight"
+            >
+
+            <label>
+              First name
+              <input
+                type="text"
+                name="first_name"
+                placeholder="Your first name"
+              >
+            </label>
+
+            <label>
+              Email
+              <input
+                type="email"
+                name="email"
+                placeholder="you@example.com"
+                required
+              >
+            </label>
+
+            <label>
+              Your message
+              <textarea
+                name="message"
+                placeholder="What are you looking for?"
+              ></textarea>
+            </label>
+
+            <button class="btn-primary" type="submit">
+              Send inquiry
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>achten.pro · Playfight · Munich · 2026</p>
+      <p>
+        Philipp Wiertelorz ·
+        <a href="mailto:philwirt@web.de">philwirt@web.de</a>
+      </p>
+    </div>
+  </footer>
+
+  <script>
+    (function () {
+      var button = document.getElementById("langSwitch");
+
+      if (!button) return;
+
+      var germanUrl = "/playfight/";
+      var englishUrl = "/playfight/en/";
+      var currentLanguage = document.documentElement.getAttribute("lang") || "en";
+
+      function setLabels() {
+        button.querySelectorAll(".lang-label").forEach(function (label) {
+          var language = label.getAttribute("data-lang");
+
+          label.classList.toggle("active", language === currentLanguage);
+          label.classList.toggle("inactive", language !== currentLanguage);
+        });
+
+        button.setAttribute(
+          "aria-pressed",
+          String(currentLanguage === "de")
+        );
+      }
+
+      button.addEventListener("click", function () {
+        var nextLanguage = currentLanguage === "en" ? "de" : "en";
+
+        document.cookie =
+          "lang=" + nextLanguage +
+          "; path=/; max-age=" + (60 * 60 * 24 * 365);
+
+        window.location.href =
+          nextLanguage === "de" ? germanUrl : englishUrl;
+      });
+
+      setLabels();
+    })();
+  </script>
+</body>
+</html>
