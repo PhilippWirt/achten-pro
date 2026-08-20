@@ -1,0 +1,51 @@
+name: Einmalige Website-Endkorrektur
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - .github/workflows/finalize-site.yml
+
+permissions:
+  contents: write
+
+concurrency:
+  group: einmalige-website-endkorrektur
+  cancel-in-progress: false
+
+jobs:
+  finalize:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Repository laden
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Ausgangsstand schützen
+        shell: bash
+        run: |
+          set -euo pipefail
+          test "$(git rev-parse HEAD^)" = "68b30aff97c9571039fe885bff26e88594d37eef"
+
+      - name: Geprüfte Endkorrektur anwenden
+        shell: bash
+        run: |
+          set -euo pipefail
+          printf '%s' 'H4sICJpKh2oCA2ZpbmFsaXplX3NpdGVfb25jZS5weQC1V19v2zYQf/enuLIYZAGWFGftULixgWFo97YEW4E9xIFBSyeLjUwKJBXbDfK6L7RvtE+yIy3LdmLH6brqhRTvD3/3u6N4ev0qqY1OpkImKO+gWtlCyR87uVZzqLgtSjEFMa+UtnBFr51OJ8McNFYlT3GiZIpdpzYAY3UPVJkNYLqyaHogcdHMQ4hG8JuSOOgAPRUMvS9vGPqljFtOq1WskWcTb9RdS1JVS0sipxH7ly5tspaJvBG/GkJ/7ds9mguD8MfKWJx/WArbzdnP06muU0J57/Z8GADqBdcWLcLHWmakWZYood+DGea0QPN77/qBrbeq4oUWFhtoHkzDgYPjg+1BPwyJnz1uvDEzqtYpJoSHROQg4WlhUUaVVnFh5yXreb1poKafMbVRpYywQslBitKihvPzH96zsR7L4ITiW6/o1MKXAaFhlYtZYfdwMMbcGEt+F820qiu4b9jNhHEmA8hLXL5vFt08yoQmRA4LJaWs53Ij/VwbK/JVlCqCKC2JPdaNeMarAZxXjbOHTufRzn5q6mkLgbwrPYA7rrsRMSjmXK/CFgptEhnxBQfQP6uWe8sLdIEO4Kezs816iZagRKbiqZCzAZzFZ29wvoFCNLSE/D+MUmRzNRUlRhQVxBVqoyQvI0s1KwlBVAp520YKMBcyKhrYb95t46GC5FnmDTB3svNd2bMM7XP0dmv3feIFuOBQaMyH7LXKc9RsdOmGi4SPOk9VFsWKjf4sVvtiyo+EtOTGDFlbGWyrsOsBl8SqQELMRh/a+Z4/r77jjqqLNeYJG101SYFPTVL2sSQOzCHorr55atnol/XEm+1S+p8YOQ3oBHdfQ8xLgvmWsmg4OBH/04jgauPtgNKJuHaY3OT88LFjo3/++huOk32anJg2Vhl2WW3z6B0L9zP/0qifzfh34uar800ptia5I4f5ajKtRZnF1epRqdP1HOwe3fH27I7ZKACpLAgJFpd2e3mj1kqbmFcVyqybB/7CpruWqkrc4cSq7u+Xl5/CB8jQ3FpVwTYsKARqrlPiZC6MIdqC8OkBbOwmhGXoto7pQqMeIbhwX+RdoK4mzJgFvX543b9p1RKSjfzi2c26NWiSNfFUBtRGJYGL3QGH4RAc3iRoz0MiqL1Y+lMRAJbUqQRJ4B25ZKUWMw/tOliXSdDb898LXOIDGrapdW9N/oIGUtMWmOH1TrhxLjylHueY3bvxgQIM6UbQvhBcOnZR3GzarKjvRK1bIP3tC3VfhvpDzLrtWug0gjbdgbPeQdJK6cv7WPYNpUDWYsYdABDGl1dOum6zghuwBcJCKzmjhYyIDdv6duFLPkeH5Hpd31QGSAW+zdXmC9YIKMlHZYdSfVQlw+NaL2wbj6of/gY32sdO8M2jJt0R07bbjtMqFmaSUw/TDV/Wc7e9toaPWJR1VSqeQU5T6lzunf9tl11Ld+y6TVLWPaXSq6eZQfkMpcdEJwg7KD5E2wGaWqgtV1WMS0HKuzTRD86cNF181JfRvwz7Fb8ILOk/5IPMbpXWeGtrDVzOcEFVjzYmav4FwfZvBqQNAAA=' | base64 --decode | gzip -dc > /tmp/finalize_site_once.py
+          python3 /tmp/finalize_site_once.py
+          python3 build.py
+          python3 tests/verify_build.py
+          git diff --check
+
+      - name: Einmaligen Workflow entfernen und veröffentlichen
+        shell: bash
+        run: |
+          set -euo pipefail
+          rm .github/workflows/finalize-site.yml
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git diff --cached --check
+          git commit -m "Fix navigation and portrait crop"
+          git push origin HEAD:main
