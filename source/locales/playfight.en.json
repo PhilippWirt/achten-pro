@@ -1,0 +1,15 @@
+{
+  "attributes": {},
+  "canonical": "https://achten.pro/playfight/",
+  "de_url": "/playfight/de/",
+  "description": "Structured Playfight for friends and adults: clear boundaries, self-regulation, physical play and community without performance pressure.",
+  "en_url": "/playfight/",
+  "lang": "en",
+  "output": "playfight/index.html",
+  "path_replacements": {
+    "href=\"/\"": "href=\"/en/\""
+  },
+  "site": "playfight",
+  "text": {},
+  "title": "Contact at Eye Level. Playful and Safe. — achten.pro/playfight"
+}

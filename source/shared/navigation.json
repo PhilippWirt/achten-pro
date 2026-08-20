@@ -1,0 +1,10 @@
+{
+  "achten-pro": {
+    "de": ["#wirkung", "#ansatz", "#angebot", "/playfight/de/", "#preise", "#kontakt"],
+    "en": ["#wirkung", "#ansatz", "#angebot", "/playfight/", "#preise", "#kontakt"]
+  },
+  "playfight": {
+    "de": ["#offer", "#why", "#experience", "/", "#contact", "#guide"],
+    "en": ["#offer", "#why", "#experience", "/en/", "#contact", "#guide"]
+  }
+}
