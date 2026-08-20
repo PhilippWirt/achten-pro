@@ -132,19 +132,6 @@
       color: var(--primary);
     }
 
-    .nav-group {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      gap: 2px;
-    }
-
-    .nav-group .nav-sub {
-      color: var(--primary);
-      font-size: 10px;
-      font-weight: 600;
-      letter-spacing: 0.04em;
-    }
 
     .nav-actions {
       display: flex;
@@ -564,12 +551,6 @@
         font-size: 17px;
         font-weight: 700;
       }
-      .mobile-nav .personal-training-link {
-        min-height: 48px;
-        padding-left: 42px;
-        color: var(--primary);
-        font-size: 15px;
-      }
       .mobile-nav .mobile-cta {
         justify-content: center;
         margin: 20px 24px 36px;
@@ -645,11 +626,9 @@
 
       <nav class="nav-links" aria-label="Hauptnavigation">
         <a href="#offer">Angebot</a>
+        <a href="/">Personal Training</a>
         <a href="#why">Warum</a>
-        <span class="nav-group">
-          <a href="#experience">Erfahrung</a>
-          <a class="nav-sub" href="/">Personal Training</a>
-        </span>
+        <a href="#experience">Erfahrung</a>
         <a href="#contact">Kontakt</a>
       </nav>
 
@@ -671,9 +650,9 @@
 
   <nav class="mobile-nav" id="mobile-nav" aria-label="Mobile Navigation" aria-hidden="true">
     <a href="#offer">Angebot</a>
+    <a href="/">Personal Training</a>
     <a href="#why">Warum Playfight</a>
     <a href="#experience">Erfahrung</a>
-    <a href="/" class="personal-training-link">↳ Personal Training</a>
     <a href="#contact">Kontakt</a>
     <a href="#guide" class="mobile-cta">Kostenlosen Playfight Guide holen</a>
   </nav>

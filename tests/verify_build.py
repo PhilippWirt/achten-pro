@@ -130,8 +130,12 @@ for path in (ROOT/'playfight/index.html',ROOT/'playfight/de/index.html'):
         errors.append(f'{path.relative_to(ROOT)} Personal Training missing under Experience')
     if 'Personal Training' in contact:
         errors.append(f'{path.relative_to(ROOT)} Personal Training still appears under Contact')
-    if '<span class="nav-group">' not in text:
-        errors.append(f'{path.relative_to(ROOT)} desktop Experience hierarchy missing')
+    desktop_nav=text.split('<nav class="nav-links"',1)[1].split('</nav>',1)[0]
+    personal_href='/en/' if path == ROOT/'playfight/index.html' else '/'
+    expected_nav=['#offer',personal_href,'#why','#experience','#contact']
+    positions=[desktop_nav.find(f'href="{href}"') for href in expected_nav]
+    if -1 in positions or positions != sorted(positions) or 'nav-group' in desktop_nav or 'nav-sub' in desktop_nav:
+        errors.append(f'{path.relative_to(ROOT)} desktop navigation is not flat or has the wrong order')
 
 # Targeted language residue checks for customer-visible copy.
 if re.search(r'\b(Angebot|Warum|Erfahrung|Anfrage senden|Echter Kontakt)\b', (ROOT/'playfight/index.html').read_text()):
