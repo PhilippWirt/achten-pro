@@ -31,7 +31,9 @@
   "en_url": "/playfight/",
   "lang": "de",
   "output": "playfight/de/index.html",
-  "path_replacements": {},
+  "path_replacements": {
+    "href=\"/en/privacy.html\"": "href=\"/datenschutz.html\""
+  },
   "site": "playfight",
   "text": {
     "30-minute MP4 video guide": "30 Minuten Video-Guide als MP4",
@@ -71,6 +73,7 @@
     "Four clear signals instead of complexity": "Vier klare Signale",
     "Get the free Playfight Guide": "Kostenlosen Playfight Guide holen",
     "How it works": "So funktioniert es",
+    "I have read the privacy policy.": "Ich habe die Datenschutzerklärung zur Kenntnis genommen.",
     "I intentionally work with few people in parallel so we can go deeper in peace.": "Ich arbeite bewusst mit wenigen Menschen parallel, damit wir in Ruhe in die Tiefe gehen können.",
     "I'll get back to you personally with a suitable proposal.": "Ich melde mich persönlich mit einem passenden Vorschlag bei dir.",
     "Imprint": "Impressum",
@@ -141,6 +144,8 @@
     "You're in.": "Du bist dabei.",
     "Your email address is only used for updates from achten.pro/playfight. No sharing, unsubscribe anytime.": "Deine E-Mail-Adresse wird nur für Updates von achten.pro/playfight verwendet. Keine Weitergabe, jederzeit abmeldbar.",
     "Your entry into": "Dein Einstieg in",
+    "Your information is transmitted to me through Formspree to handle your inquiry. Please do not enter health data, diagnoses or other sensitive information. See the": "Deine Angaben werden zur Bearbeitung deiner Anfrage über Formspree an mich übermittelt. Bitte trage keine Gesundheitsdaten, Diagnosen oder andere besonders sensiblen Informationen ein. Einzelheiten findest du in der",
+    "privacy policy": "Datenschutzerklärung",
     "Your message": "Deine Nachricht",
     "achten.pro · Playfight · Munich · 2026": "achten.pro · Playfight · München · 2026",
     "achten.pro/playfight · Munich © 2026": "achten.pro/playfight · München © 2026",

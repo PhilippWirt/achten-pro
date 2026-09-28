@@ -2,7 +2,7 @@
 
 ## Verbindliche Quelle
 
-Die vier öffentlichen Sprachseiten werden nicht unabhängig bearbeitet. Verbindlich sind:
+Die vier Angebotsseiten und zwei Datenschutzseiten werden nicht unabhängig bearbeitet. Verbindlich sind:
 
 ```text
 source/
@@ -14,6 +14,9 @@ source/
 │   ├── achten-pro.en.json
 │   ├── playfight.de.json
 │   └── playfight.en.json
+├── legal/
+│   ├── datenschutz.html
+│   └── privacy.html
 └── shared/
     ├── language-switch.html
     ├── language-switch.js
@@ -28,6 +31,8 @@ source/
 /en/index.html              Englisch
 /playfight/index.html       Englisch, Playfight-Standard
 /playfight/de/index.html    Deutsch
+/datenschutz.html           Deutsche Datenschutzerklärung
+/en/privacy.html            Englische Datenschutzerklärung
 ```
 
 Die erzeugten HTML-Dateien sind Ausgaben, keine eigenständigen redaktionellen Quellen.
@@ -39,7 +44,7 @@ Templates + Locale-Daten + gemeinsame Bausteine
                         ↓
                  python3 build.py
                         ↓
-               vier statische Seiten
+               sechs statische Seiten
                         ↓
         python3 tests/verify_build.py
 ```

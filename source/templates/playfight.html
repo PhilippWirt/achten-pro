@@ -16,13 +16,6 @@
 
   <title>Contact at Eye Level. Playful and Safe. — achten.pro/playfight</title>
 
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-
-  <link
-    href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;1,6..72,450&display=swap"
-    rel="stylesheet"
-  >
 
   <style>
     :root {
@@ -490,6 +483,28 @@
       resize: vertical;
     }
 
+    .privacy-note {
+      margin: 0;
+      color: var(--muted);
+      font-size: 13px;
+      line-height: 1.55;
+    }
+
+    .privacy-check {
+      flex-direction: row;
+      align-items: flex-start;
+      gap: 10px;
+      font-size: 13px;
+      font-weight: 500;
+    }
+
+    .privacy-check input {
+      width: auto;
+      min-height: 0;
+      margin-top: 3px;
+      padding: 0;
+    }
+
     button {
       border: 0;
     }
@@ -813,7 +828,6 @@
           </div>
 
           <form action="https://formspree.io/f/mwvzgwrb" method="POST">
-            <input type="hidden" name="_next" value="https://achten.pro/playfight/danke.html">
             <input
               type="hidden"
               name="_subject"
@@ -848,6 +862,12 @@
               ></textarea>
             </label>
 
+            <p class="privacy-note">Your information is transmitted to me through Formspree to handle your inquiry. Please do not enter health data, diagnoses or other sensitive information. See the <a href="/en/privacy.html">privacy policy</a> for details.</p>
+            <label class="privacy-check">
+              <input type="checkbox" required>
+              <span>I have read the privacy policy.</span>
+            </label>
+
             <button class="btn-primary" type="submit">
               Send inquiry
             </button>
@@ -863,6 +883,8 @@
       <p>
         Philipp Wiertelorz ·
         <a href="mailto:philwirt@web.de">philwirt@web.de</a> ·
+        <a href="/en/privacy.html">Privacy</a> ·
+        <a href="/#impressum">Imprint</a> ·
         <a href="https://www.instagram.com/philwirt/" target="_blank" rel="noopener noreferrer">Instagram</a>
       </p>
     </div>

@@ -12,9 +12,6 @@
 <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
   <title>In der Kraft liegt die Ruhe — Körper-Geist Personal Training München</title>
   <meta name="description" content="1:1 Körper-Geist Personal Training in München. Krafttraining, Yoga, Mobilität und Selbstregulation. Sendling · Isar · bei dir zu Hause.">
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;400;500;600;700&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;1,6..72,450&display=swap" rel="stylesheet" />
   <style>
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
     html { scroll-behavior: smooth; font-size: 16px; }
@@ -1224,33 +1221,32 @@
             <p style="margin:0; font-size:16px;">✓ Danke! Ich melde mich zeitnah bei dir.</p>
           </div>
           <div data-fs-error style="display:none; padding:20px; background:#e63946; color:#f8f3ec; border-radius:8px; margin-bottom:20px;"></div>
-          <form id="kontakt-form" action="https://formspree.io/f/mwvzgwrb" method="POST" data-fs-field>
-            <input type="hidden" name="_next" value="https://achten.pro/danke.html" />
+          <form id="kontakt-form" action="https://formspree.io/f/mwvzgwrb" method="POST">
             <input type="hidden" name="_subject" value="Neue Anfrage über achten.pro" />
             <input type="hidden" name="source" value="achten.pro" />
             <div class="form-grid">
-              <label>Vorname<input type="text" name="vorname" placeholder="Dein Vorname" autocomplete="given-name" data-fs-field /></label>
-              <label>E-Mail<input type="email" name="email" placeholder="deinname@beispiel.de" autocomplete="email" required data-fs-field /></label>
-              <label>Telefon (optional)<input type="tel" name="tel" placeholder="Optional" autocomplete="tel" data-fs-field /></label>
+              <label>Vorname<input type="text" name="vorname" placeholder="Dein Vorname" autocomplete="given-name" /></label>
+              <label>E-Mail<input type="email" name="email" placeholder="deinname@beispiel.de" autocomplete="email" required /></label>
+              <label>Telefon (optional)<input type="tel" name="tel" placeholder="Optional" autocomplete="tel" /></label>
               <label>Wie oft möchtest du trainieren?
-                <select name="haeufigkeit" data-fs-field>
+                <select name="haeufigkeit">
                   <option value="">Bitte wählen</option>
                   <option>1&times; pro Woche</option>
                   <option>2&times; pro Woche</option>
                   <option>Noch unsicher</option>
                 </select>
               </label>
-              <label>Welche Tage passen meistens?<input type="text" name="tage" placeholder="z. B. Montag, Mittwoch, Freitag" data-fs-field /></label>
-              <label>Ab welcher Uhrzeit geht es meistens?<input type="text" name="uhrzeit" placeholder="z. B. ab 15:00 Uhr" data-fs-field /></label>
+              <label>Welche Tage passen meistens?<input type="text" name="tage" placeholder="z. B. Montag, Mittwoch, Freitag" /></label>
+              <label>Ab welcher Uhrzeit geht es meistens?<input type="text" name="uhrzeit" placeholder="z. B. ab 15:00 Uhr" /></label>
               <label>Bevorzugter Erstkontakt
-                <select name="kontaktweg" data-fs-field>
+                <select name="kontaktweg">
                   <option>E-Mail</option>
                   <option>Rückruf</option>
                   <option>Beides okay</option>
                 </select>
               </label>
               <label>Worum geht es dir gerade am meistens?
-                <select name="ziel" data-fs-field>
+                <select name="ziel">
                   <option value="">Bitte wählen</option>
                   <option>Ruhe im Kopf</option>
                   <option>Entspannung im Körper</option>
@@ -1260,18 +1256,18 @@
                   <option>schreibe ich dir unten ins Textfeld</option>
                 </select>
               </label>
-              <label class="full">Noch etwas, das ich wissen sollte?<textarea name="freitext" placeholder="Schreib mir kurz, was dich gerade beschäftigt oder was du suchst." data-fs-field></textarea></label>
+              <label class="full">Noch etwas, das ich wissen sollte?<textarea name="freitext" placeholder="Schreib mir kurz, was dich gerade beschäftigt oder was du suchst."></textarea></label>
             </div>
+            <p class="muted" style="font-size:13px;max-width:72ch;margin-top:16px;">Deine Angaben werden zur Bearbeitung deiner Anfrage über Formspree an mich übermittelt. Bitte trage keine Gesundheitsdaten, Diagnosen oder andere besonders sensiblen Informationen ein. Einzelheiten findest du in der <a href="/datenschutz.html">Datenschutzerklärung</a>.</p>
+            <label style="display:flex;gap:10px;align-items:flex-start;margin-top:12px;font-size:13px;">
+              <input type="checkbox" required style="width:auto;margin-top:3px;" />
+              <span>Ich habe die Datenschutzerklärung zur Kenntnis genommen.</span>
+            </label>
             <div class="form-footer">
               <p class="muted" style="font-size:13px;max-width:50ch;">Ich arbeite bewusst nur mit wenigen Klient:innen parallel, damit wir in Ruhe in die Tiefe gehen können.</p>
-              <button class="btn-submit" type="submit" data-fs-submit-btn>Anfrage senden</button>
+              <button class="btn-submit" type="submit">Anfrage senden</button>
             </div>
           </form>
-          <script>
-            window.formspree = window.formspree || function () { (formspree.q = formspree.q || []).push(arguments); };
-            formspree('initForm', { formElement: '#kontakt-form', formId: 'mwvzgwrb' });
-          </script>
-          <script src="https://unpkg.com/@formspree/ajax@1" defer></script>
           <div class="contact-alt">
             <a href="mailto:philwirt@web.de">
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round">
@@ -1286,11 +1282,11 @@
           <summary>Impressum</summary>
           <div class="impressum-content">
             <address>
-              <p><strong>Verantwortlich:</strong><br>Philipp Wiertelorz<br>Greinerberg 13<br>81371 München</p>
+              <p><strong>Diensteanbieter und verantwortlich:</strong><br>Philipp Wiertelorz<br>Viebigplatz 4<br>80686 München</p>
               <p>E-Mail: philwirt@web.de</p>
             </address>
-            <p>Verantwortlich i. S. d. § 55 RStV: Philipp Wiertelorz<br>Umsatzsteuer: Kleinunternehmer gemäß § 19 UStG – es wird keine Umsatzsteuer ausgewiesen.</p>
-            <p><strong>Datenschutz:</strong> Diese Website setzt keine Cookies und verwendet keine Tracking- oder Analysetools. Eingaben im Kontaktformular werden ausschließlich zur Bearbeitung deiner Anfrage verwendet und nicht an Dritte weitergegeben.</p>
+            <p>Verantwortlich für journalistisch-redaktionelle Inhalte gemäß § 18 Abs. 2 MStV: Philipp Wiertelorz, Anschrift wie oben.</p>
+            <p><a href="/datenschutz.html"><strong>Vollständige Datenschutzerklärung</strong></a></p>
           </div>
         </details>
       </div>
@@ -1304,7 +1300,7 @@
       <p>achten.pro &middot; München &copy; 2026</p>
       <nav class="footer-links" aria-label="Footer-Navigation">
         <a href="#impressum">Impressum</a>
-        <a href="#impressum">Datenschutz</a>
+        <a href="/datenschutz.html">Datenschutz</a>
         <a href="#kontakt">Kontakt</a>
         <a href="https://www.instagram.com/philwirt/" target="_blank" rel="noopener noreferrer">Instagram</a>
       </nav>

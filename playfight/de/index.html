@@ -15,13 +15,6 @@
 
   <title>Kontakt auf Augenhöhe. Spielend sicher. — achten.pro/playfight</title>
 
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-
-  <link
-    href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;1,6..72,450&display=swap"
-    rel="stylesheet"
-  >
 
   <style>
     :root {
@@ -489,6 +482,28 @@
       resize: vertical;
     }
 
+    .privacy-note {
+      margin: 0;
+      color: var(--muted);
+      font-size: 13px;
+      line-height: 1.55;
+    }
+
+    .privacy-check {
+      flex-direction: row;
+      align-items: flex-start;
+      gap: 10px;
+      font-size: 13px;
+      font-weight: 500;
+    }
+
+    .privacy-check input {
+      width: auto;
+      min-height: 0;
+      margin-top: 3px;
+      padding: 0;
+    }
+
     button {
       border: 0;
     }
@@ -820,7 +835,6 @@
           </div>
 
           <form action="https://formspree.io/f/mwvzgwrb" method="POST">
-            <input type="hidden" name="_next" value="https://achten.pro/playfight/danke.html">
             <input
               type="hidden"
               name="_subject"
@@ -855,6 +869,12 @@
               ></textarea>
             </label>
 
+            <p class="privacy-note">Deine Angaben werden zur Bearbeitung deiner Anfrage über Formspree an mich übermittelt. Bitte trage keine Gesundheitsdaten, Diagnosen oder andere besonders sensiblen Informationen ein. Einzelheiten findest du in der <a href="/datenschutz.html">Datenschutzerklärung</a> for details.</p>
+            <label class="privacy-check">
+              <input type="checkbox" required>
+              <span>Ich habe die Datenschutzerklärung zur Kenntnis genommen.</span>
+            </label>
+
             <button class="btn-primary" type="submit">
               Anfrage senden
             </button>
@@ -870,6 +890,8 @@
       <p>
         Philipp Wiertelorz ·
         <a href="mailto:philwirt@web.de">philwirt@web.de</a> ·
+        <a href="/datenschutz.html">Datenschutz</a> ·
+        <a href="/#impressum">Impressum</a> ·
         <a href="https://www.instagram.com/philwirt/" target="_blank" rel="noopener noreferrer">Instagram</a>
       </p>
     </div>

@@ -12,9 +12,6 @@
 <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
   <title>In Strength Lies Calm — Body-Mind Personal Training Munich</title>
   <meta name="description" content="1:1 body-mind personal training in Munich. Strength, yoga, mobility and self-regulation. Sendling · Isar · at your home.">
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;400;500;600;700&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;1,6..72,450&display=swap" rel="stylesheet" />
   <style>
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
     html { scroll-behavior: smooth; font-size: 16px; }
@@ -1206,33 +1203,32 @@
             <p style="margin:0; font-size:16px;">✓ Thank you. I will get back to you personally.</p>
           </div>
           <div data-fs-error style="display:none; padding:20px; background:#e63946; color:#f8f3ec; border-radius:8px; margin-bottom:20px;"></div>
-          <form id="kontakt-form" action="https://formspree.io/f/mwvzgwrb" method="POST" data-fs-field>
-            <input type="hidden" name="_next" value="https://achten.pro/danke.html" />
+          <form id="kontakt-form" action="https://formspree.io/f/mwvzgwrb" method="POST">
             <input type="hidden" name="_subject" value="New inquiry via achten.pro" />
             <input type="hidden" name="source" value="achten.pro" />
             <div class="form-grid">
-              <label>First name<input type="text" name="vorname" placeholder="Your first name" autocomplete="given-name" data-fs-field /></label>
-              <label>Email<input type="email" name="email" placeholder="yourname@example.com" autocomplete="email" required data-fs-field /></label>
-              <label>Phone (optional)<input type="tel" name="tel" placeholder="Optional" autocomplete="tel" data-fs-field /></label>
+              <label>First name<input type="text" name="vorname" placeholder="Your first name" autocomplete="given-name" /></label>
+              <label>Email<input type="email" name="email" placeholder="yourname@example.com" autocomplete="email" required /></label>
+              <label>Phone (optional)<input type="tel" name="tel" placeholder="Optional" autocomplete="tel" /></label>
               <label>How often would you like to train?
-                <select name="haeufigkeit" data-fs-field>
+                <select name="haeufigkeit">
                   <option value="">Please choose</option>
                   <option>1× per week</option>
                   <option>2× per week</option>
                   <option>Still unsure</option>
                 </select>
               </label>
-              <label>Which days usually work?<input type="text" name="tage" placeholder="e.g. Monday, Wednesday, Friday" data-fs-field /></label>
-              <label>What time usually works?<input type="text" name="uhrzeit" placeholder="e.g. from 3:00 PM" data-fs-field /></label>
+              <label>Which days usually work?<input type="text" name="tage" placeholder="e.g. Monday, Wednesday, Friday" /></label>
+              <label>What time usually works?<input type="text" name="uhrzeit" placeholder="e.g. from 3:00 PM" /></label>
               <label>Preferred first contact
-                <select name="kontaktweg" data-fs-field>
+                <select name="kontaktweg">
                   <option>Email</option>
                   <option>Callback</option>
                   <option>Both okay</option>
                 </select>
               </label>
               <label>What matters most to you right now?
-                <select name="ziel" data-fs-field>
+                <select name="ziel">
                   <option value="">Please choose</option>
                   <option>Stillness in the mind</option>
                   <option>Ease in the body</option>
@@ -1242,18 +1238,18 @@
                   <option>I'll write it below</option>
                 </select>
               </label>
-              <label class="full">Anything else I should know?<textarea name="freitext" placeholder="Tell me briefly what's on your mind or what you're looking for." data-fs-field></textarea></label>
+              <label class="full">Anything else I should know?<textarea name="freitext" placeholder="Tell me briefly what's on your mind or what you're looking for."></textarea></label>
             </div>
+            <p class="muted" style="font-size:13px;max-width:72ch;margin-top:16px;">Your information is transmitted to me through Formspree to handle your inquiry. Please do not enter health data, diagnoses or other sensitive information. See the <a href="/en/privacy.html">privacy policy</a>.</p>
+            <label style="display:flex;gap:10px;align-items:flex-start;margin-top:12px;font-size:13px;">
+              <input type="checkbox" required style="width:auto;margin-top:3px;" />
+              <span>I have read the privacy policy.</span>
+            </label>
             <div class="form-footer">
               <p class="muted" style="font-size:13px;max-width:50ch;">I intentionally work with only a few clients in parallel so we can go deeper in peace.</p>
-              <button class="btn-submit" type="submit" data-fs-submit-btn>Send inquiry</button>
+              <button class="btn-submit" type="submit">Send inquiry</button>
             </div>
           </form>
-          <script>
-            window.formspree = window.formspree || function () { (formspree.q = formspree.q || []).push(arguments); };
-            formspree('initForm', { formElement: '#kontakt-form', formId: 'mwvzgwrb' });
-          </script>
-          <script src="https://unpkg.com/@formspree/ajax@1" defer></script>
           <div class="contact-alt">
             <a href="mailto:philwirt@web.de">
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round">
@@ -1268,11 +1264,11 @@
           <summary>Imprint</summary>
           <div class="impressum-content">
             <address>
-              <p><strong>Responsible:</strong><br>Philipp Wiertelorz<br>Greinerberg 13<br>81371 München</p>
+              <p><strong>Service provider and responsible person:</strong><br>Philipp Wiertelorz<br>Viebigplatz 4<br>80686 München</p>
               <p>Email: philwirt@web.de</p>
             </address>
-            <p>Responsible i.S.d. § 55 RStV: Philipp Wiertelorz<br>VAT: Small business according to § 19 UStG — no VAT is shown.</p>
-            <p><strong>Privacy:</strong> This website does not set cookies and does not use tracking or analytics tools. Entries in the contact form are used exclusively to process your inquiry and are not shared with third parties.</p>
+            <p>Responsible for journalistic-editorial content pursuant to section 18(2) MStV: Philipp Wiertelorz, address as above.</p>
+            <p><a href="/en/privacy.html"><strong>Full privacy policy</strong></a></p>
           </div>
         </details>
       </div>
@@ -1286,7 +1282,7 @@
       <p>achten.pro · Munich © 2026</p>
       <nav class="footer-links" aria-label="Footer navigation">
         <a href="#impressum">Imprint</a>
-        <a href="#impressum">Privacy</a>
+        <a href="/en/privacy.html">Privacy</a>
         <a href="#kontakt">Contact</a>
         <a href="https://www.instagram.com/philwirt/" target="_blank" rel="noopener noreferrer">Instagram</a>
       </nav>

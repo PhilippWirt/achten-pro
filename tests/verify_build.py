@@ -17,6 +17,8 @@ OUTPUTS = [
     ROOT / 'en/index.html',
     ROOT / 'playfight/index.html',
     ROOT / 'playfight/de/index.html',
+    ROOT / 'datenschutz.html',
+    ROOT / 'en/privacy.html',
 ]
 
 class AuditParser(HTMLParser):
@@ -106,6 +108,8 @@ expected={
     ROOT/'en/index.html':('en','https://achten.pro/en/','/','/en/'),
     ROOT/'playfight/index.html':('en','https://achten.pro/playfight/','/playfight/de/','/playfight/'),
     ROOT/'playfight/de/index.html':('de','https://achten.pro/playfight/de/','/playfight/de/','/playfight/'),
+    ROOT/'datenschutz.html':('de','https://achten.pro/datenschutz.html','/datenschutz.html','/en/privacy.html'),
+    ROOT/'en/privacy.html':('en','https://achten.pro/en/privacy.html','/datenschutz.html','/en/privacy.html'),
 }
 for path,(lang,canonical,de_url,en_url) in expected.items():
     parser=parsed.get(path)
