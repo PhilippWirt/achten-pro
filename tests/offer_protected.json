@@ -1,0 +1,70 @@
+{
+  "files": {
+    "ARCHITECTURE.md": "83ef5f569ba026732f0edb1a0419e7b001693176a3ac65efbf0b87e54a801f95",
+    "CNAME": "516f499855f5b2dba1a4ce19afc446b856753a40ab401d8f22af0710eb9b2e2f",
+    "assets/images/BILDER_HIER_ABLEGEN.md": "21a2541c598a3ff73fb413a3ac8fa79190e47f12a5ff1a3fd12a076d7e6b9a92",
+    "assets/images/Training Outdoor 1.jpg": "856159ec76e5866721d0d90afe2a3b6f051d5dcbfb656e171b4722ad5c65dd97",
+    "assets/images/heic_convert.py": "9a223b85fb2c4a9ef5c9b493320c098a7b40faeb00137541a4fda405134c1f32",
+    "assets/images/playfight-hero-zelt.jpg": "38fa5cea579e3afc20fd1f8a938cc972d540c14da2a91ce09b78180e440bee77",
+    "assets/images/playfight-workshop-zelt.jpg": "1e9303f757b7e973bc64783ae990b04634cbd96e75ceba2ee7b82a077a05a6e2",
+    "assets/images/von_links.jpg": "8845df003ce180ba77118707f2f97ae5c7f316ca061b7b0b7a3a40805e722a54",
+    "assets/images/von_vorne richtig geschnitten.jpg": "0c8921105bfa99638cbb60d1fdf29b32c7c194a0f8cc406000926c5429921fc0",
+    "assets/images/von_vorne_richtig_geschnitten.jpg": "0c8921105bfa99638cbb60d1fdf29b32c7c194a0f8cc406000926c5429921fc0",
+    "assets/von links.HEIC": "c6af151b0d21aa8c2405421a7fe9ce0c51dfb1901009c011edb8b04e58a5466b",
+    "assets/von vorne.HEIC": "f1e02e18d8f1b5b16fcbb118594584c8d0e28c50acdc21d5df8ac0fa72b86b0d",
+    "assets/von_vorne geschnitten.jpg": "46eef5ac51ebad51f092a74f240915fbc46eb8a16d53adb668de096bfe8392ff",
+    "assets/von_vorne.jpg": "fe83b97832693b9082123eb478f2022451539bc2b9213b67779d40c3383b7528",
+    "assets/von_vorne_geschnitten.jpg": "46eef5ac51ebad51f092a74f240915fbc46eb8a16d53adb668de096bfe8392ff",
+    "build.py": "192fb94fcfd65feae2e1f6d9f700afa3975e453a5d73b53716f3e3301dc3cb99",
+    "danke.html": "44dfe2bb0c24401ff295305cfc0601bcd246045fe0ef78474ce2ca46d8f7350a",
+    "datenschutz.html": "98563f077c66702c4542757303b78e49ee4b3d3cbfa7c532bde66358c2c451d4",
+    "en/privacy.html": "e4a9fb3a74116341aeccbdaa76febdfdfe49eac27c250a58cc284491eaeb04ba",
+    "favicon.svg": "ad94b745022b7443eb152bd2678e9e20b4bc8497632c8638697f0f0703abda40",
+    "playfight/assets/images/playfight-hero-zelt.jpg": "38fa5cea579e3afc20fd1f8a938cc972d540c14da2a91ce09b78180e440bee77",
+    "playfight/assets/images/playfight-workshop-zelt.jpg": "1e9303f757b7e973bc64783ae990b04634cbd96e75ceba2ee7b82a077a05a6e2",
+    "playfight/danke.html": "44dfe2bb0c24401ff295305cfc0601bcd246045fe0ef78474ce2ca46d8f7350a",
+    "playfight/de/index.html": "3e67809e53fdf06a9092437832565f15758a02b905238b9d317c99abc6a76c90",
+    "playfight/index.html": "22188780f1c3e3245cd8558f976cba8d7944129a5a631367e92263f4eb49b840",
+    "source/legal/datenschutz.html": "0c8a1063ddab9156d5bdb0afa04d976437eeccd653c01c960f6e646713fb489e",
+    "source/legal/privacy.html": "ff0dc8aee9714c36d362bbf4a0a8bb951b43bde5c782e56e402310471c9fd599",
+    "source/locales/playfight.de.json": "ca43f00c3b94034a15fd543d33e756ef35b2a75a3595ca84e3cdb2d19d352a21",
+    "source/locales/playfight.en.json": "c2c3a789d90f75856969de223c38de7de3d295c1c899eb16ddd8c39cf88a0f8b",
+    "source/shared/language-switch.html": "c754416b1f5e31c783e5eeb7e81ccaec6d8d51e756f156faa0c6e071ffc0ab63",
+    "source/shared/language-switch.js": "74d01683665ffdc661491a40ec99fae514e575ab9fe7a5c56d742d8c29b5cb5b",
+    "source/shared/navigation.json": "fcb3c9aba28031200f0b02bc5f452ef9a650bde0944b04ab697d12935d301c7d",
+    "source/shared/styles.css": "ba8355ff4897d233abeb9b81b250c2cfeb77e12e5a9bda7a90bf99bf4d922f28",
+    "source/templates/playfight.html": "db6b63355ef4379b84e76d2c08bce9196edfa5495a3d428637552f7d4783a7c6"
+  },
+  "blocks": {
+    "index.html": {
+      "impressum": {
+        "pattern": "<details class=\"impressum-box\".*?</details>",
+        "sha256": "ca3f73b2812ffa0e6c5711623adcd0bbb55e5ccecb14cf9bc2801ab31926a673"
+      },
+      "playfight": {
+        "pattern": "<section id=\"playfight\".*?</section>",
+        "sha256": "216f6ca3df09daa8af59dd6861db462eab0e821fc64bee924f39798d386571bd"
+      }
+    },
+    "en/index.html": {
+      "impressum": {
+        "pattern": "<details class=\"impressum-box\".*?</details>",
+        "sha256": "3fa5225c87717fc74b5325f604f7d061883c584bed0855fc3bfc5f7752239dfb"
+      },
+      "playfight": {
+        "pattern": "<section id=\"playfight\".*?</section>",
+        "sha256": "81c28b44e3ce3f7a46de881c52aa8649e5853b0fcbac1b88944d38b2393d57bf"
+      }
+    },
+    "source/templates/achten-pro.html": {
+      "impressum": {
+        "pattern": "<details class=\"impressum-box\".*?</details>",
+        "sha256": "d32118496682836cd79518fc70ed9c5f911942921ccd3f8fbc1c4816e970b599"
+      },
+      "playfight": {
+        "pattern": "<section id=\"playfight\".*?</section>",
+        "sha256": "ed993256cf44bdf58605d67336db065022f789692433218f29dd2e1c83b88d36"
+      }
+    }
+  }
+}

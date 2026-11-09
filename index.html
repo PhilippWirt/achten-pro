@@ -10,8 +10,8 @@
   <link rel="alternate" hreflang="x-default" href="https://achten.pro/">
   <link rel="canonical" href="https://achten.pro/">
 <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
-  <title>In der Kraft liegt die Ruhe — Körper-Geist Personal Training München</title>
-  <meta name="description" content="1:1 Körper-Geist Personal Training in München. Krafttraining, Yoga, Mobilität und Selbstregulation. Sendling · Isar · bei dir zu Hause.">
+  <title>Selbstmeisterschaft · Personal Training &amp; Sportpsychologisches Coaching · München · achten.pro</title>
+  <meta name="description" content="Körper Geist Meisterung in München: Personal Training allein 80 € oder zu zweit 60 € pro Person / 120 € gesamt, gemeinsam 60 Minuten. Sportpsychologisches Coaching: 85 € / 60 Minuten Einzelbegleitung. Anfrage an Philipp@achten.pro.">
   <style>
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
     html { scroll-behavior: smooth; font-size: 16px; }
@@ -596,6 +596,7 @@
       .coming-soon-box { padding:22px 16px; }
     }
     /* ─── TESTIMONIALS ─── */
+    #testimonials figure { margin:20px 0 0; }
     .testimonial-outer {
       overflow:hidden; border-radius:var(--radius-lg);
       box-shadow:var(--shadow-md); border:1px solid var(--border);
@@ -667,6 +668,199 @@
       .t-inner { max-width:calc(100% - 2px); }
     }
 
+@font-face {
+  font-family: 'IBM Plex Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: normal;
+  font-display: swap;
+  src: url('/assets/fonts/ibm-plex-sans-400.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'IBM Plex Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-stretch: normal;
+  font-display: swap;
+  src: url('/assets/fonts/ibm-plex-sans-500.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'IBM Plex Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-stretch: normal;
+  font-display: swap;
+  src: url('/assets/fonts/ibm-plex-sans-600.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Newsreader';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url('/assets/fonts/newsreader-500.ttf') format('truetype');
+}
+    /* Two independent offers: design A, existing font pair and images. */
+    html { scroll-padding-top:100px; }
+    .new-offers { --psy:#0b6d64; --psy-bg:#e1f0e8; --pt:#6b5415; --pt-bg:#f4eccd; }
+    [data-theme="dark"] .new-offers { --psy:#9dd4c5; --psy-bg:#213d35; --pt:#edd58b; --pt-bg:#373321; }
+    .new-offers p { margin:12px 0; }
+    .new-offers .intro-offers { padding:36px 0 12px; }
+    .intro-offers h1 { font:500 clamp(34px,6vw,66px)/1.08 var(--font-disp); letter-spacing:-.025em; }
+    .intro-offers .or { font:400 .5em var(--font-body); }
+    .lead { max-width:700px; color:var(--muted); font-size:18px; }
+    .choice-grid { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:20px; margin-top:24px; }
+    .choice { min-width:0; display:flex; flex-direction:column; background:var(--psy-bg); border:1px solid var(--border); border-radius:var(--radius-md); padding:26px; }
+    .choice.pt { background:var(--pt-bg); }
+    .choice-head { display:flex; justify-content:space-between; gap:12px; align-items:center; }
+    .number,.eyebrow,.section-id { font-size:12px; letter-spacing:.06em; }
+    .price { font-size:26px; color:var(--psy); white-space:nowrap; }
+    .pt .price { color:var(--pt); }
+    .choice h2 { font:500 clamp(25px,3vw,38px)/1.12 var(--font-disp); overflow-wrap:anywhere; margin:14px 0 4px; }
+    .offer-icon { display:flex; gap:10px; margin-top:16px; color:var(--psy); }
+    .offer-icon svg { width:38px; height:38px; }
+    .psy-icon svg:first-child { color:var(--secondary); }.pt-icon{color:var(--pt);}
+    .choice .path { margin-top:auto; text-decoration:underline; text-underline-offset:4px; font-weight:600; }
+    .price-note,.draft-note { color:var(--muted); font-size:13px; }
+    .training-image { height:240px; overflow:hidden; border-radius:var(--radius-md); margin:20px 0; }
+    .training-image img { width:100%; height:100%; object-fit:cover; object-position:15% 20%; }
+    .new-offers .offer-section { display:grid; grid-template-columns:210px minmax(0,1fr); gap:48px; border-top:1px solid var(--border); padding:42px 0; }
+    .section-aside h2 { font:500 25px/1.2 var(--font-disp); margin-top:12px; }
+    .statement,.process-v2 h2,.about-v2 h2,.contact-v2 h2 { font:500 clamp(30px,4vw,44px)/1.12 var(--font-disp); }
+    .scenarios { padding-left:20px; margin:20px 0; }.scenarios li{margin:10px 0;}
+    .button { display:inline-flex; align-items:center; gap:12px; padding:12px 22px; border-radius:999px; background:linear-gradient(135deg,var(--primary),var(--secondary)); color:#fff; font-weight:600; }
+    .training .button { background:var(--pt-bg); color:var(--pt); border:1px solid var(--pt); }
+    .open-point { padding:14px; border-left:3px solid var(--border); font-size:14px; }
+    .new-offers .process-v2,.new-offers .contact-v2 { padding:36px 0; border-top:1px solid var(--border); }
+    .process-v2 ol { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:32px; padding-left:20px; margin-top:20px; }
+    .new-offers .about-v2 { display:grid; grid-template-columns:190px minmax(0,1fr); gap:36px; align-items:center; padding:36px 0; }
+    .about-v2 img { width:190px; height:220px; object-fit:cover; object-position:50% 15%; border-radius:var(--radius-md); }
+    .contact-layout { display:grid; grid-template-columns:1.2fr 1fr; gap:36px; }.email{font-size:clamp(22px,3vw,32px);overflow-wrap:anywhere;text-decoration:underline;}
+    .new-offers a:focus-visible { outline:3px solid var(--secondary); outline-offset:4px; }
+    @media(max-width:760px){.new-offers .offer-section{grid-template-columns:1fr;gap:18px}.contact-layout,.process-v2 ol{grid-template-columns:1fr}.nav{gap:8px}.nav-cta{display:none}.brand-sub{font-size:9px;letter-spacing:0}.choice{padding:16px 12px}.choice-head{display:block}.price{display:block;margin-top:6px}.choice-grid{gap:10px}.choice h2{font-size:25px}.choice p{font-size:14px}.number{font-size:10px;letter-spacing:0}.choice .path{font-size:13px}.new-offers .about-v2{grid-template-columns:1fr}.training-image{height:180px}}
+    @media(max-width:760px){.theme-toggle{display:flex;flex-shrink:0}.brand-sub{display:none}.lang-switch{margin-left:auto}.hamburger{flex-shrink:0}}
+    @media(max-width:380px){.choice h2{font-size:22px}}
+    .new-offers :is(.intro-offers,.offer-section,.process-v2,.about-v2,.contact-v2) { --muted:#38544c; }
+    [data-theme="dark"] .new-offers :is(.intro-offers,.offer-section,.process-v2,.about-v2,.contact-v2) { --muted:#92c4b6; }
+    .path-heading { font-size:clamp(22px,2.5vw,30px);line-height:1.25;font-weight:500;color:var(--text); }
+    .shared-support { font:500 24px/1.3 var(--font-disp);padding:18px 0 6px; }
+    .offer-photo { width:100%;height:280px;object-fit:cover;object-position:50% 35%;border-radius:var(--radius-md);margin-top:22px; }
+    .hrv-note { border-left:3px solid var(--secondary);padding:2px 20px;margin:18px 0;background:var(--surface); }
+    .offer-copy h3:not(.statement) { font:500 26px/1.2 var(--font-disp);margin:30px 0 12px; }
+    .offer-copy { min-width:0;max-width:780px; }
+    .intro-hero { display:grid;grid-template-columns:minmax(0,1fr) 260px;gap:32px;align-items:center;margin-bottom:24px; }
+    .intro-hero .hero-photo { display:block;width:100%;height:auto;border-radius:var(--radius-md); }
+    @media(max-width:760px){.intro-hero{grid-template-columns:1fr;gap:18px}.intro-hero .hero-photo{width:160px;max-width:100%;margin-inline:auto}}
+    @media(max-width:760px){.choice-grid{grid-template-columns:1fr;gap:18px}.choice{padding:22px}.choice p{font-size:16px}.choice .path-heading{font-size:25px}.choice .path{font-size:16px}.choice-head{display:flex}.offer-photo{max-width:280px;height:300px}.intro-offers h1{font-size:clamp(34px,7vw,52px)}}
+    @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+    /* RC1: foregrounds on the existing light surfaces / bright dark-mode gradients. */
+    html[data-theme="light"] .lang-switch .lang-label.inactive { opacity:.8; }
+    html[data-theme="light"] #playfight .section-head .kicker,
+    html[data-theme="light"] #playfight .section-head a { color:#075e56 !important; }
+    html[data-theme="light"] #playfight .section-head p { color:#38544c; }
+    html[data-theme="light"] #playfight .btn-ghost { color:#0c2620 !important; }
+    html[data-theme="dark"] .nav-cta,
+    html[data-theme="dark"] .nav-cta span,
+    html[data-theme="dark"] #sportpsychologie .button,
+    html[data-theme="dark"] .t-avatar,
+    html[data-theme="dark"] #playfight .btn-primary { color:#071812 !important; }
+
+    html[data-theme="dark"] .contact-v2 .button {color:#071812}
+    .offer-facts {padding:18px 22px;margin:22px 0;border:1px solid var(--border);border-radius:18px;background:var(--surface)}
+    .offer-facts .price-line {font-size:21px;font-weight:700}
+    /* RC2: integrated photographic frame; solid copy surface avoids all face/text overlap. */
+    .intro-hero {display:grid;grid-template-columns:minmax(0,1.2fr) minmax(0,1fr);gap:0;align-items:stretch;border-radius:34px;overflow:hidden;background:#061b15;box-shadow:var(--shadow-lg)}
+    .intro-hero .hero-content {padding:clamp(24px,4vw,46px);align-self:center;color:#f3faf6}
+    .intro-hero .hero-content .lead {color:#c8e8df}
+    .intro-hero .hero-content .eyebrow {color:#c8e8df}
+    .intro-hero {position:relative;min-height:620px}
+    .intro-hero .hero-content {grid-column:1}
+    .intro-hero .hero-photo {position:absolute;inset:0 0 0 auto;width:45.4545%;height:100%;min-height:0;object-fit:cover;object-position:50% 0;border-radius:0;margin:0;max-width:none}
+    .recurring-contact {display:flex;flex-wrap:wrap;align-items:center;gap:12px;margin-top:24px}
+    .mail-repeat {display:inline-block;text-decoration:underline;text-underline-offset:4px;font-weight:600;overflow-wrap:anywhere}
+    .hero-content .button {background:#e6f4ee;color:#07574f}
+    .hero-content .mail-repeat {color:#e6f4ee}
+    .offer-details {border:1px solid var(--border);border-radius:16px;margin:12px 0;background:var(--surface)}
+    .offer-details summary {padding:16px 18px;cursor:pointer;font-weight:600;color:var(--text);min-height:56px}
+    .offer-details .detail-content {padding:0 18px 16px}
+    .offer-details .detail-content h3:first-child {margin-top:12px}
+    .offer-details summary:focus-visible,.t-arrow:focus-visible,.t-dot:focus-visible,.testimonial-outer:focus-visible {outline:3px solid var(--secondary);outline-offset:3px}
+    .offer-jump {display:flex;flex-wrap:wrap;gap:10px;margin:18px 0}
+    .offer-jump a {padding:9px 12px;border:1px solid #c8e8df;border-radius:12px;color:#f3faf6;font-weight:600;min-height:44px}
+    .concern-title {font-weight:600}
+    .concern-action {display:block;margin:8px 0 0;font-weight:400;line-height:1.55}
+    .offer-details summary .concern-action {color:var(--text)}
+    .testimonial-outer {display:flex;overflow-x:auto;scroll-snap-type:x mandatory;border-radius:22px;border:1px solid var(--border);overscroll-behavior-x:contain;scrollbar-width:thin;scroll-behavior:smooth}
+    #testimonials .testimonial-slide {flex:0 0 100%;min-width:0;margin:0;padding:28px;background:var(--surface);scroll-snap-align:start;scroll-snap-stop:always}
+    .t-controls,.t-dots {display:flex;align-items:center;gap:12px}
+    .t-controls {justify-content:space-between;margin-top:16px}
+    .t-arrow,.t-dot {min-width:46px;min-height:46px;border:1px solid var(--border);border-radius:50%;background:var(--surface);color:var(--text);cursor:pointer;font:600 16px var(--font-body)}
+    .t-dot[aria-current="true"] {border:2px solid var(--text);text-decoration:underline;text-underline-offset:4px}
+    @media(max-width:959px) {
+      .intro-hero {grid-template-columns:1fr}
+      .intro-hero .hero-photo {position:static;width:100%;grid-row:1;min-height:0;height:auto;aspect-ratio:1.1;object-fit:cover;object-position:50% 0}
+      .intro-hero .hero-content {padding:24px}
+      .intro-offers h1 {font-size:clamp(32px,8.5vw,44px)}
+      #testimonials .testimonial-slide {padding:22px}
+    }
+    @media(prefers-reduced-motion:reduce){.testimonial-outer {scroll-behavior:auto}}
+    @media print {
+      .offer-details>summary {display:block}
+      .offer-details>.detail-content {display:block !important;content-visibility:visible !important}
+      details::details-content {display:block !important;content-visibility:visible !important}
+      .testimonial-outer {display:block;overflow:visible}
+      #testimonials .testimonial-slide {break-inside:avoid}
+      .t-controls {display:none}
+    }
+
+    /* RC3: full hero background, preserving the chosen scene and visible face. */
+    .intro-hero{display:block;isolation:isolate;min-height:720px;background:#061b15}
+    .intro-hero .hero-photo{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:0 0;border-radius:0;z-index:-2;aspect-ratio:auto}
+    .intro-hero::after{content:"";position:absolute;inset:0;z-index:-1;background:linear-gradient(90deg,rgba(2,15,10,.05) 0%,rgba(2,15,10,.35) 35%,rgba(2,15,10,.95) 55%,rgba(2,15,10,.98) 100%)}
+    .intro-hero .hero-content{position:relative;margin-left:46%;padding:40px 34px;background:transparent}
+    .intro-hero h1{font-size:clamp(40px,5vw,66px);line-height:1.05}
+    .topic-chips{display:flex;flex-wrap:wrap;gap:8px;margin:24px 0 16px}
+    .topic-chips span{padding:6px 12px;border:1px solid var(--border);border-radius:999px;color:var(--text);background:var(--surface)}
+    .concrete-note{border-left:3px solid var(--accent);padding:12px 18px;margin-bottom:24px;background:var(--surface)}
+    .concrete-note h3{font-size:22px;margin:0 0 8px}.concrete-note p{margin:0}
+    .local-inquiry{margin-top:32px;border-top:1px solid var(--border);padding-top:24px}
+    html[data-theme="dark"] #createDraft{color:#071812}
+    .local-inquiry > p > a{display:inline-block}
+    .local-inquiry form{margin:20px 0}.local-inquiry .btn-submit{margin-top:20px}
+    #draftPanel[hidden]{display:none}#draftPanel label{display:block;font-weight:600}
+    #mailDraft{display:block;width:100%;margin:10px 0 18px;padding:14px;font:inherit;color:var(--text);background:var(--surface);border:1px solid var(--border);border-radius:12px;resize:vertical}
+    @media(max-width:760px){
+      .intro-hero{min-height:900px}
+      .intro-hero .hero-content{margin-left:0;padding:310px 22px 28px}
+      .intro-hero .hero-photo{position:absolute;inset:0;width:100%;height:100%;object-position:0 0;aspect-ratio:auto}
+      .intro-hero::after{background:linear-gradient(180deg,rgba(2,15,10,.02) 0%,rgba(2,15,10,.08) 23%,rgba(2,15,10,.96) 35%,rgba(2,15,10,.98) 100%)}
+      .intro-hero h1{font-size:44px}
+    }
+
+
+    /* RC4: let the chosen training scene breathe; text never covers people. */
+    .intro-hero{display:grid;grid-template-columns:1fr 1fr;min-height:0;align-items:stretch}
+    .intro-hero .hero-photo{position:static;grid-column:1;grid-row:1;width:100%;height:100%;min-height:0;aspect-ratio:2053/3200;object-fit:cover;object-position:50% 0;z-index:auto;margin:0;border-radius:0}
+    .intro-hero::after{display:none}
+    .intro-hero .hero-content{grid-column:2;grid-row:1;margin:0;padding:clamp(24px,4vw,46px);align-self:center;background:#061b15}
+    .new-offers .about-v2{display:block;max-width:880px;margin-inline:auto;padding:52px 0}
+    .about-v2 .about-heading h2{font-size:clamp(34px,5vw,58px);line-height:1.08;margin-bottom:32px}
+    .about-v2 img.about-photo{display:block;width:100%;height:auto;aspect-ratio:5/4;object-fit:cover;object-position:50% 43%;border-radius:28px;margin-bottom:28px}
+    .about-lead{font-size:clamp(19px,2.2vw,24px);line-height:1.6}
+    .profile-chips{list-style:none;display:grid;gap:12px;margin:28px 0;padding:0}
+    .profile-chips li{border:1px solid #97c8be;border-radius:18px;padding:13px 20px;background:#d3eee5;color:#07574f;font-weight:600}
+    [data-theme="dark"] .profile-chips li{background:#103b32;border-color:#315e53;color:#6bd8c8}
+    .t-dot{display:inline-flex;align-items:center;justify-content:center;min-width:40px;min-height:40px}
+    .t-dot span{width:8px;height:8px;border-radius:50%;background:currentColor}
+    .context-icon{display:inline-block;width:22px;height:22px;margin-right:9px;vertical-align:-4px;fill:none;stroke:currentColor;stroke-width:1.7;stroke-linecap:round;stroke-linejoin:round}
+    .personal-contact{max-width:42ch}
+    @media(max-width:760px){
+      .intro-hero{grid-template-columns:1fr}
+      .intro-hero .hero-photo{grid-column:1;grid-row:1;height:auto;aspect-ratio:2053/3609;object-fit:contain}
+      .intro-hero .hero-content{grid-column:1;grid-row:2;padding:26px 22px 30px}
+      .intro-hero h1{font-size:clamp(38px,10vw,52px)}
+      .about-v2 .about-heading h2{font-size:clamp(34px,9vw,48px)}
+    }
+
 
     /* Shared language switch */
 .sr-only {
@@ -694,6 +888,30 @@
   border-radius: 4px;
 }
   </style>
+<!-- Tabler Icons license, copied from existing approved design comparison
+MIT License
+
+Copyright (c) 2020-2026 Paweł Kuna
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+-->
 </head>
 <body>
   <div id="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" aria-label="Seitenfortschritt"></div>
@@ -703,18 +921,16 @@
     <div class="container nav">
       <a class="brand" href="#top" aria-label="Startseite">
         <span class="brand-name">achten.pro</span>
-        <span class="brand-sub">Körper-Geist Training · München</span>
+        <span class="brand-sub">Sportpsychologisches Coaching · Personal Training</span>
       </a>
       <nav class="nav-links" aria-label="Hauptnavigation">
-        <a href="#wirkung">Wirkung</a>
-        <a href="#ansatz">Ansatz</a>
-        <a href="#angebot">Angebot</a>
+        <a href="#sportpsychologie">Sportpsychologisches Coaching</a>
+        <a href="#personal-training">Personal Training</a>
         <a href="/playfight/de/">Playfight</a>
-        <a href="#preise">Preise</a>
         <a href="#kontakt">Kontakt</a>
       </nav>
       <a class="nav-cta" href="#kontakt">
-        <span class="nav-cta-long">Kennenlerngespräch</span>
+        <span class="nav-cta-long">Kontakt</span>
         <span class="nav-cta-short">Anfragen</span>
       </a>
       <nav class="lang-switch" data-language-switch data-site="achten-pro" aria-label="Sprache wählen">
@@ -733,565 +949,104 @@
     </div>
   </header>
   <nav class="mobile-nav" id="mobile-nav" aria-label="Mobile Navigation" aria-hidden="true">
-    <a href="#wirkung">Wirkung</a>
-    <a href="#ansatz">Ansatz</a>
-    <a href="#angebot">Angebot</a>
+    <a href="#sportpsychologie">Sportpsychologisches Coaching</a>
+    <a href="#personal-training">Personal Training</a>
     <a href="/playfight/de/">Playfight</a>
-    <a href="#preise">Preise</a>
     <a href="#about">Über mich</a>
-    <a href="#kontakt" class="mob-cta">Kennenlerngespräch anfragen</a>
+    <a href="#kontakt">Kontakt</a>
   </nav>
 
-  <main id="top">
+  <main id="top" class="new-offers">
+<div class="container">
+<section class="intro-offers" id="angebot"><div class="intro-hero"><div class="hero-content"><h1>Körper Geist Meisterung</h1><nav class="offer-jump" aria-label="Angebot wählen"><a href="#personal-training">Personal Training</a><a href="#sportpsychologie">Sportpsychologisches Coaching</a></nav><p class="lead">Kraft, Mobilität und Koordination trainieren. Mit Atem und Stille erproben, wie du Anspannung wahrnimmst, zur Ruhe findest oder in Schwung kommst.</p><div class="recurring-contact"><a class="button" href="mailto:Philipp@achten.pro?subject=Anfrage%20achten.pro">Termin anfragen</a><a class="mail-repeat" href="mailto:Philipp@achten.pro?subject=Anfrage%20achten.pro">Philipp@achten.pro</a></div></div><img class="hero-photo" src="/assets/images/Training Outdoor 1.jpg" alt="Philipp in grüner Regenjacke beim Partnertraining im Freien" width="2053" height="3609" fetchpriority="high"></div>
+<div class="choice-grid" aria-label="Zwei gleichrangige Angebote">
+<article class="choice pt"><div class="choice-head"><span class="number">PERSONAL TRAINING</span><strong class="price">80 €</strong></div><div class="offer-icon pt-icon" aria-hidden="true"><svg class="" aria-hidden="true" focusable="false"
+  xmlns="http://www.w3.org/2000/svg"
+  width="24"
+  height="24"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <path d="M7 7a1 1 0 1 0 2 0a1 1 0 0 0 -2 0" />
+  <path d="M13 21l1 -9l7 -6" />
+  <path d="M3 11h6l5 1" />
+  <path d="M11.5 8.5l4.5 -3.5" />
+</svg></div><h2>Personal Training</h2><p class="path-heading">Körperlich stärker werden. Bewusster mit dir selbst umgehen.</p><p>Kraft aufbauen, Ausdauer ausbauen, Koordination und Beweglichkeit entwickeln.</p><a href="#personal-training" class="path">Personal Training ansehen <span aria-hidden="true">↗</span></a><p class="price-note">Allein 80 € · zu zweit 60 € pro Person / 120 € gesamt · gemeinsam 60 Minuten</p></article>
+<article class="choice psy"><div class="choice-head"><span class="number">SPORTPSYCHOLOGISCHES COACHING</span><strong class="price">85 €</strong></div><div class="offer-icon psy-icon" aria-hidden="true"><svg class="mind-symbol" aria-hidden="true" focusable="false"
+  xmlns="http://www.w3.org/2000/svg"
+  width="24"
+  height="24"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <path d="M15.5 13a3.5 3.5 0 0 0 -3.5 3.5v1a3.5 3.5 0 0 0 7 0v-1.8" />
+  <path d="M8.5 13a3.5 3.5 0 0 1 3.5 3.5v1a3.5 3.5 0 0 1 -7 0v-1.8" />
+  <path d="M17.5 16a3.5 3.5 0 0 0 0 -7h-.5" />
+  <path d="M19 9.3v-2.8a3.5 3.5 0 0 0 -7 0" />
+  <path d="M6.5 16a3.5 3.5 0 0 1 0 -7h.5" />
+  <path d="M5 9.3v-2.8a3.5 3.5 0 0 1 7 0v10" />
+</svg><svg class="heart-symbol" aria-hidden="true" focusable="false"
+  xmlns="http://www.w3.org/2000/svg"
+  width="24"
+  height="24"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <path d="M19.5 12.572l-7.5 7.428l-7.5 -7.428a5 5 0 1 1 7.5 -6.566a5 5 0 1 1 7.5 6.572" />
+</svg></div><h2>Sportpsychologisches Coaching</h2><p class="path-heading">Dich ausrichten. Vertrauen entwickeln. Dein Können abrufen.</p><p>Verletzung oder Sportpause, Wiedereinstieg, Wettkampf oder Prüfung? Gemeinsam finden wir einen passenden Ansatz.</p><a href="#sportpsychologie" class="path">Sportpsychologisches Coaching ansehen <span aria-hidden="true">↗</span></a><p class="price-note">Einzeltermin · 60 Minuten</p></article>
+</div>
+<div class="topic-chips" aria-label="Schwerpunkte"><span>Kraft</span><span>Mobilität</span><span>Atem</span><span>Stille</span><span>Nervensystem</span></div><aside class="concrete-note"><h3>Was das konkret heißt</h3><p>Körperlich üben wir Kraft, Mobilität und Koordination. Mental nehmen wir wahr, wie angespannt, wach oder bereit du dich fühlst, und erproben einen passenden Umgang damit.</p></aside>
+<p class="shared-support">Ich begleite dich so, wie du es brauchst.</p><p class="draft-note">Jeweils 60 Minuten. Personal Training: My Private Gym, Plinganserstraße 132, 81369 München (Obersendling/Thalkirchen). Isar / im Freien oder zu Hause – den passenden Ort und Termin stimmen wir persönlich ab.</p></section>
 
-    <!-- ═══════════════════════════════ HERO ═══════════════════════════════ -->
-    <section class="hero" aria-label="Hauptbereich">
-      <div class="container">
-        <div class="hero-shell">
-          <div class="hero-bg" aria-hidden="true">
-            <img
-              src="/assets/images/Training Outdoor 1.jpg"
-              alt="Philipp Wiert beim Training im Freien"
-              width="1600" height="900" loading="eager" style="object-position:15% 10%;"
-            />
+<section id="personal-training" class="offer-section training"><div class="section-aside"><span class="section-id">PERSONAL TRAINING</span><h2>Personal Training</h2><img class="offer-photo" src="/assets/images/pt-berge-bestaetigt.jpg" alt="Philipp vor See und Bergen" width="960" height="1280" loading="lazy"></div><div class="offer-copy"><p class="eyebrow">Körperlich stärker werden. Bewusster mit dir selbst umgehen.</p><h3 class="statement">Kraft aufbauen, Ausdauer ausbauen, Koordination und Beweglichkeit entwickeln.</h3><p>Kommen Bewegung und Erholung im vollen Alltag zu kurz? Möchtest du nach einer längeren Pause wieder anfangen? Bist du bei Übungen oder Belastung unsicher?</p><p>Wir stimmen das Training auf deine Ziele, deine Erfahrung und deinen Alltag ab. Gemeinsam üben wir passende Bewegungen, achten auf dein Körpergefühl und besprechen Belastung und Erholung.</p><p>Ich erkläre und zeige die Bewegung, beobachte deine Ausführung und gebe konkrete Rückmeldung. Bewegungsumfang, Widerstand, Tempo und Pausen stimmen wir gemeinsam auf deinen Trainingsstand, deine Tagesform und deine Rückmeldung ab.</p><div class="offer-facts" aria-label="Personal Training – Ort, Preis und Anfrage"><p class="price-line">Allein: 80 € · 60 Minuten. Zu zweit: 60 € pro Person · 120 € gesamt · gemeinsam 60 Minuten.</p><p>My Private Gym, Plinganserstraße 132, 81369 München (Obersendling/Thalkirchen); danach Isar / im Freien oder zu Hause – nach persönlicher Absprache.</p><a href="mailto:Philipp@achten.pro?subject=Anfrage%20Personal%20Training" class="button">Personal Training anfragen <span aria-hidden="true">↗</span></a><p><a class="mail-repeat" href="mailto:Philipp@achten.pro?subject=Anfrage%20Personal%20Training">Philipp@achten.pro</a></p><p class="draft-note">Öffnet dein E-Mail-Programm. Du prüfst und sendest deine Nachricht selbst.</p></div><details class="offer-details" id="pt-anliegen"><summary>Anliegen und passende Übungen</summary><div class="detail-content"><p>Auf Wunsch können wir uns auf Yoga oder Selbstverteidigung konzentrieren.</p><p>Startest du motiviert – und verlierst nach kurzer Zeit den Faden?</p><p>Wir finden einen machbaren Einstieg. Wenn du möchtest, wählen wir ergänzende Übungen für zu Hause oder den Alltag. Auch wenn die Woche anders läuft als geplant.</p><p>Hast du Ziele, weißt aber nicht, welche Übungen und welche Belastung passen?</p><p>Möchtest du schon wieder trainieren, obwohl du dich noch nicht erholt fühlst?</p><p>Wir beziehen Anstrengung, Atem und Körpergefühl ein. Gemeinsam erproben wir, wann eine Herausforderung passt und wann eine Pause angebracht ist.</p><p>Fühlt sich Training nur noch wie eine Pflicht an?</p><p>Wir suchen Aufgaben, bei denen auch Spiel, Ehrgeiz und Lockerheit Platz haben. Welche Aufgaben zu dir passen, finden wir gemeinsam heraus und stimmen sie auf dich ab.</p><p>Spannst du bei einer Aufgabe unnötig an, hältst du den Atem fest oder wirst du hektisch?</p><p>Wir erproben einen passenden Fokus, eine veränderte Ausführung oder eine Pause. Körperwahrnehmung und passende Atemübungen ergänzen die Bewegung.</p></div></details><details class="offer-details" id="pt-alltag"><summary>Zusammenarbeit und Üben im Alltag</summary><div class="detail-content"><h3>Ein möglicher 60-Minuten-Termin</h3><p>Zur Orientierung: etwa 10 Minuten ankommen, 40 Minuten trainieren und 10 Minuten ausklingen lassen. Die Aufteilung passen wir gemeinsam an.</p><h3>Dein Trainingsrhythmus</h3><p>Wie häufig wir gemeinsam trainieren, stimmen wir auf deine Ziele, deinen Trainingsstand und deinen Alltag ab. Auf Wunsch wählen wir ergänzende Übungen für die Zeit zwischen den Terminen.</p><p>Wir besprechen, was sich gut umsetzen lässt, und passen den Plan bei Bedarf an.</p><p>Bei Bedarf können wir die Begleitung durch einen Anruf oder Videochat ergänzen. Umfang und Rahmen stimmen wir vorher persönlich ab.</p><p>Wir besprechen, welche Fragen und Aufgaben sich für Anruf oder Videochat eignen.</p></div></details><details class="offer-details" id="pt-hrv"><summary>Dauerstress – dauernd angespannt?</summary><div class="detail-content"><h3>Fällt es dir nach Training oder einem vollen Tag schwer, zur Ruhe zu kommen?</h3><div class="hrv-note"><p>Wir erproben eine angenehme Atemübung und achten darauf, wie du dich dabei fühlst. Wenn du möchtest, ergänzen wir HRV-Biofeedback: Mit einem Brustgurt erfassen wir deine Herzschläge und betrachten die Rückmeldung am Bildschirm. Gemeinsam besprechen wir, was du während der Übung wahrnimmst.</p><p>Herzratenvariabilität (HRV) beschreibt die Unterschiede der Zeitabstände zwischen Herzschlägen. Der Puls zählt die Herzschläge pro Minute. Der Blutdruck beschreibt den Druck in den Blutgefäßen. Das sind unterschiedliche Messgrößen.</p><p>Davon getrennt können wiederholte Messungen in Ruhe deinen persönlichen Verlauf über mehrere Tage zeigen. Wir betrachten sie zusammen mit Schlaf, Belastung, Erholung und Körpergefühl und besprechen, wie diese Informationen zu deiner Trainingswoche passen.</p></div></div></details><p class="open-point">Bei gesundheitlichen Einschränkungen berücksichtigen wir die medizinischen Vorgaben. Bei neuen oder zunehmenden Beschwerden unterbrechen wir und klären das weitere Vorgehen.</p></div></section>
+<section id="sportpsychologie" class="offer-section"><div class="section-aside"><span class="section-id">SPORTPSYCHOLOGISCHES COACHING</span><h2>Sportpsychologisches Coaching</h2><img class="offer-photo" src="/assets/images/sp-butterlampen-bestaetigt.jpg" alt="Philipp bei den Butterlampen" width="390" height="520" loading="lazy"></div><div class="offer-copy"><p class="eyebrow">Dich ausrichten. Vertrauen entwickeln. Dein Können abrufen.</p><h3 class="statement">Dich beschäftigt was?</h3><p>Sportpsychologische Begleitung: Wir klären deine Ausgangslage und dein Anliegen, wählen passende Tools und Übungen und üben sie gemeinsam ein. Mit deiner Rückmeldung entwickeln wir einen individuellen weiteren Plan für Training, Alltag oder deine nächste Leistungssituation.</p><p>Wir schauen auf die Worte, die du dir selbst sagst, und darauf, wie du sie sagst. Deinen inneren Zustand nehmen wir ebenso in den Blick wie konkrete Handlungsschritte. Gemeinsam entwickeln und erproben wir neue Muster und Routinen.</p><div class="offer-facts" aria-label="Sportpsychologisches Coaching – Ort, Preis und Anfrage"><p class="price-line">60 Minuten · 85 € pro Einzeltermin.</p><p>An der Isar / im Freien oder zu Hause – in einem geeigneten, ungestörten Rahmen.</p><a href="mailto:Philipp@achten.pro?subject=Anfrage%20Sportpsychologisches%20Coaching" class="button">Sportpsychologisches Coaching anfragen <span aria-hidden="true">↗</span></a><p><a class="mail-repeat" href="mailto:Philipp@achten.pro?subject=Anfrage%20Sportpsychologisches%20Coaching">Philipp@achten.pro</a></p><p class="draft-note">Öffnet dein E-Mail-Programm. Du prüfst und sendest deine Nachricht selbst.</p></div><h3 id="sp-anliegen">Dein Anliegen und unsere Zusammenarbeit</h3><details class="offer-details concern-details" id="sp-sportpause"><summary><span class="concern-title">Verletzung oder Sportpause?</span><span class="concern-action">Gemeinsam erkunden wir den Umgang mit der veränderten Situation, klären realistische Ziele und richten den Blick auf das, was du jetzt beeinflussen kannst. Medizinische Vorgaben bleiben maßgeblich.</span></summary><div class="detail-content"><p>Fehlt dir nach einer Verletzung oder Sportpause Orientierung oder Vertrauen in deinen Körper?</p><p>Fehlt dir nach einer Verletzung mehr als Bewegung – dein Ausgleich, deine Tagesstruktur oder das Dazugehören? Fragst du dich, was von deinem sportlichen Selbstbild bleibt? Nehmen Frust, Ungeduld oder Sorgen um die Zukunft viel Raum ein?</p><p>Wir klären, was dir am Sport wichtig ist und was davon auch jetzt Platz haben kann: Verbindung zu anderen, Tagesstruktur oder erreichbare persönliche Ziele. Wir schauen auf Frust und Gedankenkreisen. Daraus wählen wir einen nächsten Schritt, der zu deiner Situation und deinen Grenzen passt.</p></div></details><details class="offer-details concern-details" id="sp-wiedereinstieg"><summary><span class="concern-title">Wieder einsteigen und Vertrauen entwickeln</span><span class="concern-action">Gemeinsam klären wir, was dich verunsichert, und wählen passende mentale Übungen, etwa eine Bewegung gedanklich vorzubereiten oder hilfreiche innere Worte zu erproben.</span></summary><div class="detail-content"><p>Halten dich beim Wiedereinstieg Zweifel oder die Angst vor einer erneuten Verletzung zurück?</p><p>Was verunsichert dich beim Wiedereinstieg, und was ist körperlich bereits erlaubt? Wir klären dein Anliegen und wählen passende mentale Übungen. Du kannst zum Beispiel eine bevorstehende Bewegung gedanklich vorbereiten oder Worte finden, die dich beim Einstieg unterstützen. Gemeinsam erproben wir, was zu deiner Situation passt.</p></div></details><p class="open-point">Für die körperliche Rückkehr in den Sport gelten die medizinischen Vorgaben. Bei Sportverbot setzen wir keine zusätzliche körperliche Trainingsbelastung ein.</p><details class="offer-details concern-details" id="sp-leistung"><summary><span class="concern-title">Wettkampf, Prüfung oder wichtige Leistungssituation?</span><span class="concern-action">Gemeinsam wählen wir, woran du arbeiten möchtest, und erproben passende Übungen für deine Vorbereitung und deinen Fokus.</span></summary><div class="detail-content"><p>Kreisen deine Gedanken um das Ergebnis, mögliche Fehler, Versagensangst oder die vermutete Bewertung durch andere – statt um die nächste Handlung? Kannst du dann nicht zeigen, was du geübt hast?</p><p>Gemeinsam erproben wir eine persönliche Vorbereitung, hilfreiche innere Worte und einen kurzen Fokus auf die nächste beeinflussbare Handlung. Relevante Informationen von außen bleiben Teil der Aufgabe.</p><p>Zum Beispiel kannst du vor einem Wiedereinstieg freiwillig einen Satz wie „Ich muss sofort wieder alles können“ prüfen, andere innere Worte ausprobieren und einen passenden ersten Schritt wählen.</p><h3>Deinen Zustand wahrnehmen und passend aktiv werden</h3><p>Wirst du in wichtigen Momenten hektisch oder kommst nicht richtig in Schwung?</p><p>Gemeinsam wählen und erproben wir Atem-, Bewegungs-, Aufmerksamkeits- und weitere Übungen zur Selbstregulation. Dabei übst du, dein Aktivierungsniveau – also wie angespannt, wach oder bereit du dich fühlst – wahrzunehmen und passend zur Situation zu beeinflussen.</p><p>Je nach Situation geht es darum, herunterzufahren oder in Schwung zu kommen.</p><h3>Mit Rückschlägen flexibel umgehen</h3><p>Bringen dich Fehler, Rückschläge oder unerwartete Veränderungen aus dem Tritt?</p><p>Wir beziehen deine Grenzen, passende Pausen und hilfreiche Unterstützung ein, wenn du Selbstvertrauen und Belastbarkeit entwickeln möchtest.</p></div></details><details class="offer-details" id="sp-hrv"><summary>Dauerstress – dauernd angespannt?</summary><div class="detail-content"><h3>Stress und Anspannung lassen schwer nach?</h3><p>Ist der Tag oder das Training vorbei, aber Kopf und Körper bleiben auf Spannung? Wir beginnen mit einer angeleiteten, angenehmen Atemübung und deiner Wahrnehmung.</p><div class="hrv-note"><p>Wenn du möchtest, ergänzen wir HRV-Biofeedback: Mit einem Brustgurt erfassen wir die Herzschläge und schauen gemeinsam auf die Rückmeldung am Bildschirm. Dabei besprechen wir, was du wahrnimmst und wie die Übung zu dir passt.</p><p>Herzratenvariabilität (HRV) beschreibt die Unterschiede der Zeitabstände zwischen Herzschlägen. Der Puls zählt die Herzschläge pro Minute. Der Blutdruck beschreibt den Druck in den Blutgefäßen. Das sind unterschiedliche Messgrößen.</p><p>Davon getrennt betrachten wir bei Bedarf wiederholte Messungen in Ruhe über mehrere Tage, zusammen mit Schlaf, Belastung, Erholung und Körpergefühl. Gemeinsam besprechen wir, was du daraus für die Gestaltung deines Alltags genauer beobachten möchtest.</p></div></div></details><details class="offer-details" id="sp-alltag"><summary>Üben zwischen den Terminen</summary><div class="detail-content"><p>Wie häufig Begleitung sinnvoll ist, besprechen wir gemeinsam. Bei Bedarf ergänzen wir sie durch einen Anruf oder Videochat; Umfang und Rahmen stimmen wir vorher ab.</p><p>Wir wählen Übungen passend zu deinem Anliegen und erproben sie gemeinsam. Wenn du möchtest, vereinbaren wir kleine Routinen für die Zeit zwischen den Terminen. Deine Erfahrungen helfen uns, die Übungen weiter anzupassen. Freude, Lockerheit und Ehrgeiz dürfen Platz haben.</p></div></details></div></section>
+<section class="process-v2" id="ablauf"><p class="eyebrow"><svg class="context-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h13m-4-4 4 4-4 4M20 17H7m4-4-4 4 4 4"/></svg>Von deinem Anliegen zum Training</p><h2>So starten wir.</h2><ol><li><strong>Du beschreibst dein Anliegen.</strong><p>Worum geht es dir, und welches Angebot interessiert dich? Wenn du dir im Gespräch mit mir noch Klarheit verschaffen möchtest, schreib mir – wir schauen gemeinsam, was zu deinem Anliegen passt.</p></li><li><strong>Wir klären den Rahmen.</strong><p>Wir klären dein Ziel, den passenden Ort und einen möglichen Termin. Beide Angebote dauern 60 Minuten; Preise und Formate stehen oben.</p></li><li><strong>Wir arbeiten konkret.</strong><p>Wir wählen passende Inhalte und besprechen, wie häufig Begleitung sinnvoll ist. Zusätzliche eigene Übungen vereinbaren wir auf Wunsch.</p></li></ol></section>
+<section class="about-v2" id="about"><div class="about-heading"><p class="eyebrow">WER ICH BIN</p><h2>Sportwissenschaft, Sportpsychologie – Expertise, die sich im echten Einsatz bewährt hat.</h2></div><img class="about-photo" src="/assets/images/von_links.jpg" alt="Philipp im grauen Sakko, mit Brille und rotem Einstecktuch" width="4284" height="5712" loading="lazy"><div class="about-personal"><p class="eyebrow">Philipp Wiertelorz</p><p class="about-lead">Training, Atem, Stille und sportpsychologische Tiefe – gemeinsam arbeiten wir daran, dass du körperlich belastbarer, innerlich ruhiger und im Alltag stabiler und klarer werden kannst.</p><p>Ich begleite dich, vermittle Wissen und unterstütze dich dabei, passende Übungen zunehmend eigenständig zu nutzen.</p><ul class="profile-chips" aria-label="Fachlicher Hintergrund"><li>M.Sc. Sportpsychologie</li><li>B.Sc. Sportwissenschaft</li><li>Selbstregulationstrainer</li><li>HRV- & Biofeedback-Praxis</li><li>Sport-, Bewegungs- & Achtsamkeitsangebote</li><li>Performance & Recovery</li></ul><p>Du entscheidest, womit du einsteigen möchtest.</p></div></section>
+<section id="testimonials" class="process-v2" aria-labelledby="testimonials-heading"><h2 id="testimonials-heading">Stimmen aus der bisherigen Begleitung</h2><p>Diese persönlichen Erfahrungen stammen aus der bisherigen allgemeinen Begleitung.</p><div class="testimonial-outer" id="testimonialTrack" tabindex="0" role="group" aria-label="Kundenstimmen – mit Pfeiltasten wechseln"><figure class="testimonial-slide"><blockquote class="t-text">Ich weiß genau, was ich tun kann, wenn mein Stresslevel wieder aus dem Ruder laufen sollte – eine Panikattacke hatte ich schon lange nicht mehr. Mein Sohn fragte mich vor Kurzem: „Mama, was hast du da mit dir gemacht? Du bist jetzt viel weniger motzig." Und sogar eine befreundete Mutter meinte zu mir: „Wie schaffst du es nur, so ruhig zu bleiben, wenn die Kinder Faxen machen?"</blockquote><figcaption class="t-author"><div class="t-avatar" aria-hidden="true">V.D.</div><div class="t-author-info"><strong>V.D.</strong><span>Klientin</span></div></figcaption></figure><figure class="testimonial-slide"><blockquote class="t-text">Dank dem Humor von Herrn Wiertelorz konnte ich wieder Zugang zu meinem inneren Kind gewinnen. Am Sport dranzubleiben fällt mir nun leicht, weil wir zusammen rausfinden konnten, welche Form der Aktivität mir Spaß macht. Mein Sohn freut sich sehr darüber, dass ich ihn nun regelmäßig auf den Freiplatz mitnehme, um ein paar Körbe zu werfen und zusammen Basketball zu spielen.</blockquote><figcaption class="t-author"><div class="t-avatar" aria-hidden="true">B.S.</div><div class="t-author-info"><strong>B.S.</strong><span>Klientin</span></div></figcaption></figure><figure class="testimonial-slide"><blockquote class="t-text">Als ich zu Philipp gekommen bin, war ich innerlich recht zerstreut, unruhig und gewohnheitsmäßig mit mir selbst und der Außenwelt im Kampf – ständig im Widerstand. Durch das Körpertraining und das bewusste Zurückkommen zur aktuellen Aufgabe habe ich immer mehr zu mir gefunden. Mittlerweile komme ich in meinem Alltag oft ganz automatisch zur Ruhe und bin mit mir selbst zufrieden. Das war davor gar nicht denkbar.</blockquote><figcaption class="t-author"><div class="t-avatar" aria-hidden="true">D.B.</div><div class="t-author-info"><strong>D.B.</strong><span>Klient</span></div></figcaption></figure></div><div class="t-controls"><button type="button" class="t-arrow" id="tPrev" aria-label="Vorherige Stimme" aria-controls="testimonialTrack">←</button><div class="t-dots"><button type="button" class="t-dot" aria-label="Stimme 1" aria-controls="testimonialTrack" aria-current="true"><span aria-hidden="true"></span></button><button type="button" class="t-dot" aria-label="Stimme 2" aria-controls="testimonialTrack"><span aria-hidden="true"></span></button><button type="button" class="t-dot" aria-label="Stimme 3" aria-controls="testimonialTrack"><span aria-hidden="true"></span></button></div><button type="button" class="t-arrow" id="tNext" aria-label="Nächste Stimme" aria-controls="testimonialTrack">→</button></div></section>
+<section class="contact-v2" id="kontakt"><div class="contact-layout"><div><p class="eyebrow">Dein nächster Schritt</p><h2>Schreib mir kurz.</h2><p class="personal-contact">Ich arbeite bewusst nur mit wenigen Klient:innen parallel, damit wir in Ruhe in die Tiefe gehen können.</p><p class="intro">Sportpsychologisches Coaching oder Personal Training? Ein kurzer Satz zu deinem Anliegen reicht für den Einstieg.</p><p><a class="email" id="contactEmail" href="mailto:Philipp@achten.pro?subject=Anfrage%20achten.pro">Philipp@achten.pro</a></p><a class="button" href="mailto:Philipp@achten.pro?subject=Anfrage%20achten.pro">Termin anfragen</a><p>Der Link öffnet dein E-Mail-Programm.</p></div><div><h3><svg class="context-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20 10c0 6-8 11-8 11S4 16 4 10a8 8 0 1 1 16 0Z"/><circle cx="12" cy="10" r="2.5"/></svg>Wo treffen wir uns?</h3><p><strong>Für Personal Training:</strong> My Private Gym, Plinganserstraße 132, 81369 München (Obersendling/Thalkirchen).</p><p><strong>Isar / im Freien</strong> oder <strong>zu Hause</strong>. Ort und Termin vereinbaren wir persönlich.</p></div></div><div class="local-inquiry"><h3><svg class="context-icon" viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 6 9 7 9-7"/></svg>Deine Anfrage vorbereiten</h3><p id="localFormNotice">Deine Angaben bleiben beim Ausfüllen und Erstellen des Entwurfs in diesem Browser. Erst „Im eigenen Mailprogramm öffnen“ übergibt den Entwurf an dein Mailprogramm. Dort prüfst und sendest du selbst; es erfolgt kein automatischer Versand.</p><form id="inquiryForm" onsubmit="return false" aria-describedby="localFormNotice"><div class="form-grid"><label for="inquiry-name">Name<input id="inquiry-name" name="name" type="text" maxlength="160" required autocomplete="name"></label><label for="inquiry-email">E-Mail<input id="inquiry-email" name="email" type="email" maxlength="160" required autocomplete="email"></label><label for="inquiry-phone">Telefon (optional)<input id="inquiry-phone" name="phone" type="tel" maxlength="160" autocomplete="tel"></label><label for="inquiry-frequency">Gewünschte Häufigkeit (optional)<input id="inquiry-frequency" name="frequency" type="text" maxlength="160"></label><label for="inquiry-days">Passende Tage (optional)<input id="inquiry-days" name="days" type="text" maxlength="160"></label><label for="inquiry-time">Passende Uhrzeit (optional)<input id="inquiry-time" name="time" type="text" maxlength="160"></label><label for="inquiry-firstContact">Gewünschter Erstkontakt (optional)<select id="inquiry-firstContact" name="firstContact"><option value="">Bitte wählen</option><option value="email">Per E-Mail</option><option value="phone">Telefonisch</option></select></label><label for="inquiry-offer">Dein Anliegen / Angebot<select id="inquiry-offer" name="offer"><option value="">Gemeinsam klären</option><option value="pt">Personal Training</option><option value="sp">Sportpsychologisches Coaching</option></select></label><label class="full" for="inquiry-message">Was möchtest du mir mitgeben? (optional)<textarea id="inquiry-message" name="message" maxlength="2000"></textarea></label></div><button class="btn-submit" id="createDraft" type="button">Mailentwurf erstellen</button></form><div id="draftPanel" hidden><label for="mailDraft">Dein editierbarer Mailentwurf</label><textarea id="mailDraft" rows="12"></textarea><a class="button" id="openMail">Im eigenen Mailprogramm öffnen</a><p>Empfänger: Philipp@achten.pro. Ohne eingerichtetes Mailprogramm kannst du den Entwurf und die Adresse kopieren.</p></div><p id="draftStatus" role="status" aria-live="polite"></p><p><a href="/datenschutz.html">Datenschutz zur lokalen Anfragehilfe</a></p><noscript>Für die lokale Entwurfshilfe aktiviere JavaScript oder schreibe direkt an Philipp@achten.pro.</noscript></div></section>
+        <details class="impressum-box" id="impressum">
+          <summary>Impressum</summary>
+          <div class="impressum-content">
+            <address>
+              <p><strong>Diensteanbieter und verantwortlich:</strong><br>Philipp Wiertelorz<br>Viebigplatz 4<br>80686 München</p>
+              <p>E-Mail: <a href="mailto:Philipp@achten.pro">Philipp@achten.pro</a></p>
+            </address>
+            <p>Verantwortlich für journalistisch-redaktionelle Inhalte gemäß § 18 Abs. 2 MStV: Philipp Wiertelorz, Anschrift wie oben.</p>
+            <p><a href="/datenschutz.html"><strong>Vollständige Datenschutzerklärung</strong></a></p>
           </div>
-          <div class="hero-top">
-            <a class="hero-nav-cta" href="#kontakt">Anfragen</a>
-            <div class="profile-chip">
-              <img src="/assets/images/von_vorne_richtig_geschnitten.jpg"
-                alt="Philipp Wiertelorz – Körper-Geist Personal Trainer München"
-                class="profile-chip-img"
-                width="130" height="130"
-                onerror="this.style.display='none'"
-                style="display:none;" />
-              <div class="profile-chip-info">
-                <strong>Philipp Wiertelorz</strong>
-                <span>M.Sc. Sportpsychologie</span>
-                <span>B.Sc. Sportwissenschaft</span>
-                <span>Körper-Geist Personal Training</span>
-              </div>
-            </div>
-          </div>
-          <div class="hero-inner">
-            <div class="hero-copy">
-              <span class="hero-eyebrow">Dein achten.pro – Körper-Geist Personal Training · München</span>
-              <h1 class="hero-h1">Aus der Ruhe<br>in deine <em>Kraft</em>.</h1>
-              <p class="hero-lead">
-                Training für Körper, Geist und Nervensystem. Kraft, Mobilität und Koordination
-                als Fundament – Selbstregulation als roter Faden. Damit du lernst, deinen
-                inneren Zustand aktiv zu gestalten: zwischen voller Leistung und echter Ruhe.
-              </p>
-              <div class="hero-actions">
-                <a class="btn-primary" href="#kontakt">Kennenlerngespräch anfragen</a>
-                <a class="btn-ghost" href="#ansatz">Wie ich arbeite</a>
-              </div>
-              <div class="hero-badges" role="list">
-                <span role="listitem">1:1 &amp; 1:2 in Sendling</span>
-                <span role="listitem">Isar, Outdoor &amp; Private Gym</span>
-                <span role="listitem">Bei dir zu Hause</span>
-                <span role="listitem">Wenige exklusive Klient:innen</span>
-              </div>
-              <div class="modality-row" role="list" aria-label="Trainingsformen">
-                <span class="mod-chip" role="listitem"><span class="mod-em">🏋️</span> Krafttraining</span>
-                <span class="mod-chip" role="listitem"><span class="mod-em">🧘</span> Yoga</span>
-                <span class="mod-chip" role="listitem"><span class="mod-em">🔄</span> Mobilität</span>
-                <span class="mod-chip" role="listitem"><span class="mod-em">🏃</span> Joggen</span>
-                <span class="mod-chip" role="listitem"><span class="mod-em">🏊</span> Schwimmen</span>
-              </div>
-            </div>
-          </div>
-          <div class="hero-card" aria-hidden="true">
-            <strong>Draußen. Bei jedem Wetter.</strong>
-            <p>Regenkleidung an, Fokus auf die Übung. Wer sein Training den Bedingungen anpasst, trainiert echter – und konsequenter.</p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- ════════════════════════════ WIRKUNG ════════════════════════════ -->
-    <section id="wirkung" class="section-contrast">
-      <div class="container">
-        <div class="section-head">
-          <span class="kicker">Problem → Richtung</span>
-          <h2>Was gerade zu viel ist –<br>und worauf wir hinarbeiten.</h2>
-          <p>Zustände, die viele Menschen aus ihrem Alltag kennen – und Zielzustände, auf die wir körperlich und nervensystemisch hinarbeiten.</p>
-        </div>
-        <div class="wirkung-grid">
-          <article class="card panel-problem">
-            <span class="panel-label">Trifft gerade einiges davon auf dich zu?</span>
-            <div class="state-list">
-              <div class="state-item"><div class="si-icon">⚡</div><div class="si-body"><strong>Kurze Zündschnur.</strong><p>Du bist schnell oben, aber nur schwer wieder unten. Kleinigkeiten reichen, um dich hochzufahren.</p></div></div>
-              <div class="state-item"><div class="si-icon">🔄</div><div class="si-body"><strong>Wirbelnder Kopf.</strong><p>Gedanken kreisen, dein System sendet dauerhaft, und selbst abends wird es innen nicht richtig still.</p></div></div>
-              <div class="state-item"><div class="si-icon">💢</div><div class="si-body"><strong>Verspannter Körper.</strong><p>Schultern oben, Brustkorb eng, Atem flach, Zwerchfell wie blockiert – Spannung sitzt im System fest.</p></div></div>
-              <div class="state-item"><div class="si-icon">🔋</div><div class="si-body"><strong>Wenig echte Reserven.</strong><p>Du funktionierst, aber eher auf Abruf. Schlaf ist okay-ish, Erholung fühlt sich trotzdem unvollständig an.</p></div></div>
-              <div class="state-item"><div class="si-icon">🎯</div><div class="si-body"><strong>Nicht alle Sinne beisammen.</strong><p>Mehr Dauer-Alarm als geerdete Präsenz. Fokus, Ruhe und Balance kippen schneller weg, als dir lieb ist.</p></div></div>
-            </div>
-          </article>
-          <div class="wirkung-arrow" aria-hidden="true">
-            <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
-              <line x1="6" y1="24" x2="40" y2="24"/>
-              <polyline points="28,12 42,24 28,36"/>
-            </svg>
-          </div>
-          <article class="card panel-solution">
-            <span class="panel-label">Darauf arbeiten wir hin</span>
-            <div class="state-list">
-              <div class="state-item"><div class="si-icon">�</div><div class="si-body"><strong>Entspannung im Körper.</strong><p>Weicherer Atem, weniger Daueranspannung, mehr Beweglichkeit im Brustkorb, im Zwerchfell und im ganzen Rumpf.</p></div></div>
-              <div class="state-item"><div class="si-icon">🌿</div><div class="si-body"><strong>Ruhe im Kopf.</strong><p>Weniger Gedankenkreisen, klarere Entscheidungen, mehr innere Stille im richtigen Moment.</p></div></div>
-              <div class="state-item"><div class="si-icon">💨</div><div class="si-body"><strong>Mehr Luft und Leichtigkeit.</strong><p>Weniger innerer Druck, mehr Energie für das, was dir wirklich wichtig ist.</p></div></div>
-              <div class="state-item"><div class="si-icon">⚡</div><div class="si-body"><strong>Ein flexibles Nervensystem.</strong><p>Fähig zu absoluter Ruhe, Stille und Regeneration – und genauso zu explosiver, langanhaltender Energie.</p></div></div>
-              <div class="state-item"><div class="si-icon">🎯</div><div class="si-body"><strong>Mehr Balance und Präsenz.</strong><p>Alle Sinne beisammen. Geerdet im Körper, klar im Geist, stabil in Bewegung und Alltag.</p></div></div>
-            </div>
-          </article>
-        </div>
-      </div>
-    </section>
-
-    <!-- ════════════════════════════ ANSATZ ════════════════════════════ -->
-    <section id="ansatz">
-      <div class="container">
-        <div class="section-head">
-          <span class="kicker">Ansatz</span>
-          <h2>Gesunder Körper. Klarer Geist.<br>Selbstregulation, die du wirklich anwenden kannst.</h2>
-          <p>Kraft, Balance, Koordination und Regulation verbinden sich zu einem Training, das dich körperlich stärkt und innerlich stabiler macht. Du lernst, deinen eigenen Zustand aktiv zu gestalten – zwischen voller Leistung und echter Ruhe.</p>
-        </div>
-        <!-- ─ Session-Flow ─ -->
-        <div class="flow-viz" aria-hidden="true">
-          <svg id="flow-svg" viewBox="0 0 900 52" preserveAspectRatio="xMidYMid meet">
-            <path id="flow-path"
-                  d="M 0,36 C 60,14 130,46 200,30 C 270,14 340,46 450,30 C 560,14 630,46 700,30 C 770,14 840,44 900,28"
-                  fill="none" stroke="rgba(11,126,116,0.28)" stroke-width="2.5"
-                  stroke-dasharray="10 7" stroke-linecap="round"/>
-            <circle r="7" fill="#0b7e74" filter="url(#glow-dot)">
-              <animateMotion dur="5s" repeatCount="indefinite"
-                             keyTimes="0;0.5;1" calcMode="spline"
-                             keySplines="0.42 0 0.58 1;0.42 0 0.58 1">
-                <mpath href="#flow-path"/>
-              </animateMotion>
-            </circle>
-            <defs><filter id="glow-dot" x="-80%" y="-80%" width="260%" height="260%"><feGaussianBlur stdDeviation="2.5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs>
-          </svg>
-          <div class="flow-labels">
-            <span>⏱ Ankommen</span>
-            <span>🏋️ Training</span>
-            <span>🧘 Runterregulieren</span>
-          </div>
-        </div>
-
-        <div class="grid-3">
-          <article class="card step-card">
-            <div class="step-num">1</div>
-            <span class="step-time">15 Min</span>
-            <h3>Ankommen & Beachten</h3>
-            <p>Check-in, Atem, erste Regulation. Gezielte Knorpelaktivierung und dynamisches Warm-up bereiten Gelenke und Gewebe auf Belastung vor – und bringen dich in echten Kontakt mit deinem aktuellen Zustand.</p>
-          </article>
-          <article class="card step-card">
-            <div class="step-num">2</div>
-            <span class="step-time">45 Min</span>
-            <h3>Training</h3>
-            <p>Kraft, Balance, Koordination, Athletik, Bewegungsqualität. So gewählt, dass es dich wirklich fordert – und dabei zu dir passt.</p>
-          </article>
-          <article class="card step-card">
-            <div class="step-num">3</div>
-            <span class="step-time">15 Min</span>
-            <h3>Runterregulieren</h3>
-            <p>Atemarbeit, Stille, Körperwahrnehmung, Yoga-Elemente. Dein System lernt, nach voller Leistung bewusst und zuverlässig zu landen.</p>
-          </article>
-        </div>
-      </div>
-    </section>
-
-    <!-- ════════════════════════ SELBSTREGULATION ═══════════════════════ -->
-    <section id="selbstregulation" class="section-contrast">
-      <div class="container">
-        <div class="pillars-layout">
-          <div>
-            <span class="kicker">Selbstregulation</span>
-            <h2 style="font-family:var(--font-disp);font-size:clamp(32px,5vw,56px);line-height:.9;letter-spacing:-.03em;margin-bottom:16px;">Du trainierst deinen Körper – und lernst dabei, deinen inneren Zustand aktiv zu beachten und zu gestalten.</h2>
-            <p class="muted" style="max-width:60ch;">
-              Nach Absprache kann Selbstregulation / Training des zentralen Nervensystems in den Fokus rücken.
-              Ebenso Yoga als eigenständiger Trainingsschwerpunkt.
-            </p>
-            <div class="badge-row">
-              <span class="badge">Kraft</span>
-              <span class="badge">Mobilität</span>
-              <span class="badge">Atem</span>
-              <span class="badge">Stille</span>
-              <span class="badge">Nervensystem</span>
-            </div>
-          </div>
-          <div class="pillar-card">
-            <h3>Was das konkret heißt</h3>
-            <p style="color:var(--muted);font-size:14px;margin-bottom:18px;">
-              Mehr Einfluss auf Spannung und Entspannung. Mehr Zugang zu Ruhe im Kopf.
-              Mehr Präsenz im Körper. Du beachtest deinen Zustand aktiv – kennst seinen Rhythmus und gestaltest ihn bewusst, statt dich von ihm mitziehen zu lassen.
-            </p>
-            <div class="pillar-list">
-              <div class="pillar-item"><span class="pillar-dot"></span><div><strong>Körperlich</strong><p>Spannung gezielt aufbauen und wieder lösen</p></div></div>
-              <div class="pillar-item"><span class="pillar-dot"></span><div><strong>Mental</strong><p>Fokus, Klarheit, weniger Reizüberflutung</p></div></div>
-              <div class="pillar-item"><span class="pillar-dot"></span><div><strong>Nervensystem</strong><p>Schneller runterregulieren, weniger Überdrehtsein, bessere Rückkehr in die Ruhe</p></div></div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- ════════════════════════════ ANGEBOT ════════════════════════════ -->
-    <section id="angebot">
-      <div class="container">
-        <div class="section-head">
-          <span class="kicker">Angebot</span>
-          <h2>So können wir zusammenarbeiten.</h2>
-          <p>Zwei Formate, klar im Aufbau und auf deinen Alltag abgestimmt.</p>
-        </div>
-        <div class="grid-2">
-          <article class="card">
-            <h3>1:1 Körper-Geist Training</h3>
-            <p>Volle Aufmerksamkeit auf dich, dein Ziel und dein Nervensystem. Das Kernangebot – alles andere baut darauf auf.</p>
-          </article>
-          <article class="card">
-            <h3>1:2 Training</h3>
-            <p>Trainiere zusammen mit einem Freund oder einer Freundin – mit gemeinsamer Energie, aber individueller Steuerung für euch beide.</p>
-          </article>
-        </div>
-      </div>
-    </section>
-
+        </details>
+</div>
     <!-- ════════════════════════════ PLAYFIGHT ════════════════════════════ -->
     <section id="playfight" class="section-contrast" aria-labelledby="playfight-head">
       <div class="container">
         <div class="section-head">
           <span class="kicker">Playfight</span>
           <h2 id="playfight-head">Kontakt auf Augenhöhe.<br><em>Spielend</em> sicher.</h2>
-          <p>Zuerst anmelden für Updates + Übungen — dann folgt der Guide für zu Hause. Alles auf <a href="/playfight/de/" style="color:var(--primary); font-weight:800;">achten.pro/playfight</a>.</p>
+
         </div>
-        <div class="offer-grid">
-          <article class="card offer-card">
-            <h3>Playfight Updates + Übungen</h3>
-            <p>Event-Hinweise, einfache Rangeln-Übungen für zu Hause und frühen Zugang zum Guide.</p>
-            <p style="font-size:13px; color:var(--muted); margin-top:8px;">Kurz eintragen, direkt nutzbar. Kein Druck.</p>
-            <a class="btn-primary" href="/playfight/de/#contact" style="margin-top:18px;">Updates anfragen →</a>
-          </article>
+        <div class="offer-grid" style="grid-template-columns:minmax(0,1fr); max-width:720px; margin-inline:auto;">
           <article class="card offer-card">
             <h3>Playfight Guide — Friends & Adults</h3>
             <p>Englischer Video-Guide für Erwachsene, die strukturiertes körperliches Spiel mit Freunden erkunden wollen — ohne Leistungsdruck, ohne Risiko.</p>
             <p style="font-size:13px; color:var(--muted); margin-top:8px;">30-minütige MP4, 60+ Minuten Übungen, 5 Kernpartnerübungen, Progressionsleiter.</p>
             <a class="btn-ghost" href="/playfight/de/#guide" style="margin-top:18px; border:1px solid rgba(255,255,255,0.22); background:rgba(255,255,255,0.08); color:#fff;">Kostenlosen Guide ansehen →</a>
-            <p style="margin-top:10px; font-size:12px; color:var(--muted);">Kostenlos · vorgeschlagener Betrag 19 €</p>
+
           </article>
         </div>
       </div>
     </section>
-
-    <!-- ════════════════════════════ ORTE ════════════════════════════ -->
-    <section class="section-contrast">
-      <div class="container">
-        <div class="section-head">
-          <span class="kicker">Orte</span>
-          <h2>Wo wir trainieren.</h2>
-        </div>
-        <div class="grid-2">
-          <article class="card setting-card">
-            <div class="setting-icon" aria-hidden="true">
-              <svg viewBox="0 0 24 24" fill="none" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
-                <path d="M3 12c6-8 12-8 18 0"/><path d="M3 12c6 8 12 8 18 0"/><circle cx="12" cy="12" r="3"/>
-              </svg>
-            </div>
-            <h3>Outdoor &amp; Isar</h3>
-            <p>Outdoor-Gym, Isar, Flaucher, frische Luft und Raum. Wenn es zum Ziel und zur Jahreszeit passt, nutzen wir genau das.</p>
-          </article>
-          <article class="card setting-card">
-            <div class="setting-icon" aria-hidden="true">
-              <svg viewBox="0 0 24 24" fill="none" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
-                <rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/>
-                <rect x="3" y="14" width="7" height="7"/><path d="M17 14v7M14 17h7"/>
-              </svg>
-            </div>
-            <h3>Private Gym in Sendling</h3>
-            <p>Klein, ruhig, zwei Räume für max. zwei Personen. Studiogebühr ca. 20–30&nbsp;€ – der Kunde zahlt diese zusätzlich (nur in Ausnahmen teilen wir die Gebühren).</p>
-          </article>
-          <article class="card setting-card">
-            <div class="setting-icon" aria-hidden="true">
-              <svg viewBox="0 0 24 24" fill="none" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
-                <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/>
-              </svg>
-            </div>
-            <h3>Bei dir zu Hause</h3>
-            <p>Ich komme zu dir. Alle nötigen Trainingsmittel bringe ich mit – du brauchst kein eigenes Equipment.</p>
-          </article>
-          <article class="card setting-card">
-            <div class="setting-icon" aria-hidden="true">
-              <svg viewBox="0 0 24 24" fill="none" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
-                <rect x="2" y="3" width="20" height="14" rx="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/>
-              </svg>
-            </div>
-            <h3>Online via Zoom</h3>
-            <p>45 Minuten – auch aus dem Urlaub. Besonders sinnvoll für Regulation, Atem, Stille, Bodyweight. Gleicher Preis wie vor Ort.</p>
-          </article>
-        </div>
-      </div>
-    </section>
-
-    <!-- ════════════════════════ CHECKS (COMING SOON) ════════════════════════ -->
-    <section>
-      <div class="container">
-        <div class="coming-soon-box">
-          <div style="flex:1;min-width:200px;">
-            <h3 style="font-size:22px;font-weight:700;margin:8px 0 10px;">HRV- &amp; Nervensystem-Check</h3>
-            <p class="muted" style="font-size:14px;max-width:60ch;">
-              Dein Nervensystem hat einen eigenen Rhythmus – und der ist messbar. HRV (Herzratenvariabilität) zeigt, wie flexibel dein System zwischen Anspannung und Erholung wechseln kann. Hoher Wert: freie Bahn. Niedriger Wert: heute bewusst bremsen.
-            </p>
-            <p class="muted" style="font-size:14px;max-width:60ch;margin-top:8px;">
-              Wir messen mit einem Brustgurt (medizinische Genauigkeit, nicht Smartwatch) – als Einstieg oder Ergänzung zu unseren Sessions. Damit wir dich und dein Nervensystem wirklich achten — dich sehen, wo du gerade stehst, und das darauf abstimmen, was dein System in diesem Moment wirklich braucht.
-            </p>
-            <a href="#kontakt" style="display:inline-flex;margin-top:16px;min-height:48px;padding:0 26px;border-radius:999px;background:linear-gradient(135deg,var(--primary),var(--secondary));color:#fff;font-size:14px;font-weight:800;align-items:center;box-shadow:0 8px 24px rgba(11,107,100,0.26);text-decoration:none;">Jetzt anfragen →</a>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- ════════════════════════════ PREISE ════════════════════════════ -->
-    <section id="preise">
-      <div class="container">
-        <div class="section-head">
-          <span class="kicker">Investition</span>
-          <h2>Was eine Session kostet.</h2>
-        </div>
-        <div class="pricing-grid">
-          <article class="card price-card featured">
-            <span class="price-tag">Launch-Phase &middot; Nur 3 Plätze für Q3 2026</span>
-            <div class="price-amount"><sup>&euro;</sup>80</div>
-            <p class="price-sub">pro Session &middot; 1:1 &middot; ca. 60–75 Minuten</p>
-            <p class="price-sub" style="margin-top:14px;font-size:13px;color:var(--secondary);font-weight:700;">
-              1:2 Duo: <span style="font-size:16px;font-weight:800;">&euro;60</span> pro Person &middot; &euro;120 gesamt
-            </p>
-          </article>
-          <article class="card price-card">
-            <span class="price-tag">Regulär</span>
-            <div class="price-amount"><sup>&euro;</sup>120</div>
-            <p class="price-sub">pro Session &middot; 1:1</p>
-            <p class="price-sub" style="margin-top:14px;font-size:13px;color:var(--muted);font-weight:700;">
-              1:2 Duo: <span style="font-size:16px;font-weight:800;">&euro;90</span> pro Person &middot; &euro;180 gesamt
-            </p>
-          </article>
-        </div>
-        <div class="price-social">
-          <strong>Passt der Preis gerade nicht?</strong>
-          <p>Wenn du spürst, dass dieser Ansatz gut zu dir passt, es aber finanziell im Moment schwierig ist – sprich es offen an. Wir schauen gemeinsam, was möglich ist.</p>
-        </div>
-      </div>
-    </section>
-
-    <!-- ════════════════════════════ ABOUT ════════════════════════════ -->
-    <section id="about" class="section-contrast">
-      <div class="container">
-        <div class="section-head">
-          <span class="kicker">Wer ich bin</span>
-          <h2>Sportwissenschaft, Sportpsychologie — Expertise, die sich im echten Einsatz bewährt hat.</h2>
-        </div>
-        <div class="about-layout">
-          <div class="about-portrait">
-            <img src="/assets/images/von_links.jpg" alt="Philipp Wiert – Körper-Geist Personal Trainer München"
-                 style="width:100%;height:100%;object-fit:cover;object-position:center 52%;"
-                 onerror="this.style.display='none';this.nextElementSibling.style.display='flex';" />
-            <div class="about-portrait-placeholder" style="display:none;">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2">
-                <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/>
-              </svg>
-              <span>Profilbild kommt nach Fotoshooting</span>
-            </div>
-          </div>
-          <div>
-            <p style="font-size:17px;max-width:64ch;margin-bottom:20px;">
-              Training, Atem, Stille und sportpsychologische Tiefe – damit du körperlich belastbarer,
-              innerlich ruhiger und im Alltag spürbar stabiler und klarer wirst.
-            </p>
-            <div class="cred-tags">
-              <span class="cred-tag cred-tag--degree">M.Sc. Sportpsychologie</span>
-              <span class="cred-tag cred-tag--degree">B.Sc. Sportwissenschaft</span>
-              <span class="cred-tag">Selbstregulationstrainer</span>
-              <span class="cred-tag">Biofeedback-Trainer &middot; 3+ Jahre</span>
-              <span class="cred-tag">Sport-, Bewegungs- &amp; Achtsamkeitstherapeut</span>
-              <span class="cred-tag">Performance &amp; Recovery Specialist</span>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- ════════════════════════ TESTIMONIALS ════════════════════════ -->
-    <section id="testimonials" class="section-contrast">
-      <div class="container">
-        <div class="section-head">
-          <span class="kicker">Stimmen</span>
-          <h2>Was Klient:innen erlebt haben.</h2>
-        </div>
-        <div class="testimonial-outer" id="testimonialOuter">
-          <div class="testimonial-track" id="testimonialTrack">
-
-            <div class="testimonial-slide">
-              <div class="t-inner">
-                <div class="t-quote" aria-hidden="true">„</div>
-                <blockquote class="t-text">
-                  Ich weiß genau, was ich tun kann, wenn mein Stresslevel wieder aus dem Ruder
-                  laufen sollte – eine Panikattacke hatte ich schon lange nicht mehr.
-                  Mein Sohn fragte mich vor Kurzem: „Mama, was hast du da mit dir gemacht?
-                  Du bist jetzt viel weniger motzig." Und sogar eine befreundete Mutter meinte zu mir:
-                  „Wie schaffst du es nur, so ruhig zu bleiben, wenn die Kinder Faxen machen?"
-                </blockquote>
-                <footer class="t-author">
-                  <div class="t-avatar">V.D.</div>
-                  <div class="t-author-info">
-                    <strong>V.D.</strong>
-                    <span>Klientin</span>
-                  </div>
-                </footer>
-              </div>
-            </div>
-
-            <div class="testimonial-slide">
-              <div class="t-inner">
-                <div class="t-quote" aria-hidden="true">„</div>
-                <blockquote class="t-text">
-                  Dank dem Humor von Herrn Wiertelorz konnte ich wieder Zugang zu meinem inneren Kind
-                  gewinnen. Am Sport dranzubleiben fällt mir nun leicht, weil wir zusammen
-                  rausfinden konnten, welche Form der Aktivität mir Spaß macht. Mein Sohn freut sich
-                  sehr darüber, dass ich ihn nun regelmäßig auf den Freiplatz mitnehme, um ein paar
-                  Körbe zu werfen und zusammen Basketball zu spielen.
-                </blockquote>
-                <footer class="t-author">
-                  <div class="t-avatar">B.S.</div>
-                  <div class="t-author-info">
-                    <strong>B.S.</strong>
-                    <span>Klientin</span>
-                  </div>
-                </footer>
-              </div>
-            </div>
-
-            <div class="testimonial-slide">
-              <div class="t-inner">
-                <div class="t-quote" aria-hidden="true">„</div>
-                <blockquote class="t-text">
-                  Als ich zu Philipp gekommen bin, war ich innerlich recht zerstreut, unruhig und
-                  gewohnheitsmäßig mit mir selbst und der Außenwelt im Kampf – ständig im Widerstand.
-                  Durch das Körpertraining und das bewusste Zurückkommen zur aktuellen Aufgabe habe
-                  ich immer mehr zu mir gefunden. Mittlerweile komme ich in meinem Alltag oft ganz
-                  automatisch zur Ruhe und bin mit mir selbst zufrieden.
-                  Das war davor gar nicht denkbar.
-                </blockquote>
-                <footer class="t-author">
-                  <div class="t-avatar">D.B.</div>
-                  <div class="t-author-info">
-                    <strong>D.B.</strong>
-                    <span>Klient</span>
-                  </div>
-                </footer>
-              </div>
-            </div>
-
-          </div>
-        </div>
-        <div class="t-controls">
-          <button class="t-arrow" id="tPrev" aria-label="Vorheriges Testimonial">
-            <svg viewBox="0 0 24 24"><polyline points="15,18 9,12 15,6"/></svg>
-          </button>
-          <div class="t-dots" id="tDots" role="tablist" aria-label="Testimonial-Navigation">
-            <button class="t-dot active" role="tab" aria-selected="true"  aria-label="Testimonial 1" data-idx="0"></button>
-            <button class="t-dot"        role="tab" aria-selected="false" aria-label="Testimonial 2" data-idx="1"></button>
-            <button class="t-dot"        role="tab" aria-selected="false" aria-label="Testimonial 3" data-idx="2"></button>
-          </div>
-          <button class="t-arrow" id="tNext" aria-label="Nächstes Testimonial">
-            <svg viewBox="0 0 24 24"><polyline points="9,18 15,12 9,6"/></svg>
-          </button>
-        </div>
-      </div>
-    </section>
-
-    <!-- ════════════════════════════ KONTAKT ════════════════════════════ -->
-    <section id="kontakt">
-      <div class="container">
-        <div class="contact-shell">
-          <div class="section-head" style="margin-bottom:28px;">
-            <span class="kicker">Kontakt</span>
-            <h2>Kennenlerngespräch anfragen.</h2>
-            <p>Sag mir kurz, worum es dir geht, wie oft du trainieren willst und wann du realistisch Zeit hast. Ich melde mich persönlich mit einem passenden Vorschlag.</p>
-          </div>
-          <div data-fs-success style="display:none; padding:20px; background:#0b7e74; color:#f8f3ec; border-radius:8px; margin-bottom:20px; text-align:center;">
-            <p style="margin:0; font-size:16px;">✓ Danke! Ich melde mich zeitnah bei dir.</p>
-          </div>
-          <div data-fs-error style="display:none; padding:20px; background:#e63946; color:#f8f3ec; border-radius:8px; margin-bottom:20px;"></div>
-          <form id="kontakt-form" action="https://formspree.io/f/mwvzgwrb" method="POST">
-            <input type="hidden" name="_subject" value="Neue Anfrage über achten.pro" />
-            <input type="hidden" name="source" value="achten.pro" />
-            <div class="form-grid">
-              <label>Vorname<input type="text" name="vorname" placeholder="Dein Vorname" autocomplete="given-name" /></label>
-              <label>E-Mail<input type="email" name="email" placeholder="deinname@beispiel.de" autocomplete="email" required /></label>
-              <label>Telefon (optional)<input type="tel" name="tel" placeholder="Optional" autocomplete="tel" /></label>
-              <label>Wie oft möchtest du trainieren?
-                <select name="haeufigkeit">
-                  <option value="">Bitte wählen</option>
-                  <option>1&times; pro Woche</option>
-                  <option>2&times; pro Woche</option>
-                  <option>Noch unsicher</option>
-                </select>
-              </label>
-              <label>Welche Tage passen meistens?<input type="text" name="tage" placeholder="z. B. Montag, Mittwoch, Freitag" /></label>
-              <label>Ab welcher Uhrzeit geht es meistens?<input type="text" name="uhrzeit" placeholder="z. B. ab 15:00 Uhr" /></label>
-              <label>Bevorzugter Erstkontakt
-                <select name="kontaktweg">
-                  <option>E-Mail</option>
-                  <option>Rückruf</option>
-                  <option>Beides okay</option>
-                </select>
-              </label>
-              <label>Worum geht es dir gerade am meistens?
-                <select name="ziel">
-                  <option value="">Bitte wählen</option>
-                  <option>Ruhe im Kopf</option>
-                  <option>Entspannung im Körper</option>
-                  <option>Mehr Energie im Alltag</option>
-                  <option>Mehr Balance und Stabilität</option>
-                  <option>Regelmäßig trainieren</option>
-                  <option>schreibe ich dir unten ins Textfeld</option>
-                </select>
-              </label>
-              <label class="full">Noch etwas, das ich wissen sollte?<textarea name="freitext" placeholder="Schreib mir kurz, was dich gerade beschäftigt oder was du suchst."></textarea></label>
-            </div>
-            <p class="muted" style="font-size:13px;max-width:72ch;margin-top:16px;">Deine Angaben werden zur Bearbeitung deiner Anfrage über Formspree an mich übermittelt. Bitte trage keine Gesundheitsdaten, Diagnosen oder andere besonders sensiblen Informationen ein. Einzelheiten findest du in der <a href="/datenschutz.html">Datenschutzerklärung</a>.</p>
-            <label style="display:flex;gap:10px;align-items:flex-start;margin-top:12px;font-size:13px;">
-              <input type="checkbox" required style="width:auto;margin-top:3px;" />
-              <span>Ich habe die Datenschutzerklärung zur Kenntnis genommen.</span>
-            </label>
-            <div class="form-footer">
-              <p class="muted" style="font-size:13px;max-width:50ch;">Ich arbeite bewusst nur mit wenigen Klient:innen parallel, damit wir in Ruhe in die Tiefe gehen können.</p>
-              <button class="btn-submit" type="submit">Anfrage senden</button>
-            </div>
-          </form>
-          <div class="contact-alt">
-            <a href="mailto:philwirt@web.de">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round">
-                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
-                <polyline points="22,6 12,13 2,6"/>
-              </svg>
-              philwirt@web.de
-            </a>
-          </div>
-        </div>
-        <details class="impressum-box" id="impressum">
-          <summary>Impressum</summary>
-          <div class="impressum-content">
-            <address>
-              <p><strong>Diensteanbieter und verantwortlich:</strong><br>Philipp Wiertelorz<br>Viebigplatz 4<br>80686 München</p>
-              <p>E-Mail: philwirt@web.de</p>
-            </address>
-            <p>Verantwortlich für journalistisch-redaktionelle Inhalte gemäß § 18 Abs. 2 MStV: Philipp Wiertelorz, Anschrift wie oben.</p>
-            <p><a href="/datenschutz.html"><strong>Vollständige Datenschutzerklärung</strong></a></p>
-          </div>
-        </details>
-      </div>
-    </section>
-
   </main>
 
   <!-- ═══════════════════════════════ FOOTER ═══════════════════════════════ -->
@@ -1308,6 +1063,63 @@
   </footer>
 
   <script>
+
+
+    /* RC3: local-only editable mail draft; no network API or automatic send. */
+    (() => {
+      const form=document.getElementById('inquiryForm'), panel=document.getElementById('draftPanel');
+      const draft=document.getElementById('mailDraft'), open=document.getElementById('openMail'), status=document.getElementById('draftStatus');
+      const english=document.documentElement.lang==='en';
+      const subject=english?'Inquiry achten.pro':'Anfrage achten.pro';
+      const updateLink=()=>{open.href='mailto:Philipp@achten.pro?subject='+encodeURIComponent(subject)+'&body='+encodeURIComponent(draft.value)};
+      form.addEventListener('submit',e=>e.preventDefault());
+      form.addEventListener('input',()=>{panel.hidden=true;open.removeAttribute('href');status.textContent=''});
+      document.getElementById('createDraft').addEventListener('click',()=>{
+        if(!form.reportValidity())return;
+        const lines=[];
+        for(const field of form.elements){
+          if(!field.name||!field.value.trim())continue;
+          const label=field.labels[0].firstChild.textContent.trim();
+          const value=field.tagName==='SELECT'?field.selectedOptions[0].textContent:field.value;
+          lines.push(label+': '+value);
+        }
+        draft.value=lines.join('\n\n');updateLink();panel.hidden=false;draft.focus();
+        status.textContent=english?'Draft created locally. Review and edit it before opening your email app.':'Entwurf lokal erstellt. Prüfe und bearbeite ihn, bevor du dein Mailprogramm öffnest.';
+      });
+      draft.addEventListener('input',updateLink);
+    })();
+
+    /* RC2: native swipe/scroll, manual controls only; no autoplay. */
+    (function(){
+      const track=document.getElementById('testimonialTrack');
+      const slides=Array.from(track.querySelectorAll('.testimonial-slide'));
+      const dots=Array.from(document.querySelectorAll('.t-dot'));
+      const reduced=matchMedia('(prefers-reduced-motion: reduce)');
+      let current=0,scheduled=false;
+      function sync(){current=Math.max(0,Math.min(slides.length-1,Math.round(track.scrollLeft/track.clientWidth)));dots.forEach((d,i)=>{if(i===current)d.setAttribute('aria-current','true');else d.removeAttribute('aria-current')});}
+      function go(i){current=(i+slides.length)%slides.length;track.scrollTo({left:current*track.clientWidth,behavior:reduced.matches?'instant':'smooth'});}
+      document.getElementById('tPrev').addEventListener('click',()=>go(current-1));
+      document.getElementById('tNext').addEventListener('click',()=>go(current+1));
+      dots.forEach((d,i)=>d.addEventListener('click',()=>go(i)));
+      track.addEventListener('scroll',()=>{if(!scheduled){scheduled=true;requestAnimationFrame(()=>{sync();scheduled=false})}},{passive:true});
+      track.addEventListener('keydown',e=>{if(!['ArrowLeft','ArrowRight','Home','End'].includes(e.key))return;e.preventDefault();go(e.key==='Home'?0:e.key==='End'?slides.length-1:current+(e.key==='ArrowRight'?1:-1))});
+      window.addEventListener('resize',()=>{track.scrollTo({left:current*track.clientWidth,behavior:'instant'})},{passive:true});
+    })();
+    /* Anchor targets inside closed native details: open every ancestor before focus/scroll. */
+    function revealAnchor(hash,focus){
+      let target;try{target=document.getElementById(decodeURIComponent(hash.slice(1)))}catch{return}
+      if(!target)return;
+      for(let e=target;e;e=e.parentElement)if(e.tagName==='DETAILS')e.open=true;
+      requestAnimationFrame(()=>{if(focus){const temporary=!target.hasAttribute('tabindex');if(temporary)target.setAttribute('tabindex','-1');target.focus({preventScroll:true});if(temporary)target.addEventListener('blur',()=>target.removeAttribute('tabindex'),{once:true})}target.scrollIntoView({block:'start'});updateBar()});
+    }
+    document.addEventListener('click',e=>{const a=e.target.closest('a[href]');if(!a||e.defaultPrevented||e.ctrlKey||e.metaKey||e.altKey||e.shiftKey)return;const u=new URL(a.href,location.href);if(u.origin===location.origin&&u.pathname===location.pathname&&u.hash)revealAnchor(u.hash,true)});
+    window.addEventListener('hashchange',()=>revealAnchor(location.hash,true));
+    if(location.hash)revealAnchor(location.hash,true);
+    document.querySelectorAll('details').forEach(e=>e.addEventListener('toggle',updateBar));
+    let printDetails=[];
+    window.addEventListener('beforeprint',()=>{printDetails=Array.from(document.querySelectorAll('details')).map(e=>[e,e.open]);printDetails.forEach(([e])=>e.open=true)});
+    window.addEventListener('afterprint',()=>printDetails.forEach(([e,open])=>e.open=open));
+
     /* ── Progress Bar ── */
     const bar = document.getElementById('progress-bar');
     function updateBar() {
@@ -1337,66 +1149,80 @@
       var btn = document.getElementById('hamburger');
       var nav = document.getElementById('mobile-nav');
       if (!btn || !nav) return;
-      function closeNav() {
+      var desktop = window.matchMedia('(min-width:960px)');
+      var savedInert = new Map();
+      var lastFocused = document.activeElement;
+      function isOpen() { return btn.getAttribute('aria-expanded') === 'true'; }
+      function stops() { return [btn].concat(Array.from(nav.querySelectorAll('a[href]'))); }
+      function restoreBackground() {
+        savedInert.forEach(function(value, element) { element.inert = value; });
+        savedInert.clear();
+      }
+      function closeNav(returnFocus) {
+        btn.setAttribute('aria-expanded', 'false');
+        restoreBackground();
+        if (returnFocus || nav.contains(document.activeElement)) {
+          var target = desktop.matches ? document.querySelector('.nav-links a') : btn;
+          if (target) target.focus({preventScroll:true});
+        }
+        nav.inert = true;
         btn.setAttribute('aria-expanded', 'false');
         nav.classList.remove('is-open');
         nav.setAttribute('aria-hidden', 'true');
         document.body.classList.remove('nav-open');
         btn.setAttribute('aria-label', 'Menü öffnen');
       }
-      btn.addEventListener('click', function() {
-        var isOpen = nav.classList.contains('is-open');
-        if (isOpen) { closeNav(); } else {
-          btn.setAttribute('aria-expanded', 'true');
-          nav.classList.add('is-open');
-          nav.setAttribute('aria-hidden', 'false');
-          document.body.classList.add('nav-open');
-          btn.setAttribute('aria-label', 'Menü schließen');
+      function openNav() {
+        if (desktop.matches) return;
+        nav.inert = false;
+        btn.setAttribute('aria-expanded', 'true');
+        nav.classList.add('is-open');
+        nav.setAttribute('aria-hidden', 'false');
+        document.body.classList.add('nav-open');
+        btn.setAttribute('aria-label', 'Menü schließen');
+        document.querySelectorAll('main, footer, .site-header a, .site-header button').forEach(function(element) {
+          if (element !== btn) { savedInert.set(element, element.inert); element.inert = true; }
+        });
+        nav.querySelector('a').focus({preventScroll:true});
+      }
+      nav.inert = true;
+      btn.addEventListener('click', function() { if (isOpen()) closeNav(true); else openNav(); });
+      nav.querySelectorAll('a').forEach(function(link) {
+        link.addEventListener('click', function(event) {
+          if (event.defaultPrevented || event.ctrlKey || event.metaKey || event.shiftKey || event.altKey) return;
+          var url = new URL(link.href, location.href);
+          var target = url.pathname === location.pathname && url.hash ? document.getElementById(decodeURIComponent(url.hash.slice(1))) : null;
+          closeNav(false);
+          if (target) requestAnimationFrame(function() {
+            var temporary = !target.hasAttribute('tabindex');
+            if (temporary) target.setAttribute('tabindex', '-1');
+            target.focus({preventScroll:true});
+            if (temporary) target.addEventListener('blur', function() { target.removeAttribute('tabindex'); }, {once:true});
+          });
+        });
+      });
+      document.addEventListener('keydown', function(event) {
+        if (!isOpen()) return;
+        if (event.key === 'Escape') { event.preventDefault(); closeNav(true); }
+        if (event.key === 'Tab') {
+          var items = stops(), index = items.indexOf(document.activeElement);
+          event.preventDefault();
+          items[(index + (event.shiftKey ? -1 : 1) + items.length) % items.length].focus();
         }
       });
-      nav.querySelectorAll('a').forEach(function(link) {
-        link.addEventListener('click', closeNav);
+      document.addEventListener('focusin', function(event) {
+        if (event.target !== document.body) lastFocused = event.target;
+        if (isOpen() && event.target !== btn && !nav.contains(event.target)) nav.querySelector('a').focus();
       });
-      document.addEventListener('keydown', function(e) {
-        if (e.key === 'Escape') closeNav();
+      desktop.addEventListener('change', function() {
+        var focused = document.activeElement === document.body ? lastFocused : document.activeElement;
+        var focusWasInDrawer = nav.contains(focused) || focused === btn;
+        var desktopLinkHidden = !desktop.matches && focused.closest('.nav-links');
+        closeNav(focusWasInDrawer || desktopLinkHidden);
       });
     })();
 
-    /* ── Testimonial Karussell ── */
-    (function() {
-      var track = document.getElementById('testimonialTrack');
-      var prev  = document.getElementById('tPrev');
-      var next  = document.getElementById('tNext');
-      var dots  = document.querySelectorAll('#tDots .t-dot');
-      if (!track || !prev || !next) return;
-      var total = track.children.length;
-      var cur   = 0;
-      function go(idx) {
-        cur = ((idx % total) + total) % total;
-        var slideW = outer.getBoundingClientRect().width;
-        track.style.transform = 'translateX(-' + (cur * slideW) + 'px)';
-        dots.forEach(function(d, i) {
-          d.classList.toggle('active', i === cur);
-          d.setAttribute('aria-selected', String(i === cur));
-        });
-      }
-      prev.addEventListener('click', function() { go(cur - 1); });
-      next.addEventListener('click', function() { go(cur + 1); });
-      dots.forEach(function(d) {
-        d.addEventListener('click', function() { go(Number(d.dataset.idx)); });
-      });
-      /* Swipe für Android/iOS */
-      var startX = 0;
-      var outer = document.getElementById('testimonialOuter');
-      outer.addEventListener('touchstart', function(e) {
-        startX = e.touches[0].clientX;
-      }, { passive: true });
-      outer.addEventListener('touchend', function(e) {
-        var dx = e.changedTouches[0].clientX - startX;
-        if (Math.abs(dx) > 50) go(dx < 0 ? cur + 1 : cur - 1);
-      }, { passive: true });
-      window.addEventListener('resize', function() { go(cur); }, { passive: true });
-    })();
+
 
   </script>
   <script>

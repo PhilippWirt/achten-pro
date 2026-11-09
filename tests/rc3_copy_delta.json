@@ -1,0 +1,673 @@
+{
+  "languages": {
+    "de": [
+      {
+        "old_start": 18,
+        "old_end": 20,
+        "old": [
+          "SELBSTMEISTERSCHAFT",
+          "Deinen Körper stärken. Dich bewusst ausrichten. Gemeinsam deinen Weg gestalten."
+        ],
+        "new": [
+          "Körper Geist Meisterung"
+        ]
+      },
+      {
+        "old_start": 22,
+        "old_end": 23,
+        "old": [
+          "Körperliche Entwicklung und bewusster Selbstumgang gehören zusammen."
+        ],
+        "new": [
+          "Kraft, Mobilität und Koordination trainieren. Mit Atem und Stille erproben, wie du Anspannung wahrnimmst, zur Ruhe findest oder in Schwung kommst."
+        ]
+      },
+      {
+        "old_start": 32,
+        "old_end": 33,
+        "old": [
+          "Einzeltermin · 60 Minuten"
+        ],
+        "new": [
+          "Allein 80 € · zu zweit 60 € pro Person / 120 € gesamt · gemeinsam 60 Minuten"
+        ]
+      },
+      {
+        "old_start": 41,
+        "old_end": 41,
+        "old": [],
+        "new": [
+          "Kraft",
+          "Mobilität",
+          "Atem",
+          "Stille",
+          "Nervensystem",
+          "Was das konkret heißt",
+          "Körperlich üben wir Kraft, Mobilität und Koordination. Mental nehmen wir wahr, wie angespannt, wach oder bereit du dich fühlst, und erproben einen passenden Umgang damit."
+        ]
+      },
+      {
+        "old_start": 42,
+        "old_end": 43,
+        "old": [
+          "Jeweils 60 Minuten. Personal Training: My Private Gym, Plinganserstraße 132, 81369 München (Obersendling/Thalkirchen). Isar / im Freien oder bei dir zu Hause – den passenden Ort und Termin stimmen wir persönlich ab."
+        ],
+        "new": [
+          "Jeweils 60 Minuten. Personal Training: My Private Gym, Plinganserstraße 132, 81369 München (Obersendling/Thalkirchen). Isar / im Freien oder zu Hause – den passenden Ort und Termin stimmen wir persönlich ab."
+        ]
+      },
+      {
+        "old_start": 47,
+        "old_end": 48,
+        "old": [
+          "Möchtest du nach einer längeren Pause wieder anfangen? Bist du bei Übungen oder Belastung unsicher? Kommen Bewegung und Erholung im vollen Alltag zu kurz?"
+        ],
+        "new": [
+          "Kommen Bewegung und Erholung im vollen Alltag zu kurz? Möchtest du nach einer längeren Pause wieder anfangen? Bist du bei Übungen oder Belastung unsicher?"
+        ]
+      },
+      {
+        "old_start": 49,
+        "old_end": 52,
+        "old": [
+          "Ich erkläre und zeige die Bewegung, beobachte deine Ausführung und gebe konkrete Rückmeldung. Bewegungsumfang, Widerstand, Tempo und Pausen passen wir gemeinsam an.",
+          "60 Minuten · 80 € pro Einzeltermin.",
+          "My Private Gym, Plinganserstraße 132, 81369 München (Obersendling/Thalkirchen); danach Isar / im Freien oder bei dir zu Hause – nach persönlicher Absprache."
+        ],
+        "new": [
+          "Ich erkläre und zeige die Bewegung, beobachte deine Ausführung und gebe konkrete Rückmeldung. Bewegungsumfang, Widerstand, Tempo und Pausen stimmen wir gemeinsam auf deinen Trainingsstand, deine Tagesform und deine Rückmeldung ab.",
+          "Allein: 80 € · 60 Minuten. Zu zweit: 60 € pro Person · 120 € gesamt · gemeinsam 60 Minuten.",
+          "My Private Gym, Plinganserstraße 132, 81369 München (Obersendling/Thalkirchen); danach Isar / im Freien oder zu Hause – nach persönlicher Absprache."
+        ]
+      },
+      {
+        "old_start": 59,
+        "old_end": 60,
+        "old": [
+          "Wir finden einen machbaren Einstieg und vereinbaren, was du zwischen den Terminen üben kannst. Auch wenn die Woche anders läuft als geplant."
+        ],
+        "new": [
+          "Wir finden einen machbaren Einstieg. Wenn du möchtest, wählen wir ergänzende Übungen für zu Hause oder den Alltag. Auch wenn die Woche anders läuft als geplant."
+        ]
+      },
+      {
+        "old_start": 61,
+        "old_end": 62,
+        "old": [
+          "Planst du schon das nächste Training, obwohl du dich noch nicht erholt fühlst?"
+        ],
+        "new": [
+          "Möchtest du schon wieder trainieren, obwohl du dich noch nicht erholt fühlst?"
+        ]
+      },
+      {
+        "old_start": 64,
+        "old_end": 65,
+        "old": [
+          "Wir suchen Aufgaben, bei denen auch Spiel, Ehrgeiz und Lockerheit Platz haben. Wie sich das für dich anfühlt, bleibt individuell."
+        ],
+        "new": [
+          "Wir suchen Aufgaben, bei denen auch Spiel, Ehrgeiz und Lockerheit Platz haben. Welche Aufgaben zu dir passen, finden wir gemeinsam heraus und stimmen sie auf dich ab."
+        ]
+      },
+      {
+        "old_start": 68,
+        "old_end": 71,
+        "old": [
+          "Regelmäßigkeit, die in deinen Alltag passt",
+          "Wie häufig wir uns treffen, besprechen wir gemeinsam. Zwischen den Terminen bewegst und übst du dich regelmäßig selbst; wir vereinbaren dafür passende nächste Schritte.",
+          "Wir legen konkrete Aufgaben fest, die in deine Woche passen, und besprechen, was bei der Umsetzung im Weg steht. Eine schwierige Woche ist Anlass, den Plan anzupassen."
+        ],
+        "new": [
+          "Ein möglicher 60-Minuten-Termin",
+          "Zur Orientierung: etwa 10 Minuten ankommen, 40 Minuten trainieren und 10 Minuten ausklingen lassen. Die Aufteilung passen wir gemeinsam an.",
+          "Dein Trainingsrhythmus",
+          "Wie häufig wir gemeinsam trainieren, stimmen wir auf deine Ziele, deinen Trainingsstand und deinen Alltag ab. Auf Wunsch wählen wir ergänzende Übungen für die Zeit zwischen den Terminen.",
+          "Wir besprechen, was sich gut umsetzen lässt, und passen den Plan bei Bedarf an."
+        ]
+      },
+      {
+        "old_start": 74,
+        "old_end": 80,
+        "old": [
+          "Belastung bleibt – Erholung fällt schwer?",
+          "Eine angeleitete Atemübung kann ein Ansatz sein. Auf Wunsch nutzen wir HRV-Biofeedback. Mit einem Brustgurt erfassen wir die Herzschläge und schauen gemeinsam auf die Rückmeldung während einer angeleiteten Atemübung. Herzratenvariabilität (HRV) beschreibt die Unterschiede der Zeitabstände zwischen Herzschlägen. Der Puls zählt die Herzschläge pro Minute. Der Blutdruck beschreibt den Druck in den Blutgefäßen. Das sind unterschiedliche Messgrößen.",
+          "Die unmittelbare Rückmeldung während der Atemübung betrachten wir am Bildschirm.",
+          "Davon getrennt betrachten wir bei Bedarf den Verlauf von Ruhemessungen, zum Beispiel rMSSD, zusammen mit Schlaf, Belastung, Erholung und Körpergefühl.",
+          "Ruhemessungen können deinen persönlichen Verlauf über mehrere Tage zeigen; ein einzelner Wert gibt keine Trainingsfreigabe. Bei Schwindel oder Unwohlsein beenden wir die Atemübung und du atmest normal weiter.",
+          "Bei gesundheitlichen Einschränkungen stimmen wir ab, welche Belastung medizinisch erlaubt ist. Neue oder zunehmende Beschwerden werden nicht übertrainiert; wir unterbrechen und klären das weitere Vorgehen. Ich arbeite als Coach."
+        ],
+        "new": [
+          "Fällt es dir nach Training oder einem vollen Tag schwer, zur Ruhe zu kommen?",
+          "Wir erproben eine angenehme Atemübung und achten darauf, wie du dich dabei fühlst. Wenn du möchtest, ergänzen wir HRV-Biofeedback: Mit einem Brustgurt erfassen wir deine Herzschläge und betrachten die Rückmeldung am Bildschirm. Gemeinsam besprechen wir, was du während der Übung wahrnimmst.",
+          "Herzratenvariabilität (HRV) beschreibt die Unterschiede der Zeitabstände zwischen Herzschlägen. Der Puls zählt die Herzschläge pro Minute. Der Blutdruck beschreibt den Druck in den Blutgefäßen. Das sind unterschiedliche Messgrößen.",
+          "Davon getrennt können wiederholte Messungen in Ruhe deinen persönlichen Verlauf über mehrere Tage zeigen. Wir betrachten sie zusammen mit Schlaf, Belastung, Erholung und Körpergefühl und besprechen, wie diese Informationen zu deiner Trainingswoche passen.",
+          "Wir wählen einen angenehmen Atemrhythmus. Falls dir dabei schwindlig oder unwohl wird, beenden wir die Übung und du atmest in deinem gewohnten Rhythmus weiter.",
+          "Bei gesundheitlichen Einschränkungen berücksichtigen wir die medizinischen Vorgaben. Bei neuen oder zunehmenden Beschwerden unterbrechen wir und klären das weitere Vorgehen."
+        ]
+      },
+      {
+        "old_start": 83,
+        "old_end": 86,
+        "old": [
+          "Was beschäftigt dich gerade?",
+          "Wir schauen gemeinsam auf deine Situation und klären, woran du arbeiten möchtest.",
+          "Dein Anliegen gibt die Richtung vor. Wir verbinden Gedanken, Gefühle, Körperwahrnehmung und konkrete Schritte im Alltag."
+        ],
+        "new": [
+          "Dich beschäftigt was?",
+          "Sportpsychologische Begleitung: Wir klären deine Ausgangslage und dein Anliegen, wählen passende Tools und Übungen und üben sie gemeinsam ein. Mit deiner Rückmeldung entwickeln wir einen individuellen weiteren Plan für Training, Alltag oder deine nächste Leistungssituation.",
+          "Wir schauen auf die Worte, die du dir selbst sagst, und darauf, wie du sie sagst. Deinen inneren Zustand nehmen wir ebenso in den Blick wie konkrete Handlungsschritte. Gemeinsam entwickeln und erproben wir neue Muster und Routinen."
+        ]
+      },
+      {
+        "old_start": 87,
+        "old_end": 88,
+        "old": [
+          "An der Isar / im Freien oder bei dir zu Hause – in einem geeigneten, ungestörten Rahmen."
+        ],
+        "new": [
+          "An der Isar / im Freien oder zu Hause – in einem geeigneten, ungestörten Rahmen."
+        ]
+      },
+      {
+        "old_start": 99,
+        "old_end": 100,
+        "old": [
+          "Wir besprechen passende Schritte und erproben zum Beispiel Vorstellungsübungen und einen hilfreichen Umgang mit Gedanken und Körperempfindungen. Die Auswahl richtet sich nach deinem Anliegen und dem medizinisch erlaubten Rahmen."
+        ],
+        "new": [
+          "Gemeinsam klären wir, was dich verunsichert, und wählen passende mentale Übungen, etwa eine Bewegung gedanklich vorzubereiten oder hilfreiche innere Worte zu erproben."
+        ]
+      },
+      {
+        "old_start": 101,
+        "old_end": 102,
+        "old": [
+          "Wir unterscheiden Befürchtungen, tatsächliche Vorgaben und die nächste freigegebene Aufgabe. Wir erproben passende Aufmerksamkeit und hilfreiche innere Worte. Motorische Vorstellungsübungen und körperliche Belastung richten sich nach medizinischer Abstimmung."
+        ],
+        "new": [
+          "Was verunsichert dich beim Wiedereinstieg, und was ist körperlich bereits erlaubt? Wir klären dein Anliegen und wählen passende mentale Übungen. Du kannst zum Beispiel eine bevorstehende Bewegung gedanklich vorbereiten oder Worte finden, die dich beim Einstieg unterstützen. Gemeinsam erproben wir, was zu deiner Situation passt.",
+          "Für die körperliche Rückkehr in den Sport gelten die medizinischen Vorgaben. Bei Sportverbot setzen wir keine zusätzliche körperliche Trainingsbelastung ein."
+        ]
+      },
+      {
+        "old_start": 103,
+        "old_end": 104,
+        "old": [
+          "Gemeinsam klären wir, was dir wichtig ist, was du beeinflussen kannst und welche nächste Handlung zählt. Wir üben, deine Aufmerksamkeit darauf auszurichten."
+        ],
+        "new": [
+          "Gemeinsam wählen wir, woran du arbeiten möchtest, und erproben passende Übungen für deine Vorbereitung und deinen Fokus."
+        ]
+      },
+      {
+        "old_start": 106,
+        "old_end": 107,
+        "old": [
+          "Anspannung und Aktivierung beeinflussen"
+        ],
+        "new": [
+          "Zum Beispiel kannst du vor einem Wiedereinstieg freiwillig einen Satz wie „Ich muss sofort wieder alles können“ prüfen, andere innere Worte ausprobieren und einen passenden ersten Schritt wählen.",
+          "Deinen Zustand wahrnehmen und passend aktiv werden"
+        ]
+      },
+      {
+        "old_start": 108,
+        "old_end": 109,
+        "old": [
+          "Gemeinsam erproben wir, wie du in solchen Momenten mit passenden Atem-, Bewegungs- oder Aufmerksamkeitsübungen deine Anspannung beeinflusst und dich auf die nächste Aufgabe ausrichtest."
+        ],
+        "new": [
+          "Gemeinsam wählen und erproben wir Atem-, Bewegungs-, Aufmerksamkeits- und weitere Übungen zur Selbstregulation. Dabei übst du, dein Aktivierungsniveau – also wie angespannt, wach oder bereit du dich fühlst – wahrzunehmen und passend zur Situation zu beeinflussen."
+        ]
+      },
+      {
+        "old_start": 112,
+        "old_end": 113,
+        "old": [
+          "Wir arbeiten an hilfreichen nächsten Schritten. Mentale Belastbarkeit heißt dabei nicht, immer mehr auszuhalten: Grenzen, Pausen und Unterstützung gehören dazu."
+        ],
+        "new": [
+          "Wir beziehen deine Grenzen, passende Pausen und hilfreiche Unterstützung ein, wenn du Selbstvertrauen und Belastbarkeit entwickeln möchtest."
+        ]
+      },
+      {
+        "old_start": 116,
+        "old_end": 119,
+        "old": [
+          "Bei Bedarf erproben wir eine angeleitete Atemübung, auf Wunsch mit HRV-Biofeedback. Mit einem Brustgurt erfassen wir die Herzschläge und schauen gemeinsam auf die Rückmeldung während einer angeleiteten Atemübung. Das Feedback während der Übung ist eine mögliche Hilfe beim Ausprobieren. Herzratenvariabilität (HRV) beschreibt die Unterschiede der Zeitabstände zwischen Herzschlägen. Der Puls zählt die Herzschläge pro Minute. Der Blutdruck beschreibt den Druck in den Blutgefäßen. Das sind unterschiedliche Messgrößen.",
+          "Die unmittelbare Rückmeldung während der Atemübung betrachten wir am Bildschirm.",
+          "Davon getrennt betrachten wir bei Bedarf den Verlauf von Ruhemessungen, zum Beispiel rMSSD, zusammen mit Schlaf, Belastung, Erholung und Körpergefühl."
+        ],
+        "new": [
+          "Wenn du möchtest, ergänzen wir HRV-Biofeedback: Mit einem Brustgurt erfassen wir die Herzschläge und schauen gemeinsam auf die Rückmeldung am Bildschirm. Dabei besprechen wir, was du wahrnimmst und wie die Übung zu dir passt.",
+          "Herzratenvariabilität (HRV) beschreibt die Unterschiede der Zeitabstände zwischen Herzschlägen. Der Puls zählt die Herzschläge pro Minute. Der Blutdruck beschreibt den Druck in den Blutgefäßen. Das sind unterschiedliche Messgrößen.",
+          "Davon getrennt betrachten wir bei Bedarf wiederholte Messungen in Ruhe über mehrere Tage, zusammen mit Schlaf, Belastung, Erholung und Körpergefühl. Gemeinsam besprechen wir, was du daraus für die Gestaltung deines Alltags genauer beobachten möchtest."
+        ]
+      },
+      {
+        "old_start": 120,
+        "old_end": 124,
+        "old": [
+          "Wie häufig wir uns treffen und was du zwischen den Terminen übst, besprechen wir gemeinsam. Bei Bedarf ergänzen wir die Begleitung durch einen Anruf oder Videochat; Umfang und Rahmen stimmen wir vorher ab.",
+          "Zwischen den Terminen übst du regelmäßig vereinbarte, passende Routinen. Anhand deiner Erfahrungen passen wir Übungen an. Freude, Lockerheit und Ehrgeiz dürfen Platz haben.",
+          "Ruhemessungen können deinen persönlichen Verlauf über mehrere Tage zeigen; ein einzelner Wert gibt keine Trainingsfreigabe. Bei Schwindel oder Unwohlsein beenden wir die Atemübung und du atmest normal weiter.",
+          "Sportpsychologische Begleitung ergänzt medizinische und physiotherapeutische Versorgung. Sie ersetzt weder Behandlung noch Sportfreigabe. Bei Sportverbot setzen wir keine zusätzliche körperliche Trainingsbelastung ein."
+        ],
+        "new": [
+          "Wie häufig Begleitung sinnvoll ist, besprechen wir gemeinsam. Bei Bedarf ergänzen wir sie durch einen Anruf oder Videochat; Umfang und Rahmen stimmen wir vorher ab.",
+          "Wir wählen Übungen passend zu deinem Anliegen und erproben sie gemeinsam. Wenn du möchtest, vereinbaren wir kleine Routinen für die Zeit zwischen den Terminen. Deine Erfahrungen helfen uns, die Übungen weiter anzupassen. Freude, Lockerheit und Ehrgeiz dürfen Platz haben.",
+          "Wir wählen einen angenehmen Atemrhythmus. Falls dir dabei schwindlig oder unwohl wird, beenden wir die Übung und du atmest in deinem gewohnten Rhythmus weiter."
+        ]
+      },
+      {
+        "old_start": 129,
+        "old_end": 130,
+        "old": [
+          "Wir klären dein Ziel, den passenden Ort und einen möglichen Termin. Beide Angebote dauern 60 Minuten; die Einzelpreise stehen oben."
+        ],
+        "new": [
+          "Wir klären dein Ziel, den passenden Ort und einen möglichen Termin. Beide Angebote dauern 60 Minuten; Preise und Formate stehen oben."
+        ]
+      },
+      {
+        "old_start": 131,
+        "old_end": 132,
+        "old": [
+          "Wir besprechen passende Inhalte, eigene Übungen zwischen den Terminen und wie häufig Begleitung sinnvoll ist."
+        ],
+        "new": [
+          "Wir wählen passende Inhalte und besprechen, wie häufig Begleitung sinnvoll ist. Zusätzliche eigene Übungen vereinbaren wir auf Wunsch."
+        ]
+      },
+      {
+        "old_start": 136,
+        "old_end": 138,
+        "old": [
+          "Ich arbeite mit dir an konkreten Zielen und kleinen, praktikablen Trainingsschritten. Was wir auswählen, richtet sich nach deinem Anliegen.",
+          "Sportpsychologische Begleitung und Personal Training können sich ergänzen. Du entscheidest, womit du einsteigen möchtest. Ich arbeite als Coach und Experte für Sportpsychologie."
+        ],
+        "new": [
+          "Training, Atem, Stille und sportpsychologische Tiefe: Ich begleite dich dabei, an körperlicher Belastbarkeit, innerer Ruhe und mehr Stabilität und Klarheit im Alltag zu arbeiten. Ich begleite dich, vermittle Wissen und unterstütze dich dabei, passende Übungen zunehmend eigenständig zu nutzen.",
+          "Beim Personal Training begleite ich dich als Personal Trainer, im sportpsychologischen Coaching als Coach und Experte für Sportpsychologie. Du entscheidest, womit du einsteigen möchtest."
+        ]
+      },
+      {
+        "old_start": 168,
+        "old_end": 169,
+        "old": [
+          "bei dir zu Hause"
+        ],
+        "new": [
+          "zu Hause"
+        ]
+      },
+      {
+        "old_start": 171,
+        "old_end": 171,
+        "old": [],
+        "new": [
+          "Deine Anfrage vorbereiten",
+          "Deine Angaben bleiben beim Ausfüllen und Erstellen des Entwurfs in diesem Browser. Erst „Im eigenen Mailprogramm öffnen“ übergibt den Entwurf an dein Mailprogramm. Dort prüfst und sendest du selbst; es erfolgt kein automatischer Versand.",
+          "Name",
+          "E-Mail",
+          "Telefon (optional)",
+          "Gewünschte Häufigkeit (optional)",
+          "Passende Tage (optional)",
+          "Passende Uhrzeit (optional)",
+          "Gewünschter Erstkontakt (optional)",
+          "Bitte wählen",
+          "Per E-Mail",
+          "Telefonisch",
+          "Dein Anliegen / Angebot",
+          "Gemeinsam klären",
+          "Personal Training",
+          "Sportpsychologisches Coaching",
+          "Was möchtest du mir mitgeben? (optional)",
+          "Mailentwurf erstellen",
+          "Dein editierbarer Mailentwurf",
+          "Im eigenen Mailprogramm öffnen",
+          "Empfänger: Philipp@achten.pro. Ohne eingerichtetes Mailprogramm kannst du den Entwurf und die Adresse kopieren.",
+          "Datenschutz zur lokalen Anfragehilfe",
+          "Für die lokale Entwurfshilfe aktiviere JavaScript oder schreibe direkt an Philipp@achten.pro."
+        ]
+      }
+    ],
+    "en": [
+      {
+        "old_start": 18,
+        "old_end": 20,
+        "old": [
+          "SELF-MASTERY",
+          "Strengthen your body. Find your direction. Shape your path together."
+        ],
+        "new": [
+          "Body Mind Mastery"
+        ]
+      },
+      {
+        "old_start": 22,
+        "old_end": 23,
+        "old": [
+          "Physical development and a conscious relationship with yourself belong together."
+        ],
+        "new": [
+          "Train strength, mobility and coordination. Use breathing and stillness to explore tension, settling down and getting going."
+        ]
+      },
+      {
+        "old_start": 32,
+        "old_end": 33,
+        "old": [
+          "Individual session · 60 minutes"
+        ],
+        "new": [
+          "Solo 80 € · duo 60 € per person / 120 € total · 60 minutes together"
+        ]
+      },
+      {
+        "old_start": 41,
+        "old_end": 41,
+        "old": [],
+        "new": [
+          "Strength",
+          "Mobility",
+          "Breathing",
+          "Stillness",
+          "Nervous system",
+          "What that means in practice",
+          "Physically, we practise strength, mobility and coordination. Mentally, we notice how tense, alert or ready you feel and try ways of responding that suit you."
+        ]
+      },
+      {
+        "old_start": 42,
+        "old_end": 43,
+        "old": [
+          "Each session lasts 60 minutes. Personal Training: My Private Gym, Plinganserstraße 132, 81369 München (Obersendling/Thalkirchen). By the Isar / outdoors or at your home — we agree on a suitable place and time personally."
+        ],
+        "new": [
+          "Each session lasts 60 minutes. Personal Training: My Private Gym, Plinganserstraße 132, 81369 München (Obersendling/Thalkirchen). By the Isar / outdoors or at home — we agree on a suitable place and time personally."
+        ]
+      },
+      {
+        "old_start": 47,
+        "old_end": 48,
+        "old": [
+          "Would you like to start again after a longer break? Are you unsure about exercises or training load? Do movement and recovery get squeezed out of a busy everyday life?"
+        ],
+        "new": [
+          "Does a busy everyday life leave too little room for movement and recovery? Would you like to start again after a longer break? Are you unsure about exercises or training load?"
+        ]
+      },
+      {
+        "old_start": 49,
+        "old_end": 52,
+        "old": [
+          "I explain and demonstrate the movement, observe your technique and give specific feedback. Together we adapt range of motion, resistance, pace and breaks.",
+          "60 minutes · 80 € per individual session.",
+          "My Private Gym, Plinganserstraße 132, 81369 München (Obersendling/Thalkirchen); then by the Isar / outdoors or at your home — by personal arrangement."
+        ],
+        "new": [
+          "I explain and demonstrate the movement, observe your technique and give specific feedback. Together we adapt range of motion, resistance, pace and breaks to your training level, how you feel that day and your feedback.",
+          "Solo: 80 € · 60 minutes. Duo: 60 € per person · 120 € total · 60 minutes together.",
+          "My Private Gym, Plinganserstraße 132, 81369 München (Obersendling/Thalkirchen); then by the Isar / outdoors or at home — by personal arrangement."
+        ]
+      },
+      {
+        "old_start": 59,
+        "old_end": 60,
+        "old": [
+          "We find a manageable starting point and agree on what you can practise between sessions, even when the week turns out differently than planned."
+        ],
+        "new": [
+          "We find a manageable starting point. If you wish, we choose additional exercises for home or everyday life, even when the week does not go as planned."
+        ]
+      },
+      {
+        "old_start": 61,
+        "old_end": 62,
+        "old": [
+          "Are you already planning your next training session even though you do not feel recovered yet?"
+        ],
+        "new": [
+          "Do you already want to train again even though you do not feel recovered yet?"
+        ]
+      },
+      {
+        "old_start": 64,
+        "old_end": 65,
+        "old": [
+          "We look for tasks that leave room for play, ambition and ease. How this feels for you remains individual."
+        ],
+        "new": [
+          "We look for activities that leave room for play, ambition and ease. Together we find out which tasks suit you and adapt them to you."
+        ]
+      },
+      {
+        "old_start": 68,
+        "old_end": 71,
+        "old": [
+          "Consistency that fits your everyday life",
+          "We discuss how often to meet together. Between sessions, you keep moving and practising independently; we agree on suitable next steps.",
+          "We agree on specific tasks that fit your week and discuss what gets in the way of putting them into practice. A difficult week is a reason to adapt the plan."
+        ],
+        "new": [
+          "One possible 60-minute session",
+          "As a guide: about 10 minutes to arrive, 40 minutes of training and 10 minutes to wind down. We adapt the balance together.",
+          "Your training rhythm",
+          "We adapt how often we train together to your goals, training level and everyday life. If you wish, we choose additional exercises for between sessions.",
+          "We discuss what is manageable and adapt the plan as needed."
+        ]
+      },
+      {
+        "old_start": 74,
+        "old_end": 80,
+        "old": [
+          "Does recovery feel difficult after exertion?",
+          "A guided breathing exercise can be one approach. If you wish, we use HRV biofeedback. With a chest strap, we record heartbeats and look together at the feedback during a guided breathing exercise. Heart rate variability (HRV) describes differences in the time intervals between heartbeats. Your pulse counts heartbeats per minute. Blood pressure describes the pressure in your blood vessels. These are different measurements.",
+          "We look at the immediate feedback during the breathing exercise on a screen.",
+          "Separately, if relevant, we look at trends in resting measurements, such as rMSSD, alongside sleep, training load, recovery and how your body feels.",
+          "Resting measurements can show your individual trend over several days; a single value does not provide clearance to train. If you feel dizzy or unwell, we stop the breathing exercise and you return to normal breathing.",
+          "If you have health-related limitations, we agree on what exertion is medically permitted. We do not train through new or worsening symptoms; we stop and clarify how to proceed. I work as a coach."
+        ],
+        "new": [
+          "Is it hard to settle down after training or a busy day?",
+          "We try a comfortable breathing exercise and pay attention to how you feel. If you wish, we add HRV biofeedback: a chest strap records your heartbeats and we look at the feedback on screen. Together we discuss what you notice during the exercise.",
+          "Heart rate variability (HRV) describes differences in the time intervals between heartbeats. Your pulse counts heartbeats per minute. Blood pressure describes the pressure in your blood vessels. These are different measurements.",
+          "Separately, repeated measurements at rest can show your personal trend over several days. We consider them alongside sleep, training load, recovery and how your body feels, and discuss how this information relates to your training week.",
+          "We choose a comfortable breathing rhythm. If you feel dizzy or unwell, we stop the exercise and you return to your usual breathing rhythm.",
+          "If you have health-related limitations, we take medical guidance into account. If symptoms are new or worsening, we stop and clarify how to proceed."
+        ]
+      },
+      {
+        "old_start": 83,
+        "old_end": 86,
+        "old": [
+          "What is on your mind?",
+          "We look at your situation together and clarify what you would like to work on.",
+          "Your concerns set the direction. We connect thoughts, feelings, body awareness and practical steps in everyday life."
+        ],
+        "new": [
+          "Something on your mind?",
+          "Sport psychology support: we clarify your starting point and concerns, choose suitable tools and exercises and practise them together. With your feedback, we develop a personal plan for training, everyday life or your next performance situation.",
+          "We look at the words you say to yourself and how you say them. We explore your state of mind alongside practical steps. Together we develop and try new patterns and routines."
+        ]
+      },
+      {
+        "old_start": 87,
+        "old_end": 88,
+        "old": [
+          "By the Isar / outdoors or at your home — in a suitable, undisturbed setting."
+        ],
+        "new": [
+          "By the Isar / outdoors or at home — in a suitable, undisturbed setting."
+        ]
+      },
+      {
+        "old_start": 99,
+        "old_end": 100,
+        "old": [
+          "We discuss suitable steps and try approaches such as imagery and helpful ways to relate to thoughts and physical sensations. We choose according to your goals and what is medically permitted."
+        ],
+        "new": [
+          "Together we clarify what makes you uncertain and choose suitable mental exercises, such as mentally preparing a movement or trying helpful self-talk."
+        ]
+      },
+      {
+        "old_start": 101,
+        "old_end": 102,
+        "old": [
+          "We distinguish worries, actual requirements and the next task for which you have medical clearance. We try suitable ways to focus and helpful self-talk. Motor imagery exercises and physical exertion follow medical guidance."
+        ],
+        "new": [
+          "What makes you uncertain about returning, and what physical activity is already permitted? We clarify your concerns and choose suitable mental exercises. For example, you might mentally prepare an upcoming movement or find words that support your return. Together we try what suits your situation.",
+          "Medical guidance applies to the physical return to sport. If exercise is medically prohibited, we do not add physical training load."
+        ]
+      },
+      {
+        "old_start": 103,
+        "old_end": 104,
+        "old": [
+          "Together we clarify what matters to you, what you can influence and which next action counts. We practise directing your attention towards it."
+        ],
+        "new": [
+          "Together we choose what you would like to work on and try suitable exercises for your preparation and focus."
+        ]
+      },
+      {
+        "old_start": 106,
+        "old_end": 107,
+        "old": [
+          "Work with tension and activation"
+        ],
+        "new": [
+          "For example, before returning to sport you might choose to examine a thought such as “I must be able to do everything again straight away”, try different self-talk and choose a suitable first step.",
+          "Notice your state and find the right level of activation"
+        ]
+      },
+      {
+        "old_start": 108,
+        "old_end": 109,
+        "old": [
+          "Together we try suitable breathing, movement or attention exercises to work with your tension in those moments and orient yourself towards the next task."
+        ],
+        "new": [
+          "Together we choose and try breathing, movement, attention and other self-regulation exercises. You practise noticing your activation level — how tense, alert or ready you feel — and influencing it to suit the situation."
+        ]
+      },
+      {
+        "old_start": 112,
+        "old_end": 113,
+        "old": [
+          "We work on helpful next steps. Mental resilience does not mean enduring more and more: boundaries, breaks and support are part of it."
+        ],
+        "new": [
+          "We take your boundaries, suitable breaks and helpful support into account as you work on confidence and resilience."
+        ]
+      },
+      {
+        "old_start": 116,
+        "old_end": 119,
+        "old": [
+          "If relevant, we try a guided breathing exercise, optionally with HRV biofeedback. With a chest strap, we record heartbeats and look together at the feedback during a guided breathing exercise. Feedback during the exercise can help you explore it. Heart rate variability (HRV) describes differences in the time intervals between heartbeats. Your pulse counts heartbeats per minute. Blood pressure describes the pressure in your blood vessels. These are different measurements.",
+          "We look at the immediate feedback during the breathing exercise on a screen.",
+          "Separately, if relevant, we look at trends in resting measurements, such as rMSSD, alongside sleep, training load, recovery and how your body feels."
+        ],
+        "new": [
+          "If you wish, we add HRV biofeedback: a chest strap records your heartbeats and we look at the feedback on screen together. We discuss what you notice and how the exercise suits you.",
+          "Heart rate variability (HRV) describes differences in the time intervals between heartbeats. Your pulse counts heartbeats per minute. Blood pressure describes the pressure in your blood vessels. These are different measurements.",
+          "Separately, if relevant, we look at repeated resting measurements over several days alongside sleep, training load, recovery and how your body feels. Together we discuss what you would like to observe more closely in your everyday life."
+        ]
+      },
+      {
+        "old_start": 120,
+        "old_end": 124,
+        "old": [
+          "We discuss how often to meet and what to practise between sessions together. If needed, we add support by phone or video call; we agree on the scope and arrangements in advance.",
+          "Between sessions, you regularly practise suitable routines we have agreed on. We adapt exercises based on your experiences. There is room for enjoyment, ease and ambition.",
+          "Resting measurements can show your individual trend over several days; a single value does not provide clearance to train. If you feel dizzy or unwell, we stop the breathing exercise and you return to normal breathing.",
+          "Sport psychology support complements medical care and physiotherapy. It replaces neither treatment nor clearance to return to sport. If exercise is medically prohibited, we do not add physical training load."
+        ],
+        "new": [
+          "We discuss together how often support would be useful. If needed, we add a phone or video call; we agree on the scope and arrangements in advance.",
+          "We choose exercises to suit your concerns and try them together. If you wish, we agree on small routines for between sessions. Your experiences help us adapt the exercises. Joy, ease and ambition have a place here.",
+          "We choose a comfortable breathing rhythm. If you feel dizzy or unwell, we stop the exercise and you return to your usual breathing rhythm."
+        ]
+      },
+      {
+        "old_start": 129,
+        "old_end": 130,
+        "old": [
+          "We discuss your goal, a suitable place and a possible time. Both offers last 60 minutes; individual prices are listed above."
+        ],
+        "new": [
+          "We discuss your goal, a suitable place and a possible time. Both offers last 60 minutes; prices and formats are listed above."
+        ]
+      },
+      {
+        "old_start": 131,
+        "old_end": 132,
+        "old": [
+          "We discuss suitable content, independent practice between sessions and how often support would be useful."
+        ],
+        "new": [
+          "We choose suitable content and discuss how often support would be useful. Additional independent practice is optional and agreed together."
+        ]
+      },
+      {
+        "old_start": 136,
+        "old_end": 138,
+        "old": [
+          "I work with you on specific goals and small, practical training steps. What we choose depends on your concerns.",
+          "Sport psychology support and personal training can complement each other. You decide where to start. I work as a coach and sport psychology expert."
+        ],
+        "new": [
+          "Training, breathing, stillness and depth in sport psychology: I support you in working towards physical resilience, inner calm, and more stability and clarity in everyday life. I guide you, share knowledge and help you use suitable exercises more independently.",
+          "In personal training I support you as a personal trainer; in sport psychology coaching, as a coach and sport psychology expert. You decide where to start."
+        ]
+      },
+      {
+        "old_start": 168,
+        "old_end": 169,
+        "old": [
+          "at your home"
+        ],
+        "new": [
+          "at home"
+        ]
+      },
+      {
+        "old_start": 171,
+        "old_end": 171,
+        "old": [],
+        "new": [
+          "Prepare your inquiry",
+          "Your entries stay in this browser while you fill in the form and create the draft. Only “Open in my email app” hands the draft to your email app. You review and send it there; nothing is sent automatically.",
+          "Name",
+          "Email",
+          "Phone (optional)",
+          "Preferred frequency (optional)",
+          "Suitable days (optional)",
+          "Suitable time (optional)",
+          "Preferred first contact (optional)",
+          "Please choose",
+          "By email",
+          "By phone",
+          "Your concern / offer",
+          "Clarify together",
+          "Personal Training",
+          "Sport psychology coaching",
+          "What would you like me to know? (optional)",
+          "Create email draft",
+          "Your editable email draft",
+          "Open in my email app",
+          "Recipient: Philipp@achten.pro. If no email app is set up, copy the draft and the address.",
+          "Privacy information for the local inquiry helper",
+          "Enable JavaScript to use the local draft helper, or write directly to Philipp@achten.pro."
+        ]
+      }
+    ]
+  },
+  "basis": "RC2 exact ordered nodes plus declared P01-P23/N01-N10 changes; original quotes independently protected"
+}

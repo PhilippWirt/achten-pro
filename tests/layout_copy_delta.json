@@ -1,0 +1,463 @@
+{
+  "policy": "All original nodes preserved exactly, apart from two confirmed location expansions; reordering explicitly indexed. Original copy fixture is unchanged.",
+  "languages": {
+    "de": {
+      "replacements": {
+        "Isar / im Freien oder bei dir zu Hause – nach persönlicher Absprache.": "My Private Gym, Plinganserstraße 132, 81369 München (Obersendling/Thalkirchen); danach Isar / im Freien oder bei dir zu Hause – nach persönlicher Absprache.",
+        "Jeweils 60 Minuten. Isar / im Freien oder bei dir zu Hause – den passenden Ort und Termin stimmen wir persönlich ab.": "Jeweils 60 Minuten. Personal Training: My Private Gym, Plinganserstraße 132, 81369 München (Obersendling/Thalkirchen). Isar / im Freien oder bei dir zu Hause – den passenden Ort und Termin stimmen wir persönlich ab.",
+        "Körperliche Entwicklung und bewusster Selbstumgang gehören zusammen. Zwei gleichrangige Einstiege – wir besprechen gemeinsam, was zu deinem Anliegen passt.": "Körperliche Entwicklung und bewusster Selbstumgang gehören zusammen."
+      },
+      "added": [
+        "Termin anfragen",
+        "Termin anfragen",
+        "Philipp@achten.pro",
+        "Philipp@achten.pro",
+        "Philipp@achten.pro",
+        "Anliegen und passende Übungen",
+        "Zusammenarbeit und Üben im Alltag",
+        "Atemübung und HRV im Detail",
+        "Dein Anliegen und unsere Zusammenarbeit",
+        "Atemübung und HRV im Detail",
+        "Üben zwischen den Terminen",
+        "Für Personal Training:",
+        "My Private Gym, Plinganserstraße 132, 81369 München (Obersendling/Thalkirchen).",
+        "←",
+        "1",
+        "2",
+        "3",
+        "→",
+        "Personal Training",
+        "Sportpsychologisches Coaching"
+      ],
+      "operations": [
+        {
+          "old_start": 20,
+          "old_end": 21,
+          "old": [
+            "Körperliche Entwicklung und bewusster Selbstumgang gehören zusammen. Zwei gleichrangige Einstiege – wir besprechen gemeinsam, was zu deinem Anliegen passt."
+          ],
+          "new": [
+            "Personal Training",
+            "Sportpsychologisches Coaching",
+            "Körperliche Entwicklung und bewusster Selbstumgang gehören zusammen.",
+            "Termin anfragen",
+            "Philipp@achten.pro"
+          ]
+        },
+        {
+          "old_start": 38,
+          "old_end": 39,
+          "old": [
+            "Jeweils 60 Minuten. Isar / im Freien oder bei dir zu Hause – den passenden Ort und Termin stimmen wir persönlich ab."
+          ],
+          "new": [
+            "Jeweils 60 Minuten. Personal Training: My Private Gym, Plinganserstraße 132, 81369 München (Obersendling/Thalkirchen). Isar / im Freien oder bei dir zu Hause – den passenden Ort und Termin stimmen wir persönlich ab."
+          ]
+        },
+        {
+          "old_start": 45,
+          "old_end": 45,
+          "old": [],
+          "new": [
+            "Ich erkläre und zeige die Bewegung, beobachte deine Ausführung und gebe konkrete Rückmeldung. Bewegungsumfang, Widerstand, Tempo und Pausen passen wir gemeinsam an.",
+            "60 Minuten · 80 € pro Einzeltermin.",
+            "My Private Gym, Plinganserstraße 132, 81369 München (Obersendling/Thalkirchen); danach Isar / im Freien oder bei dir zu Hause – nach persönlicher Absprache.",
+            "Personal Training anfragen",
+            "↗",
+            "Philipp@achten.pro",
+            "Öffnet dein E-Mail-Programm. Du prüfst und sendest deine Nachricht selbst.",
+            "Anliegen und passende Übungen"
+          ]
+        },
+        {
+          "old_start": 49,
+          "old_end": 50,
+          "old": [
+            "Ich erkläre und zeige die Bewegung, beobachte deine Ausführung und gebe konkrete Rückmeldung. Bewegungsumfang, Widerstand, Tempo und Pausen passen wir gemeinsam an."
+          ],
+          "new": []
+        },
+        {
+          "old_start": 56,
+          "old_end": 56,
+          "old": [],
+          "new": [
+            "Zusammenarbeit und Üben im Alltag"
+          ]
+        },
+        {
+          "old_start": 61,
+          "old_end": 61,
+          "old": [],
+          "new": [
+            "Atemübung und HRV im Detail"
+          ]
+        },
+        {
+          "old_start": 67,
+          "old_end": 72,
+          "old": [
+            "60 Minuten · 80 € pro Einzeltermin.",
+            "Isar / im Freien oder bei dir zu Hause – nach persönlicher Absprache.",
+            "Personal Training anfragen",
+            "↗",
+            "Öffnet dein E-Mail-Programm. Du prüfst und sendest deine Nachricht selbst."
+          ],
+          "new": []
+        },
+        {
+          "old_start": 78,
+          "old_end": 78,
+          "old": [],
+          "new": [
+            "60 Minuten · 85 € pro Einzeltermin.",
+            "An der Isar / im Freien oder bei dir zu Hause – in einem geeigneten, ungestörten Rahmen.",
+            "Sportpsychologisches Coaching anfragen",
+            "↗",
+            "Philipp@achten.pro",
+            "Öffnet dein E-Mail-Programm. Du prüfst und sendest deine Nachricht selbst.",
+            "Dein Anliegen und unsere Zusammenarbeit"
+          ]
+        },
+        {
+          "old_start": 79,
+          "old_end": 79,
+          "old": [],
+          "new": [
+            "Gemeinsam erkunden wir den Umgang mit der veränderten Situation, klären realistische Ziele und richten den Blick auf das, was du jetzt beeinflussen kannst. Medizinische Vorgaben bleiben maßgeblich."
+          ]
+        },
+        {
+          "old_start": 80,
+          "old_end": 81,
+          "old": [
+            "Gemeinsam erkunden wir den Umgang mit der veränderten Situation, klären realistische Ziele und richten den Blick auf das, was du jetzt beeinflussen kannst. Medizinische Vorgaben bleiben maßgeblich."
+          ],
+          "new": []
+        },
+        {
+          "old_start": 84,
+          "old_end": 84,
+          "old": [],
+          "new": [
+            "Wir besprechen passende Schritte und erproben zum Beispiel Vorstellungsübungen und einen hilfreichen Umgang mit Gedanken und Körperempfindungen. Die Auswahl richtet sich nach deinem Anliegen und dem medizinisch erlaubten Rahmen."
+          ]
+        },
+        {
+          "old_start": 85,
+          "old_end": 86,
+          "old": [
+            "Wir besprechen passende Schritte und erproben zum Beispiel Vorstellungsübungen und einen hilfreichen Umgang mit Gedanken und Körperempfindungen. Die Auswahl richtet sich nach deinem Anliegen und dem medizinisch erlaubten Rahmen."
+          ],
+          "new": []
+        },
+        {
+          "old_start": 88,
+          "old_end": 88,
+          "old": [],
+          "new": [
+            "Gemeinsam klären wir, was dir wichtig ist, was du beeinflussen kannst und welche nächste Handlung zählt. Wir üben, deine Aufmerksamkeit darauf auszurichten."
+          ]
+        },
+        {
+          "old_start": 89,
+          "old_end": 90,
+          "old": [
+            "Gemeinsam klären wir, was dir wichtig ist, was du beeinflussen kannst und welche nächste Handlung zählt. Wir üben, deine Aufmerksamkeit darauf auszurichten."
+          ],
+          "new": []
+        },
+        {
+          "old_start": 98,
+          "old_end": 98,
+          "old": [],
+          "new": [
+            "Atemübung und HRV im Detail"
+          ]
+        },
+        {
+          "old_start": 103,
+          "old_end": 104,
+          "old": [
+            "Ruhemessungen können deinen persönlichen Verlauf über mehrere Tage zeigen; ein einzelner Wert gibt keine Trainingsfreigabe. Bei Schwindel oder Unwohlsein beenden wir die Atemübung und du atmest normal weiter."
+          ],
+          "new": [
+            "Üben zwischen den Terminen"
+          ]
+        },
+        {
+          "old_start": 106,
+          "old_end": 111,
+          "old": [
+            "60 Minuten · 85 € pro Einzeltermin.",
+            "An der Isar / im Freien oder bei dir zu Hause – in einem geeigneten, ungestörten Rahmen.",
+            "Sportpsychologisches Coaching anfragen",
+            "↗",
+            "Öffnet dein E-Mail-Programm. Du prüfst und sendest deine Nachricht selbst."
+          ],
+          "new": [
+            "Ruhemessungen können deinen persönlichen Verlauf über mehrere Tage zeigen; ein einzelner Wert gibt keine Trainingsfreigabe. Bei Schwindel oder Unwohlsein beenden wir die Atemübung und du atmest normal weiter."
+          ]
+        },
+        {
+          "old_start": 140,
+          "old_end": 140,
+          "old": [],
+          "new": [
+            "←",
+            "1",
+            "2",
+            "3",
+            "→"
+          ]
+        },
+        {
+          "old_start": 144,
+          "old_end": 144,
+          "old": [],
+          "new": [
+            "Termin anfragen"
+          ]
+        },
+        {
+          "old_start": 146,
+          "old_end": 146,
+          "old": [],
+          "new": [
+            "Für Personal Training:",
+            "My Private Gym, Plinganserstraße 132, 81369 München (Obersendling/Thalkirchen)."
+          ]
+        }
+      ]
+    },
+    "en": {
+      "replacements": {
+        "By the Isar / outdoors or at your home — by personal arrangement.": "My Private Gym, Plinganserstraße 132, 81369 München (Obersendling/Thalkirchen); then by the Isar / outdoors or at your home — by personal arrangement.",
+        "60 minutes each. By the Isar / outdoors or at your home — we agree on the place and time personally.": "Each session lasts 60 minutes. Personal Training: My Private Gym, Plinganserstraße 132, 81369 München (Obersendling/Thalkirchen). By the Isar / outdoors or at your home — we agree on a suitable place and time personally.",
+        "Physical development and a conscious relationship with yourself belong together. Two equally valid starting points — together we discuss what suits your goals.": "Physical development and a conscious relationship with yourself belong together."
+      },
+      "added": [
+        "Request an appointment",
+        "Request an appointment",
+        "Philipp@achten.pro",
+        "Philipp@achten.pro",
+        "Philipp@achten.pro",
+        "Your concerns and suitable exercises",
+        "Working together and everyday practice",
+        "Breathing exercise and HRV in detail",
+        "Your concerns and how we work together",
+        "Breathing exercise and HRV in detail",
+        "Practice between sessions",
+        "For Personal Training:",
+        "My Private Gym, Plinganserstraße 132, 81369 München (Obersendling/Thalkirchen).",
+        "←",
+        "1",
+        "2",
+        "3",
+        "→",
+        "Personal Training",
+        "Sport psychology coaching"
+      ],
+      "operations": [
+        {
+          "old_start": 20,
+          "old_end": 21,
+          "old": [
+            "Physical development and a conscious relationship with yourself belong together. Two equally valid starting points — together we discuss what suits your goals."
+          ],
+          "new": [
+            "Personal Training",
+            "Sport psychology coaching",
+            "Physical development and a conscious relationship with yourself belong together.",
+            "Request an appointment",
+            "Philipp@achten.pro"
+          ]
+        },
+        {
+          "old_start": 38,
+          "old_end": 39,
+          "old": [
+            "60 minutes each. By the Isar / outdoors or at your home — we agree on the place and time personally."
+          ],
+          "new": [
+            "Each session lasts 60 minutes. Personal Training: My Private Gym, Plinganserstraße 132, 81369 München (Obersendling/Thalkirchen). By the Isar / outdoors or at your home — we agree on a suitable place and time personally."
+          ]
+        },
+        {
+          "old_start": 45,
+          "old_end": 45,
+          "old": [],
+          "new": [
+            "I explain and demonstrate the movement, observe your technique and give specific feedback. Together we adapt range of motion, resistance, pace and breaks.",
+            "60 minutes · 80 € per individual session.",
+            "My Private Gym, Plinganserstraße 132, 81369 München (Obersendling/Thalkirchen); then by the Isar / outdoors or at your home — by personal arrangement.",
+            "Ask about personal training",
+            "↗",
+            "Philipp@achten.pro",
+            "Opens your email app. You review and send the message yourself.",
+            "Your concerns and suitable exercises"
+          ]
+        },
+        {
+          "old_start": 49,
+          "old_end": 50,
+          "old": [
+            "I explain and demonstrate the movement, observe your technique and give specific feedback. Together we adapt range of motion, resistance, pace and breaks."
+          ],
+          "new": []
+        },
+        {
+          "old_start": 56,
+          "old_end": 56,
+          "old": [],
+          "new": [
+            "Working together and everyday practice"
+          ]
+        },
+        {
+          "old_start": 61,
+          "old_end": 61,
+          "old": [],
+          "new": [
+            "Breathing exercise and HRV in detail"
+          ]
+        },
+        {
+          "old_start": 67,
+          "old_end": 72,
+          "old": [
+            "60 minutes · 80 € per individual session.",
+            "By the Isar / outdoors or at your home — by personal arrangement.",
+            "Ask about personal training",
+            "↗",
+            "Opens your email app. You review and send the message yourself."
+          ],
+          "new": []
+        },
+        {
+          "old_start": 78,
+          "old_end": 78,
+          "old": [],
+          "new": [
+            "60 minutes · 85 € per individual session.",
+            "By the Isar / outdoors or at your home — in a suitable, undisturbed setting.",
+            "Ask about sport psychology coaching",
+            "↗",
+            "Philipp@achten.pro",
+            "Opens your email app. You review and send the message yourself.",
+            "Your concerns and how we work together"
+          ]
+        },
+        {
+          "old_start": 79,
+          "old_end": 79,
+          "old": [],
+          "new": [
+            "Together we explore how to deal with the changed situation, clarify realistic goals and focus on what you can influence now. Medical guidance remains the basis."
+          ]
+        },
+        {
+          "old_start": 80,
+          "old_end": 81,
+          "old": [
+            "Together we explore how to deal with the changed situation, clarify realistic goals and focus on what you can influence now. Medical guidance remains the basis."
+          ],
+          "new": []
+        },
+        {
+          "old_start": 84,
+          "old_end": 84,
+          "old": [],
+          "new": [
+            "We discuss suitable steps and try approaches such as imagery and helpful ways to relate to thoughts and physical sensations. We choose according to your goals and what is medically permitted."
+          ]
+        },
+        {
+          "old_start": 85,
+          "old_end": 86,
+          "old": [
+            "We discuss suitable steps and try approaches such as imagery and helpful ways to relate to thoughts and physical sensations. We choose according to your goals and what is medically permitted."
+          ],
+          "new": []
+        },
+        {
+          "old_start": 88,
+          "old_end": 88,
+          "old": [],
+          "new": [
+            "Together we clarify what matters to you, what you can influence and which next action counts. We practise directing your attention towards it."
+          ]
+        },
+        {
+          "old_start": 89,
+          "old_end": 90,
+          "old": [
+            "Together we clarify what matters to you, what you can influence and which next action counts. We practise directing your attention towards it."
+          ],
+          "new": []
+        },
+        {
+          "old_start": 98,
+          "old_end": 98,
+          "old": [],
+          "new": [
+            "Breathing exercise and HRV in detail"
+          ]
+        },
+        {
+          "old_start": 103,
+          "old_end": 104,
+          "old": [
+            "Resting measurements can show your individual trend over several days; a single value does not provide clearance to train. If you feel dizzy or unwell, we stop the breathing exercise and you return to normal breathing."
+          ],
+          "new": [
+            "Practice between sessions"
+          ]
+        },
+        {
+          "old_start": 106,
+          "old_end": 111,
+          "old": [
+            "60 minutes · 85 € per individual session.",
+            "By the Isar / outdoors or at your home — in a suitable, undisturbed setting.",
+            "Ask about sport psychology coaching",
+            "↗",
+            "Opens your email app. You review and send the message yourself."
+          ],
+          "new": [
+            "Resting measurements can show your individual trend over several days; a single value does not provide clearance to train. If you feel dizzy or unwell, we stop the breathing exercise and you return to normal breathing."
+          ]
+        },
+        {
+          "old_start": 140,
+          "old_end": 140,
+          "old": [],
+          "new": [
+            "←",
+            "1",
+            "2",
+            "3",
+            "→"
+          ]
+        },
+        {
+          "old_start": 144,
+          "old_end": 144,
+          "old": [],
+          "new": [
+            "Request an appointment"
+          ]
+        },
+        {
+          "old_start": 146,
+          "old_end": 146,
+          "old": [],
+          "new": [
+            "For Personal Training:",
+            "My Private Gym, Plinganserstraße 132, 81369 München (Obersendling/Thalkirchen)."
+          ]
+        }
+      ]
+    }
+  }
+}

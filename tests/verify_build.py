@@ -147,6 +147,16 @@ if re.search(r'\b(Angebot|Warum|Erfahrung|Anfrage senden|Echter Kontakt)\b', (RO
 if re.search(r'\b(Get the guide|Why Playfight|Science you can feel|Send inquiry|Real contact)\b', (ROOT/'playfight/de/index.html').read_text()):
     errors.append('playfight German output contains English customer copy')
 
+offer_check=subprocess.run(['python3',str(ROOT/'tests/verify_offers.py')],cwd=ROOT,capture_output=True,text=True)
+if offer_check.returncode: errors.append('offer contract failed: '+offer_check.stdout.strip())
+paths_check=subprocess.run(['python3',str(ROOT/'tests/verify_two_paths.py')],cwd=ROOT,capture_output=True,text=True)
+if paths_check.returncode: errors.append('two-path contract failed: '+paths_check.stdout.strip())
+
+content_check=subprocess.run(['python3',str(ROOT/'tests/verify_content.py')],cwd=ROOT,capture_output=True,text=True)
+if content_check.returncode: errors.append('content contract failed: '+content_check.stdout.strip())
+copy_check=subprocess.run(['python3',str(ROOT/'tests/verify_copy.py')],cwd=ROOT,capture_output=True,text=True)
+if copy_check.returncode: errors.append('RC2 copy contract failed: '+copy_check.stdout.strip())
+
 result={'ok':not errors,'errors':errors,'hashes':second,'pages':{str(p.relative_to(ROOT)):{'lang':parsed[p].lang,'sections':parsed[p].sections,'ids':len(parsed[p].ids),'links':len(parsed[p].links)} for p in OUTPUTS}}
 print(json.dumps(result,ensure_ascii=False,indent=2))
 raise SystemExit(0 if not errors else 1)

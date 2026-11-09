@@ -1,0 +1,509 @@
+{
+  "source": "RC3 exact ordered fixture extended by W01-W13 authorized edits",
+  "languages": {
+    "de": [
+      {
+        "old_start": 81,
+        "old_end": 82,
+        "old": [
+          "Atemübung und HRV im Detail"
+        ],
+        "new": [
+          "Dauerstress – dauernd angespannt?"
+        ],
+        "decision_ids": [
+          "W01",
+          "W02",
+          "W03",
+          "W04",
+          "W07",
+          "W08",
+          "W09",
+          "W12",
+          "W13"
+        ]
+      },
+      {
+        "old_start": 86,
+        "old_end": 87,
+        "old": [
+          "Wir wählen einen angenehmen Atemrhythmus. Falls dir dabei schwindlig oder unwohl wird, beenden wir die Übung und du atmest in deinem gewohnten Rhythmus weiter."
+        ],
+        "new": [],
+        "decision_ids": [
+          "W01",
+          "W02",
+          "W03",
+          "W04",
+          "W07",
+          "W08",
+          "W09",
+          "W12",
+          "W13"
+        ]
+      },
+      {
+        "old_start": 123,
+        "old_end": 124,
+        "old": [
+          "Atemübung und HRV im Detail"
+        ],
+        "new": [
+          "Dauerstress – dauernd angespannt?"
+        ],
+        "decision_ids": [
+          "W01",
+          "W02",
+          "W03",
+          "W04",
+          "W07",
+          "W08",
+          "W09",
+          "W12",
+          "W13"
+        ]
+      },
+      {
+        "old_start": 132,
+        "old_end": 133,
+        "old": [
+          "Wir wählen einen angenehmen Atemrhythmus. Falls dir dabei schwindlig oder unwohl wird, beenden wir die Übung und du atmest in deinem gewohnten Rhythmus weiter."
+        ],
+        "new": [],
+        "decision_ids": [
+          "W01",
+          "W02",
+          "W03",
+          "W04",
+          "W07",
+          "W08",
+          "W09",
+          "W12",
+          "W13"
+        ]
+      },
+      {
+        "old_start": 136,
+        "old_end": 137,
+        "old": [
+          "Worum geht es dir, und welches Angebot interessiert dich? Wenn du unsicher bist, kannst du das dazuschreiben."
+        ],
+        "new": [
+          "Worum geht es dir, und welches Angebot interessiert dich? Wenn du dir im Gespräch mit mir noch Klarheit verschaffen möchtest, schreib mir – wir schauen gemeinsam, was zu deinem Anliegen passt."
+        ],
+        "decision_ids": [
+          "W01",
+          "W02",
+          "W03",
+          "W04",
+          "W07",
+          "W08",
+          "W09",
+          "W12",
+          "W13"
+        ]
+      },
+      {
+        "old_start": 141,
+        "old_end": 142,
+        "old": [
+          "Deine Begleitung"
+        ],
+        "new": [
+          "WER ICH BIN",
+          "Sportwissenschaft, Sportpsychologie – Expertise, die sich im echten Einsatz bewährt hat."
+        ],
+        "decision_ids": [
+          "W01",
+          "W02",
+          "W03",
+          "W04",
+          "W07",
+          "W08",
+          "W09",
+          "W12",
+          "W13"
+        ]
+      },
+      {
+        "old_start": 143,
+        "old_end": 143,
+        "old": [],
+        "new": [
+          "Training, Atem, Stille und sportpsychologische Tiefe – gemeinsam arbeiten wir daran, dass du körperlich belastbarer, innerlich ruhiger und im Alltag stabiler und klarer werden kannst.",
+          "Ich begleite dich, vermittle Wissen und unterstütze dich dabei, passende Übungen zunehmend eigenständig zu nutzen."
+        ],
+        "decision_ids": [
+          "W01",
+          "W02",
+          "W03",
+          "W04",
+          "W07",
+          "W08",
+          "W09",
+          "W12",
+          "W13"
+        ]
+      },
+      {
+        "old_start": 145,
+        "old_end": 147,
+        "old": [
+          "Training, Atem, Stille und sportpsychologische Tiefe: Ich begleite dich dabei, an körperlicher Belastbarkeit, innerer Ruhe und mehr Stabilität und Klarheit im Alltag zu arbeiten. Ich begleite dich, vermittle Wissen und unterstütze dich dabei, passende Übungen zunehmend eigenständig zu nutzen.",
+          "Beim Personal Training begleite ich dich als Personal Trainer, im sportpsychologischen Coaching als Coach und Experte für Sportpsychologie. Du entscheidest, womit du einsteigen möchtest."
+        ],
+        "new": [
+          "Selbstregulationstrainer",
+          "HRV- & Biofeedback-Praxis",
+          "Sport-, Bewegungs- & Achtsamkeitsangebote",
+          "Performance & Recovery",
+          "Du entscheidest, womit du einsteigen möchtest."
+        ],
+        "decision_ids": [
+          "W01",
+          "W02",
+          "W03",
+          "W04",
+          "W07",
+          "W08",
+          "W09",
+          "W12",
+          "W13"
+        ]
+      },
+      {
+        "old_start": 162,
+        "old_end": 165,
+        "old": [
+          "1",
+          "2",
+          "3"
+        ],
+        "new": [],
+        "decision_ids": [
+          "W01",
+          "W02",
+          "W03",
+          "W04",
+          "W07",
+          "W08",
+          "W09",
+          "W12",
+          "W13"
+        ]
+      },
+      {
+        "old_start": 168,
+        "old_end": 168,
+        "old": [],
+        "new": [
+          "Ich arbeite bewusst nur mit wenigen Klient:innen parallel, damit wir in Ruhe in die Tiefe gehen können."
+        ],
+        "decision_ids": [
+          "W01",
+          "W02",
+          "W03",
+          "W04",
+          "W07",
+          "W08",
+          "W09",
+          "W12",
+          "W13"
+        ]
+      },
+      {
+        "old_start": 179,
+        "old_end": 180,
+        "old": [
+          "An der Isar ist als Treffpunkt die Grünwalder Brücke oben an der Treppe vorgesehen. Die genaue Seite bestätigen wir vor dem Treffen."
+        ],
+        "new": [],
+        "decision_ids": [
+          "W01",
+          "W02",
+          "W03",
+          "W04",
+          "W07",
+          "W08",
+          "W09",
+          "W12",
+          "W13"
+        ]
+      },
+      {
+        "old_start": 208,
+        "old_end": 209,
+        "old": [
+          "E-Mail: Philipp@achten.pro"
+        ],
+        "new": [
+          "E-Mail:",
+          "Philipp@achten.pro"
+        ],
+        "decision_ids": [
+          "W01",
+          "W02",
+          "W03",
+          "W04",
+          "W07",
+          "W08",
+          "W09",
+          "W12",
+          "W13"
+        ]
+      }
+    ],
+    "en": [
+      {
+        "old_start": 81,
+        "old_end": 82,
+        "old": [
+          "Breathing exercise and HRV in detail"
+        ],
+        "new": [
+          "Constant stress – always tense?"
+        ],
+        "decision_ids": [
+          "W01",
+          "W02",
+          "W03",
+          "W04",
+          "W07",
+          "W08",
+          "W09",
+          "W12",
+          "W13"
+        ]
+      },
+      {
+        "old_start": 86,
+        "old_end": 87,
+        "old": [
+          "We choose a comfortable breathing rhythm. If you feel dizzy or unwell, we stop the exercise and you return to your usual breathing rhythm."
+        ],
+        "new": [],
+        "decision_ids": [
+          "W01",
+          "W02",
+          "W03",
+          "W04",
+          "W07",
+          "W08",
+          "W09",
+          "W12",
+          "W13"
+        ]
+      },
+      {
+        "old_start": 123,
+        "old_end": 124,
+        "old": [
+          "Breathing exercise and HRV in detail"
+        ],
+        "new": [
+          "Constant stress – always tense?"
+        ],
+        "decision_ids": [
+          "W01",
+          "W02",
+          "W03",
+          "W04",
+          "W07",
+          "W08",
+          "W09",
+          "W12",
+          "W13"
+        ]
+      },
+      {
+        "old_start": 132,
+        "old_end": 133,
+        "old": [
+          "We choose a comfortable breathing rhythm. If you feel dizzy or unwell, we stop the exercise and you return to your usual breathing rhythm."
+        ],
+        "new": [],
+        "decision_ids": [
+          "W01",
+          "W02",
+          "W03",
+          "W04",
+          "W07",
+          "W08",
+          "W09",
+          "W12",
+          "W13"
+        ]
+      },
+      {
+        "old_start": 136,
+        "old_end": 137,
+        "old": [
+          "What matters to you, and which offer interests you? If you are unsure, just mention that."
+        ],
+        "new": [
+          "What matters to you, and which offer interests you? If you would like more clarity through a conversation with me, write to me – we can explore together what fits your concern."
+        ],
+        "decision_ids": [
+          "W01",
+          "W02",
+          "W03",
+          "W04",
+          "W07",
+          "W08",
+          "W09",
+          "W12",
+          "W13"
+        ]
+      },
+      {
+        "old_start": 141,
+        "old_end": 142,
+        "old": [
+          "Your coach"
+        ],
+        "new": [
+          "WHO I AM",
+          "Sports science, sport psychology – expertise put into practice."
+        ],
+        "decision_ids": [
+          "W01",
+          "W02",
+          "W03",
+          "W04",
+          "W07",
+          "W08",
+          "W09",
+          "W12",
+          "W13"
+        ]
+      },
+      {
+        "old_start": 143,
+        "old_end": 143,
+        "old": [],
+        "new": [
+          "Training, breathing, stillness and depth in sport psychology – together we work towards physical resilience, inner calm, and more stability and clarity in everyday life.",
+          "I guide you, share knowledge and help you use suitable exercises more independently."
+        ],
+        "decision_ids": [
+          "W01",
+          "W02",
+          "W03",
+          "W04",
+          "W07",
+          "W08",
+          "W09",
+          "W12",
+          "W13"
+        ]
+      },
+      {
+        "old_start": 145,
+        "old_end": 147,
+        "old": [
+          "Training, breathing, stillness and depth in sport psychology: I support you in working towards physical resilience, inner calm, and more stability and clarity in everyday life. I guide you, share knowledge and help you use suitable exercises more independently.",
+          "In personal training I support you as a personal trainer; in sport psychology coaching, as a coach and sport psychology expert. You decide where to start."
+        ],
+        "new": [
+          "Self-regulation trainer",
+          "HRV & biofeedback practice",
+          "Sport, movement & mindfulness practice",
+          "Performance & Recovery",
+          "You decide where to start."
+        ],
+        "decision_ids": [
+          "W01",
+          "W02",
+          "W03",
+          "W04",
+          "W07",
+          "W08",
+          "W09",
+          "W12",
+          "W13"
+        ]
+      },
+      {
+        "old_start": 162,
+        "old_end": 165,
+        "old": [
+          "1",
+          "2",
+          "3"
+        ],
+        "new": [],
+        "decision_ids": [
+          "W01",
+          "W02",
+          "W03",
+          "W04",
+          "W07",
+          "W08",
+          "W09",
+          "W12",
+          "W13"
+        ]
+      },
+      {
+        "old_start": 168,
+        "old_end": 168,
+        "old": [],
+        "new": [
+          "I deliberately work with only a few clients at a time so we can take the time to explore things in depth."
+        ],
+        "decision_ids": [
+          "W01",
+          "W02",
+          "W03",
+          "W04",
+          "W07",
+          "W08",
+          "W09",
+          "W12",
+          "W13"
+        ]
+      },
+      {
+        "old_start": 179,
+        "old_end": 180,
+        "old": [
+          "The proposed meeting point by the Isar is at the top of the steps at Grünwalder Brücke. We confirm the exact side before meeting."
+        ],
+        "new": [],
+        "decision_ids": [
+          "W01",
+          "W02",
+          "W03",
+          "W04",
+          "W07",
+          "W08",
+          "W09",
+          "W12",
+          "W13"
+        ]
+      },
+      {
+        "old_start": 208,
+        "old_end": 209,
+        "old": [
+          "Email: Philipp@achten.pro"
+        ],
+        "new": [
+          "Email:",
+          "Philipp@achten.pro"
+        ],
+        "decision_ids": [
+          "W01",
+          "W02",
+          "W03",
+          "W04",
+          "W07",
+          "W08",
+          "W09",
+          "W12",
+          "W13"
+        ]
+      }
+    ]
+  }
+}

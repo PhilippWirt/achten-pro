@@ -1,0 +1,879 @@
+{
+  "scope": "RC2 Copy DE/EN; jüngste Entscheidungen supersedieren Historie",
+  "original_list_unchanged": true,
+  "entries": [
+    {
+      "id": 1,
+      "original_list_text": "Was wir auswählen, richtet sich nach deinem Anliegen – nicht nach einer Methode, die für alle passen soll.",
+      "alt_de": " – nicht nach einer Methode, die für alle passen soll.",
+      "neu_de": ".",
+      "alt_en": ", not on a method intended to fit everyone.",
+      "neu_en": ".",
+      "grund": "Ausdrückliche bestätigte Nutzerentscheidung; ausschließlich diesen Satz/Teilsatz ändern.",
+      "contexts": [
+        {
+          "section": "about",
+          "block": 89
+        }
+      ],
+      "status": "umgesetzt",
+      "vollsatz_neu_de": "Was wir auswählen, richtet sich nach deinem Anliegen.",
+      "kontexte_de": [
+        {
+          "alt": "Ich arbeite mit dir an konkreten Zielen und kleinen, praktikablen Trainingsschritten. Was wir auswählen, richtet sich nach deinem Anliegen – nicht nach einer Methode, die für alle passen soll.",
+          "neu": "Ich arbeite mit dir an konkreten Zielen und kleinen, praktikablen Trainingsschritten. Was wir auswählen, richtet sich nach deinem Anliegen."
+        }
+      ],
+      "kontexte_en": [
+        {
+          "alt": "I work with you on specific goals and small, practical training steps. What we choose depends on your concerns, not on a method intended to fit everyone.",
+          "neu": "I work with you on specific goals and small, practical training steps. What we choose depends on your concerns."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "original_list_text": "Körperliches Gleichgewicht zu üben bedeutet nicht automatisch, innerlich ausgeglichen zu sein.",
+      "alt_de": " Körperliches Gleichgewicht zu üben bedeutet nicht automatisch, innerlich ausgeglichen zu sein.",
+      "neu_de": "",
+      "alt_en": " Practising physical balance does not automatically mean feeling emotionally balanced.",
+      "neu_en": "",
+      "grund": "Ausdrückliche bestätigte Nutzerentscheidung; ausschließlich diesen Satz/Teilsatz ändern.",
+      "contexts": [
+        {
+          "section": "personal-training",
+          "block": 29
+        }
+      ],
+      "status": "umgesetzt",
+      "vollsatz_neu_de": "",
+      "kontexte_de": [
+        {
+          "alt": "Wir erproben einen passenden Fokus, eine veränderte Ausführung oder eine Pause. Körperwahrnehmung und passende Atemübungen ergänzen die Bewegung. Körperliches Gleichgewicht zu üben bedeutet nicht automatisch, innerlich ausgeglichen zu sein.",
+          "neu": "Wir erproben einen passenden Fokus, eine veränderte Ausführung oder eine Pause. Körperwahrnehmung und passende Atemübungen ergänzen die Bewegung."
+        }
+      ],
+      "kontexte_en": [
+        {
+          "alt": "We try an appropriate focus, a change in technique or a break. Body awareness and suitable breathing exercises complement movement. Practising physical balance does not automatically mean feeling emotionally balanced.",
+          "neu": "We try an appropriate focus, a change in technique or a break. Body awareness and suitable breathing exercises complement movement."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "original_list_text": "Eine schwierige Woche ist Anlass, den Plan anzupassen, kein Urteil über dich.",
+      "alt_de": ", kein Urteil über dich.",
+      "neu_de": ".",
+      "alt_en": ", not a judgment of you.",
+      "neu_en": ".",
+      "grund": "Ausdrückliche bestätigte Nutzerentscheidung; ausschließlich diesen Satz/Teilsatz ändern.",
+      "contexts": [
+        {
+          "section": "personal-training",
+          "block": 32
+        }
+      ],
+      "status": "umgesetzt",
+      "vollsatz_neu_de": "Eine schwierige Woche ist Anlass, den Plan anzupassen.",
+      "kontexte_de": [
+        {
+          "alt": "Wir legen konkrete Aufgaben fest, die in deine Woche passen, und besprechen, was bei der Umsetzung im Weg steht. Eine schwierige Woche ist Anlass, den Plan anzupassen, kein Urteil über dich.",
+          "neu": "Wir legen konkrete Aufgaben fest, die in deine Woche passen, und besprechen, was bei der Umsetzung im Weg steht. Eine schwierige Woche ist Anlass, den Plan anzupassen."
+        }
+      ],
+      "kontexte_en": [
+        {
+          "alt": "We agree on specific tasks that fit your week and discuss what gets in the way of putting them into practice. A difficult week is a reason to adapt the plan, not a judgment of you.",
+          "neu": "We agree on specific tasks that fit your week and discuss what gets in the way of putting them into practice. A difficult week is a reason to adapt the plan."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "original_list_text": "Je nach Situation geht es darum, herunterzufahren oder in Schwung zu kommen – nicht darum, immer ruhig zu sein.",
+      "alt_de": " – nicht darum, immer ruhig zu sein.",
+      "neu_de": ".",
+      "alt_en": " — not to be calm all the time.",
+      "neu_en": ".",
+      "grund": "Ausdrückliche bestätigte Nutzerentscheidung; ausschließlich diesen Satz/Teilsatz ändern.",
+      "contexts": [
+        {
+          "section": "sportpsychologie",
+          "block": 65
+        }
+      ],
+      "status": "umgesetzt",
+      "vollsatz_neu_de": "Je nach Situation geht es darum, herunterzufahren oder in Schwung zu kommen.",
+      "kontexte_de": [
+        {
+          "alt": "Je nach Situation geht es darum, herunterzufahren oder in Schwung zu kommen – nicht darum, immer ruhig zu sein.",
+          "neu": "Je nach Situation geht es darum, herunterzufahren oder in Schwung zu kommen."
+        }
+      ],
+      "kontexte_en": [
+        {
+          "alt": "Depending on the situation, the aim may be to settle down or get going — not to be calm all the time.",
+          "neu": "Depending on the situation, the aim may be to settle down or get going."
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "original_list_text": "Das Feedback während der Übung ist eine mögliche Hilfe beim Ausprobieren, keine Zusage einer bestimmten Wirkung.",
+      "alt_de": ", keine Zusage einer bestimmten Wirkung.",
+      "neu_de": ".",
+      "alt_en": "; it does not promise a particular effect.",
+      "neu_en": ".",
+      "grund": "Ausdrückliche bestätigte Nutzerentscheidung; ausschließlich diesen Satz/Teilsatz ändern.",
+      "contexts": [
+        {
+          "section": "sportpsychologie",
+          "block": 71
+        }
+      ],
+      "status": "umgesetzt",
+      "vollsatz_neu_de": "Das Feedback während der Übung ist eine mögliche Hilfe beim Ausprobieren.",
+      "kontexte_de": [
+        {
+          "alt": "Bei Bedarf erproben wir eine angeleitete Atemübung, auf Wunsch mit HRV-Biofeedback. Das Feedback während der Übung ist eine mögliche Hilfe beim Ausprobieren, keine Zusage einer bestimmten Wirkung. HRV beschreibt die Schwankungen der Zeitabstände zwischen Herzschlägen.",
+          "neu": "Bei Bedarf erproben wir eine angeleitete Atemübung, auf Wunsch mit HRV-Biofeedback. Mit einem Brustgurt erfassen wir die Herzschläge und schauen gemeinsam auf die Rückmeldung während einer angeleiteten Atemübung. Das Feedback während der Übung ist eine mögliche Hilfe beim Ausprobieren. Herzratenvariabilität (HRV) beschreibt die Unterschiede der Zeitabstände zwischen Herzschlägen. Der Puls zählt die Herzschläge pro Minute. Der Blutdruck beschreibt den Druck in den Blutgefäßen. Das sind unterschiedliche Messgrößen."
+        }
+      ],
+      "kontexte_en": [
+        {
+          "alt": "If relevant, we try a guided breathing exercise, optionally with HRV biofeedback. Feedback during the exercise can help you explore it; it does not promise a particular effect. HRV describes variation in the time between heartbeats.",
+          "neu": "If relevant, we try a guided breathing exercise, optionally with HRV biofeedback. With a chest strap, we record heartbeats and look together at the feedback during a guided breathing exercise. Feedback during the exercise can help you explore it. Heart rate variability (HRV) describes differences in the time intervals between heartbeats. Your pulse counts heartbeats per minute. Blood pressure describes the pressure in your blood vessels. These are different measurements."
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "original_list_text": "Eine bestimmte Beruhigung lässt sich nicht garantieren.",
+      "alt_de": " Eine bestimmte Beruhigung lässt sich nicht garantieren.",
+      "neu_de": "",
+      "alt_en": " A particular calming effect cannot be guaranteed.",
+      "neu_en": "",
+      "grund": "Ausdrückliche bestätigte Nutzerentscheidung; ausschließlich diesen Satz/Teilsatz ändern.",
+      "contexts": [
+        {
+          "section": "personal-training",
+          "block": 39
+        },
+        {
+          "section": "sportpsychologie",
+          "block": 74
+        }
+      ],
+      "status": "umgesetzt",
+      "vollsatz_neu_de": "",
+      "kontexte_de": [
+        {
+          "alt": "HRV ist nicht der Puls selbst. Ruhemessungen können deinen persönlichen Verlauf über mehrere Tage zeigen; ein einzelner Wert gibt keine Trainingsfreigabe. Bei Schwindel oder Unwohlsein beenden wir die Atemübung und du atmest normal weiter. Eine bestimmte Beruhigung lässt sich nicht garantieren.",
+          "neu": "Ruhemessungen können deinen persönlichen Verlauf über mehrere Tage zeigen; ein einzelner Wert gibt keine Trainingsfreigabe. Bei Schwindel oder Unwohlsein beenden wir die Atemübung und du atmest normal weiter."
+        },
+        {
+          "alt": "HRV ist nicht der Puls selbst. Ruhemessungen können deinen persönlichen Verlauf über mehrere Tage zeigen; ein einzelner Wert gibt keine Trainingsfreigabe. Bei Schwindel oder Unwohlsein beenden wir die Atemübung und du atmest normal weiter. Eine bestimmte Beruhigung lässt sich nicht garantieren.",
+          "neu": "Ruhemessungen können deinen persönlichen Verlauf über mehrere Tage zeigen; ein einzelner Wert gibt keine Trainingsfreigabe. Bei Schwindel oder Unwohlsein beenden wir die Atemübung und du atmest normal weiter."
+        }
+      ],
+      "kontexte_en": [
+        {
+          "alt": "HRV is not your pulse itself. Resting measurements can show your individual trend over several days; a single value does not provide clearance to train. If you feel dizzy or unwell, we stop the breathing exercise and you return to normal breathing. A particular calming effect cannot be guaranteed.",
+          "neu": "Resting measurements can show your individual trend over several days; a single value does not provide clearance to train. If you feel dizzy or unwell, we stop the breathing exercise and you return to normal breathing."
+        },
+        {
+          "alt": "HRV is not your pulse itself. Resting measurements can show your individual trend over several days; a single value does not provide clearance to train. If you feel dizzy or unwell, we stop the breathing exercise and you return to normal breathing. A particular calming effect cannot be guaranteed.",
+          "neu": "Resting measurements can show your individual trend over several days; a single value does not provide clearance to train. If you feel dizzy or unwell, we stop the breathing exercise and you return to normal breathing."
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "original_list_text": "Sie sind keinem der heutigen Einzelangebote zugeordnet und keine Zusage eines bestimmten Ergebnisses.",
+      "alt_de": " Sie sind keinem der heutigen Einzelangebote zugeordnet und keine Zusage eines bestimmten Ergebnisses.",
+      "neu_de": "",
+      "alt_en": " They are not attributed to either of the current individual offers and do not promise a particular outcome.",
+      "neu_en": "",
+      "grund": "Ausdrückliche bestätigte Nutzerentscheidung; ausschließlich diesen Satz/Teilsatz ändern.",
+      "contexts": [
+        {
+          "section": "testimonials",
+          "block": 92
+        }
+      ],
+      "status": "umgesetzt",
+      "vollsatz_neu_de": "",
+      "kontexte_de": [
+        {
+          "alt": "Diese persönlichen Erfahrungen stammen aus der bisherigen allgemeinen Begleitung. Sie sind keinem der heutigen Einzelangebote zugeordnet und keine Zusage eines bestimmten Ergebnisses.",
+          "neu": "Diese persönlichen Erfahrungen stammen aus der bisherigen allgemeinen Begleitung."
+        }
+      ],
+      "kontexte_en": [
+        {
+          "alt": "These personal experiences relate to previous general support. They are not attributed to either of the current individual offers and do not promise a particular outcome.",
+          "neu": "These personal experiences relate to previous general support."
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "original_list_text": "Freie Termine und Antwortzeit werden hier nicht zugesagt.",
+      "alt_de": "Freie Termine und Antwortzeit werden hier nicht zugesagt. ",
+      "neu_de": "",
+      "alt_en": "Available appointments and response times are not promised here. ",
+      "neu_en": "",
+      "grund": "Ausdrückliche bestätigte Nutzerentscheidung; ausschließlich diesen Satz/Teilsatz ändern.",
+      "contexts": [
+        {
+          "section": "kontakt",
+          "block": 105
+        }
+      ],
+      "status": "umgesetzt",
+      "vollsatz_neu_de": "",
+      "kontexte_de": [
+        {
+          "alt": "Freie Termine und Antwortzeit werden hier nicht zugesagt. Eine Anfrage ist noch keine Buchung.",
+          "neu": ""
+        }
+      ],
+      "kontexte_en": [
+        {
+          "alt": "Available appointments and response times are not promised here. An inquiry is not a booking.",
+          "neu": ""
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "original_list_text": "Eine Anfrage ist noch keine Buchung.",
+      "alt_de": "Eine Anfrage ist noch keine Buchung.",
+      "neu_de": "",
+      "alt_en": "An inquiry is not a booking.",
+      "neu_en": "",
+      "grund": "Ausdrückliche bestätigte Nutzerentscheidung; ausschließlich diesen Satz/Teilsatz ändern.",
+      "contexts": [
+        {
+          "section": "kontakt",
+          "block": 105
+        }
+      ],
+      "status": "umgesetzt",
+      "vollsatz_neu_de": "",
+      "kontexte_de": [
+        {
+          "alt": "Freie Termine und Antwortzeit werden hier nicht zugesagt. Eine Anfrage ist noch keine Buchung.",
+          "neu": ""
+        }
+      ],
+      "kontexte_en": [
+        {
+          "alt": "Available appointments and response times are not promised here. An inquiry is not a booking.",
+          "neu": ""
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "original_list_text": "Es wird nichts automatisch gesendet.",
+      "alt_de": " Es wird nichts automatisch gesendet.",
+      "neu_de": "",
+      "alt_en": " Nothing is sent automatically.",
+      "neu_en": "",
+      "grund": "Ausdrückliche bestätigte Nutzerentscheidung; ausschließlich diesen Satz/Teilsatz ändern.",
+      "contexts": [
+        {
+          "section": "kontakt",
+          "block": 100
+        }
+      ],
+      "status": "umgesetzt",
+      "vollsatz_neu_de": "",
+      "kontexte_de": [
+        {
+          "alt": "Der Link öffnet dein E-Mail-Programm. Es wird nichts automatisch gesendet. Ohne eingerichtetes E-Mail-Programm kannst du die Adresse kopieren und in deinem Postfach verwenden.",
+          "neu": "Der Link öffnet dein E-Mail-Programm."
+        }
+      ],
+      "kontexte_en": [
+        {
+          "alt": "The link opens your email app. Nothing is sent automatically. If you do not have an email app set up, copy the address and use it in your mailbox.",
+          "neu": "The link opens your email app."
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "original_list_text": "Ohne eingerichtetes E-Mail-Programm kannst du die Adresse kopieren und in deinem Postfach verwenden.",
+      "alt_de": " Ohne eingerichtetes E-Mail-Programm kannst du die Adresse kopieren und in deinem Postfach verwenden.",
+      "neu_de": "",
+      "alt_en": " If you do not have an email app set up, copy the address and use it in your mailbox.",
+      "neu_en": "",
+      "grund": "Ausdrückliche bestätigte Nutzerentscheidung; ausschließlich diesen Satz/Teilsatz ändern.",
+      "contexts": [
+        {
+          "section": "kontakt",
+          "block": 100
+        }
+      ],
+      "status": "umgesetzt",
+      "vollsatz_neu_de": "",
+      "kontexte_de": [
+        {
+          "alt": "Der Link öffnet dein E-Mail-Programm. Es wird nichts automatisch gesendet. Ohne eingerichtetes E-Mail-Programm kannst du die Adresse kopieren und in deinem Postfach verwenden.",
+          "neu": "Der Link öffnet dein E-Mail-Programm."
+        }
+      ],
+      "kontexte_en": [
+        {
+          "alt": "The link opens your email app. Nothing is sent automatically. If you do not have an email app set up, copy the address and use it in your mailbox.",
+          "neu": "The link opens your email app."
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "original_list_text": "Personal Training ersetzt keine Psychotherapie, medizinische Behandlung oder Physiotherapie.",
+      "alt_de": " Personal Training ersetzt keine Psychotherapie, medizinische Behandlung oder Physiotherapie.",
+      "neu_de": "",
+      "alt_en": " Personal training does not replace psychotherapy, medical treatment or physiotherapy.",
+      "neu_en": "",
+      "grund": "Ausdrückliche bestätigte Nutzerentscheidung; ausschließlich diesen Satz/Teilsatz ändern.",
+      "contexts": [
+        {
+          "section": "personal-training",
+          "block": 40
+        }
+      ],
+      "status": "umgesetzt",
+      "vollsatz_neu_de": "",
+      "kontexte_de": [
+        {
+          "alt": "Bei gesundheitlichen Einschränkungen stimmen wir ab, welche Belastung medizinisch erlaubt ist. Neue oder zunehmende Beschwerden werden nicht übertrainiert; wir unterbrechen und klären das weitere Vorgehen. Ich arbeite als Coach. Personal Training ersetzt keine Psychotherapie, medizinische Behandlung oder Physiotherapie.",
+          "neu": "Bei gesundheitlichen Einschränkungen stimmen wir ab, welche Belastung medizinisch erlaubt ist. Neue oder zunehmende Beschwerden werden nicht übertrainiert; wir unterbrechen und klären das weitere Vorgehen. Ich arbeite als Coach."
+        }
+      ],
+      "kontexte_en": [
+        {
+          "alt": "If you have health-related limitations, we agree on what exertion is medically permitted. We do not train through new or worsening symptoms; we stop and clarify how to proceed. I work as a coach. Personal training does not replace psychotherapy, medical treatment or physiotherapy.",
+          "neu": "If you have health-related limitations, we agree on what exertion is medically permitted. We do not train through new or worsening symptoms; we stop and clarify how to proceed. I work as a coach."
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "original_list_text": "Ich arbeite als Coach, nicht als Psychotherapeut.",
+      "alt_de": " Ich arbeite als Coach, nicht als Psychotherapeut.",
+      "neu_de": "",
+      "alt_en": " I work as a coach, not as a psychotherapist.",
+      "neu_en": "",
+      "grund": "Ausdrückliche bestätigte Nutzerentscheidung; ausschließlich diesen Satz/Teilsatz ändern.",
+      "contexts": [
+        {
+          "section": "sportpsychologie",
+          "block": 80
+        }
+      ],
+      "status": "umgesetzt",
+      "vollsatz_neu_de": "",
+      "kontexte_de": [
+        {
+          "alt": "Sportpsychologische Begleitung ergänzt medizinische und physiotherapeutische Versorgung. Sie ersetzt weder Behandlung noch Sportfreigabe. Bei Sportverbot setzen wir keine zusätzliche körperliche Trainingsbelastung ein. Ich arbeite als Coach, nicht als Psychotherapeut.",
+          "neu": "Sportpsychologische Begleitung ergänzt medizinische und physiotherapeutische Versorgung. Sie ersetzt weder Behandlung noch Sportfreigabe. Bei Sportverbot setzen wir keine zusätzliche körperliche Trainingsbelastung ein."
+        }
+      ],
+      "kontexte_en": [
+        {
+          "alt": "Sport psychology support complements medical care and physiotherapy. It replaces neither treatment nor clearance to return to sport. If exercise is medically prohibited, we do not add physical training load. I work as a coach, not as a psychotherapist.",
+          "neu": "Sport psychology support complements medical care and physiotherapy. It replaces neither treatment nor clearance to return to sport. If exercise is medically prohibited, we do not add physical training load."
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "original_list_text": "Ich arbeite als Sportpsychologe und Coach, nicht als Therapeut.",
+      "alt_de": "Ich arbeite als Sportpsychologe und Coach, nicht als Therapeut.",
+      "neu_de": "Ich arbeite als Coach und Experte für Sportpsychologie.",
+      "alt_en": "I work as a sport psychologist and coach, not as a therapist.",
+      "neu_en": "I work as a coach and sport psychology expert.",
+      "grund": "Ausdrückliche bestätigte Nutzerentscheidung; ausschließlich diesen Satz/Teilsatz ändern.",
+      "contexts": [
+        {
+          "section": "about",
+          "block": 90
+        }
+      ],
+      "status": "umgesetzt",
+      "vollsatz_neu_de": "Ich arbeite als Coach und Experte für Sportpsychologie.",
+      "kontexte_de": [
+        {
+          "alt": "Sportpsychologische Begleitung und Personal Training können sich ergänzen. Du entscheidest, womit du einsteigen möchtest. Ich arbeite als Sportpsychologe und Coach, nicht als Therapeut.",
+          "neu": "Sportpsychologische Begleitung und Personal Training können sich ergänzen. Du entscheidest, womit du einsteigen möchtest. Ich arbeite als Coach und Experte für Sportpsychologie."
+        }
+      ],
+      "kontexte_en": [
+        {
+          "alt": "Sport psychology support and personal training can complement each other. You decide where to start. I work as a sport psychologist and coach, not as a therapist.",
+          "neu": "Sport psychology support and personal training can complement each other. You decide where to start. I work as a coach and sport psychology expert."
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "original_list_text": "HRV ist keine Ampel für das gesamte Nervensystem und keine Diagnose.",
+      "alt_de": " HRV ist keine Ampel für das gesamte Nervensystem und keine Diagnose.",
+      "neu_de": "",
+      "alt_en": " HRV is not a traffic light for the whole nervous system or a diagnosis.",
+      "neu_en": "",
+      "grund": "Ausdrückliche bestätigte Nutzerentscheidung; ausschließlich diesen Satz/Teilsatz ändern.",
+      "contexts": [
+        {
+          "section": "personal-training",
+          "block": 38
+        },
+        {
+          "section": "sportpsychologie",
+          "block": 73
+        }
+      ],
+      "status": "umgesetzt",
+      "vollsatz_neu_de": "",
+      "kontexte_de": [
+        {
+          "alt": "Davon getrennt betrachten wir bei Bedarf den Verlauf von Ruhemessungen, zum Beispiel rMSSD, zusammen mit Schlaf, Belastung, Erholung und Körpergefühl. Ein höherer Wert ist nicht automatisch besser. HRV ist keine Ampel für das gesamte Nervensystem und keine Diagnose.",
+          "neu": "Davon getrennt betrachten wir bei Bedarf den Verlauf von Ruhemessungen, zum Beispiel rMSSD, zusammen mit Schlaf, Belastung, Erholung und Körpergefühl."
+        },
+        {
+          "alt": "Davon getrennt betrachten wir bei Bedarf den Verlauf von Ruhemessungen, zum Beispiel rMSSD, zusammen mit Schlaf, Belastung, Erholung und Körpergefühl. Ein höherer Wert ist nicht automatisch besser. HRV ist keine Ampel für das gesamte Nervensystem und keine Diagnose.",
+          "neu": "Davon getrennt betrachten wir bei Bedarf den Verlauf von Ruhemessungen, zum Beispiel rMSSD, zusammen mit Schlaf, Belastung, Erholung und Körpergefühl."
+        }
+      ],
+      "kontexte_en": [
+        {
+          "alt": "Separately, if relevant, we look at trends in resting measurements, such as rMSSD, alongside sleep, training load, recovery and how your body feels. A higher value is not automatically better. HRV is not a traffic light for the whole nervous system or a diagnosis.",
+          "neu": "Separately, if relevant, we look at trends in resting measurements, such as rMSSD, alongside sleep, training load, recovery and how your body feels."
+        },
+        {
+          "alt": "Separately, if relevant, we look at trends in resting measurements, such as rMSSD, alongside sleep, training load, recovery and how your body feels. A higher value is not automatically better. HRV is not a traffic light for the whole nervous system or a diagnosis.",
+          "neu": "Separately, if relevant, we look at trends in resting measurements, such as rMSSD, alongside sleep, training load, recovery and how your body feels."
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "original_list_text": "Bitte keine Diagnosen, Gesundheitsdaten oder anderen sensiblen Informationen per erster Anfrage schicken.",
+      "alt_de": "Bitte keine Diagnosen, Gesundheitsdaten oder anderen sensiblen Informationen per erster Anfrage schicken. ",
+      "neu_de": "",
+      "alt_en": "Please do not include diagnoses, health data or other sensitive information in your first inquiry. ",
+      "neu_en": "",
+      "grund": "Ausdrückliche bestätigte Nutzerentscheidung; ausschließlich diesen Satz/Teilsatz ändern.",
+      "contexts": [
+        {
+          "section": "kontakt",
+          "block": 101
+        }
+      ],
+      "status": "umgesetzt",
+      "vollsatz_neu_de": "",
+      "kontexte_de": [
+        {
+          "alt": "Bitte keine Diagnosen, Gesundheitsdaten oder anderen sensiblen Informationen per erster Anfrage schicken. Kein Newsletter, keine automatische Anmeldung.",
+          "neu": ""
+        }
+      ],
+      "kontexte_en": [
+        {
+          "alt": "Please do not include diagnoses, health data or other sensitive information in your first inquiry. No newsletter or automatic signup.",
+          "neu": ""
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "original_list_text": "Kein Newsletter, keine automatische Anmeldung.",
+      "alt_de": "Kein Newsletter, keine automatische Anmeldung.",
+      "neu_de": "",
+      "alt_en": "No newsletter or automatic signup.",
+      "neu_en": "",
+      "grund": "Ausdrückliche bestätigte Nutzerentscheidung; ausschließlich diesen Satz/Teilsatz ändern.",
+      "contexts": [
+        {
+          "section": "kontakt",
+          "block": 101
+        }
+      ],
+      "status": "umgesetzt",
+      "vollsatz_neu_de": "",
+      "kontexte_de": [
+        {
+          "alt": "Bitte keine Diagnosen, Gesundheitsdaten oder anderen sensiblen Informationen per erster Anfrage schicken. Kein Newsletter, keine automatische Anmeldung.",
+          "neu": ""
+        }
+      ],
+      "kontexte_en": [
+        {
+          "alt": "Please do not include diagnoses, health data or other sensitive information in your first inquiry. No newsletter or automatic signup.",
+          "neu": ""
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "original_list_text": "Ein höherer Wert ist nicht automatisch besser.",
+      "alt_de": " Ein höherer Wert ist nicht automatisch besser.",
+      "neu_de": "",
+      "alt_en": " A higher value is not automatically better.",
+      "neu_en": "",
+      "grund": "Ausdrückliche bestätigte Nutzerentscheidung; ausschließlich diesen Satz/Teilsatz ändern.",
+      "contexts": [
+        {
+          "section": "personal-training",
+          "block": 38
+        },
+        {
+          "section": "sportpsychologie",
+          "block": 73
+        }
+      ],
+      "status": "umgesetzt",
+      "vollsatz_neu_de": "",
+      "kontexte_de": [
+        {
+          "alt": "Davon getrennt betrachten wir bei Bedarf den Verlauf von Ruhemessungen, zum Beispiel rMSSD, zusammen mit Schlaf, Belastung, Erholung und Körpergefühl. Ein höherer Wert ist nicht automatisch besser. HRV ist keine Ampel für das gesamte Nervensystem und keine Diagnose.",
+          "neu": "Davon getrennt betrachten wir bei Bedarf den Verlauf von Ruhemessungen, zum Beispiel rMSSD, zusammen mit Schlaf, Belastung, Erholung und Körpergefühl."
+        },
+        {
+          "alt": "Davon getrennt betrachten wir bei Bedarf den Verlauf von Ruhemessungen, zum Beispiel rMSSD, zusammen mit Schlaf, Belastung, Erholung und Körpergefühl. Ein höherer Wert ist nicht automatisch besser. HRV ist keine Ampel für das gesamte Nervensystem und keine Diagnose.",
+          "neu": "Davon getrennt betrachten wir bei Bedarf den Verlauf von Ruhemessungen, zum Beispiel rMSSD, zusammen mit Schlaf, Belastung, Erholung und Körpergefühl."
+        }
+      ],
+      "kontexte_en": [
+        {
+          "alt": "Separately, if relevant, we look at trends in resting measurements, such as rMSSD, alongside sleep, training load, recovery and how your body feels. A higher value is not automatically better. HRV is not a traffic light for the whole nervous system or a diagnosis.",
+          "neu": "Separately, if relevant, we look at trends in resting measurements, such as rMSSD, alongside sleep, training load, recovery and how your body feels."
+        },
+        {
+          "alt": "Separately, if relevant, we look at trends in resting measurements, such as rMSSD, alongside sleep, training load, recovery and how your body feels. A higher value is not automatically better. HRV is not a traffic light for the whole nervous system or a diagnosis.",
+          "neu": "Separately, if relevant, we look at trends in resting measurements, such as rMSSD, alongside sleep, training load, recovery and how your body feels."
+        }
+      ]
+    },
+    {
+      "id": 24,
+      "original_list_text": "HRV ist nicht der Puls selbst.",
+      "alt_de": "HRV ist nicht der Puls selbst. ",
+      "neu_de": "",
+      "alt_en": "HRV is not your pulse itself. ",
+      "neu_en": "",
+      "grund": "Ausdrückliche bestätigte Nutzerentscheidung; ausschließlich diesen Satz/Teilsatz ändern.",
+      "contexts": [
+        {
+          "section": "personal-training",
+          "block": 39
+        },
+        {
+          "section": "sportpsychologie",
+          "block": 74
+        }
+      ],
+      "status": "umgesetzt",
+      "vollsatz_neu_de": "",
+      "kontexte_de": [
+        {
+          "alt": "HRV ist nicht der Puls selbst. Ruhemessungen können deinen persönlichen Verlauf über mehrere Tage zeigen; ein einzelner Wert gibt keine Trainingsfreigabe. Bei Schwindel oder Unwohlsein beenden wir die Atemübung und du atmest normal weiter. Eine bestimmte Beruhigung lässt sich nicht garantieren.",
+          "neu": "Ruhemessungen können deinen persönlichen Verlauf über mehrere Tage zeigen; ein einzelner Wert gibt keine Trainingsfreigabe. Bei Schwindel oder Unwohlsein beenden wir die Atemübung und du atmest normal weiter."
+        },
+        {
+          "alt": "HRV ist nicht der Puls selbst. Ruhemessungen können deinen persönlichen Verlauf über mehrere Tage zeigen; ein einzelner Wert gibt keine Trainingsfreigabe. Bei Schwindel oder Unwohlsein beenden wir die Atemübung und du atmest normal weiter. Eine bestimmte Beruhigung lässt sich nicht garantieren.",
+          "neu": "Ruhemessungen können deinen persönlichen Verlauf über mehrere Tage zeigen; ein einzelner Wert gibt keine Trainingsfreigabe. Bei Schwindel oder Unwohlsein beenden wir die Atemübung und du atmest normal weiter."
+        }
+      ],
+      "kontexte_en": [
+        {
+          "alt": "HRV is not your pulse itself. Resting measurements can show your individual trend over several days; a single value does not provide clearance to train. If you feel dizzy or unwell, we stop the breathing exercise and you return to normal breathing. A particular calming effect cannot be guaranteed.",
+          "neu": "Resting measurements can show your individual trend over several days; a single value does not provide clearance to train. If you feel dizzy or unwell, we stop the breathing exercise and you return to normal breathing."
+        },
+        {
+          "alt": "HRV is not your pulse itself. Resting measurements can show your individual trend over several days; a single value does not provide clearance to train. If you feel dizzy or unwell, we stop the breathing exercise and you return to normal breathing. A particular calming effect cannot be guaranteed.",
+          "neu": "Resting measurements can show your individual trend over several days; a single value does not provide clearance to train. If you feel dizzy or unwell, we stop the breathing exercise and you return to normal breathing."
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "alt_de": "Kein Druck.",
+      "neu_de": "",
+      "grund": "Mit zuvor entfernter Updateskarte bereits entfernt; keine neue Änderung",
+      "status": "bereits entfernt"
+    },
+    {
+      "id": "HRV-definition",
+      "alt_de": "HRV beschreibt die Schwankungen der Zeitabstände zwischen Herzschlägen.",
+      "neu_de": "Herzratenvariabilität (HRV) beschreibt die Unterschiede der Zeitabstände zwischen Herzschlägen. Der Puls zählt die Herzschläge pro Minute. Der Blutdruck beschreibt den Druck in den Blutgefäßen. Das sind unterschiedliche Messgrößen.",
+      "neu_en": "Heart rate variability (HRV) describes differences in the time intervals between heartbeats. Your pulse counts heartbeats per minute. Blood pressure describes the pressure in your blood vessels. These are different measurements.",
+      "grund": "Bestätigte positive Unterscheidung HRV/Puls/Blutdruck; ersetzt alte Definition und ID24, keine doppelte Definition je Angebot."
+    },
+    {
+      "id": "HRV-brustgurt",
+      "neu_de": "Mit einem Brustgurt erfassen wir die Herzschläge und schauen gemeinsam auf die Rückmeldung während einer angeleiteten Atemübung.",
+      "neu_en": "With a chest strap, we record heartbeats and look together at the feedback during a guided breathing exercise.",
+      "grund": "Optionaler Brustgurt ausschließlich für Herzschläge/Atemfeedback."
+    },
+    {
+      "id": "Angebotsname",
+      "alt_de": "Sportpsychologie",
+      "neu_de": "Sportpsychologisches Coaching",
+      "neu_en": "Sport psychology coaching",
+      "grund": "Angebotslabels, Navigation, CTAs, Metadaten und Betreff; fachlicher Abschluss und Expertenrolle ausgenommen."
+    }
+  ],
+  "unchanged_ids": [
+    5,
+    13,
+    14,
+    15,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35
+  ],
+  "node_deltas": {
+    "de": [
+      {
+        "alt": "Selbstmeisterschaft · Personal Training & Sportpsychologie · München · achten.pro",
+        "neu": "Selbstmeisterschaft · Personal Training & Sportpsychologisches Coaching · München · achten.pro"
+      },
+      {
+        "alt": "Sportpsychologie · Personal Training",
+        "neu": "Sportpsychologisches Coaching · Personal Training"
+      },
+      {
+        "alt": "Sportpsychologie",
+        "neu": "Sportpsychologisches Coaching"
+      },
+      {
+        "alt": "Sportpsychologie",
+        "neu": "Sportpsychologisches Coaching"
+      },
+      {
+        "alt": "SPORTPSYCHOLOGIE",
+        "neu": "SPORTPSYCHOLOGISCHES COACHING"
+      },
+      {
+        "alt": "Sport­psychologie",
+        "neu": "Sportpsychologisches Coaching"
+      },
+      {
+        "alt": "Sportpsychologie ansehen",
+        "neu": "Sportpsychologisches Coaching ansehen"
+      },
+      {
+        "alt": "Wir erproben einen passenden Fokus, eine veränderte Ausführung oder eine Pause. Körperwahrnehmung und passende Atemübungen ergänzen die Bewegung. Körperliches Gleichgewicht zu üben bedeutet nicht automatisch, innerlich ausgeglichen zu sein.",
+        "neu": "Wir erproben einen passenden Fokus, eine veränderte Ausführung oder eine Pause. Körperwahrnehmung und passende Atemübungen ergänzen die Bewegung."
+      },
+      {
+        "alt": "Wir legen konkrete Aufgaben fest, die in deine Woche passen, und besprechen, was bei der Umsetzung im Weg steht. Eine schwierige Woche ist Anlass, den Plan anzupassen, kein Urteil über dich.",
+        "neu": "Wir legen konkrete Aufgaben fest, die in deine Woche passen, und besprechen, was bei der Umsetzung im Weg steht. Eine schwierige Woche ist Anlass, den Plan anzupassen."
+      },
+      {
+        "alt": "Eine angeleitete Atemübung kann ein Ansatz sein. Auf Wunsch nutzen wir HRV-Biofeedback als Rückmeldung während der Übung. HRV beschreibt die Schwankungen der Zeitabstände zwischen Herzschlägen.",
+        "neu": "Eine angeleitete Atemübung kann ein Ansatz sein. Auf Wunsch nutzen wir HRV-Biofeedback. Mit einem Brustgurt erfassen wir die Herzschläge und schauen gemeinsam auf die Rückmeldung während einer angeleiteten Atemübung. Herzratenvariabilität (HRV) beschreibt die Unterschiede der Zeitabstände zwischen Herzschlägen. Der Puls zählt die Herzschläge pro Minute. Der Blutdruck beschreibt den Druck in den Blutgefäßen. Das sind unterschiedliche Messgrößen."
+      },
+      {
+        "alt": "Davon getrennt betrachten wir bei Bedarf den Verlauf von Ruhemessungen, zum Beispiel rMSSD, zusammen mit Schlaf, Belastung, Erholung und Körpergefühl. Ein höherer Wert ist nicht automatisch besser. HRV ist keine Ampel für das gesamte Nervensystem und keine Diagnose.",
+        "neu": "Davon getrennt betrachten wir bei Bedarf den Verlauf von Ruhemessungen, zum Beispiel rMSSD, zusammen mit Schlaf, Belastung, Erholung und Körpergefühl."
+      },
+      {
+        "alt": "HRV ist nicht der Puls selbst. Ruhemessungen können deinen persönlichen Verlauf über mehrere Tage zeigen; ein einzelner Wert gibt keine Trainingsfreigabe. Bei Schwindel oder Unwohlsein beenden wir die Atemübung und du atmest normal weiter. Eine bestimmte Beruhigung lässt sich nicht garantieren.",
+        "neu": "Ruhemessungen können deinen persönlichen Verlauf über mehrere Tage zeigen; ein einzelner Wert gibt keine Trainingsfreigabe. Bei Schwindel oder Unwohlsein beenden wir die Atemübung und du atmest normal weiter."
+      },
+      {
+        "alt": "Bei gesundheitlichen Einschränkungen stimmen wir ab, welche Belastung medizinisch erlaubt ist. Neue oder zunehmende Beschwerden werden nicht übertrainiert; wir unterbrechen und klären das weitere Vorgehen. Ich arbeite als Coach. Personal Training ersetzt keine Psychotherapie, medizinische Behandlung oder Physiotherapie.",
+        "neu": "Bei gesundheitlichen Einschränkungen stimmen wir ab, welche Belastung medizinisch erlaubt ist. Neue oder zunehmende Beschwerden werden nicht übertrainiert; wir unterbrechen und klären das weitere Vorgehen. Ich arbeite als Coach."
+      },
+      {
+        "alt": "SPORTPSYCHOLOGIE",
+        "neu": "SPORTPSYCHOLOGISCHES COACHING"
+      },
+      {
+        "alt": "Sportpsychologie",
+        "neu": "Sportpsychologisches Coaching"
+      },
+      {
+        "alt": "Je nach Situation geht es darum, herunterzufahren oder in Schwung zu kommen – nicht darum, immer ruhig zu sein.",
+        "neu": "Je nach Situation geht es darum, herunterzufahren oder in Schwung zu kommen."
+      },
+      {
+        "alt": "Bei Bedarf erproben wir eine angeleitete Atemübung, auf Wunsch mit HRV-Biofeedback. Das Feedback während der Übung ist eine mögliche Hilfe beim Ausprobieren, keine Zusage einer bestimmten Wirkung. HRV beschreibt die Schwankungen der Zeitabstände zwischen Herzschlägen.",
+        "neu": "Bei Bedarf erproben wir eine angeleitete Atemübung, auf Wunsch mit HRV-Biofeedback. Mit einem Brustgurt erfassen wir die Herzschläge und schauen gemeinsam auf die Rückmeldung während einer angeleiteten Atemübung. Das Feedback während der Übung ist eine mögliche Hilfe beim Ausprobieren. Herzratenvariabilität (HRV) beschreibt die Unterschiede der Zeitabstände zwischen Herzschlägen. Der Puls zählt die Herzschläge pro Minute. Der Blutdruck beschreibt den Druck in den Blutgefäßen. Das sind unterschiedliche Messgrößen."
+      },
+      {
+        "alt": "Davon getrennt betrachten wir bei Bedarf den Verlauf von Ruhemessungen, zum Beispiel rMSSD, zusammen mit Schlaf, Belastung, Erholung und Körpergefühl. Ein höherer Wert ist nicht automatisch besser. HRV ist keine Ampel für das gesamte Nervensystem und keine Diagnose.",
+        "neu": "Davon getrennt betrachten wir bei Bedarf den Verlauf von Ruhemessungen, zum Beispiel rMSSD, zusammen mit Schlaf, Belastung, Erholung und Körpergefühl."
+      },
+      {
+        "alt": "HRV ist nicht der Puls selbst. Ruhemessungen können deinen persönlichen Verlauf über mehrere Tage zeigen; ein einzelner Wert gibt keine Trainingsfreigabe. Bei Schwindel oder Unwohlsein beenden wir die Atemübung und du atmest normal weiter. Eine bestimmte Beruhigung lässt sich nicht garantieren.",
+        "neu": "Ruhemessungen können deinen persönlichen Verlauf über mehrere Tage zeigen; ein einzelner Wert gibt keine Trainingsfreigabe. Bei Schwindel oder Unwohlsein beenden wir die Atemübung und du atmest normal weiter."
+      },
+      {
+        "alt": "Sportpsychologie anfragen",
+        "neu": "Sportpsychologisches Coaching anfragen"
+      },
+      {
+        "alt": "Sportpsychologische Begleitung ergänzt medizinische und physiotherapeutische Versorgung. Sie ersetzt weder Behandlung noch Sportfreigabe. Bei Sportverbot setzen wir keine zusätzliche körperliche Trainingsbelastung ein. Ich arbeite als Coach, nicht als Psychotherapeut.",
+        "neu": "Sportpsychologische Begleitung ergänzt medizinische und physiotherapeutische Versorgung. Sie ersetzt weder Behandlung noch Sportfreigabe. Bei Sportverbot setzen wir keine zusätzliche körperliche Trainingsbelastung ein."
+      },
+      {
+        "alt": "Ich arbeite mit dir an konkreten Zielen und kleinen, praktikablen Trainingsschritten. Was wir auswählen, richtet sich nach deinem Anliegen – nicht nach einer Methode, die für alle passen soll.",
+        "neu": "Ich arbeite mit dir an konkreten Zielen und kleinen, praktikablen Trainingsschritten. Was wir auswählen, richtet sich nach deinem Anliegen."
+      },
+      {
+        "alt": "Sportpsychologische Begleitung und Personal Training können sich ergänzen. Du entscheidest, womit du einsteigen möchtest. Ich arbeite als Sportpsychologe und Coach, nicht als Therapeut.",
+        "neu": "Sportpsychologische Begleitung und Personal Training können sich ergänzen. Du entscheidest, womit du einsteigen möchtest. Ich arbeite als Coach und Experte für Sportpsychologie."
+      },
+      {
+        "alt": "Diese persönlichen Erfahrungen stammen aus der bisherigen allgemeinen Begleitung. Sie sind keinem der heutigen Einzelangebote zugeordnet und keine Zusage eines bestimmten Ergebnisses.",
+        "neu": "Diese persönlichen Erfahrungen stammen aus der bisherigen allgemeinen Begleitung."
+      },
+      {
+        "alt": "Sportpsychologie oder Personal Training? Ein kurzer Satz zu deinem Anliegen reicht für den Einstieg.",
+        "neu": "Sportpsychologisches Coaching oder Personal Training? Ein kurzer Satz zu deinem Anliegen reicht für den Einstieg."
+      },
+      {
+        "alt": "Der Link öffnet dein E-Mail-Programm. Es wird nichts automatisch gesendet. Ohne eingerichtetes E-Mail-Programm kannst du die Adresse kopieren und in deinem Postfach verwenden.",
+        "neu": "Der Link öffnet dein E-Mail-Programm."
+      },
+      {
+        "alt": "Bitte keine Diagnosen, Gesundheitsdaten oder anderen sensiblen Informationen per erster Anfrage schicken. Kein Newsletter, keine automatische Anmeldung.",
+        "neu": ""
+      },
+      {
+        "alt": "Freie Termine und Antwortzeit werden hier nicht zugesagt. Eine Anfrage ist noch keine Buchung.",
+        "neu": ""
+      }
+    ],
+    "en": [
+      {
+        "alt": "Self-mastery · Personal Training & Sport Psychology · Munich · achten.pro",
+        "neu": "Self-mastery · Personal Training & Sport psychology coaching · Munich · achten.pro"
+      },
+      {
+        "alt": "Sport Psychology · Personal Training",
+        "neu": "Sport psychology coaching · Personal Training"
+      },
+      {
+        "alt": "Sport Psychology",
+        "neu": "Sport psychology coaching"
+      },
+      {
+        "alt": "Sport Psychology",
+        "neu": "Sport psychology coaching"
+      },
+      {
+        "alt": "SPORT PSYCHOLOGY",
+        "neu": "SPORT PSYCHOLOGY COACHING"
+      },
+      {
+        "alt": "Sport Psychology",
+        "neu": "Sport psychology coaching"
+      },
+      {
+        "alt": "Explore sport psychology",
+        "neu": "Explore sport psychology coaching"
+      },
+      {
+        "alt": "We try an appropriate focus, a change in technique or a break. Body awareness and suitable breathing exercises complement movement. Practising physical balance does not automatically mean feeling emotionally balanced.",
+        "neu": "We try an appropriate focus, a change in technique or a break. Body awareness and suitable breathing exercises complement movement."
+      },
+      {
+        "alt": "We agree on specific tasks that fit your week and discuss what gets in the way of putting them into practice. A difficult week is a reason to adapt the plan, not a judgment of you.",
+        "neu": "We agree on specific tasks that fit your week and discuss what gets in the way of putting them into practice. A difficult week is a reason to adapt the plan."
+      },
+      {
+        "alt": "A guided breathing exercise can be one approach. If you wish, we use HRV biofeedback for feedback during the exercise. HRV describes variation in the time between heartbeats.",
+        "neu": "A guided breathing exercise can be one approach. If you wish, we use HRV biofeedback. With a chest strap, we record heartbeats and look together at the feedback during a guided breathing exercise. Heart rate variability (HRV) describes differences in the time intervals between heartbeats. Your pulse counts heartbeats per minute. Blood pressure describes the pressure in your blood vessels. These are different measurements."
+      },
+      {
+        "alt": "Separately, if relevant, we look at trends in resting measurements, such as rMSSD, alongside sleep, training load, recovery and how your body feels. A higher value is not automatically better. HRV is not a traffic light for the whole nervous system or a diagnosis.",
+        "neu": "Separately, if relevant, we look at trends in resting measurements, such as rMSSD, alongside sleep, training load, recovery and how your body feels."
+      },
+      {
+        "alt": "HRV is not your pulse itself. Resting measurements can show your individual trend over several days; a single value does not provide clearance to train. If you feel dizzy or unwell, we stop the breathing exercise and you return to normal breathing. A particular calming effect cannot be guaranteed.",
+        "neu": "Resting measurements can show your individual trend over several days; a single value does not provide clearance to train. If you feel dizzy or unwell, we stop the breathing exercise and you return to normal breathing."
+      },
+      {
+        "alt": "If you have health-related limitations, we agree on what exertion is medically permitted. We do not train through new or worsening symptoms; we stop and clarify how to proceed. I work as a coach. Personal training does not replace psychotherapy, medical treatment or physiotherapy.",
+        "neu": "If you have health-related limitations, we agree on what exertion is medically permitted. We do not train through new or worsening symptoms; we stop and clarify how to proceed. I work as a coach."
+      },
+      {
+        "alt": "SPORT PSYCHOLOGY",
+        "neu": "SPORT PSYCHOLOGY COACHING"
+      },
+      {
+        "alt": "Sport Psychology",
+        "neu": "Sport psychology coaching"
+      },
+      {
+        "alt": "Depending on the situation, the aim may be to settle down or get going — not to be calm all the time.",
+        "neu": "Depending on the situation, the aim may be to settle down or get going."
+      },
+      {
+        "alt": "If relevant, we try a guided breathing exercise, optionally with HRV biofeedback. Feedback during the exercise can help you explore it; it does not promise a particular effect. HRV describes variation in the time between heartbeats.",
+        "neu": "If relevant, we try a guided breathing exercise, optionally with HRV biofeedback. With a chest strap, we record heartbeats and look together at the feedback during a guided breathing exercise. Feedback during the exercise can help you explore it. Heart rate variability (HRV) describes differences in the time intervals between heartbeats. Your pulse counts heartbeats per minute. Blood pressure describes the pressure in your blood vessels. These are different measurements."
+      },
+      {
+        "alt": "Separately, if relevant, we look at trends in resting measurements, such as rMSSD, alongside sleep, training load, recovery and how your body feels. A higher value is not automatically better. HRV is not a traffic light for the whole nervous system or a diagnosis.",
+        "neu": "Separately, if relevant, we look at trends in resting measurements, such as rMSSD, alongside sleep, training load, recovery and how your body feels."
+      },
+      {
+        "alt": "HRV is not your pulse itself. Resting measurements can show your individual trend over several days; a single value does not provide clearance to train. If you feel dizzy or unwell, we stop the breathing exercise and you return to normal breathing. A particular calming effect cannot be guaranteed.",
+        "neu": "Resting measurements can show your individual trend over several days; a single value does not provide clearance to train. If you feel dizzy or unwell, we stop the breathing exercise and you return to normal breathing."
+      },
+      {
+        "alt": "Ask about sport psychology",
+        "neu": "Ask about sport psychology coaching"
+      },
+      {
+        "alt": "Sport psychology support complements medical care and physiotherapy. It replaces neither treatment nor clearance to return to sport. If exercise is medically prohibited, we do not add physical training load. I work as a coach, not as a psychotherapist.",
+        "neu": "Sport psychology support complements medical care and physiotherapy. It replaces neither treatment nor clearance to return to sport. If exercise is medically prohibited, we do not add physical training load."
+      },
+      {
+        "alt": "I work with you on specific goals and small, practical training steps. What we choose depends on your concerns, not on a method intended to fit everyone.",
+        "neu": "I work with you on specific goals and small, practical training steps. What we choose depends on your concerns."
+      },
+      {
+        "alt": "Sport psychology support and personal training can complement each other. You decide where to start. I work as a sport psychologist and coach, not as a therapist.",
+        "neu": "Sport psychology support and personal training can complement each other. You decide where to start. I work as a coach and sport psychology expert."
+      },
+      {
+        "alt": "These personal experiences relate to previous general support. They are not attributed to either of the current individual offers and do not promise a particular outcome.",
+        "neu": "These personal experiences relate to previous general support."
+      },
+      {
+        "alt": "Sport psychology or personal training? A short sentence about what you are looking for is enough to start.",
+        "neu": "Sport psychology coaching or personal training? A short sentence about what you are looking for is enough to start."
+      },
+      {
+        "alt": "The link opens your email app. Nothing is sent automatically. If you do not have an email app set up, copy the address and use it in your mailbox.",
+        "neu": "The link opens your email app."
+      },
+      {
+        "alt": "Please do not include diagnoses, health data or other sensitive information in your first inquiry. No newsletter or automatic signup.",
+        "neu": ""
+      },
+      {
+        "alt": "Available appointments and response times are not promised here. An inquiry is not a booking.",
+        "neu": ""
+      }
+    ]
+  }
+}
